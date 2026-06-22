@@ -1,0 +1,31 @@
+version: "1.0"
+estado: "borrador"
+criterio: "Cada concepto tiene una sede principal; fuera de ella solo se referencia."
+
+sedes:
+  identidad_negocio:
+    sede_principal: "docs_control/00_contrato_identidad_negocio.md"
+    puede_apoyarse_en:
+      - "docs_consolidados/01_documento_rector_negocio.md"
+      - "respuestas_plan_empresa/02_idea_negocio.md"
+
+  preguntas_plan:
+    sede_principal: "plan_empresa_guia/"
+    puede_apoyarse_en:
+      - "docs_organizacion/02_matriz_preguntas_fuentes_vacios.md"
+
+  respuestas_taller:
+    sede_principal: "respuestas_plan_empresa/"
+    puede_apoyarse_en:
+      - "docs_consolidados/"
+      - "docs_fuentes/"
+
+  fuentes_originales:
+    sede_principal: "docs_fuentes/"
+    puede_apoyarse_en:
+      - "docs_organizacion/01_inventario_fuentes.md"
+
+  decisiones:
+    sede_principal: "docs_control/04_registro_decisiones.md"
+    puede_apoyarse_en:
+      - "docs_organizacion/04_decisiones_pendientes.md"

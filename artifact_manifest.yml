@@ -1,0 +1,87 @@
+artifacts:
+  - path: docs_control/00_contrato_identidad_negocio.md
+    required: true
+    type: contract
+    policy: copy_direct
+  - path: docs_control/01_opcion_activa_taller.md
+    required: true
+    type: governance
+    policy: copy_direct
+  - path: docs_control/02_reglas_anticontaminacion.md
+    required: true
+    type: rules
+    policy: copy_direct
+  - path: docs_control/03_gates_documentales.md
+    required: true
+    type: gates
+    policy: adapt_required
+  - path: docs_control/04_registro_decisiones.md
+    required: true
+    type: decisions
+    policy: copy_direct
+  - path: docs_control/05_sedes_informacion_plan_empresa.yml
+    required: true
+    type: sedes_map
+    policy: copy_direct
+  - path: docs_control/06_fases_oficiales_proyecto.md
+    required: true
+    type: phases_gov
+    policy: copy_direct
+  - path: docs_manifest/01_manifest_fuentes_y_uso_permitido.md
+    required: true
+    type: manifest
+    policy: adapt_required
+  - path: docs_manifest/02_clasificacion_zonas_documentales.md
+    required: true
+    type: manifest
+    policy: copy_direct
+  - path: scripts/auditar_estado_plan_empresa.py
+    required: true
+    type: script
+    policy: adapt_required
+  - path: scripts/auditar_linealidad_plan_empresa.py
+    required: true
+    type: script
+    policy: adapt_required
+  - path: scripts/compilar_plan_empresa.py
+    required: true
+    type: script
+    policy: adapt_required
+  - path: scripts/auditar_texto_corrupto_entrega.py
+    required: true
+    type: script
+    policy: adapt_required
+  - path: scripts/auditar_formato_markdown_entrega.py
+    required: true
+    type: script
+    policy: adapt_required
+  - path: AGENTS.md
+    required: true
+    type: agent_contract
+    policy: adapt_required
+  - path: README.md
+    required: true
+    type: documentation
+    policy: adapt_required
+
+  # Artefactos de la Fase 4 (Maquetación, Producción Editorial y Cierre)
+  - path: _build/plan_empresa_taller_colaborativo_completo.md
+    required: false
+    type: final_md_document
+    policy: adapt_required
+  - path: _build/plan_empresa_taller_colaborativo_completo.docx
+    required: false
+    type: final_docx_document
+    policy: adapt_required
+  - path: _build/plan_empresa_taller_colaborativo_completo.pdf
+    required: false
+    type: final_pdf_document
+    policy: adapt_required
+  - path: anexos/manifest_anexos.yml
+    required: true
+    type: final_annex_manifest
+    policy: adapt_required
+  - path: _build/reportes/auditoria_linealidad_plan_empresa.md
+    required: false
+    type: final_audit_report
+    policy: adapt_required

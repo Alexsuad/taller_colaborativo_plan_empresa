@@ -1,0 +1,18 @@
+repo_name: taller_colaborativo_plan_empresa
+purpose: "Organización documental y elaboración del plan de empresa del Taller Colaborativo Artesanal en Zaragoza."
+status: inicializacion_fase_1
+owner: Alex (Promotor)
+language_primary: python
+governance_model: taller_colaborativo_rules
+safety_level: controlled
+allows_external_skills: true
+allows_auto_install: false
+created_from: "SISTREG / Proyecto Automatizaciones (base metodológica)"
+contains_real_data: false
+allows_project_creation: false
+requires_human_approval_for:
+  - "Cambios de arquitectura"
+  - "Decisiones de negocio y precios"
+  - "Validación de gates de calidad"
+  - "Promoción de fases de redacción"
+notes: "Repositorio en fase de preparación de gobernanza y anticontaminación documental. Prohibida la copia directa de respuestas de otros planes de negocio."

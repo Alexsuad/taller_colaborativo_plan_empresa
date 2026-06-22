@@ -1,0 +1,51 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+/bin/
+/lib/
+/share/
+
+# Python cache and temporary files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Environments and Secrets
+.env
+.env.*
+!.env.example
+secrets/
+credentials/
+credentials.json
+token.json
+
+# Local Databases
+*.sqlite
+*.sqlite3
+*.db
+
+# Logs
+logs/
+*.log
+
+# Temporary files and directories
+tmp/
+temp/
+_build/test/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+
+# Compressed files & backups
+*.zip
+*.tar.gz
+*.bak
+*.backup
