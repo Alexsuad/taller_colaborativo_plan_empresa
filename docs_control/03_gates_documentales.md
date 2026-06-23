@@ -55,7 +55,7 @@ Gate de autorización para comenzar la redacción de respuestas en `respuestas_p
 
 Define la estructura física y lógica del repositorio, límites de extensión y diseño de validaciones de calidad.
 
-**Estado:** Pendiente  
+**Estado:** PENDIENTE (Fase 2 parcialmente avanzada por el desarrollo inicial de matrices y gobernanza)  
 **Archivos asociados:**  
 - `scripts/auditar_estado_plan_empresa.py`  
 - `scripts/auditar_linealidad_plan_empresa.py`  
@@ -67,7 +67,7 @@ Define la estructura física y lógica del repositorio, límites de extensión y
 
 Construcción y alineación de scripts de compilación, linealidad, formato y entorno reproducible sin redactar ni compilar el plan de empresa final.
 
-**Estado:** Pendiente  
+**Estado:** BLOQUEADO  
 **Archivos asociados:**  
 - `docs_consolidados/01_documento_rector_negocio.md`  
 - `docs_consolidados/02_dossier_mercado_competencia_alianzas.md`  
@@ -78,7 +78,7 @@ Construcción y alineación de scripts de compilación, linealidad, formato y en
 
 Producción editorial final, maquetación, inserción de anexos/gráficos y consolidación limpia para evaluación externa.
 
-**Estado:** Pendiente  
+**Estado:** BLOQUEADO  
 **Archivos asociados:**  
 - `respuestas_plan_empresa/` (todos los archivos)  
 - `_build/plan_empresa_taller_colaborativo_completo.md`  

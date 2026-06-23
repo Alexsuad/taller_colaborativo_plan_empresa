@@ -211,7 +211,7 @@ Riesgo:
 ```text
 Creación accidental de carpetas paralelas.
 Importación futura de fuentes en rutas incorrectas.
-Pérdida de trazabilidad documental.
+Pérdida de control y seguimiento documental.
 ```
 
 ---

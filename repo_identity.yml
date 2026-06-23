@@ -20,4 +20,4 @@ requires_human_approval_for:
   - "Decisiones de negocio y precios"
   - "Validación de gates de calidad"
   - "Promoción de fases de redacción"
-notes: "Gate 1A (Identidad, sede agéntica y anticontaminación) y Gate 1B (Inventario de fuentes) COMPLETADOS. Gate 1C (Matriz Red ARCE -> fuentes -> vacíos) EN CURSO. Gate 1D (Autorización redacción) BLOQUEADO. La sede agéntica vive en .agents/ con reglas, skills y workflows. El control de contaminación conceptual es configurable vía config/contaminacion_conceptual.yml. Prohibida la copia directa de respuestas de otros planes de negocio."
+notes: "Fase 1 abierta, Fase 2 parcialmente avanzada, Fase 3 bloqueada, Fase 4 bloqueada. Gate 1A completado. Gate 1B completado solo como inventario provisional operativo (no significa fuentes reales importadas; docs_fuentes/ sigue vacío y sin fuentes importadas). Gate 1C en curso. Gate 1D bloqueado (redacción no autorizada). La sede agéntica vive en .agents/ con reglas, skills y workflows. El control de contaminación conceptual es configurable vía config/contaminacion_conceptual.yml. Prohibida la copia directa de respuestas de otros planes de negocio."
