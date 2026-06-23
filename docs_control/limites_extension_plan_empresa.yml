@@ -1,0 +1,95 @@
+# Límites de extensión y linealidad del Plan de Empresa
+# Proyecto: Taller Colaborativo Artesanal — Zaragoza
+#
+# Propósito:
+# Definir umbrales técnicos para auditar extensión, repetición y linealidad
+# del plan de empresa cuando la redacción esté autorizada.
+#
+# Estado:
+# PRE-GATE-1D. Este archivo no autoriza redacción.
+#
+# Uso:
+# Consumido por scripts/auditar_linealidad_plan_empresa.py.
+#
+# Regla de interpretación:
+# - WARNING indica revisar y recortar.
+# - FAIL bloquea entrega final hasta corrección.
+# - Las excepciones no autorizan relleno artificial ni expansión innecesaria.
+
+ratio_paginas:
+  principal_palabras_por_pagina: 300
+  conservador_palabras_por_pagina: 250
+
+limites_globales:
+  objetivo_paginas: 95
+  warning_leve_hasta_paginas: 107
+  fail_mas_de_paginas: 110
+  objetivo_palabras_aproximado: 28500
+  warning_palabras_aproximado: 32100
+  fail_palabras_aproximado: 33000
+
+palabras_por_archivo:
+  apartado_normal_warning: 1600
+  apartado_normal_fail: 2200
+  apartado_breve_warning: 900
+  apartado_breve_fail: 1300
+  apartado_extenso_warning: 2600
+  apartado_extenso_fail: 3600
+
+excepciones_extension:
+  "00_resumen_ejecutivo.md": 1500
+  "01_presentacion_proyecto.md": 2600
+  "02_promotores.md": 1800
+  "03_producto_servicio.md": 3600
+  "04_mercado.md": 5200
+  "05_plan_marketing.md": 4200
+  "06_plan_operaciones.md": 5200
+  "07_plan_rrhh.md": 2600
+  "08_plan_juridico_fiscal.md": 3600
+  "09_plan_economico_financiero.md": 5200
+  "10_analisis_riesgos.md": 3000
+  "11_calendario_implantacion.md": 1800
+  "12_conclusiones_viabilidad.md": 2200
+
+similitud_parrafos:
+  warning_min: 0.82
+  fail_min: 0.9
+  longitud_minima_palabras: 40
+  max_pares_warning: 10
+  max_pares_fail: 18
+
+intros_definitorias:
+  max_permitidas: 2
+  patrones:
+    - "Taller Colaborativo es"
+    - "El Taller Colaborativo es"
+    - "Este proyecto consiste en"
+    - "La empresa se dedicará a"
+
+criterios_linealidad:
+  evitar_repetir_definicion_general: true
+  evitar_repetir_contexto_zaragoza_en_cada_capitulo: true
+  evitar_repetir_propuesta_valor_en_cada_capitulo: true
+  evitar_repetir_justificacion_mercado_sin_nuevos_datos: true
+  exigir_conclusion_por_apartado_solo_si_aporta_decision: true
+
+severidad:
+  exceso_global_fail: LINEALIDAD_FAIL
+  exceso_archivo_fail: LINEALIDAD_FAIL
+  similitud_critica_fail: LINEALIDAD_FAIL
+  intros_repetidas_fail: LINEALIDAD_FAIL
+  exceso_warning: LINEALIDAD_WARNING
+  plan_no_redactado: LINEALIDAD_PENDIENTE
+
+notas_editoriales:
+  - "El plan puede ser más extenso que un plan simple porque integra competencia, legal, operaciones, seguridad, local, activos y viabilidad."
+  - "El objetivo editorial es mantenerse cerca de 95 páginas cuando la evidencia lo permita."
+  - "Más de 107 páginas exige revisión y recorte."
+  - "Más de 110 páginas bloquea entrega final salvo decisión humana explícita."
+  - "El techo de 33.000 palabras corresponde al límite formal de 110 páginas estimadas a 300 palabras por página."
+  - "Los anexos deben absorber tablas largas, listados de fuentes, cálculos extensos y evidencias."
+  - "El resumen ejecutivo no debe repetir todo el plan; debe sintetizar la decisión."
+  - "Mercado, operaciones, legal y económico pueden ser más largos si aportan evidencia real."
+  - "Ningún límite permite inventar contenido ni rellenar vacíos de información."
+  - "Si falta evidencia, se debe marcar como vacío, hipótesis o decisión pendiente."
+    
