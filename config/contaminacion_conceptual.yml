@@ -13,6 +13,7 @@ ignored_paths:
   - "node_modules/"
   - ".mypy_cache/"
   - ".pytest_cache/"
+  - "_build/"
 
 ignored_files:
   - "config/contaminacion_conceptual.yml"
