@@ -9,6 +9,7 @@ Consolida la identidad del taller, la opción activa de negocio, las reglas de a
 - `docs_control/00_contrato_identidad_negocio.md`  
 - `docs_control/01_opcion_activa_taller.md`  
 - `docs_control/02_reglas_anticontaminacion.md`  
+- `docs_control/07_mapa_reutilizacion_repo.md`  
 - `docs_control/06_fases_oficiales_proyecto.md`  
 - `repo_identity.yml`  
 - `artifact_manifest.yml`  
