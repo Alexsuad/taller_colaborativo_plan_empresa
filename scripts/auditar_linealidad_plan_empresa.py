@@ -22,8 +22,11 @@ RESPUESTAS_DIR = os.path.join(BASE_DIR, "respuestas_plan_empresa")
 DOCS_CONTROL_DIR = os.path.join(BASE_DIR, "docs_control")
 BUILD_REPORTES_DIR = os.path.join(BASE_DIR, "_build", "reportes")
 
+# Constantes de pre-redacción
+UMBRAL_MINIMO_PRE_REDACCION = 2000
+
 # Archivos de control
-SEDES_YAML = os.path.join(DOCS_CONTROL_DIR, "sedes_informacion_plan_empresa.yml")
+SEDES_YAML = os.path.join(DOCS_CONTROL_DIR, "05_sedes_informacion_plan_empresa.yml")
 LIMITES_YAML = os.path.join(DOCS_CONTROL_DIR, "limites_extension_plan_empresa.yml")
 
 # Secciones a ignorar (coincidencia con compilar_plan_empresa.py)
@@ -98,6 +101,61 @@ def obtener_parrafos(contenido):
     return parrafos
 
 def auditar():
+    # Pre-conteo de palabras para evitar fallos si no existen los config en modo pre-redacción
+    total_palabras_pre = 0
+    archivos_pre = []
+    advertencias_preconteo = []
+    
+    if os.path.exists(RESPUESTAS_DIR):
+        archivos_pre = sorted([f for f in os.listdir(RESPUESTAS_DIR) if f.endswith('.md')])
+        for archivo in archivos_pre:
+            ruta = os.path.join(RESPUESTAS_DIR, archivo)
+            try:
+                with open(ruta, 'r', encoding='utf-8') as f:
+                    total_palabras_pre += len(f.read().split())
+            except Exception as e:
+                advertencias_preconteo.append(f"No se pudo leer {archivo}: {e}")
+    else:
+        advertencias_preconteo.append(f"Directorio de respuestas no encontrado: {RESPUESTAS_DIR}")
+
+    if not os.path.exists(LIMITES_YAML):
+        advertencias_preconteo.append(f"Archivo de límites de extensión no encontrado: {LIMITES_YAML}")
+        
+    if not os.path.exists(SEDES_YAML):
+        advertencias_preconteo.append(f"Archivo de sedes de información no encontrado: {SEDES_YAML}")
+
+    if total_palabras_pre < UMBRAL_MINIMO_PRE_REDACCION:
+        estado_global = "LINEALIDAD_PENDIENTE"
+        log = [f"Pendiente: El plan no está redactado todavía (total palabras: {total_palabras_pre} < {UMBRAL_MINIMO_PRE_REDACCION}). La auditoría de linealidad queda en suspenso."]
+        
+        # Generar Reporte Markdown
+        if not os.path.exists(BUILD_REPORTES_DIR):
+            os.makedirs(BUILD_REPORTES_DIR)
+        reporte_path = os.path.join(BUILD_REPORTES_DIR, "auditoria_linealidad_plan_empresa.md")
+        with open(reporte_path, 'w', encoding='utf-8') as r:
+            r.write(f"# Reporte de Auditoría de Linealidad Documental\n\n")
+            r.write(f"**Fecha:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+            r.write(f"**Estado Global:** `{estado_global}`\n\n")
+            r.write(f"## 1. Resumen de Extensión\n")
+            r.write(f"- **Palabras Totales:** {total_palabras_pre}\n\n")
+            
+            if advertencias_preconteo:
+                r.write(f"## 2. Advertencias de Configuración / Lectura\n")
+                for adv in advertencias_preconteo:
+                    r.write(f"- {adv}\n")
+                r.write("\n")
+                
+            r.write(f"## 3. Hallazgos Críticos\n")
+            r.write(f"- {log[0]}\n")
+            
+        print(f"Reporte generado en: {reporte_path}")
+        print(f"Estado Global: {estado_global}")
+        if advertencias_preconteo:
+            print("Advertencias encontradas durante pre-conteo:")
+            for adv in advertencias_preconteo:
+                print(f"  - {adv}")
+        sys.exit(0)
+
     sedes_cfg, limites_cfg = cargar_config()
     archivos = sorted([f for f in os.listdir(RESPUESTAS_DIR) if f.endswith('.md')])
     
@@ -229,6 +287,7 @@ def auditar():
     if intros_detectadas > limites_cfg['intros_definitorias']['max_permitidas']:
         estado_global = "LINEALIDAD_FAIL"
         log.append(f"Falla: Demasiadas introducciones definitorias ({intros_detectadas}/{limites_cfg['intros_definitorias']['max_permitidas']}).")
+
 
     # Generar Reporte Markdown
     if not os.path.exists(BUILD_REPORTES_DIR):
