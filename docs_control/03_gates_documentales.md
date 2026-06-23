@@ -37,6 +37,7 @@ Cruza las preguntas de la guía con las fuentes disponibles para identificar vac
 **Archivos asociados:**  
 - `docs_organizacion/02_matriz_red_arce_fuentes_vacios.md`  
 - `docs_organizacion/03_revision_critica_matriz_vacios.md`  
+- `docs_organizacion/08_matriz_clasificacion_preguntas_red_arce.md`  
 - `plan_empresa_guia/00_indice_preguntas_guia.md`  
 
 ## Gate 1D — Autorización para poblar respuestas_plan_empresa/
