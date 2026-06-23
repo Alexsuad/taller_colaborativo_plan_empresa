@@ -27,6 +27,60 @@ artifacts:
     required: true
     type: phases_gov
     policy: copy_direct
+  - path: docs_control/07_mapa_reutilizacion_repo.md
+    required: true
+    type: reuse_map
+    policy: controlled_update
+  - path: docs_control/08_auditoria_5s_estructura_documental.md
+    required: false
+    type: audit_report
+    policy: historical_reference
+  - path: docs_control/09_plan_maestro_saneamiento_pre_gate_1c.md
+    required: true
+    type: sanitation_plan
+    policy: controlled_update
+
+  # Organización Documental y Clasificación de Fuentes
+  - path: docs_organizacion/01_inventario_fuentes.md
+    required: true
+    type: sources_inventory
+    policy: controlled_update
+  - path: docs_organizacion/02_matriz_preguntas_fuentes_vacios.md
+    required: false
+    type: historical_matrix
+    policy: historical_reference
+  - path: docs_organizacion/02_matriz_red_arce_fuentes_vacios.md
+    required: true
+    type: red_arce_matrix
+    policy: controlled_update
+  - path: docs_organizacion/03_mapa_duplicados.md
+    required: false
+    type: duplicates_map_placeholder
+    policy: no_operativo
+  - path: docs_organizacion/03_revision_critica_matriz_vacios.md
+    required: true
+    type: gaps_review
+    policy: controlled_update
+  - path: docs_organizacion/04_decisiones_pendientes.md
+    required: false
+    type: historical_decisions
+    policy: historical_reference
+  - path: docs_organizacion/05_propuesta_clasificacion_instalaciones_seguridad.md
+    required: false
+    type: historical_proposal
+    policy: historical_reference
+  - path: docs_organizacion/06_propuesta_inventario_general_fuentes.md
+    required: false
+    type: historical_inventory_diagnostic
+    policy: historical_reference
+  - path: docs_organizacion/07_propuesta_inventario_puente_fuentes_externas.md
+    required: false
+    type: historical_external_sources_bridge
+    policy: historical_reference
+  - path: docs_organizacion/08_matriz_clasificacion_preguntas_red_arce.md
+    required: false
+    type: pending_red_arce_question_classification
+    policy: pending_human_approval
 
   # Identidad y gobernanza de cabecera del repositorio
   - path: repo_identity.yml
