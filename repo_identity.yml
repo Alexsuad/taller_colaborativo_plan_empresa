@@ -1,6 +1,7 @@
 repo_name: taller_colaborativo_plan_empresa
 purpose: "Organización documental y elaboración del plan de empresa del Taller Colaborativo Artesanal en Zaragoza."
-status: inicializacion_fase_1
+status: fase_1_completada_fase_2_pendiente
+phase_reference: "docs_control/03_gates_documentales.md"
 owner: Alex (Promotor)
 language_primary: python
 governance_model: taller_colaborativo_rules
@@ -10,9 +11,13 @@ allows_auto_install: false
 created_from: "Estructura propia del Taller con referencias metodológicas externas depuradas"
 contains_real_data: false
 allows_project_creation: false
+agent_sede: ".agents/"
+contamination_auditor:
+  script: "scripts/auditar_contaminacion_conceptual.py"
+  config: "config/contaminacion_conceptual.yml"
 requires_human_approval_for:
   - "Cambios de arquitectura"
   - "Decisiones de negocio y precios"
   - "Validación de gates de calidad"
   - "Promoción de fases de redacción"
-notes: "Repositorio en fase de preparación de gobernanza y anticontaminación documental. Prohibida la copia directa de respuestas de otros planes de negocio."
+notes: "Gate de Fase 1 (Negocio y documentación base) marcado como Completado. Pendiente abrir formalmente la Fase 2 (Diseño del sistema/repositorio). La sede agéntica vive en .agents/ con reglas, skills y workflows. El control de contaminación conceptual es configurable vía config/contaminacion_conceptual.yml. Prohibida la copia directa de respuestas de otros planes de negocio."

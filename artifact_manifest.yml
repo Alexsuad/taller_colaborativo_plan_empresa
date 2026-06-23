@@ -27,6 +27,26 @@ artifacts:
     required: true
     type: phases_gov
     policy: copy_direct
+
+  # Identidad y gobernanza de cabecera del repositorio
+  - path: repo_identity.yml
+    required: true
+    type: repo_identity
+    policy: copy_direct
+  - path: artifact_manifest.yml
+    required: true
+    type: manifest
+    policy: copy_direct
+
+  # Control de contaminación conceptual (auditor configurable)
+  - path: scripts/auditar_contaminacion_conceptual.py
+    required: true
+    type: script
+    policy: adapt_required
+  - path: config/contaminacion_conceptual.yml
+    required: true
+    type: config
+    policy: adapt_required
   - path: docs_manifest/01_manifest_fuentes_y_uso_permitido.md
     required: true
     type: manifest
@@ -84,4 +104,12 @@ artifacts:
   - path: _build/reportes/auditoria_linealidad_plan_empresa.md
     required: false
     type: final_audit_report
+    policy: adapt_required
+  - path: _build/reportes/auditoria_contaminacion_conceptual.md
+    required: false
+    type: audit_report
+    policy: adapt_required
+  - path: _build/reportes/auditoria_formato_markdown_entrega.md
+    required: false
+    type: audit_report
     policy: adapt_required

@@ -8,12 +8,13 @@ Antigravity, Codex u otros asistentes de IA deben tratar este repositorio con ex
 
 ## Reglas Centrales de Comportamiento
 
-1. **Anticontaminación Estricta:** Queda prohibido copiar respuestas, cifras, narrativas, modelos de negocio o estructuras de clientes de otros proyectos (como caso legacy no reutilizable como contenido o datos de clientes de otros proyectos o proyectos ajenos).
+1. **Anticontaminación Estricta:** Queda prohibido copiar respuestas, cifras, narrativas, modelos de negocio o estructuras de clientes de otros proyectos (como caso legacy no reutilizable como contenido o datos de clientes de otros proyectos o proyectos ajenos). La contaminación conceptual se vigila de forma determinista con `scripts/auditar_contaminacion_conceptual.py`, configurable en `config/contaminacion_conceptual.yml`.
 2. **Uso de Herramientas del Entorno:** La gestión de Python y dependencias se realiza exclusivamente a través de `uv` (`python-uv-baseline`).
 3. **Limpieza del Repositorio:** Se deben respetar las exclusiones de `.gitignore` para evitar subir basura o entornos virtuales al repositorio.
 4. **Verificación Determinista:** Toda finalización de fase de redacción o cambio de estructura requiere la ejecución del script correspondiente (por ejemplo, `compilar_plan_empresa.py` o `auditar_estado_plan_empresa.py`).
 5. **No Autoaprobación:** El agente propone soluciones y reportes, pero la decisión de promocionar fases o validar gates es exclusiva de Alex.
 6. **Límite de Entrega Técnica en Fase 3:** Ningún agente o script puede declarar terminado el plan de empresa en Fase 3. El cierre del entregable final, la maquetación y la exportación limpia pertenecen exclusivamente a la Fase 4.
+7. **Sede Agéntica Única:** Reglas, skills y workflows de los agentes viven en `.agents/`. Fuera de esa sede solo se referencia, no se replica. El estado de fases y gates es fuente única en `docs_control/03_gates_documentales.md` y el de sedes de información en `docs_control/05_sedes_informacion_plan_empresa.yml`.
 
 ## Inicio de Tarea
 
