@@ -1,6 +1,6 @@
 repo_name: taller_colaborativo_plan_empresa
 purpose: "Organización documental y elaboración del plan de empresa del Taller Colaborativo Artesanal en Zaragoza."
-status: gate_1A_completado_gate_1B_en_curso
+status: gate_1A_1B_completados_gate_1C_pendiente_gate_1D_bloqueado
 phase_reference: "docs_control/03_gates_documentales.md"
 owner: Alex (Promotor)
 language_primary: python

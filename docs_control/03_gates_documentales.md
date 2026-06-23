@@ -21,7 +21,7 @@ Consolida la identidad del taller, la opción activa de negocio, las reglas de a
 
 Clasifica las fuentes reales del Taller (documentos propios, datos de mercado, convenios) y establece su política de uso permitido.
 
-**Estado:** EN CURSO  
+**Estado:** COMPLETADO (Completado como inventario provisional operativo. No valida definitivamente las fuentes ni autoriza redacción del plan.)  
 **Archivos asociados:**  
 - `docs_manifest/01_manifest_fuentes_y_uso_permitido.md`  
 - `docs_manifest/02_clasificacion_zonas_documentales.md`  
