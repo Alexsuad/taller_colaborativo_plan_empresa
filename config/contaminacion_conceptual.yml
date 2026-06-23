@@ -1,0 +1,67 @@
+version: 1
+description: "Diccionario editable de términos no permitidos o vigilados para el Taller Colaborativo."
+
+default_policy:
+  case_sensitive: false
+  match_mode: contains
+  report_context_chars: 80
+
+ignored_paths:
+  - ".git/"
+  - ".venv/"
+  - "__pycache__/"
+  - "node_modules/"
+  - ".mypy_cache/"
+  - ".pytest_cache/"
+
+ignored_files:
+  - "config/contaminacion_conceptual.yml"
+  - "scripts/auditar_contaminacion_conceptual.py"
+
+terms:
+  - id: legacy_sistreg
+    patterns:
+      - "sistreg"
+      - "systreg"
+      - "systrack"
+    severity: HIGH
+    action: "review_or_replace"
+    replacement_hint: "Sustituir por 'caso legacy' o eliminar si está en documento activo."
+    allowed_paths:
+      - "docs_fuentes/11_legacy_no_usar_directo/"
+      - "_build/reportes/"
+    blocked_paths:
+      - "README.md"
+      - "AGENTS.md"
+      - "repo_identity.yml"
+      - "artifact_manifest.yml"
+      - ".agents/"
+      - "docs_control/"
+      - "docs_manifest/"
+      - "docs_organizacion/"
+      - "templates/"
+      - "scripts/"
+
+  - id: contaminacion_logistica
+    patterns:
+      - "logística"
+      - "logistico"
+      - "logístico"
+      - "pymes logísticas"
+      - "software logístico"
+      - "trazabilidad documental"
+      - "B2B logístico"
+    severity: HIGH
+    action: "review_or_replace"
+    replacement_hint: "Eliminar o sustituir por una formulación neutra no asociada al proyecto anterior."
+    allowed_paths:
+      - "_build/reportes/"
+    blocked_paths:
+      - "README.md"
+      - "AGENTS.md"
+      - ".agents/"
+      - "docs_control/"
+      - "docs_manifest/"
+      - "docs_organizacion/"
+      - "templates/"
+      - "scripts/"
