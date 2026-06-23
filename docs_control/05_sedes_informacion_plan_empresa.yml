@@ -12,7 +12,8 @@ sedes:
   preguntas_plan:
     sede_principal: "plan_empresa_guia/"
     puede_apoyarse_en:
-      - "docs_organizacion/02_matriz_preguntas_fuentes_vacios.md"
+      - "docs_organizacion/02_matriz_red_arce_fuentes_vacios.md"
+      - "docs_organizacion/08_matriz_clasificacion_preguntas_red_arce.md"
 
   respuestas_taller:
     sede_principal: "respuestas_plan_empresa/"
