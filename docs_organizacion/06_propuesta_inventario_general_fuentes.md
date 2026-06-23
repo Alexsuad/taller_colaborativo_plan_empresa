@@ -65,10 +65,10 @@ El respaldo `taller_colaborativo_2026-06-02_18-00-24.zip` (37 KB) es **idéntico
 
 ```text
 docs_fuentes/01_base_metodologica/
-docs_fuentes/02_identidad_y_origen/
-docs_fuentes/03_mercado_y_tendencias/
-docs_fuentes/04_competencia_benchmarking/
-docs_fuentes/05_zaragoza_aragon_ecosistema/
+docs_fuentes/02_identidad_origen/
+docs_fuentes/03_competencia_benchmarking/
+docs_fuentes/04_mercado_tendencias/
+docs_fuentes/05_zaragoza_aragon/
 docs_fuentes/06_legal_operativo/
 docs_fuentes/07_instalaciones_local_producto/
 docs_fuentes/08_seguridad_responsabilidad_usuarios/
@@ -104,10 +104,10 @@ Convención de estado físico:
 | ID | Archivo origen | Ruta actual | Nombre documental | Tipo de fuente | Tema principal | Carpeta destino propuesta | Uso permitido | Riesgo contaminación | Vigencia | Verificación externa | Duplicados / relacionados | Estado del archivo | Observaciones |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | INV-001 | `docs_base/00_reglas_del_proyecto.md` | repo madre | Reglas del proyecto (verdad temporal, no invención, clasificación previa, hipótesis vs hechos, foco fase 1, benchmarking, legal estructural, ayudas, foco) | Metodológica interna | Reglas de gobierno del proceso | `docs_fuentes/01_base_metodologica/` | USAR COMO BASE | Bajo — metodología propia | Vigente 2026 | No | Relacionado con `docs_control/02_reglas_anticontaminacion.md` y matriz 2023 vs 2026 | [CON CONTENIDO] | Base rectora del repo madre. Coincide en espíritu con `docs_control/` de este repo. |
-| INV-002 | `docs_base/01_matriz_verdad_2023_vs_2026.md` | repo madre | Matriz verdad 2023 vs 2026 | Metodológica interna | Regla de vigencia: 2023 = alma, 2026 = vigente | `docs_fuentes/02_identidad_y_origen/` | USAR COMO BASE | Bajo | Vigente 2026 | No | Vinculada a D16 (decisiones clave) y a `docs_control/01_opcion_activa_taller.md` | [CON CONTENIDO] | Define el pivote rural→Zaragoza. Clave para separar histórico de vigente. |
+| INV-002 | `docs_base/01_matriz_verdad_2023_vs_2026.md` | repo madre | Matriz verdad 2023 vs 2026 | Metodológica interna | Regla de vigencia: 2023 = alma, 2026 = vigente | `docs_fuentes/02_identidad_origen/` | USAR COMO BASE | Bajo | Vigente 2026 | No | Vinculada a D16 (decisiones clave) y a `docs_control/01_opcion_activa_taller.md` | [CON CONTENIDO] | Define el pivote rural→Zaragoza. Clave para separar histórico de vigente. |
 | INV-003 | `docs_base/02_matriz_hipotesis_y_validacion.md` | repo madre | Matriz de hipótesis y validación (H01–H14) | Metodológica interna | Estado de validación de hipótesis | `docs_fuentes/01_base_metodologica/` | USAR COMO BASE | Medio — riesgo de presentar hipótesis como hechos | Vigente 2026 | Sí (validaciones de mercado, cliente, ubicación) | Relacionada con `docs_organizacion/02_matriz_preguntas_fuentes_vacios.md` | [CON CONTENIDO] | Impone disciplina: nada pasa a "validada" por intuición. |
 | INV-004 | `docs_base/03_matriz_preguntas_clasificadas.md` | repo madre | Matriz de preguntas clasificadas `[F]/[U]/[I-SIMPLE]/[I-DEEP]/[M]/[NO-RESPONDER-AÚN]` | Metodológica interna | Clasificación previa a redacción | `docs_fuentes/01_base_metodologica/` | USAR COMO BASE | Bajo | Vigente 2026 | Según clasificación | Vinculada a `plan_empresa_guia/` y a `respuestas_plan_empresa/` | [CON CONTENIDO] | Es el puente con la guía de preguntas del plan actual. |
-| INV-005 | `docs_base/05_decisiones_clave.md` | repo madre | Decisiones clave D01–D20 + pendientes P01–P08 | Decisión interna | Decisiones tomadas / provisionales / pendientes | `docs_fuentes/02_identidad_y_origen/` | USAR COMO BASE | Medio — algunas decisiones podrían haber evolucionado | Vigente 2026 | Sí (P01–P08 requieren validación) | Cruzar con `docs_organizacion/04_decisiones_pendientes.md` | [CON CONTENIDO] | **Requiere reconciliación** con DP-001/002/003 de este repo. |
+| INV-005 | `docs_base/05_decisiones_clave.md` | repo madre | Decisiones clave D01–D20 + pendientes P01–P08 | Decisión interna | Decisiones tomadas / provisionales / pendientes | `docs_fuentes/02_identidad_origen/` | USAR COMO BASE | Medio — algunas decisiones podrían haber evolucionado | Vigente 2026 | Sí (P01–P08 requieren validación) | Cruzar con `docs_organizacion/04_decisiones_pendientes.md` | [CON CONTENIDO] | **Requiere reconciliación** con DP-001/002/003 de este repo. |
 | INV-006 | `docs_base/04_plan_de_implementacion.md` | repo madre | Plan de implementación del proceso (Fases 1–11, sprints) | Metodológica interna | Hoja de ruta del proceso | `docs_fuentes/01_base_metodologica/` | USAR SOLO COMO REFERENCIA | Medio — estructura de fases distinta a las 4 fases oficiales de este repo | Vigente 2026 como referencia | No | Comparar con `docs_control/06_fases_oficiales_proyecto.md` | [CON CONTENIDO] | **No sustituye** a las 4 fases oficiales. Sirve de insumo metodológico. |
 
 ### 5.2 Bloque base metodológica (repo madre `docs_base/` vacío — placeholders)
@@ -135,11 +135,11 @@ Convención de estado físico:
 
 | ID | Archivo origen | Ruta actual | Nombre documental | Tipo de fuente | Tema principal | Carpeta destino propuesta | Uso permitido | Riesgo contaminación | Vigencia | Verificación externa | Duplicados / relacionados | Estado del archivo | Observaciones |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| INV-018 | `2026_actualizacion/guia_zaragoza_2026.md` | repo madre | Guía Zaragoza 2026 | Investigación externa | Contexto Zaragoza, ecosistema | `docs_fuentes/05_zaragoza_aragon_ecosistema/` | PENDIENTE DE VERIFICACIÓN | Bajo | 2026 | Sí (datos cambian) | Vinculada a `zaragoza/01_ecosistema_creativo.md` | [VACÍO] | Requiere contenido y validación. |
-| INV-019 | `2026_actualizacion/notas_resumen_2026.md` | repo madre | Notas resumen 2026 | Investigación externa | Síntesis actualización 2026 | `docs_fuentes/03_mercado_y_tendencias/` | PENDIENTE DE VERIFICACIÓN | Medio | 2026 | Sí | — | [VACÍO] | — |
-| INV-020 | `2026_actualizacion/fatiga_digital_2026.md` | repo madre | Fatiga digital 2026 | Investigación externa | Tendencia bienestar/trabajo manual | `docs_fuentes/03_mercado_y_tendencias/` | PENDIENTE DE VERIFICACIÓN | Bajo | 2026 | Sí (tendencia) | Vinculada a H08, H05 | [VACÍO] | Apoya posicionamiento. |
-| INV-021 | `2026_actualizacion/competencia_espana_2026.md` | repo madre | Competencia España 2026 | Investigación externa | Competencia nacional | `docs_fuentes/04_competencia_benchmarking/` | PENDIENTE DE VERIFICACIÓN | Bajo | 2026 | Sí | Vinculada a `benchmarking_espana/*` (13 archivos) | [VACÍO] | Síntesis del benchmarking España. |
-| INV-022 | `2026_actualizacion/competencia_zaragoza_2026.md` | repo madre | Competencia Zaragoza 2026 | Investigación externa | Competencia local | `docs_fuentes/04_competencia_benchmarking/` | PENDIENTE DE VERIFICACIÓN | Medio | 2026 | **Sí** (mercado local cambiante) | Vinculada a H01, H02 | [VACÍO] | **Crítica para viabilidad local.** |
+| INV-018 | `2026_actualizacion/guia_zaragoza_2026.md` | repo madre | Guía Zaragoza 2026 | Investigación externa | Contexto Zaragoza, ecosistema | `docs_fuentes/05_zaragoza_aragon/` | PENDIENTE DE VERIFICACIÓN | Bajo | 2026 | Sí (datos cambian) | Vinculada a `zaragoza/01_ecosistema_creativo.md` | [VACÍO] | Requiere contenido y validación. |
+| INV-019 | `2026_actualizacion/notas_resumen_2026.md` | repo madre | Notas resumen 2026 | Investigación externa | Síntesis actualización 2026 | `docs_fuentes/04_mercado_tendencias/` | PENDIENTE DE VERIFICACIÓN | Medio | 2026 | Sí | — | [VACÍO] | — |
+| INV-020 | `2026_actualizacion/fatiga_digital_2026.md` | repo madre | Fatiga digital 2026 | Investigación externa | Tendencia bienestar/trabajo manual | `docs_fuentes/04_mercado_tendencias/` | PENDIENTE DE VERIFICACIÓN | Bajo | 2026 | Sí (tendencia) | Vinculada a H08, H05 | [VACÍO] | Apoya posicionamiento. |
+| INV-021 | `2026_actualizacion/competencia_espana_2026.md` | repo madre | Competencia España 2026 | Investigación externa | Competencia nacional | `docs_fuentes/03_competencia_benchmarking/` | PENDIENTE DE VERIFICACIÓN | Bajo | 2026 | Sí | Vinculada a `benchmarking_espana/*` (13 archivos) | [VACÍO] | Síntesis del benchmarking España. |
+| INV-022 | `2026_actualizacion/competencia_zaragoza_2026.md` | repo madre | Competencia Zaragoza 2026 | Investigación externa | Competencia local | `docs_fuentes/03_competencia_benchmarking/` | PENDIENTE DE VERIFICACIÓN | Medio | 2026 | **Sí** (mercado local cambiante) | Vinculada a H01, H02 | [VACÍO] | **Crítica para viabilidad local.** |
 
 ### 5.5 Bloque benchmarking España (repo madre `docs_investigacion_externa/benchmarking_espana/`)
 
@@ -147,38 +147,38 @@ Convención de estado físico:
 
 | ID | Archivo origen | Tema | Carpeta destino propuesta | Uso permitido | Estado |
 |---|---|---|---|---|---|
-| INV-023 | `benchmarking_espana/01_cara_y_canto.md` | Referente operativo España | `docs_fuentes/04_competencia_benchmarking/` | USAR SOLO COMO REFERENCIA | [VACÍO] |
-| INV-024 | `benchmarking_espana/02_tmdc.md` | Taller compartido carpintería | `docs_fuentes/04_competencia_benchmarking/` | USAR SOLO COMO REFERENCIA | [VACÍO] |
-| INV-025 | `benchmarking_espana/03_a_tu_madera.md` | Referente España | `docs_fuentes/04_competencia_benchmarking/` | USAR SOLO COMO REFERENCIA | [VACÍO] |
-| INV-026 | `benchmarking_espana/04_comaking.md` | Referente España | `docs_fuentes/04_competencia_benchmarking/` | USAR SOLO COMO REFERENCIA | [VACÍO] |
-| INV-027 | `benchmarking_espana/05_t11_sevilla.md` | Referente España | `docs_fuentes/04_competencia_benchmarking/` | USAR SOLO COMO REFERENCIA | [VACÍO] |
-| INV-028 | `benchmarking_espana/06_made_de_madera.md` | Referente España | `docs_fuentes/04_competencia_benchmarking/` | USAR SOLO COMO REFERENCIA | [VACÍO] |
-| INV-029 | `benchmarking_espana/07_transfolab_bcn.md` | Referente España | `docs_fuentes/04_competencia_benchmarking/` | USAR SOLO COMO REFERENCIA | [VACÍO] |
-| INV-030 | `benchmarking_espana/08_the_workshop_madrid.md` | Referente España | `docs_fuentes/04_competencia_benchmarking/` | USAR SOLO COMO REFERENCIA | [VACÍO] |
-| INV-031 | `benchmarking_espana/09_la_fabrica_de_hobbies.md` | Referente España | `docs_fuentes/04_competencia_benchmarking/` | USAR SOLO COMO REFERENCIA | [VACÍO] |
-| INV-032 | `benchmarking_espana/10_artisano_cat.md` | Referente España | `docs_fuentes/04_competencia_benchmarking/` | USAR SOLO COMO REFERENCIA | [VACÍO] |
-| INV-033 | `benchmarking_espana/11_el_secadero_reviverdes.md` | Referente España | `docs_fuentes/04_competencia_benchmarking/` | USAR SOLO COMO REFERENCIA | [VACÍO] |
-| INV-034 | `benchmarking_espana/12_talleres_twm.md` | Referente España | `docs_fuentes/04_competencia_benchmarking/` | USAR SOLO COMO REFERENCIA | [VACÍO] |
-| INV-035 | `benchmarking_espana/13_la_termita.md` | Referente España | `docs_fuentes/04_competencia_benchmarking/` | USAR SOLO COMO REFERENCIA | [VACÍO] |
+| INV-023 | `benchmarking_espana/01_cara_y_canto.md` | Referente operativo España | `docs_fuentes/03_competencia_benchmarking/` | USAR SOLO COMO REFERENCIA | [VACÍO] |
+| INV-024 | `benchmarking_espana/02_tmdc.md` | Taller compartido carpintería | `docs_fuentes/03_competencia_benchmarking/` | USAR SOLO COMO REFERENCIA | [VACÍO] |
+| INV-025 | `benchmarking_espana/03_a_tu_madera.md` | Referente España | `docs_fuentes/03_competencia_benchmarking/` | USAR SOLO COMO REFERENCIA | [VACÍO] |
+| INV-026 | `benchmarking_espana/04_comaking.md` | Referente España | `docs_fuentes/03_competencia_benchmarking/` | USAR SOLO COMO REFERENCIA | [VACÍO] |
+| INV-027 | `benchmarking_espana/05_t11_sevilla.md` | Referente España | `docs_fuentes/03_competencia_benchmarking/` | USAR SOLO COMO REFERENCIA | [VACÍO] |
+| INV-028 | `benchmarking_espana/06_made_de_madera.md` | Referente España | `docs_fuentes/03_competencia_benchmarking/` | USAR SOLO COMO REFERENCIA | [VACÍO] |
+| INV-029 | `benchmarking_espana/07_transfolab_bcn.md` | Referente España | `docs_fuentes/03_competencia_benchmarking/` | USAR SOLO COMO REFERENCIA | [VACÍO] |
+| INV-030 | `benchmarking_espana/08_the_workshop_madrid.md` | Referente España | `docs_fuentes/03_competencia_benchmarking/` | USAR SOLO COMO REFERENCIA | [VACÍO] |
+| INV-031 | `benchmarking_espana/09_la_fabrica_de_hobbies.md` | Referente España | `docs_fuentes/03_competencia_benchmarking/` | USAR SOLO COMO REFERENCIA | [VACÍO] |
+| INV-032 | `benchmarking_espana/10_artisano_cat.md` | Referente España | `docs_fuentes/03_competencia_benchmarking/` | USAR SOLO COMO REFERENCIA | [VACÍO] |
+| INV-033 | `benchmarking_espana/11_el_secadero_reviverdes.md` | Referente España | `docs_fuentes/03_competencia_benchmarking/` | USAR SOLO COMO REFERENCIA | [VACÍO] |
+| INV-034 | `benchmarking_espana/12_talleres_twm.md` | Referente España | `docs_fuentes/03_competencia_benchmarking/` | USAR SOLO COMO REFERENCIA | [VACÍO] |
+| INV-035 | `benchmarking_espana/13_la_termita.md` | Referente España | `docs_fuentes/03_competencia_benchmarking/` | USAR SOLO COMO REFERENCIA | [VACÍO] |
 
 ### 5.6 Bloque benchmarking Europa (repo madre `docs_investigacion_externa/benchmarking_europa/`)
 
 | ID | Archivo origen | Tema | Carpeta destino propuesta | Uso permitido | Estado |
 |---|---|---|---|---|---|
-| INV-036 | `benchmarking_europa/01_ici_nantes.md` | Referente Europa | `docs_fuentes/04_competencia_benchmarking/` | USAR SOLO COMO REFERENCIA | [VACÍO] |
-| INV-037 | `benchmarking_europa/02_knock_on_wood.md` | Referente Europa | `docs_fuentes/04_competencia_benchmarking/` | USAR SOLO COMO REFERENCIA | [VACÍO] |
-| INV-038 | `benchmarking_europa/03_la_planche.md` | Reglas comunidad y EPIs (FR) | `docs_fuentes/04_competencia_benchmarking/` | USAR SOLO COMO REFERENCIA | [VACÍO] |
-| INV-039 | `benchmarking_europa/04_xylolab.md` | Referente Europa | `docs_fuentes/04_competencia_benchmarking/` | USAR SOLO COMO REFERENCIA | [VACÍO] |
-| INV-040 | `benchmarking_europa/05_otros_referentes.md` | Otros referentes | `docs_fuentes/04_competencia_benchmarking/` | USAR SOLO COMO REFERENCIA | [VACÍO] |
+| INV-036 | `benchmarking_europa/01_ici_nantes.md` | Referente Europa | `docs_fuentes/03_competencia_benchmarking/` | USAR SOLO COMO REFERENCIA | [VACÍO] |
+| INV-037 | `benchmarking_europa/02_knock_on_wood.md` | Referente Europa | `docs_fuentes/03_competencia_benchmarking/` | USAR SOLO COMO REFERENCIA | [VACÍO] |
+| INV-038 | `benchmarking_europa/03_la_planche.md` | Reglas comunidad y EPIs (FR) | `docs_fuentes/03_competencia_benchmarking/` | USAR SOLO COMO REFERENCIA | [VACÍO] |
+| INV-039 | `benchmarking_europa/04_xylolab.md` | Referente Europa | `docs_fuentes/03_competencia_benchmarking/` | USAR SOLO COMO REFERENCIA | [VACÍO] |
+| INV-040 | `benchmarking_europa/05_otros_referentes.md` | Otros referentes | `docs_fuentes/03_competencia_benchmarking/` | USAR SOLO COMO REFERENCIA | [VACÍO] |
 
 ### 5.7 Bloque Zaragoza / Aragón / ecosistema (repo madre `docs_investigacion_externa/zaragoza/`)
 
 | ID | Archivo origen | Tema | Carpeta destino propuesta | Uso permitido | Riesgo | Verificación externa | Estado |
 |---|---|---|---|---|---|---|---|
-| INV-041 | `zaragoza/01_ecosistema_creativo.md` | Ecosistema creativo Zaragoza | `docs_fuentes/05_zaragoza_aragon_ecosistema/` | PENDIENTE DE VERIFICACIÓN | Bajo | Sí | [VACÍO] |
-| INV-042 | `zaragoza/02_formacion_y_fp.md` | Formación y FP | `docs_fuentes/05_zaragoza_aragon_ecosistema/` | PENDIENTE DE VERIFICACIÓN | Bajo | Sí | [VACÍO] |
-| INV-043 | `zaragoza/03_restauracion_y_tapiceria.md` | Restauración y tapicería | `docs_fuentes/05_zaragoza_aragon_ecosistema/` | PENDIENTE DE VERIFICACIÓN | Bajo | Sí | [VACÍO] |
-| INV-044 | `zaragoza/04_movilidad_y_radio_de_captacion.md` | Movilidad y radio de captación | `docs_fuentes/05_zaragoza_aragon_ecosistema/` | PENDIENTE DE VERIFICACIÓN | Medio | Sí | [VACÍO] |
+| INV-041 | `zaragoza/01_ecosistema_creativo.md` | Ecosistema creativo Zaragoza | `docs_fuentes/05_zaragoza_aragon/` | PENDIENTE DE VERIFICACIÓN | Bajo | Sí | [VACÍO] |
+| INV-042 | `zaragoza/02_formacion_y_fp.md` | Formación y FP | `docs_fuentes/05_zaragoza_aragon/` | PENDIENTE DE VERIFICACIÓN | Bajo | Sí | [VACÍO] |
+| INV-043 | `zaragoza/03_restauracion_y_tapiceria.md` | Restauración y tapicería | `docs_fuentes/05_zaragoza_aragon/` | PENDIENTE DE VERIFICACIÓN | Bajo | Sí | [VACÍO] |
+| INV-044 | `zaragoza/04_movilidad_y_radio_de_captacion.md` | Movilidad y radio de captación | `docs_fuentes/05_zaragoza_aragon/` | PENDIENTE DE VERIFICACIÓN | Medio | Sí | [VACÍO] |
 | INV-045 | `zaragoza/05_ubicaciones_potenciales.md` | Ubicaciones potenciales | `docs_fuentes/07_instalaciones_local_producto/` | PENDIENTE DE VERIFICACIÓN | **Alto** (precios/disponibilidad cambian) | **Sí** | [VACÍO] |
 
 ### 5.8 Bloque legal, ayudas y estudios (repo madre `docs_fuentes_proyecto/legales_ayudas_estudios/`)
@@ -187,8 +187,8 @@ Convención de estado físico:
 |---|---|---|---|---|---|---|---|
 | INV-046 | `legales_ayudas_estudios/resumen_aspectos_legales.md` | Aspectos legales | `docs_fuentes/06_legal_operativo/` | PENDIENTE DE VERIFICACIÓN | Medio | **Sí** | [VACÍO] |
 | INV-047 | `legales_ayudas_estudios/resumen_ayudas.md` | Ayudas y financiación | `docs_fuentes/10_ayudas_financiacion/` | PENDIENTE DE VERIFICACIÓN | Medio (convocatorias cambian) | **Sí** | [VACÍO] |
-| INV-048 | `legales_ayudas_estudios/resumen_estudio_artesania.md` | Estudio artesanía | `docs_fuentes/03_mercado_y_tendencias/` | USAR SOLO COMO REFERENCIA | Bajo | Sí | [VACÍO] |
-| INV-049 | `legales_ayudas_estudios/resumen_market_for_craft.md` | Estudio "Market for Craft" | `docs_fuentes/03_mercado_y_tendencias/` | USAR SOLO COMO REFERENCIA | Bajo | Sí | [VACÍO] |
+| INV-048 | `legales_ayudas_estudios/resumen_estudio_artesania.md` | Estudio artesanía | `docs_fuentes/04_mercado_tendencias/` | USAR SOLO COMO REFERENCIA | Bajo | Sí | [VACÍO] |
+| INV-049 | `legales_ayudas_estudios/resumen_market_for_craft.md` | Estudio "Market for Craft" | `docs_fuentes/04_mercado_tendencias/` | USAR SOLO COMO REFERENCIA | Bajo | Sí | [VACÍO] |
 
 ### 5.9 Bloque ZIP de respaldo (repo madre)
 

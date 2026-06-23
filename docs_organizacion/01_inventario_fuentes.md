@@ -130,7 +130,7 @@
 |---|---|---|---|---|
 | NUEVA-001 | Matriz ODS e impacto | `docs_fuentes/01_base_metodologica/` | Por crear | Media |
 | NUEVA-002 | Matriz de riesgos del proyecto | `docs_fuentes/01_base_metodologica/` | Por crear | Alta |
-| NUEVA-003 | Matriz de permisos y licencias (verificada) | `docs_fuentes/06_legal_normativo/` | Por crear — requiere verificación profesional | Alta |
+| NUEVA-003 | Matriz de permisos y licencias (verificada) | `docs_fuentes/06_legal_operativo/` | Por crear — requiere verificación profesional | Alta |
 | NUEVA-004 | Matriz de seguridad y prevención (PRL) | `docs_fuentes/08_seguridad_responsabilidad_usuarios/` | Por crear — requiere asesor PRL | Alta |
 | NUEVA-005 | Matriz de modelos de ingreso (con datos propios) | `docs_fuentes/09_finanzas_activos/` | Por crear | Alta |
 | NUEVA-006 | Matriz de ubicaciones y criterios (con visitas) | `docs_fuentes/07_instalaciones_local_producto/` | Por crear — requiere visitas | Alta |
