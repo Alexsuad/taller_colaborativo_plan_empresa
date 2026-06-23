@@ -3,6 +3,7 @@ import os
 import sys
 import argparse
 import yaml
+import re
 from pathlib import Path
 
 def parse_arguments():
@@ -38,11 +39,9 @@ def load_config(config_path):
         sys.exit(2)
 
 def clean_relative_path(path):
-    # Asegurar formato estándar de ruta relativa con barras inclinadas
     return str(path).replace("\\", "/")
 
 def should_ignore(relative_path_str, ignored_paths, ignored_files):
-    # Validar si el path coincide con carpetas ignoradas
     for path in ignored_paths:
         clean_p = path.strip("/")
         parts = relative_path_str.split("/")
@@ -51,7 +50,6 @@ def should_ignore(relative_path_str, ignored_paths, ignored_files):
         if relative_path_str.startswith(clean_p + "/"):
             return True
             
-    # Validar si el path coincide con archivos ignorados
     for f in ignored_files:
         if relative_path_str == f or relative_path_str.endswith("/" + f):
             return True
@@ -62,13 +60,11 @@ def determine_status(relative_path_str, term_def):
     allowed = term_def.get("allowed_paths", [])
     blocked = term_def.get("blocked_paths", [])
     
-    # Comprobar coincidencia con rutas bloqueadas
     for b_path in blocked:
         b_clean = b_path.strip("/")
         if relative_path_str.startswith(b_clean) or (f"/{b_clean}/" in f"/{relative_path_str}/"):
             return "BLOCKED"
             
-    # Comprobar coincidencia con rutas permitidas
     for a_path in allowed:
         a_clean = a_path.strip("/")
         if relative_path_str.startswith(a_clean) or (f"/{a_clean}/" in f"/{relative_path_str}/"):
@@ -85,13 +81,10 @@ def scan_repository(config):
     ignored_files = config.get("ignored_files", [])
     terms = config.get("terms", [])
     
-    # Extensiones de archivo a escanear
     valid_extensions = {".md", ".txt", ".yml", ".yaml", ".py"}
-    
     hallazgos = []
     
     for root, dirs, files in os.walk("."):
-        # Filtrar directorios en os.walk para evitar recorrerlos si están en ignored_paths
         dirs[:] = [d for d in dirs if not should_ignore(clean_relative_path(Path(root) / d), ignored_paths, ignored_files)]
         
         for file in files:
@@ -108,7 +101,6 @@ def scan_repository(config):
                 with open(file_path, "r", encoding="utf-8", errors="ignore") as f:
                     lines = f.readlines()
             except Exception:
-                # Si no se puede abrir el archivo, lo omitimos silenciosamente
                 continue
                 
             for line_idx, line in enumerate(lines, 1):
@@ -121,26 +113,36 @@ def scan_repository(config):
                     
                     for pattern in patterns:
                         matched = False
-                        if case_sensitive:
-                            if pattern in line:
+                        flags = 0 if case_sensitive else re.IGNORECASE
+                        try:
+                            match_obj = re.search(pattern, line, flags)
+                            if match_obj:
                                 matched = True
-                        else:
-                            if pattern.lower() in line.lower():
-                                matched = True
+                        except re.error:
+                            # Fallback literal
+                            if case_sensitive:
+                                if pattern in line:
+                                    matched = True
+                            else:
+                                if pattern.lower() in line.lower():
+                                    matched = True
                                 
                         if matched:
                             status = determine_status(rel_path_str, term)
-                            
-                            # Obtener contexto
                             context = line.strip()
+                            
                             if len(context) > report_context_chars:
-                                # Truncar centrándose en la palabra clave si es posible
-                                idx = context.lower().find(pattern.lower())
-                                if idx != -1:
-                                    start = max(0, idx - (report_context_chars // 2))
-                                    end = min(len(context), start + report_context_chars)
-                                    context = ("..." if start > 0 else "") + context[start:end] + ("..." if end < len(context) else "")
-                                else:
+                                flags_c = 0 if case_sensitive else re.IGNORECASE
+                                try:
+                                    m_obj = re.search(pattern, context, flags_c)
+                                    if m_obj:
+                                        idx = m_obj.start()
+                                        start = max(0, idx - (report_context_chars // 2))
+                                        end = min(len(context), start + report_context_chars)
+                                        context = ("..." if start > 0 else "") + context[start:end] + ("..." if end < len(context) else "")
+                                    else:
+                                        context = context[:report_context_chars] + "..."
+                                except Exception:
                                     context = context[:report_context_chars] + "..."
                                     
                             hallazgos.append({
@@ -161,14 +163,12 @@ def generate_markdown_report(report_path, hallazgos, config_path):
     report_file = Path(report_path)
     report_file.parent.mkdir(parents=True, exist_ok=True)
     
-    # Contadores
     blocked_count = sum(1 for h in hallazgos if h["status"] == "BLOCKED")
     review_count = sum(1 for h in hallazgos if h["status"] == "REVIEW")
     allowed_count = sum(1 for h in hallazgos if h["status"] == "ALLOWED_LEGACY")
     
     severity_order = {"CRITICAL": 0, "HIGH": 1, "MEDIUM": 2, "LOW": 3}
     
-    # Agrupar hallazgos
     blocked_hallazgos = sorted(
         [h for h in hallazgos if h["status"] == "BLOCKED"],
         key=lambda x: (severity_order.get(x["severity"], 99), x["file"], x["line"])
@@ -239,7 +239,6 @@ def main():
             
     generate_markdown_report(args.report, hallazgos, args.config)
     
-    # Determinar exit code
     blocked_count = sum(1 for h in hallazgos if h["status"] == "BLOCKED")
     if blocked_count > 0:
         if args.verbose:

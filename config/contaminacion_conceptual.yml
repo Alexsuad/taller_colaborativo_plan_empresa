@@ -19,9 +19,9 @@ ignored_files:
   - "scripts/auditar_contaminacion_conceptual.py"
 
 terms:
-  - id: legacy_sistreg
+  - id: legacy_caso_anterior
     patterns:
-      - "sistreg"
+      - "s[ií]streg"
       - "systreg"
       - "systrack"
     severity: HIGH
