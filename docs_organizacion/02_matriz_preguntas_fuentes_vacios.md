@@ -1,5 +1,11 @@
 # 02 — Matriz preguntas, fuentes y vacíos
 
+> **Estado documental:** ABSORBIDO  
+> **Sede activa:** `docs_organizacion/02_matriz_red_arce_fuentes_vacios.md`  
+> **Uso permitido:** consulta histórica.  
+> **Uso prohibido:** no usar como matriz operativa para Gate 1C.
+
+
 | Bloque | Pregunta guía | Fuente que responde | Estado | Vacío | Acción siguiente |
 |---|---|---|---|---|---|
 | Equipo promotor | ¿Quién impulsa el proyecto y qué capacidades aporta? | Pendiente | Pendiente | Actualizar perfiles vigentes | Clasificar fuente |

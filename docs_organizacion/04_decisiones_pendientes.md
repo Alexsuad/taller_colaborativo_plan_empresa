@@ -1,5 +1,12 @@
 # 04 — Decisiones pendientes
 
+> **Estado documental:** HISTÓRICO / NO_OPERATIVO  
+> **Sede activa:** `docs_control/04_registro_decisiones.md`  
+> **Advertencia:** contiene decisiones tempranas superadas o contradictorias con el estado actual del repositorio.  
+> **Uso permitido:** consulta histórica.  
+> **Uso prohibido:** no usar para decidir gates, fases o apertura de Fase 4.
+
+
 | ID | Decisión pendiente | Por qué importa | Opciones | Responsable | Estado |
 |---|---|---|---|---|---|
 | DP-001 | Nombre comercial definitivo | Afecta marca, comunicación y documento final | Mantener provisional / definir naming | Negocio | Pendiente |

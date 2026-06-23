@@ -1,5 +1,12 @@
 # 07 — Propuesta de inventario puente de fuentes externas reales
 
+> **Estado documental:** ABSORBIDO  
+> **Sede activa:** `docs_organizacion/01_inventario_fuentes.md`  
+> **Decisión relacionada:** DEC-010.  
+> **Uso permitido:** consulta histórica de propuesta puente.  
+> **Uso prohibido:** no usar como inventario vigente ni como instrucción de importación de fuentes.
+
+
 **Estado:** Consolidado con `01_inventario_fuentes.md` — Este documento se mantiene como puente hacia fuentes externas reales. La sede única del inventario autorizado es `docs_organizacion/01_inventario_fuentes.md`.
 **Fase:** Fase 1.1.C — Inventario puente de fuentes externas reales.
 **Fecha:** 2026-06-22.

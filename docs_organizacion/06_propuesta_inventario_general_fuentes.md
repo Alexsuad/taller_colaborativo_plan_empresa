@@ -1,5 +1,12 @@
 # 06 — Propuesta de Inventario General de Fuentes
 
+> **Estado documental:** ABSORBIDO  
+> **Sede activa:** `docs_organizacion/01_inventario_fuentes.md`  
+> **Decisión relacionada:** DEC-010.  
+> **Uso permitido:** consulta histórica del diagnóstico previo.  
+> **Uso prohibido:** no usar como inventario vigente.
+
+
 **Estado:** Consolidado con `01_inventario_fuentes.md` — Este documento se mantiene como diagnóstico técnico del repo madre. La sede única del inventario autorizado es `docs_organizacion/01_inventario_fuentes.md`.
 **Fase:** Fase 1.1 — Inventario y clasificación de fuentes reales.  
 **Autor:** Codex (agente técnico-documental).  

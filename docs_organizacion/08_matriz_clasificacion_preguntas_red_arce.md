@@ -1,5 +1,11 @@
 # 08 — Matriz de clasificación de preguntas Red ARCE
 
+> **Estado documental:** PENDIENTE_DE_DECISIÓN  
+> **Decisión pendiente:** DEC-014.  
+> **Uso permitido:** revisión y discusión técnica/metodológica.  
+> **Uso prohibido:** no usar como matriz aprobada para habilitar redacción hasta aprobación humana.
+
+
 **Estado:** Propuesta operativa inicial — pendiente de revisión y aprobación humana.  
 **Propósito:** Clasificar las preguntas guía del plan antes de redactar, para separar qué ya puede extraerse de fuentes internas, qué debe decidir el promotor, qué requiere búsqueda simple, qué exige investigación profunda, qué es mixto y qué no debe responderse todavía.  
 **Regla principal:** No redactar ningún apartado final hasta clasificar primero sus preguntas.

@@ -1,5 +1,11 @@
 # 05 — Propuesta de Clasificación de Fuentes: Instalaciones y Seguridad
 
+> **Estado documental:** ABSORBIDO  
+> **Sede activa:** `docs_organizacion/01_inventario_fuentes.md`  
+> **Uso permitido:** consulta histórica sobre razonamiento inicial de clasificación.  
+> **Uso prohibido:** no usar como sede vigente de instalaciones, seguridad, legal o PRL.
+
+
 **Estado:** Propuesta — Pendiente de aprobación humana.  
 **Fecha:** 2026-06-22  
 **Autor:** Antigravity  
