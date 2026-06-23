@@ -32,7 +32,7 @@ Clasifica las fuentes reales del Taller (documentos propios, datos de mercado, c
 Cruza las preguntas de la guía con las fuentes disponibles para identificar vacíos de información que requerirán datos nuevos del Taller.
 
 **Estado:** EN CURSO (Matriz Red ARCE → fuentes → vacíos en construcción. No se autoriza la redacción del plan.)  
-**Nota:** La matriz inicial existe y DEC-011 está aprobada, pero Gate 1C no se considera completado hasta que la matriz sea revisada, ajustada y se definan acciones concretas sobre vacíos de información.
+**Nota:** La matriz inicial existe y DEC-011 está aprobada, y la revisión crítica de matriz y vacíos accionables existe y DEC-012 está aprobada, pero Gate 1C no se considera completado hasta resolver o clasificar formalmente las preguntas, investigaciones y validaciones pendientes.
 **Archivos asociados:**  
 - `docs_organizacion/02_matriz_red_arce_fuentes_vacios.md`  
 - `docs_organizacion/03_revision_critica_matriz_vacios.md`  
@@ -43,7 +43,7 @@ Cruza las preguntas de la guía con las fuentes disponibles para identificar vac
 Gate de autorización para comenzar la redacción de respuestas en `respuestas_plan_empresa/`. No se puede abrir hasta que Gate 1B y Gate 1C estén completados.
 
 **Estado:** BLOQUEADO  
-**Depende de:** Gate 1B (COMPLETADO), Gate 1C (COMPLETADO)  
+**Depende de:** Gate 1B (COMPLETADO), Gate 1C (pendiente de completar). Gate 1D no puede abrirse mientras Gate 1C siga EN CURSO.  
 **Archivos asociados:**  
 - `respuestas_plan_empresa/` (todos los archivos, sin redactar aún)  
 
