@@ -32,6 +32,7 @@ Clasifica las fuentes reales del Taller (documentos propios, datos de mercado, c
 Cruza las preguntas de la guía con las fuentes disponibles para identificar vacíos de información que requerirán datos nuevos del Taller.
 
 **Estado:** EN CURSO (Matriz Red ARCE → fuentes → vacíos en construcción. No se autoriza la redacción del plan.)  
+**Nota:** La matriz inicial existe y DEC-011 está aprobada, pero Gate 1C no se considera completado hasta que la matriz sea revisada, ajustada y se definan acciones concretas sobre vacíos de información.
 **Archivos asociados:**  
 - `docs_organizacion/02_matriz_red_arce_fuentes_vacios.md`  
 - `plan_empresa_guia/00_indice_preguntas_guia.md`  
