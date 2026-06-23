@@ -1,6 +1,6 @@
 <!-- Migrado desde repo SISTREG. Revisado parcialmente para Fase 1. -->
 
-# File: .agent/rules/05-linealidad-documental.md
+# File: .agents/rules/05-linealidad-documental.md
 # ──────────────────────────────────────────────────────────────────────
 # Propósito: Definir las reglas de cumplimiento de linealidad documental.
 # Rol: Regla del sistema para el agente.

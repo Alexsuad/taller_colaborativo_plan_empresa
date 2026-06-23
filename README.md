@@ -10,7 +10,7 @@ Este repositorio está gobernado por una estructura de **4 fases oficiales** par
 4.  **FASE 4 — Producción Editorial, Anexos y Cierre:** Fase dedicada exclusivamente a la producción final de maquetación, gráficos, tablas, portada, índices y exportaciones finales limpias, evitando que estas tareas queden como trabajo manual improvisado al cierre.
 
 ## Estructura del Proyecto
-- `.agent/`: Reglas y configuraciones de agentes de IA.
+- `.agents/`: Reglas, skills y configuraciones de agentes de IA.
 - `docs_control/`: Contrato de identidad, opción activa, reglas de anticontaminación, definición de fases y gates de calidad.
 - `docs_manifest/`: Manifiestos de fuentes y clasificación de zonas documentales.
 - `plan_empresa_guia/`: Estructura y preguntas guía del plan de empresa.
