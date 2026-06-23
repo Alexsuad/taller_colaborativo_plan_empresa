@@ -31,9 +31,9 @@ Clasifica las fuentes reales del Taller (documentos propios, datos de mercado, c
 
 Cruza las preguntas de la guía con las fuentes disponibles para identificar vacíos de información que requerirán datos nuevos del Taller.
 
-**Estado:** PENDIENTE  
+**Estado:** EN CURSO (Matriz Red ARCE → fuentes → vacíos en construcción. No se autoriza la redacción del plan.)  
 **Archivos asociados:**  
-- `docs_organizacion/02_matriz_preguntas_fuentes_vacios.md`  
+- `docs_organizacion/02_matriz_red_arce_fuentes_vacios.md`  
 - `plan_empresa_guia/00_indice_preguntas_guia.md`  
 
 ## Gate 1D — Autorización para poblar respuestas_plan_empresa/

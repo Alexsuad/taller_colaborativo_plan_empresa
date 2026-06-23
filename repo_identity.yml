@@ -1,6 +1,6 @@
 repo_name: taller_colaborativo_plan_empresa
 purpose: "Organización documental y elaboración del plan de empresa del Taller Colaborativo Artesanal en Zaragoza."
-status: gate_1A_1B_completados_gate_1C_pendiente_gate_1D_bloqueado
+status: gate_1A_1B_completados_gate_1C_en_curso_gate_1D_bloqueado
 phase_reference: "docs_control/03_gates_documentales.md"
 owner: Alex (Promotor)
 language_primary: python
@@ -20,4 +20,4 @@ requires_human_approval_for:
   - "Decisiones de negocio y precios"
   - "Validación de gates de calidad"
   - "Promoción de fases de redacción"
-notes: "Gate 1A (Identidad, sede agéntica y anticontaminación) COMPLETADO. Gate 1B (Inventario real de fuentes) EN CURSO. Gates 1C (Matriz vacíos) y 1D (Autorización redacción) PENDIENTE/BLOQUEADO. La sede agéntica vive en .agents/ con reglas, skills y workflows. El control de contaminación conceptual es configurable vía config/contaminacion_conceptual.yml. Prohibida la copia directa de respuestas de otros planes de negocio."
+notes: "Gate 1A (Identidad, sede agéntica y anticontaminación) y Gate 1B (Inventario de fuentes) COMPLETADOS. Gate 1C (Matriz Red ARCE -> fuentes -> vacíos) EN CURSO. Gate 1D (Autorización redacción) BLOQUEADO. La sede agéntica vive en .agents/ con reglas, skills y workflows. El control de contaminación conceptual es configurable vía config/contaminacion_conceptual.yml. Prohibida la copia directa de respuestas de otros planes de negocio."
