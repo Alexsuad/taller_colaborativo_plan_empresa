@@ -8,7 +8,7 @@ Antigravity, Codex u otros asistentes de IA deben tratar este repositorio con ex
 
 ## Reglas Centrales de Comportamiento
 
-1. **Anticontaminación Estricta:** Queda prohibido copiar respuestas, cifras, narrativas, modelos de negocio o estructuras de clientes de otros proyectos (como SISTREG o proyectos logísticos).
+1. **Anticontaminación Estricta:** Queda prohibido copiar respuestas, cifras, narrativas, modelos de negocio o estructuras de clientes de otros proyectos (como caso legacy no reutilizable como contenido o datos de clientes de otros proyectos o proyectos ajenos).
 2. **Uso de Herramientas del Entorno:** La gestión de Python y dependencias se realiza exclusivamente a través de `uv` (`python-uv-baseline`).
 3. **Limpieza del Repositorio:** Se deben respetar las exclusiones de `.gitignore` para evitar subir basura o entornos virtuales al repositorio.
 4. **Verificación Determinista:** Toda finalización de fase de redacción o cambio de estructura requiere la ejecución del script correspondiente (por ejemplo, `compilar_plan_empresa.py` o `auditar_estado_plan_empresa.py`).

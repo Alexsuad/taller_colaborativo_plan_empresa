@@ -7,7 +7,7 @@ governance_model: taller_colaborativo_rules
 safety_level: controlled
 allows_external_skills: true
 allows_auto_install: false
-created_from: "SISTREG / Proyecto Automatizaciones (base metodológica)"
+created_from: "Estructura propia del Taller con referencias metodológicas externas depuradas"
 contains_real_data: false
 allows_project_creation: false
 requires_human_approval_for:

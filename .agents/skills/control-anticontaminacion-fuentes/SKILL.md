@@ -62,7 +62,7 @@ Un dictamen de control con:
 
 # Reglas obligatorias
 
-* No usar SISTREG como contenido del Taller.
+* No usar contenido de casos legacy no reutilizables como contenido del Taller.
 * No usar documentos rurales como base del modelo vigente.
 * No usar benchmarks como cumplimiento legal.
 * No usar fuentes antiguas como vigentes sin comprobación.

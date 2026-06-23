@@ -1,5 +1,5 @@
 # ADVERTENCIA DE MIGRACIÓN
-# Script copiado desde repo SISTREG como base técnica.
+# Script adaptado desde repositorio antecedente como base técnica.
 # Estado: PENDIENTE_DE_ADAPTACION_Y_AUDITORIA antes de usar en producción.
 # No ejecutar sobre documentos finales sin revisar rutas, nombres y reglas del Taller.
 

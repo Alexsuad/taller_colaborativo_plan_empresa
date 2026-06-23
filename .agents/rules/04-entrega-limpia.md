@@ -1,4 +1,4 @@
-<!-- Migrado desde repo SISTREG. Revisado parcialmente para Fase 1. -->
+<!-- Adaptado para Taller Colaborativo. Revisado parcialmente para Fase 1. -->
 
 # 04. Entrega Limpia
 

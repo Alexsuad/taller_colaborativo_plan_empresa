@@ -3,7 +3,7 @@
 | Fuente | Categoría | Uso permitido | Uso prohibido | Requiere verificación | Política de copia | Estado |
 |---|---|---|---|---|---|---|
 | Guía Red ARCE | Base metodológica | Índice, estructura, lógica de plan | Datos del Taller | No | `adapt_required` | Activa |
-| Preguntas SISTREG | Preguntas genéricas | Formular preguntas del plan | Copiar respuestas o narrativa | Revisión puntual | `adapt_required` (solo preguntas) | Activa parcial |
+| Preguntas caso legacy no reutilizable como contenido | Preguntas genéricas | Formular preguntas del plan | Copiar respuestas o narrativa | Revisión puntual | `adapt_required` (solo preguntas) | Activa parcial |
 | Proyecto Automatizaciones | Gobernanza | Fases, gates, manifest, control | Imponer arquitectura técnica prematura | Revisión puntual | `quarantine` / `adapt_required` | Activa parcial |
 | Documentos del Taller | Fuente real | Alimentar respuestas y consolidados | Usar sin clasificar | Sí, según tipo | `copy_direct` / `adapt_required` | Pendiente |
 
