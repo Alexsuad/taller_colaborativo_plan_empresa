@@ -1,9 +1,10 @@
 # 06 — Propuesta de Inventario General de Fuentes
 
-**Estado:** Propuesta — Pendiente de revisión y aprobación humana.  
+**Estado:** Consolidado con `01_inventario_fuentes.md` — Este documento se mantiene como diagnóstico técnico del repo madre. La sede única del inventario autorizado es `docs_organizacion/01_inventario_fuentes.md`.
 **Fase:** Fase 1.1 — Inventario y clasificación de fuentes reales.  
 **Autor:** Codex (agente técnico-documental).  
-**Fecha:** 2026-06-22.
+**Fecha:** 2026-06-22.  
+**Actualización:** 2026-06-23 — Marcado como consolidado (DEC-010).
 
 > [!IMPORTANT]
 > **Nota de control de gobernanza:** Este documento es una **propuesta**. No se ha movido, copiado, modificado ni eliminado ningún archivo de fuente real. Ninguna decisión de negocio se introduce aquí. La aprobación de esta propuesta por parte de Alex es condición previa para cualquier acción física sobre archivos.
