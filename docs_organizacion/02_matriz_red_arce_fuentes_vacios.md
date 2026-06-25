@@ -1,15 +1,17 @@
 # 02 — Matriz Red ARCE → fuentes → vacíos
 
-**Estado:** Propuesta inicial — pendiente de revisión y aprobación humana.  
-**Fase:** Fase 1.1.C — Gate 1C (Matriz Red ARCE → fuentes → vacíos, EN CURSO).  
+**Estado:** Matriz inicial aprobada como herramienta operativa de diagnóstico.  
+**Fase:** Fase 1.1.C — Gate 1C en curso.  
 **Fecha:** 2026-06-23.
+**Nota de alcance:** Esta matriz es una herramienta inicial de diagnóstico; no sustituye la matriz 08 si esta queda aprobada posteriormente; no cierra Gate 1C ni abre Gate 1D; no autoriza redacción del plan, poblar `respuestas_plan_empresa/` ni crear `docs_consolidados/`; no valida definitivamente fuentes ni vacíos.
 
 ## 1. Propósito
 Esta matriz sirve para conectar cada sección y pregunta base de la Guía Red ARCE con las fuentes de información disponibles en nuestro [01_inventario_fuentes.md](01_inventario_fuentes.md), identificando restricciones, vacíos de información específicos y las siguientes acciones necesarias.
 
 ## 2. Reglas Generales de Trabajo
 * **No redacta el plan de empresa:** Este documento es exclusivamente diagnóstico.
-* **No valida definitivamente fuentes:** La validez de las fuentes legales, financieras, de mercado o de ayudas sigue pendiente de confirmación formal externa.
+* **No valida definitivamente fuentes ni vacíos:** La validación formal externa sigue pendiente.
+* **No sustituye la matriz 08:** Si la matriz 08 queda aprobada posteriormente, esta matriz sigue siendo solo diagnóstica inicial.
 * **No autoriza la redacción del plan:** Las carpetas `respuestas_plan_empresa/` y `docs_consolidados/` siguen bloqueadas (Gate 1D).
 * **No altera fuentes reales:** No se mueven ni copian archivos reales de fuentes.
 * **Prohibición de contenido legacy:** Las fuentes legacy (`LEG-LEGACY-*`) no se usarán como contenido activo, solo como referencia de estructura o lecciones aprendidas.
