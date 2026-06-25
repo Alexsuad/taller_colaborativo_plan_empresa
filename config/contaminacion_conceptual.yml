@@ -40,6 +40,7 @@ terms:
       - "docs_control/"
       - "docs_manifest/"
       - "docs_organizacion/"
+      - "plan_empresa_guia/"
       - "templates/"
       - "scripts/"
 
@@ -64,5 +65,25 @@ terms:
       - "docs_control/"
       - "docs_manifest/"
       - "docs_organizacion/"
+      - "templates/"
+      - "scripts/"
+
+  - id: contaminacion_proyecto_logistico
+    patterns:
+      - "Proyecto Logístico"
+      - "proyecto logístico"
+    severity: HIGH
+    action: "review_or_replace"
+    replacement_hint: "Eliminar la referencia heredada al proyecto anterior o sustituirla por una formulación neutra del Taller."
+    allowed_paths:
+      - "_build/reportes/"
+    blocked_paths:
+      - "README.md"
+      - "AGENTS.md"
+      - ".agents/"
+      - "docs_control/"
+      - "docs_manifest/"
+      - "docs_organizacion/"
+      - "plan_empresa_guia/"
       - "templates/"
       - "scripts/"
