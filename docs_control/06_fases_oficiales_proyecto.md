@@ -30,7 +30,7 @@ Este documento define la estructura de gobierno y avance del proyecto en 4 fases
 *   **Criterios de cierre:**
     *   Gate Fase 2 marcado como Completado.
     *   Todos los vacíos de información identificados y asignados a decisiones pendientes.
-*   **Qué NO se hace:** No se escribe código de scripts de compilación ni se redactan capítulos de negocio.
+*   **Qué NO se hace:** No se implementan scripts de producción final ni compilación definitiva. Sí se pueden crear o ajustar scripts de auditoría, saneamiento y validación estructural cuando estén autorizados y acotados por misión.
 
 ---
 

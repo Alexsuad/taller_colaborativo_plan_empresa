@@ -1,5 +1,5 @@
 version: "1.0"
-estado: "borrador"
+estado: "provisional_operativo"
 criterio: "Cada concepto tiene una sede principal; fuera de ella solo se referencia."
 
 sedes:
