@@ -22,7 +22,7 @@ Consolida la identidad del taller, la opción activa de negocio, las reglas de a
 
 Clasifica las fuentes reales del Taller (documentos propios, datos de mercado, convenios) y establece su política de uso permitido.
 
-**Estado:** COMPLETADO (Completado como inventario provisional operativo. No valida definitivamente las fuentes ni autoriza redacción del plan.)  
+**Estado:** COMPLETADO_PROVISIONAL_OPERATIVO (Inventario provisional operativo. No implica importación de fuentes reales en `docs_fuentes/`, no valida definitivamente las fuentes, no autoriza redacción del plan, no autoriza poblar `respuestas_plan_empresa/` ni crear `docs_consolidados/`.)  
 **Archivos asociados:**  
 - `docs_manifest/01_manifest_fuentes_y_uso_permitido.md`  
 - `docs_manifest/02_clasificacion_zonas_documentales.md`  
@@ -45,7 +45,7 @@ Cruza las preguntas de la guía con las fuentes disponibles para identificar vac
 Gate de autorización para comenzar la redacción de respuestas en `respuestas_plan_empresa/`. No se puede abrir hasta que Gate 1B y Gate 1C estén completados.
 
 **Estado:** BLOQUEADO  
-**Depende de:** Gate 1B (COMPLETADO), Gate 1C (pendiente de completar). Gate 1D no puede abrirse mientras Gate 1C siga EN CURSO.  
+**Depende de:** Gate 1B (`COMPLETADO_PROVISIONAL_OPERATIVO`), Gate 1C (pendiente de completar). Gate 1D no puede abrirse mientras Gate 1C siga EN CURSO.  
 **Archivos asociados:**  
 - `respuestas_plan_empresa/` (todos los archivos, sin redactar aún)  
 
