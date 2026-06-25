@@ -3,7 +3,7 @@
 Este documento sirve de guía para definir la identidad de marca, la estrategia de comunicación y el proceso de naming del proyecto, integrando los criterios de las sesiones de formación de ZAC.
 
 ## 1. Identidad provisional del proyecto
-- ¿Cuál es el nombre provisional? (Ej: Proyecto Logístico).
+- ¿Cuál es el nombre provisional? (Ej: nombre de trabajo del proyecto).
 - ¿Existe nombre comercial definitivo?
 - ¿Qué nombres de trabajo se están usando?
 - ¿Qué nombres no deben confundirse con la marca? (Ej: ZAC es la incubadora, no el proyecto).
