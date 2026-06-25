@@ -1,12 +1,12 @@
 # 01 — Inventario consolidado de fuentes y uso permitido
 
-**Estado:** Consolidado — pendiente de revisión y aprobación humana.
-**Fase:** Fase 1.1.B — Gate 1B (Inventario real de fuentes, EN CURSO).
+**Estado:** Aprobado como inventario oficial provisional operativo.
+**Fase:** Fase 1.1.B — Gate 1B completado provisionalmente.
 **Fecha:** 2026-06-23.
-**Fuente de verdad provisional:** Este documento es la sede única propuesta para el inventario consolidado de fuentes, pendiente de revisión y aprobación humana.
+**Nota de alcance:** Este inventario no importa fuentes reales, no valida definitivamente el contenido de las fuentes, no autoriza redacción del plan, no autoriza poblar `respuestas_plan_empresa/`, no autoriza crear `docs_consolidados/`, no cierra Gate 1C ni abre Gate 1D.
 
 > [!IMPORTANT]
-> Este documento consolida los diagnósticos previos (`06_propuesta_inventario_general_fuentes.md` y `07_propuesta_inventario_puente_fuentes_externas.md`) y el manifest original (`docs_manifest/01_manifest_fuentes_y_uso_permitido.md`). Ningún archivo fuente real se ha movido, copiado ni modificado. La aprobación de Alex es condición previa para cualquier acción física sobre archivos.
+> Este documento consolida los diagnósticos previos (`06_propuesta_inventario_general_fuentes.md` y `07_propuesta_inventario_puente_fuentes_externas.md`) y el manifest original (`docs_manifest/01_manifest_fuentes_y_uso_permitido.md`). Ningún archivo fuente real se ha movido, copiado ni modificado. Este inventario es provisional operativo, no importa fuentes reales, no valida definitivamente el contenido y no autoriza redacción del plan, poblar `respuestas_plan_empresa/` ni crear `docs_consolidados/`.
 
 ---
 
