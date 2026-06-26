@@ -1,420 +1,656 @@
 # 03 — Matriz de referentes competitivos
 
-## Fase 0.0 — Organización documental de marketing
-
-**Proyecto:** Taller Colaborativo Artesanal en Zaragoza
-**Carpeta activa:** `docs_organizacion/00_organizacion_documental_marketing/05_calibracion_competitiva_modelo/`
-**Bloque rector:** Bloque 6 — Competencia y benchmarking
-**Estado:** Documento de trabajo para comparación de referentes
-
----
-
-## 1. Propósito del documento
-
-Este documento organiza la comparación entre referentes competitivos y operativos relacionados con el **Coworking de Carpintería Artesanal (CCA)**.
-
-Su función no es redactar conclusiones finales ni decidir todavía el modelo definitivo, sino ordenar la información útil para comparar:
-
-* qué ofrece cada referente;
-* cómo estructura sus servicios;
-* qué precios o modalidades publica;
-* qué tipo de cliente atiende;
-* qué papel tienen los cursos;
-* qué papel tiene el alquiler de taller;
-* qué reglas de seguridad aplica;
-* qué maquinaria o infraestructura comunica;
-* qué elementos pueden copiarse, adaptarse o descartarse;
-* qué tan aplicable es cada modelo al contexto de Zaragoza.
-
-Esta matriz se alimentará del documento:
-
-`02_inventario_fuentes_competencia.md`
+* **Fase:** Calibración competitiva del modelo mínimo viable
+* **Documento anterior:** `02_inventario_fuentes_competencia/`
+* **Documento siguiente:** `04_reduccion_referentes_nucleo.md`
+* **Estado:** `EN_REVISIÓN`
+* **Función del documento:** comparar referentes, extraer patrones útiles y preparar la selección de referentes núcleo para el MVP de Zaragoza.
 
 ---
 
-## 2. Criterio de comparación
+## 1. Propósito de la matriz
 
-La matriz debe comparar referentes desde la lógica del **modelo mínimo viable**.
+Esta matriz consolida los aprendizajes extraídos de las fichas individuales de competencia y benchmarking.
 
-El objetivo no es encontrar el competidor más grande, más sofisticado o más completo, sino identificar qué modelos ayudan a definir una Fase 1 viable, artesanal y financieramente contenida.
+No sustituye a las fichas fuente. Su objetivo es comparar de forma sintética:
 
-Por tanto, cada referente se evaluará según tres preguntas:
+* tipo de modelo;
+* utilidad para Zaragoza;
+* aplicabilidad en Fase 1;
+* elementos copiables;
+* elementos adaptables;
+* elementos descartables;
+* utilidad futura;
+* clasificación preliminar.
 
-1. ¿Qué valida para nuestro proyecto?
-2. ¿Qué parte puede adaptarse al Taller Zaragoza?
-3. ¿Qué parte debe descartarse o dejarse para una fase futura?
+La matriz debe ayudar a responder una pregunta concreta:
 
----
-
-## 3. Escala de similitud con el Taller Zaragoza
-
-Para evitar confusiones, cada referente debe clasificarse con una escala de similitud.
-
-| Nivel           | Criterio                                                                                                                                                                     |
-| :-------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **ALTA**        | Comparte varios elementos clave: carpintería, taller compartido, formación, acceso a maquinaria, usuarios externos, comunidad o membresías.                                  |
-| **MEDIA**       | Comparte algunos elementos útiles, pero no reproduce el modelo completo. Puede aportar precios, cursos, comunidad, economía circular o referencias operativas.               |
-| **BAJA**        | Tiene relación indirecta o contextual. Sirve para entender el entorno, pero no debe usarse como modelo base.                                                                 |
-| **DESCARTABLE** | Está demasiado alejado del enfoque artesanal mínimo viable o está centrado en fabricación digital, industria, software, metal pesado u otros modelos no aplicables a Fase 1. |
+```text
+¿Qué referentes deben influir realmente en el modelo mínimo viable del Taller Colaborativo en Zaragoza?
+```
 
 ---
 
-## 4. Variables de análisis
+## 2. Criterio rector de evaluación
 
-Cada referente debe analizarse con estas variables:
+La Fase 1 del proyecto se mantiene centrada en:
 
-### 4.1 Identificación
+```text
+coworking artesanal de carpintería,
+formación práctica,
+restauración,
+tapicería ligera vinculada al mueble,
+bancos de trabajo,
+herramientas manuales,
+maquinaria estacionaria convencional imprescindible,
+seguridad,
+comunidad,
+almacenamiento limitado,
+economía circular
+y crecimiento por fases.
+```
 
-* Nombre del referente
-* Ciudad / país
-* Tipo de espacio
-* Fuente principal
-* Fuentes secundarias
-* Estado de evidencia
+Quedan fuera del modelo financiero y operativo inicial:
 
-### 4.2 Modelo de negocio
-
-* Taller compartido
-* Escuela o cursos
-* Club o comunidad
-* Servicios complementarios
-* Venta o suministro de materiales
-* Restauración / tapicería
-* Producción propia
-* Otros ingresos
-
-### 4.3 Modelo de acceso
-
-* Pago por horas
-* Bonos de horas
-* Membresía mensual
-* Pase diario
-* Alquiler de banco
-* Alquiler de maquinaria
-* Acceso por curso
-* Acceso solo supervisado
-* Acceso profesional
-* Acceso aficionado
-
-### 4.4 Precios
-
-* Precio por hora
-* Bono de horas
-* Mensualidad
-* Curso de iniciación
-* Curso avanzado
-* Almacenamiento
-* Servicios adicionales
-* Información no publicada
-
-### 4.5 Operaciones
-
-* Tipo de local
-* Tamaño aproximado si está disponible
-* Zonas de trabajo
-* Bancos disponibles
-* Maquinaria comunicada
-* Sistema de almacenamiento
-* Horarios
-* Supervisión
-* Reglas de uso
-
-### 4.6 Seguridad
-
-* Inducción obligatoria
-* Validación de destreza
-* Supervisión por responsable
-* Cursos previos obligatorios
-* Acceso restringido a maquinaria
-* Normas publicadas
-* Seguros o responsabilidades
-
-### 4.7 Aplicabilidad a Zaragoza
-
-* Qué valida
-* Qué puede copiarse
-* Qué debe adaptarse
-* Qué debe descartarse
-* Riesgo si se copia sin adaptación
-* Utilidad para el modelo mínimo viable
+```text
+CNC,
+láser,
+impresión 3D,
+fabricación digital avanzada,
+metal,
+soldadura,
+producción industrial,
+automatizaciones,
+software complejo,
+acceso 24/7,
+sistema de créditos avanzado,
+gran nave industrial
+y líneas B2B como centro del negocio.
+```
 
 ---
 
-## 5. Matriz general de referentes
+## 3. Escala de aplicabilidad
 
-| ID          | Referente                 | Ciudad / país           | Tipo preliminar                                   | Similitud   | Qué valida                                                              | Qué puede aportar a Zaragoza                                               | Estado               |
-| :---------- | :------------------------ | :---------------------- | :------------------------------------------------ | :---------- | :---------------------------------------------------------------------- | :------------------------------------------------------------------------- | :------------------- |
-| **REF-001** | TMDC                      | Barcelona, España       | Taller compartido / makerspace con área de madera | `PENDIENTE` | Seguridad, membresías, escala, comunidad, inducción                     | Referencia de madurez operativa; no necesariamente modelo inicial completo | `PENDIENTE_ANALISIS` |
-| **REF-002** | A tu Madera               | Murcia, España          | Coworking de carpintería artesanal                | `PENDIENTE` | Alquiler de taller, bonos, acceso flexible, servicios cercanos a Fase 1 | Referente probable para modelo inicial y estructura tarifaria              | `PENDIENTE_ANALISIS` |
-| **REF-003** | Cara y Canto              | Madrid / Getafe, España | Taller de madera, cursos y bonos                  | `PENDIENTE` | Embudo curso → práctica → usuario recurrente                            | Referente para formación, bonos y restauración/ebanistería                 | `PENDIENTE_ANALISIS` |
-| **REF-004** | The CoMAKING Space        | España / por verificar  | Espacio compartido de fabricación/oficios         | `PENDIENTE` | Comunidad, membresía, pago por uso, acceso compartido                   | Referente para modelo flexible de acceso y comunidad                       | `PENDIENTE_ANALISIS` |
-| **REF-005** | T11 Sevilla / Tejares 11  | Sevilla, España         | Espacio artesanal / referente estratégico         | `PENDIENTE` | Comunidad, oficios, cultura artesanal, espacio urbano                   | Referente de posicionamiento y ecosistema artesanal                        | `PENDIENTE_ANALISIS` |
-| **REF-006** | The Workshop Madrid       | Madrid, España          | Taller / espacio de oficios                       | `PENDIENTE` | Taller urbano, cursos, comunidad                                        | Referente secundario para oferta formativa y experiencia                   | `PENDIENTE_ANALISIS` |
-| **REF-007** | Made de Madera            | España / por verificar  | Taller o escuela de madera                        | `PENDIENTE` | Formación o servicios de madera                                         | Pendiente de verificar utilidad real                                       | `PENDIENTE_ANALISIS` |
-| **REF-008** | TransfoLAB Barcelona      | Barcelona, España       | Espacio circular / reutilización                  | `PENDIENTE` | Economía circular, reutilización de materiales                          | Referente para circularidad; posible contaminación maker                   | `PENDIENTE_ANALISIS` |
-| **REF-009** | Artisano                  | Cataluña / España       | Espacio artesanal / formación                     | `PENDIENTE` | Formación artesanal o comunidad                                         | Pendiente de verificar similitud real                                      | `PENDIENTE_ANALISIS` |
-| **REF-010** | El Secadero de Reviverdes | Granada, España         | Taller / experiencias / formación                 | `PENDIENTE` | Experiencias, cursos, comunidad                                         | Referente contextual para formación y eventos                              | `PENDIENTE_ANALISIS` |
-| **REF-011** | La Termita                | Zaragoza, España        | Taller local / restauración / formación           | `PENDIENTE` | Demanda local por restauración, tapicería u oficios                     | Referente local, competencia parcial o posible aliado                      | `PENDIENTE_ANALISIS` |
-| **REF-012** | Garno Estudio             | Zaragoza, España        | Actor local / formación o restauración            | `PENDIENTE` | Ecosistema local                                                        | Contexto local y posible complementariedad                                 | `PENDIENTE_ANALISIS` |
-| **REF-013** | La Falsa                  | Zaragoza, España        | Actor local / artesanía o formación               | `PENDIENTE` | Ecosistema creativo local                                               | Contexto local                                                             | `PENDIENTE_ANALISIS` |
-| **REF-014** | Working Restunearte       | Zaragoza, España        | Restauración / formación                          | `PENDIENTE` | Restauración, cursos, demanda local                                     | Competencia parcial o referente local                                      | `PENDIENTE_ANALISIS` |
-| **REF-015** | Restaurarium              | Zaragoza, España        | Restauración / formación                          | `PENDIENTE` | Restauración, formación                                                 | Competencia parcial o referente local                                      | `PENDIENTE_ANALISIS` |
-| **REF-016** | La Corporación Taller     | Bogotá, Colombia        | Escuela-taller de carpintería                     | `PENDIENTE` | Escuela práctica, maquinaria, continuidad del oficio                    | Referente histórico y operativo para escuela-taller                        | `PENDIENTE_ANALISIS` |
-| **REF-017** | Casa de Herramientas      | Bogotá, Colombia        | Taller compartido / antecedente histórico         | `PENDIENTE` | Lecciones de modelo, límites y riesgos                                  | Referente histórico; útil para aprendizajes y descartes                    | `PENDIENTE_ANALISIS` |
+| Nivel                | Significado                                                                                   |
+| -------------------- | --------------------------------------------------------------------------------------------- |
+| `MUY ALTA`           | Referente directamente útil para diseñar productos, precios o acceso inicial.                 |
+| `ALTA`               | Referente muy útil, pero requiere adaptación al contexto Zaragoza.                            |
+| `MEDIA-ALTA`         | Referente útil para una parte concreta: comunidad, narrativa, aula, estructura o fase futura. |
+| `MEDIA`              | Referente útil como inspiración parcial o secundaria.                                         |
+| `MEDIA-BAJA`         | Referente con valor limitado para Fase 1, pero útil como advertencia o visión futura.         |
+| `BAJA`               | Referente poco aplicable al MVP.                                                              |
+| `DESCARTABLE_FASE_1` | No debe influir en el arranque salvo como contraste o fase futura.                            |
 
 ---
 
-## 6. Ficha comparativa por referente
+## 4. Matriz general de referentes
 
-Cada referente deberá completarse con la siguiente ficha.
-
----
-
-### Referente: `[NOMBRE DEL REFERENTE]`
-
-* **ID:**
-* **Ciudad / país:**
-* **Tipo de espacio:**
-* **Fuente principal:**
-* **Fuentes secundarias:**
-* **Estado de evidencia:** `ALTA / MEDIA / BAJA / PENDIENTE`
-* **Similitud con Taller Zaragoza:** `ALTA / MEDIA / BAJA / DESCARTABLE`
-
-#### 6.1 Descripción breve
-
-* Qué es:
-* Qué ofrece:
-* A quién parece dirigirse:
-* Qué lo diferencia:
-
-#### 6.2 Modelo de negocio observado
-
-* Coworking / alquiler de espacio:
-* Cursos / escuela:
-* Club / comunidad:
-* Servicios complementarios:
-* Venta o suministro de materiales:
-* Restauración / tapicería:
-* Producción propia:
-* Otros ingresos:
-
-#### 6.3 Modelo de acceso
-
-* Pago por horas:
-* Bonos:
-* Membresía mensual:
-* Pase diario:
-* Acceso por curso:
-* Acceso profesional:
-* Acceso aficionado:
-* Almacenamiento:
-* Requisitos de entrada:
-
-#### 6.4 Precios visibles
-
-* Precio por hora:
-* Bono de horas:
-* Mensualidad:
-* Curso básico:
-* Curso avanzado:
-* Almacenamiento:
-* Servicios adicionales:
-* Observaciones:
-* Estado de la tarifa: `VERIFICADA / NO_VERIFICADA / NO_PUBLICADA`
-
-#### 6.5 Operación e infraestructura
-
-* Tipo de local:
-* Zonas del taller:
-* Bancos de trabajo:
-* Maquinaria convencional:
-* Maquinaria avanzada o tecnológica:
-* Herramientas manuales:
-* Aspiración / control de polvo:
-* Almacenamiento:
-* Horarios:
-* Supervisión:
-
-#### 6.6 Seguridad y acceso a maquinaria
-
-* Inducción obligatoria:
-* Validación de destreza:
-* Supervisión:
-* Restricciones por tipo de usuario:
-* Normas publicadas:
-* Responsabilidad / seguros:
-* Observaciones:
-
-#### 6.7 Qué valida para el Taller Zaragoza
-
-* Validación del modelo:
-* Validación de precios:
-* Validación de servicios:
-* Validación de convivencia de perfiles:
-* Validación de seguridad:
-* Validación de comunidad:
-* Validación de economía circular:
-* Otra validación:
-
-#### 6.8 Qué copiar
-
-* Elemento:
-* Motivo:
-* Condición para copiarlo:
-
-#### 6.9 Qué adaptar
-
-* Elemento:
-* Adaptación necesaria para Zaragoza:
-* Riesgo si se copia igual:
-
-#### 6.10 Qué descartar
-
-* Elemento:
-* Motivo:
-* Clasificación: `DESCARTAR_FASE_1 / FASE_FUTURA_CONDICIONAL / NO_APLICABLE`
-
-#### 6.11 Conclusión preliminar
-
-* Utilidad general:
-* Nivel de aplicabilidad:
-* Posible rol en el modelo Zaragoza:
-
-  * `REFERENTE_NUCLEO`
-  * `REFERENTE_SECUNDARIO`
-  * `REFERENTE_CONTEXTUAL`
-  * `REFERENTE_DESCARTADO`
+| ID      | Referente                           | Tipo de modelo                                           | Aplicabilidad Fase 1                                     | Uso principal                                                              | Clasificación preliminar             |
+| ------- | ----------------------------------- | -------------------------------------------------------- | -------------------------------------------------------- | -------------------------------------------------------------------------- | ------------------------------------ |
+| REF-001 | TMDC                                | Coworking industrial / fabricación compartida / créditos | `MEDIA-BAJA`                                             | Visión futura, profesionalización, control de maquinaria                   | `REFERENTE_SECUNDARIO_FUTURO`        |
+| REF-002 | The CoMAKING Space                  | Membresía baja + pago por uso + bonos                    | `MUY ALTA` si se simplifica                              | Pricing flexible, pago por uso, almacenamiento opcional                    | `REFERENTE_NUCLEO_COMERCIAL`         |
+| REF-003 | A tu Madera                         | Coworking de carpintería escalonado                      | `MUY ALTA`                                               | Escalera comercial, almacenamiento, usuario puntual/recurrente/profesional | `REFERENTE_NUCLEO_COMERCIAL`         |
+| REF-004 | T11 Sevilla / Tejares 11            | Cooperativa creativa + taller + coworking + aula         | `MEDIA-ALTA`                                             | Comunidad, aula, gobernanza, estructura espacial                           | `REFERENTE_NUCLEO_PARCIAL`           |
+| REF-005 | Cara y Canto                        | Escuela-taller + coworking por bonos                     | `ALTA`                                                   | Formación, bonos, reserva de maquinaria                                    | `REFERENTE_NUCLEO_COMERCIAL`         |
+| REF-006 | Made de Madera                      | Escuela + coworking + comunidad + muebles a medida       | `ALTA`                                                   | Comunidad, conversión alumno→usuario, talleres y acompañamiento            | `REFERENTE_NUCLEO_PARCIAL`           |
+| REF-007 | TransfoLAB BCN                      | Maker space circular / economía circular / fabricación   | `MEDIA-ALTA` para identidad, `MEDIA-BAJA` para operación | Economía circular, narrativa de impacto                                    | `REFERENTE_NARRATIVO_FUTURO`         |
+| REF-008 | The Workshop Madrid                 | Co-workshop urbano + onboarding + membresía por horas    | `ALTA`                                                   | Onboarding, acceso simple, membresía por horas                             | `REFERENTE_NUCLEO_PARCIAL`           |
+| REF-009 | La Fábrica de Hobbies               | Escuela-taller + hobbies + bienestar manual              | `MEDIA-ALTA`                                             | Bienestar, desconexión digital, cursos experienciales                      | `REFERENTE_NARRATIVO_COMERCIAL`      |
+| REF-010 | Artisano.cat                        | Taller-productora + B2B + coworking maker                | `MEDIA`                                                  | B2B futuro, señalética, producción para marcas                             | `REFERENTE_FUTURO`                   |
+| REF-011 | El Secadero de Reviverdes           | Taller experiencial + desconexión + comunidad            | `MEDIA-ALTA` para narrativa                              | Experiencia, lugar, talleres-proyecto                                      | `REFERENTE_NARRATIVO`                |
+| REF-012 | Talleres TWM                        | Talleres-proyecto con precio cerrado                     | `MUY ALTA` como inspiración comercial                    | Taller-proyecto como embudo                                                | `REFERENTE_NUCLEO_PARCIAL`           |
+| REF-013 | La Termita                          | Taller local de formación, restauración y encargos       | `ALTA` como referencia local parcial                     | Señal local de demanda formativa                                           | `REFERENTE_LOCAL_CONTEXTUAL`         |
+| REF-014 | Garno Estudio                       | Restauración decorativa / pátinas / formación            | `MEDIA`                                                  | Competencia formativa parcial, posible alianza                             | `ACTOR_LOCAL_CONTEXTUAL`             |
+| REF-015 | La Falsa                            | Restauración, almoneda, dorado, técnicas históricas      | `MEDIA`                                                  | Especialización artesanal, posible alianza                                 | `ACTOR_LOCAL_CONTEXTUAL`             |
+| REF-016 | Working Restunearte                 | Restauración decorativa / upcycling                      | `MEDIA`                                                  | Upcycling, restauración, posible colaboración                              | `ACTOR_LOCAL_CONTEXTUAL`             |
+| REF-017 | Restaurarium                        | Restauración / formación privada                         | `MEDIA`                                                  | Competencia parcial y continuidad de práctica                              | `ACTOR_LOCAL_CONTEXTUAL`             |
+| REF-018 | Zaragoza Maker Space / ETOPIA       | Maker digital / fabricación tecnológica                  | `BAJA` para MVP artesanal                                | Diferenciación y posible derivación externa                                | `REFERENTE_COMPLEMENTARIO_NO_NUCLEO` |
+| REF-019 | IES Virgen del Pilar                | Formación pública madera/mueble                          | `ALTA` como cantera                                      | Egresados, legitimidad técnica, colaboración futura                        | `ALIADO_POTENCIAL`                   |
+| REF-020 | Zaragoza Dinámica / escuelas taller | Formación y empleo                                       | `MEDIA-ALTA` como cantera                                | Continuidad práctica, inserción, validación                                | `ALIADO_POTENCIAL`                   |
+| REF-021 | ESDA / EINA / Universidad           | Diseño, producto, ingeniería                             | `MEDIA`                                                  | Prototipos simples en madera, proyectos físicos                            | `ALIADO_POTENCIAL`                   |
 
 ---
 
-## 7. Comparación de precios
+## 5. Comparativa por función estratégica
 
-Esta tabla se completará solo con precios verificados o claramente identificados en fuentes.
+### 5.1 Referentes para pricing inicial
 
-| Referente          | Precio hora | Bono horas  | Mensualidad | Curso básico | Curso avanzado | Almacenamiento | Fuente                | Estado                |
-| :----------------- | :---------- | :---------- | :---------- | :----------- | :------------- | :------------- | :-------------------- | :-------------------- |
-| TMDC               | `PENDIENTE` | `PENDIENTE` | `PENDIENTE` | `PENDIENTE`  | `PENDIENTE`    | `PENDIENTE`    | COMP-F001             | `PENDIENTE_VERIFICAR` |
-| A tu Madera        | `PENDIENTE` | `PENDIENTE` | `PENDIENTE` | `PENDIENTE`  | `PENDIENTE`    | `PENDIENTE`    | COMP-F003             | `PENDIENTE_VERIFICAR` |
-| Cara y Canto       | `PENDIENTE` | `PENDIENTE` | `PENDIENTE` | `PENDIENTE`  | `PENDIENTE`    | `PENDIENTE`    | COMP-F005             | `PENDIENTE_VERIFICAR` |
-| The CoMAKING Space | `PENDIENTE` | `PENDIENTE` | `PENDIENTE` | `PENDIENTE`  | `PENDIENTE`    | `PENDIENTE`    | COMP-F002             | `PENDIENTE_VERIFICAR` |
-| T11 Sevilla        | `PENDIENTE` | `PENDIENTE` | `PENDIENTE` | `PENDIENTE`  | `PENDIENTE`    | `PENDIENTE`    | COMP-F004             | `PENDIENTE_VERIFICAR` |
-| La Termita         | `PENDIENTE` | `PENDIENTE` | `PENDIENTE` | `PENDIENTE`  | `PENDIENTE`    | `PENDIENTE`    | COMP-F006 / COMP-F007 | `PENDIENTE_VERIFICAR` |
-
----
-
-## 8. Comparación de modelo de acceso
-
-| Referente          | Horas sueltas | Bonos       | Mensualidad | Pase diario | Curso previo | Inducción   | Supervisión | Almacenamiento | Estado                |
-| :----------------- | :------------ | :---------- | :---------- | :---------- | :----------- | :---------- | :---------- | :------------- | :-------------------- |
-| TMDC               | `PENDIENTE`   | `PENDIENTE` | `PENDIENTE` | `PENDIENTE` | `PENDIENTE`  | `PENDIENTE` | `PENDIENTE` | `PENDIENTE`    | `PENDIENTE_VERIFICAR` |
-| A tu Madera        | `PENDIENTE`   | `PENDIENTE` | `PENDIENTE` | `PENDIENTE` | `PENDIENTE`  | `PENDIENTE` | `PENDIENTE` | `PENDIENTE`    | `PENDIENTE_VERIFICAR` |
-| Cara y Canto       | `PENDIENTE`   | `PENDIENTE` | `PENDIENTE` | `PENDIENTE` | `PENDIENTE`  | `PENDIENTE` | `PENDIENTE` | `PENDIENTE`    | `PENDIENTE_VERIFICAR` |
-| The CoMAKING Space | `PENDIENTE`   | `PENDIENTE` | `PENDIENTE` | `PENDIENTE` | `PENDIENTE`  | `PENDIENTE` | `PENDIENTE` | `PENDIENTE`    | `PENDIENTE_VERIFICAR` |
-| T11 Sevilla        | `PENDIENTE`   | `PENDIENTE` | `PENDIENTE` | `PENDIENTE` | `PENDIENTE`  | `PENDIENTE` | `PENDIENTE` | `PENDIENTE`    | `PENDIENTE_VERIFICAR` |
-| La Termita         | `PENDIENTE`   | `PENDIENTE` | `PENDIENTE` | `PENDIENTE` | `PENDIENTE`  | `PENDIENTE` | `PENDIENTE` | `PENDIENTE`    | `PENDIENTE_VERIFICAR` |
+| Referente           | Utilidad para pricing | Observación                                                            |
+| ------------------- | --------------------- | ---------------------------------------------------------------------- |
+| Cara y Canto        | `ALTA`                | Bonos de 10h y 20h; útil para uso controlado.                          |
+| The CoMAKING Space  | `MUY ALTA`            | Membresía baja + pago por uso + bonos; muy aplicable si se simplifica. |
+| A tu Madera         | `MUY ALTA`            | Escalera completa: puntual, mensual, profesional y almacenamiento.     |
+| The Workshop Madrid | `ALTA`                | Membresía por horas y onboarding simple.                               |
+| La Termita          | `MEDIA-ALTA`          | Referencia local de precio formativo, no de coworking abierto.         |
 
 ---
 
-## 9. Comparación de servicios
+### 5.2 Referentes para formación y onboarding
 
-| Referente          | Carpintería | Ebanistería | Restauración | Tapicería   | Cursos      | Coworking   | Club        | Materiales  | Servicios técnicos | Estado                |
-| :----------------- | :---------- | :---------- | :----------- | :---------- | :---------- | :---------- | :---------- | :---------- | :----------------- | :-------------------- |
-| TMDC               | `PENDIENTE` | `PENDIENTE` | `PENDIENTE`  | `PENDIENTE` | `PENDIENTE` | `PENDIENTE` | `PENDIENTE` | `PENDIENTE` | `PENDIENTE`        | `PENDIENTE_VERIFICAR` |
-| A tu Madera        | `PENDIENTE` | `PENDIENTE` | `PENDIENTE`  | `PENDIENTE` | `PENDIENTE` | `PENDIENTE` | `PENDIENTE` | `PENDIENTE` | `PENDIENTE`        | `PENDIENTE_VERIFICAR` |
-| Cara y Canto       | `PENDIENTE` | `PENDIENTE` | `PENDIENTE`  | `PENDIENTE` | `PENDIENTE` | `PENDIENTE` | `PENDIENTE` | `PENDIENTE` | `PENDIENTE`        | `PENDIENTE_VERIFICAR` |
-| The CoMAKING Space | `PENDIENTE` | `PENDIENTE` | `PENDIENTE`  | `PENDIENTE` | `PENDIENTE` | `PENDIENTE` | `PENDIENTE` | `PENDIENTE` | `PENDIENTE`        | `PENDIENTE_VERIFICAR` |
-| T11 Sevilla        | `PENDIENTE` | `PENDIENTE` | `PENDIENTE`  | `PENDIENTE` | `PENDIENTE` | `PENDIENTE` | `PENDIENTE` | `PENDIENTE` | `PENDIENTE`        | `PENDIENTE_VERIFICAR` |
-| La Termita         | `PENDIENTE` | `PENDIENTE` | `PENDIENTE`  | `PENDIENTE` | `PENDIENTE` | `PENDIENTE` | `PENDIENTE` | `PENDIENTE` | `PENDIENTE`        | `PENDIENTE_VERIFICAR` |
-
----
-
-## 10. Comparación de seguridad
-
-| Referente          | Inducción   | Curso previo | Supervisión | Restricción maquinaria | Normas publicadas | Observaciones | Estado                |
-| :----------------- | :---------- | :----------- | :---------- | :--------------------- | :---------------- | :------------ | :-------------------- |
-| TMDC               | `PENDIENTE` | `PENDIENTE`  | `PENDIENTE` | `PENDIENTE`            | `PENDIENTE`       |               | `PENDIENTE_VERIFICAR` |
-| A tu Madera        | `PENDIENTE` | `PENDIENTE`  | `PENDIENTE` | `PENDIENTE`            | `PENDIENTE`       |               | `PENDIENTE_VERIFICAR` |
-| Cara y Canto       | `PENDIENTE` | `PENDIENTE`  | `PENDIENTE` | `PENDIENTE`            | `PENDIENTE`       |               | `PENDIENTE_VERIFICAR` |
-| The CoMAKING Space | `PENDIENTE` | `PENDIENTE`  | `PENDIENTE` | `PENDIENTE`            | `PENDIENTE`       |               | `PENDIENTE_VERIFICAR` |
-| T11 Sevilla        | `PENDIENTE` | `PENDIENTE`  | `PENDIENTE` | `PENDIENTE`            | `PENDIENTE`       |               | `PENDIENTE_VERIFICAR` |
-| La Termita         | `PENDIENTE` | `PENDIENTE`  | `PENDIENTE` | `PENDIENTE`            | `PENDIENTE`       |               | `PENDIENTE_VERIFICAR` |
+| Referente             | Aporte útil                            | Aplicación Zaragoza                         |
+| --------------------- | -------------------------------------- | ------------------------------------------- |
+| Cara y Canto          | Cursos + bonos + reserva               | Curso como puerta de entrada al taller.     |
+| Made de Madera        | Curso → comunidad → uso recurrente     | Ruta alumno a usuario.                      |
+| The Workshop Madrid   | Familiarización inicial                | Onboarding como parte del producto.         |
+| La Termita            | Señal local de demanda de cursos       | Validar precio y público en Zaragoza.       |
+| La Fábrica de Hobbies | Cursos experienciales                  | Talleres introductorios y bienestar manual. |
+| Talleres TWM          | Taller-proyecto con resultado concreto | Producto de entrada fácil de vender.        |
 
 ---
 
-## 11. Comparación de elementos contaminantes o futuros
+### 5.3 Referentes para comunidad
 
-| Referente          | CNC         | Láser       | Impresión 3D | Metal pesado | Fablab / makerspace digital | Acción para Fase 1 | Observaciones                                                                |
-| :----------------- | :---------- | :---------- | :----------- | :----------- | :-------------------------- | :----------------- | :--------------------------------------------------------------------------- |
-| TMDC               | `PENDIENTE` | `PENDIENTE` | `PENDIENTE`  | `PENDIENTE`  | `PENDIENTE`                 | `FILTRAR`          | Puede servir como referente de escala, pero no todo su modelo debe copiarse. |
-| A tu Madera        | `PENDIENTE` | `PENDIENTE` | `PENDIENTE`  | `PENDIENTE`  | `PENDIENTE`                 | `VERIFICAR`        | Probable similitud alta con Fase 1.                                          |
-| Cara y Canto       | `PENDIENTE` | `PENDIENTE` | `PENDIENTE`  | `PENDIENTE`  | `PENDIENTE`                 | `VERIFICAR`        | Probable utilidad para formación y bonos.                                    |
-| The CoMAKING Space | `PENDIENTE` | `PENDIENTE` | `PENDIENTE`  | `PENDIENTE`  | `PENDIENTE`                 | `FILTRAR`          | Puede contener elementos maker o tecnológicos.                               |
-| T11 Sevilla        | `PENDIENTE` | `PENDIENTE` | `PENDIENTE`  | `PENDIENTE`  | `PENDIENTE`                 | `VERIFICAR`        | Posible utilidad como referente de ecosistema artesanal.                     |
-| La Termita         | `PENDIENTE` | `PENDIENTE` | `PENDIENTE`  | `PENDIENTE`  | `PENDIENTE`                 | `VERIFICAR`        | Referencia local parcial.                                                    |
-
----
-
-## 12. Síntesis comparativa preliminar
-
-Esta sección debe completarse únicamente después de revisar las fuentes y rellenar las tablas anteriores.
-
-### 12.1 Referentes con mayor similitud
-
-* Pendiente.
-
-### 12.2 Referentes útiles para precios
-
-* Pendiente.
-
-### 12.3 Referentes útiles para cursos
-
-* Pendiente.
-
-### 12.4 Referentes útiles para seguridad
-
-* Pendiente.
-
-### 12.5 Referentes útiles para comunidad
-
-* Pendiente.
-
-### 12.6 Referentes útiles para economía circular
-
-* Pendiente.
-
-### 12.7 Referentes que deben filtrarse por contaminación tecnológica
-
-* Pendiente.
+| Referente                 | Aporte útil                                  | Riesgo                                      |
+| ------------------------- | -------------------------------------------- | ------------------------------------------- |
+| T11 Sevilla               | Comunidad, cooperativa, aula, convivencia    | Copiar gobernanza compleja sin validación.  |
+| Made de Madera            | Comunidad cercana y conversión de alumnos    | Dependencia del fundador/equipo.            |
+| El Secadero de Reviverdes | Comunidad experiencial y lugar con identidad | Depender demasiado del encanto del espacio. |
+| TransfoLAB BCN            | Comunidad circular y creativa                | Contaminación maker/digital.                |
+| La Fábrica de Hobbies     | Comunidad de aprendizaje manual              | Dispersión hacia ocio genérico.             |
 
 ---
 
-## 13. Regla de uso de esta matriz
+### 5.4 Referentes para economía circular e impacto
 
-Esta matriz no debe cerrar decisiones por sí sola.
-
-Su función es ordenar evidencia para el siguiente documento:
-
-`04_reduccion_referentes_nucleo.md`
-
-Solo después de completar esta matriz se podrá decidir:
-
-* qué referentes son núcleo;
-* qué referentes son secundarios;
-* qué referentes son contextuales;
-* qué referentes deben descartarse;
-* qué elementos alimentan el modelo mínimo viable del Taller Zaragoza.
+| Referente                    | Aporte útil                                | Aplicación Zaragoza                           |
+| ---------------------------- | ------------------------------------------ | --------------------------------------------- |
+| TransfoLAB BCN               | Economía circular como identidad           | Inspiración narrativa, no operación completa. |
+| El Secadero de Reviverdes    | Recuperación, experiencia, taller con alma | Talleres de rescate y transformación.         |
+| Working Restunearte          | Upcycling / restauración decorativa        | Posible colaboración local.                   |
+| La Fábrica de Hobbies        | Trabajo manual y bienestar                 | Narrativa de desconexión y utilidad social.   |
+| Taller Colaborativo Zaragoza | Restauración, reparación y reutilización   | Línea propia a validar.                       |
 
 ---
 
-## 14. Estado de avance
+### 5.5 Referentes para almacenamiento
 
-| Componente                               | Estado      |
-| :--------------------------------------- | :---------- |
-| Identificación de referentes             | `INICIADA`  |
-| Comparación de precios                   | `PENDIENTE` |
-| Comparación de servicios                 | `PENDIENTE` |
-| Comparación de seguridad                 | `PENDIENTE` |
-| Comparación de modelo de acceso          | `PENDIENTE` |
-| Comparación de contaminación tecnológica | `PENDIENTE` |
-| Síntesis preliminar                      | `PENDIENTE` |
-| Paso a reducción de referentes           | `PENDIENTE` |
+| Referente          | Modelo observado                               | Lectura para Zaragoza                                   |
+| ------------------ | ---------------------------------------------- | ------------------------------------------------------- |
+| A tu Madera        | Almacenamiento incluido en planes              | Útil para usuarios recurrentes, pero controlar volumen. |
+| The CoMAKING Space | Estantería privada opcional                    | Muy aplicable como extra simple.                        |
+| Coopelia           | Puestos y almacenamiento en coworking handmade | Útil como referencia de empaquetado.                    |
+| T11 Sevilla        | Espacio estructurado por usos                  | Inspiración para zonificación.                          |
+| Cara y Canto       | Posible almacenamiento de materiales/proyectos | Requiere reglas estrictas.                              |
+
+---
+
+### 5.6 Referentes para talleres-proyecto
+
+| Referente                 | Aporte útil                          | Aplicación Zaragoza                 |
+| ------------------------- | ------------------------------------ | ----------------------------------- |
+| Talleres TWM              | Producto concreto con precio cerrado | Embudo comercial principal.         |
+| El Secadero de Reviverdes | Experiencia manual y desconexión     | Talleres de fin de semana o grupos. |
+| La Fábrica de Hobbies     | Hobbies y bienestar manual           | Entrada para público principiante.  |
+| Made de Madera            | Proyecto guiado + comunidad          | Conversión a usuarios recurrentes.  |
+| Cara y Canto              | Formación práctica                   | Cursos de entrada al taller.        |
+
+---
+
+### 5.7 Referentes para fase futura
+
+| Referente                    | Uso futuro posible                                    | Motivo para no copiar en Fase 1             |
+| ---------------------------- | ----------------------------------------------------- | ------------------------------------------- |
+| TMDC                         | Créditos, fabricación avanzada, comunidad profesional | Escala industrial, CNC, metal, complejidad. |
+| TransfoLAB BCN               | Circularidad avanzada, maker circular                 | Contaminación digital/maker.                |
+| Artisano.cat                 | B2B, señalética, producción comercial                 | Cambia el centro del negocio.               |
+| A tu Madera Profesional Plus | Taller privado, 24/7, plan profesional                | Requiere usuarios profesionales validados.  |
+| CoMAKING bono 100h           | Usuario intensivo                                     | Requiere demanda y control operativo.       |
+
+---
+
+## 6. Elementos copiables, adaptables y descartables
+
+### 6.1 Elementos copiables para Fase 1
+
+| Elemento                        | Referentes que lo validan                        | Uso recomendado                             |
+| ------------------------------- | ------------------------------------------------ | ------------------------------------------- |
+| Curso como puerta de entrada    | Cara y Canto, Made de Madera, La Termita         | Producto inicial y mecanismo de seguridad.  |
+| Taller-proyecto                 | Talleres TWM, El Secadero, La Fábrica de Hobbies | Embudo comercial para principiantes.        |
+| Bono de horas                   | Cara y Canto, The Workshop Madrid                | Acceso simple y controlado.                 |
+| Membresía baja + pago por uso   | The CoMAKING Space                               | Reducir barrera de entrada.                 |
+| Escalera comercial              | A tu Madera                                      | Diseñar transición de puntual a recurrente. |
+| Almacenamiento opcional         | CoMAKING, A tu Madera                            | Extra monetizable con reglas.               |
+| Inducción obligatoria           | TMDC, CoMAKING, Cara y Canto                     | Control de seguridad y acceso a maquinaria. |
+| Comunidad desde cursos          | Made de Madera, T11, El Secadero                 | Retención y diferenciación.                 |
+| Narrativa de desconexión manual | La Fábrica de Hobbies, El Secadero               | Branding y comunicación.                    |
+| Economía circular práctica      | TransfoLAB, Working Restunearte                  | Identidad y talleres de reutilización.      |
+
+---
+
+### 6.2 Elementos adaptables
+
+| Elemento                       | Motivo de adaptación                      | Aplicación prudente                                         |
+| ------------------------------ | ----------------------------------------- | ----------------------------------------------------------- |
+| Planes mensuales profesionales | Pueden ser demasiado ambiciosos al inicio | Solo tras validar usuarios recurrentes.                     |
+| Almacenamiento incluido        | Puede saturar el local                    | Mejor como extra limitado.                                  |
+| Aula polivalente               | Depende del local                         | Mantener una zona limpia mínima si es posible.              |
+| Comunidad cooperativa          | Requiere gobernanza                       | Empezar por comunidad de usuarios, no cooperativa compleja. |
+| Cursos especializados          | Pueden dispersar                          | Lanzar pocos cursos iniciales.                              |
+| Membresía por horas            | Requiere control de agenda                | Empezar con bonos simples.                                  |
+| Eventos y team building        | Pueden distraer                           | Fase futura o pilotos puntuales.                            |
+| Producción a medida            | Cambia el foco                            | Línea secundaria, no eje inicial.                           |
+
+---
+
+### 6.3 Elementos descartables para Fase 1
+
+| Elemento                     | Referentes donde aparece                   | Motivo                             |
+| ---------------------------- | ------------------------------------------ | ---------------------------------- |
+| CNC propio                   | TMDC, TransfoLAB, algunos modelos maker    | Fuera del alcance y CAPEX inicial. |
+| Láser / impresión 3D         | TMDC, TransfoLAB, makerspaces              | Contaminación digital.             |
+| Metal / soldadura            | TMDC, CoMAKING amplio                      | Aumenta riesgo legal y operativo.  |
+| Sistema de créditos complejo | TMDC                                       | Difícil de explicar y administrar. |
+| Acceso 24/7                  | A tu Madera profesional, TMDC              | Riesgo alto sin madurez operativa. |
+| Gran nave industrial         | TMDC, modelos industriales                 | Sobredimensionamiento financiero.  |
+| Producción B2B como eje      | Artisano.cat                               | Cambia el negocio principal.       |
+| Centro genérico de hobbies   | La Fábrica de Hobbies mal copiada          | Diluye foco en madera.             |
+| Maker space digital          | Zaragoza Maker Space / TransfoLAB completo | No es el posicionamiento del CCA.  |
+
+---
+
+## 7. Matriz sintética de decisión por referente
+
+### REF-001 — TMDC
+
+| Criterio             | Evaluación                                                                          |
+| -------------------- | ----------------------------------------------------------------------------------- |
+| Aplicabilidad Fase 1 | `MEDIA-BAJA`                                                                        |
+| Qué aporta           | Visión futura, comunidad profesional, control de maquinaria, monetización avanzada. |
+| Qué copiar           | Cultura de seguridad, autorización por máquinas, profesionalización.                |
+| Qué adaptar          | Sistema de monetización solo en fase futura.                                        |
+| Qué descartar        | CNC, láser, impresión 3D, metal, créditos complejos, escala industrial.             |
+| Clasificación        | `REFERENTE_SECUNDARIO_FUTURO`                                                       |
+
+---
+
+### REF-002 — The CoMAKING Space
+
+| Criterio             | Evaluación                                                    |
+| -------------------- | ------------------------------------------------------------- |
+| Aplicabilidad Fase 1 | `MUY ALTA SI SE SIMPLIFICA`                                   |
+| Qué aporta           | Membresía baja, pago por uso, bonos, almacenamiento opcional. |
+| Qué copiar           | Entrada baja + pago real por uso.                             |
+| Qué adaptar          | Evitar amplitud industrial y proyectos grandes.               |
+| Qué descartar        | Herrería, soldadura, camperización, exceso maker.             |
+| Clasificación        | `REFERENTE_NUCLEO_COMERCIAL`                                  |
+
+---
+
+### REF-003 — A tu Madera
+
+| Criterio             | Evaluación                                                                          |
+| -------------------- | ----------------------------------------------------------------------------------- |
+| Aplicabilidad Fase 1 | `MUY ALTA`                                                                          |
+| Qué aporta           | Escalera comercial, planes, almacenamiento, usuario puntual/recurrente/profesional. |
+| Qué copiar           | Lógica de progresión comercial.                                                     |
+| Qué adaptar          | No lanzar demasiados planes de golpe.                                               |
+| Qué descartar        | Acceso 24/7, taller privado y planes profesionales sin demanda validada.            |
+| Clasificación        | `REFERENTE_NUCLEO_COMERCIAL`                                                        |
+
+---
+
+### REF-004 — T11 Sevilla / Tejares 11
+
+| Criterio             | Evaluación                                              |
+| -------------------- | ------------------------------------------------------- |
+| Aplicabilidad Fase 1 | `MEDIA-ALTA`                                            |
+| Qué aporta           | Comunidad, aula, zonificación, gobernanza, convivencia. |
+| Qué copiar           | Espacio como ecosistema, no solo máquinas.              |
+| Qué adaptar          | Cooperativa y escala espacial.                          |
+| Qué descartar        | Usarlo para pricing sin tarifas visibles.               |
+| Clasificación        | `REFERENTE_NUCLEO_PARCIAL`                              |
+
+---
+
+### REF-005 — Cara y Canto
+
+| Criterio             | Evaluación                                    |
+| -------------------- | --------------------------------------------- |
+| Aplicabilidad Fase 1 | `ALTA`                                        |
+| Qué aporta           | Escuela-taller, bonos, reserva de maquinaria. |
+| Qué copiar           | Formación + bono + uso controlado.            |
+| Qué adaptar          | Caducidad mensual y amplitud de cursos.       |
+| Qué descartar        | CNC en Fase 1.                                |
+| Clasificación        | `REFERENTE_NUCLEO_COMERCIAL`                  |
+
+---
+
+### REF-006 — Made de Madera
+
+| Criterio             | Evaluación                                                                    |
+| -------------------- | ----------------------------------------------------------------------------- |
+| Aplicabilidad Fase 1 | `ALTA`                                                                        |
+| Qué aporta           | Comunidad, ruta alumno→usuario, taller cercano, posible fabricación a medida. |
+| Qué copiar           | Comunidad visible y conversión desde cursos.                                  |
+| Qué adaptar          | Encargos y personalización.                                                   |
+| Qué descartar        | Dependencia excesiva del fundador o producción a medida como eje inicial.     |
+| Clasificación        | `REFERENTE_NUCLEO_PARCIAL`                                                    |
+
+---
+
+### REF-007 — TransfoLAB BCN
+
+| Criterio             | Evaluación                                               |
+| -------------------- | -------------------------------------------------------- |
+| Aplicabilidad Fase 1 | `MEDIA-ALTA` para identidad; `MEDIA-BAJA` para operación |
+| Qué aporta           | Economía circular, reutilización, narrativa de impacto.  |
+| Qué copiar           | Circularidad como identidad operativa.                   |
+| Qué adaptar          | Talleres de reutilización sin estructura maker compleja. |
+| Qué descartar        | CNC, láser, plasma, maker space completo.                |
+| Clasificación        | `REFERENTE_NARRATIVO_FUTURO`                             |
+
+---
+
+### REF-008 — The Workshop Madrid
+
+| Criterio             | Evaluación                                                |
+| -------------------- | --------------------------------------------------------- |
+| Aplicabilidad Fase 1 | `ALTA`                                                    |
+| Qué aporta           | Onboarding, membresía por horas, acceso urbano simple.    |
+| Qué copiar           | Familiarización inicial como parte del producto.          |
+| Qué adaptar          | Modelo urbano a condiciones reales del local en Zaragoza. |
+| Qué descartar        | Acceso abierto sin niveles de seguridad.                  |
+| Clasificación        | `REFERENTE_NUCLEO_PARCIAL`                                |
+
+---
+
+### REF-009 — La Fábrica de Hobbies
+
+| Criterio             | Evaluación                                                    |
+| -------------------- | ------------------------------------------------------------- |
+| Aplicabilidad Fase 1 | `MEDIA-ALTA`                                                  |
+| Qué aporta           | Bienestar manual, desconexión digital, cursos experienciales. |
+| Qué copiar           | Narrativa de trabajo manual como bienestar.                   |
+| Qué adaptar          | Solo cursos alineados con madera/restauración.                |
+| Qué descartar        | Centro genérico de hobbies.                                   |
+| Clasificación        | `REFERENTE_NARRATIVO_COMERCIAL`                               |
+
+---
+
+### REF-010 — Artisano.cat
+
+| Criterio             | Evaluación                                                       |
+| -------------------- | ---------------------------------------------------------------- |
+| Aplicabilidad Fase 1 | `MEDIA`                                                          |
+| Qué aporta           | B2B, señalética, producción para marcas, diversificación futura. |
+| Qué copiar           | Ideas para líneas futuras de ingresos.                           |
+| Qué adaptar          | Producción comercial solo si no desplaza el CCA.                 |
+| Qué descartar        | Productora B2B como eje inicial.                                 |
+| Clasificación        | `REFERENTE_FUTURO`                                               |
+
+---
+
+### REF-011 — El Secadero de Reviverdes
+
+| Criterio             | Evaluación                                                        |
+| -------------------- | ----------------------------------------------------------------- |
+| Aplicabilidad Fase 1 | `MEDIA-ALTA` para narrativa y talleres                            |
+| Qué aporta           | Experiencia artesanal, desconexión, comunidad, talleres-proyecto. |
+| Qué copiar           | Experiencia manual con sentido.                                   |
+| Qué adaptar          | No depender del encanto del lugar.                                |
+| Qué descartar        | Confundir experiencia puntual con recurrencia validada.           |
+| Clasificación        | `REFERENTE_NARRATIVO`                                             |
+
+---
+
+### REF-012 — Talleres TWM
+
+| Criterio             | Evaluación                                               |
+| -------------------- | -------------------------------------------------------- |
+| Aplicabilidad Fase 1 | `MUY ALTA` como inspiración comercial                    |
+| Qué aporta           | Taller-proyecto con precio cerrado y resultado tangible. |
+| Qué copiar           | Producto de entrada claro.                               |
+| Qué adaptar          | Integrarlo como embudo hacia cursos/bonos.               |
+| Qué descartar        | Depender solo de talleres puntuales.                     |
+| Clasificación        | `REFERENTE_NUCLEO_PARCIAL`                               |
+
+---
+
+### REF-013 — La Termita
+
+| Criterio             | Evaluación                                                                     |
+| -------------------- | ------------------------------------------------------------------------------ |
+| Aplicabilidad Fase 1 | `ALTA` como referencia local parcial                                           |
+| Qué aporta           | Señal local de demanda formativa en Zaragoza.                                  |
+| Qué copiar           | Lectura de precio local y formatos de curso.                                   |
+| Qué adaptar          | Diferenciarse con taller abierto, almacenamiento y acceso autónomo controlado. |
+| Qué descartar        | Copiar un modelo solo de cursos.                                               |
+| Clasificación        | `REFERENTE_LOCAL_CONTEXTUAL`                                                   |
+
+---
+
+## 8. Lectura específica de actores locales
+
+### 8.1 Actores formativos públicos
+
+| Actor                | Rol                             | Uso recomendado                                                 |
+| -------------------- | ------------------------------- | --------------------------------------------------------------- |
+| IES Virgen del Pilar | Formación técnica madera/mueble | Cantera de egresados, contacto futuro, validación de necesidad. |
+| Zaragoza Dinámica    | Formación y empleo              | Continuidad práctica, colaboración futura, entrevistas.         |
+| Escuelas taller      | Formación práctica              | Posible canal de egresados.                                     |
+| ESDA / EINA          | Diseño, producto, ingeniería    | Prototipos simples en madera, proyectos físicos.                |
+
+Estos actores no deben tratarse como clientes garantizados ni como alianzas cerradas.
+
+---
+
+### 8.2 Actores privados locales
+
+| Actor               | Rol                                         | Uso recomendado                                  |
+| ------------------- | ------------------------------------------- | ------------------------------------------------ |
+| La Termita          | Formación artesanal local                   | Competidor formativo parcial y señal de demanda. |
+| Garno Estudio       | Restauración decorativa / pátinas           | Competidor parcial y posible aliado.             |
+| La Falsa            | Restauración, almoneda, técnicas históricas | Actor especializado, posible colaboración.       |
+| Working Restunearte | Upcycling / restauración decorativa         | Posible alianza en economía circular.            |
+| Restaurarium        | Restauración y formación                    | Posible derivación de continuidad práctica.      |
+
+La estrategia no debe ser competir frontalmente con todos. El CCA debe diferenciarse por:
+
+```text
+taller abierto,
+bancos,
+maquinaria convencional,
+seguridad,
+almacenamiento,
+práctica autónoma,
+comunidad
+y continuidad después de la formación.
+```
+
+---
+
+### 8.3 Actores maker / digitales
+
+| Actor                         | Rol                                    | Uso recomendado                             |
+| ----------------------------- | -------------------------------------- | ------------------------------------------- |
+| Zaragoza Maker Space / ETOPIA | Fabricación digital, maker, tecnología | Aliado complementario o derivación externa. |
+
+Uso correcto:
+
+```text
+ellos fabricación digital;
+CCA madera artesanal, banco, maquinaria convencional, restauración y oficio.
+```
+
+No debe usarse para justificar CNC propio en Fase 1.
+
+---
+
+## 9. Patrones estratégicos consolidados
+
+### 9.1 El MVP no debe copiar un único referente
+
+La matriz muestra que ningún referente resuelve por sí solo el modelo Zaragoza.
+
+El modelo debe combinar:
+
+```text
+A tu Madera → escalera comercial y almacenamiento
+Cara y Canto → formación + bonos + reserva
+CoMAKING → membresía baja + pago por uso
+The Workshop Madrid → onboarding
+Made de Madera → comunidad y conversión alumno→usuario
+T11 → aula, convivencia y estructura espacial
+Talleres TWM → talleres-proyecto como embudo
+La Termita → señal local de demanda formativa
+TransfoLAB / El Secadero → narrativa circular y manual
+TMDC → visión futura y profesionalización
+```
+
+---
+
+### 9.2 La formación debe ser entrada, seguridad y conversión
+
+La formación cumple tres funciones:
+
+```text
+captar usuarios,
+reducir riesgo,
+convertir alumnos en usuarios recurrentes.
+```
+
+Por tanto, no debe tratarse como una línea secundaria.
+
+---
+
+### 9.3 El acceso debe ser gradual
+
+La matriz apunta a un sistema gradual:
+
+```text
+taller-proyecto
+→ curso inicial
+→ inducción de seguridad
+→ bono de horas
+→ membresía simple
+→ almacenamiento opcional
+→ plan profesional futuro
+```
+
+---
+
+### 9.4 El precio debe separar recursos
+
+No conviene mezclar todo en una tarifa plana.
+
+Separar:
+
+* curso;
+* acceso al taller;
+* uso de maquinaria;
+* materiales;
+* consumibles;
+* acompañamiento;
+* almacenamiento;
+* EPIs;
+* servicios complementarios.
+
+---
+
+### 9.5 La comunidad no sustituye el producto
+
+La comunidad es importante para retención y diferenciación, pero debe apoyarse en:
+
+* productos claros;
+* precios claros;
+* normas;
+* calendario;
+* seguridad;
+* experiencia de uso;
+* usuarios compatibles.
+
+---
+
+### 9.6 La economía circular debe ser operativa
+
+La economía circular no debe quedar como discurso.
+
+Debe convertirse en:
+
+* restauración;
+* reparación;
+* upcycling;
+* madera recuperada;
+* talleres de rescate;
+* reglas de almacenamiento;
+* control de materiales.
+
+---
+
+### 9.7 La fabricación digital queda fuera del MVP
+
+La matriz confirma que CNC, láser, impresión 3D, metal y soldadura aparecen en varios referentes, pero deben permanecer fuera de Fase 1.
+
+Pueden considerarse solo como:
+
+```text
+alianza externa,
+derivación,
+o fase futura condicional.
+```
+
+---
+
+## 10. Conclusión de la matriz
+
+La matriz confirma que el modelo Zaragoza debe construirse como una síntesis filtrada, no como copia directa.
+
+Conclusión operativa:
+
+```text
+El MVP debe partir de un taller artesanal-escuela,
+con acceso gradual,
+formación práctica,
+talleres-proyecto,
+bonos o pago por uso,
+inducción obligatoria,
+almacenamiento opcional,
+comunidad,
+economía circular práctica
+y maquinaria convencional imprescindible.
+```
+
+Referentes núcleo comerciales:
+
+```text
+A tu Madera
+Cara y Canto
+The CoMAKING Space
+The Workshop Madrid
+```
+
+Referentes núcleo parciales:
+
+```text
+Made de Madera
+T11 Sevilla
+Talleres TWM
+La Termita
+```
+
+Referentes narrativos o de identidad:
+
+```text
+TransfoLAB BCN
+La Fábrica de Hobbies
+El Secadero de Reviverdes
+```
+
+Referentes de fase futura:
+
+```text
+TMDC
+Artisano.cat
+TransfoLAB completo
+A tu Madera Profesional Plus
+CoMAKING industrial ampliado
+```
+
+Esta matriz debe alimentar directamente el documento:
+
+```text
+04_reduccion_referentes_nucleo.md
+```
+
+---
