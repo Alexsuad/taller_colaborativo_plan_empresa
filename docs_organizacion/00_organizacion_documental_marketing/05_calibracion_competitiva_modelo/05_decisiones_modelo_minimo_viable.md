@@ -2,7 +2,7 @@
 
 * **Fase:** Calibración competitiva del modelo mínimo viable
 * **Documento anterior:** `04_reduccion_referentes_nucleo.md`
-* **Estado:** `EN_REVISIÓN`
+* **Estado:** `CERRADO_COMO_BASE_PRELIMINAR`
 * **Función del documento:** transformar el benchmarking competitivo en decisiones preliminares para el MVP del Taller Colaborativo en Zaragoza.
 
 ---

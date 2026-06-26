@@ -3,7 +3,7 @@
 * **Fase:** Calibración competitiva del modelo mínimo viable
 * **Documento anterior:** `03_matriz_referentes_competitivos.md`
 * **Documento siguiente:** `05_decisiones_modelo_minimo_viable.md`
-* **Estado:** `EN_REVISIÓN`
+* **Estado:** `CERRADO_COMO_BASE_PRELIMINAR`
 * **Función del documento:** reducir los referentes analizados a un conjunto operativo de influencia para el MVP del Taller Colaborativo en Zaragoza.
 
 ---

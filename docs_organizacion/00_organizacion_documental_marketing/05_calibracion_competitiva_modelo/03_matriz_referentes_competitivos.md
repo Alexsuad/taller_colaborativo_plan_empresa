@@ -3,7 +3,7 @@
 * **Fase:** Calibración competitiva del modelo mínimo viable
 * **Documento anterior:** `02_inventario_fuentes_competencia/`
 * **Documento siguiente:** `04_reduccion_referentes_nucleo.md`
-* **Estado:** `EN_REVISIÓN`
+* **Estado:** `CERRADO_COMO_BASE_PRELIMINAR`
 * **Función del documento:** comparar referentes, extraer patrones útiles y preparar la selección de referentes núcleo para el MVP de Zaragoza.
 
 ---

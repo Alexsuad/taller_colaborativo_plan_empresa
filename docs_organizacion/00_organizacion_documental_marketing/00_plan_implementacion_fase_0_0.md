@@ -82,7 +82,14 @@ La carpeta debe contener solo estos elementos:
 03_mapa_temas_y_subtemas_plan_empresa.md
 04_extracciones_documentales_notebooklm/
   ├── 00_indice_extracciones.md
-  └── 01_bloque_01_equipo_promotor_origen.md
+  ├── 01_bloque_01_equipo_promotor_origen.md
+  └── 02_bloque_02_idea_negocio.md
+05_calibracion_competitiva_modelo/
+  ├── 01_plan_implementacion_calibracion_competitiva.md
+  ├── 02_inventario_fuentes_competencia/
+  ├── 03_matriz_referentes_competitivos.md
+  ├── 04_reduccion_referentes_nucleo.md
+  └── 05_decisiones_modelo_minimo_viable.md
 ```
 
 ---
@@ -96,6 +103,7 @@ La carpeta debe contener solo estos elementos:
 | `02_matriz_depuracion_fuentes_notebooklm.md` | Detecta solapes, contradicciones, contaminación y prioridades de revisión. |
 | `03_mapa_temas_y_subtemas_plan_empresa.md` | Mapa maestro estructurado que desglosa en 26 bloques los temas y subtemas del plan. |
 | `04_extracciones_documentales_notebooklm/` | Sede que guarda las extracciones amplias de NotebookLM por cada bloque del mapa 03. Sirve como material documental de trabajo para el equipo de marketing/redacción, no es redacción final del plan, no contiene análisis de marketing y no sustituye los archivos 01, 02 ni 03. |
+| `05_calibracion_competitiva_modelo/` | Contiene el plan de calibración, el inventario de fuentes de competencia, la matriz de referentes competitivos, la reducción al núcleo del MVP y las decisiones clave del modelo de negocio del taller. |
 
 ---
 
@@ -109,6 +117,7 @@ El orden correcto es:
 3. 02_matriz_depuracion_fuentes_notebooklm.md (Matriz de depuración)
 4. 03_mapa_temas_y_subtemas_plan_empresa.md (Mapa de temas y subtemas)
 5. 04_extracciones_documentales_notebooklm/ (Extracciones por bloque)
+6. 05_calibracion_competitiva_modelo/ (Calibración competitiva de modelo)
 ```
 
 No se crean ni redactan más archivos de extracción hasta que las fases y documentos previos estén completados y aprobados.
