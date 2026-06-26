@@ -1,15 +1,17 @@
 ---
+# COMP-F003 — Investigación individual: A tu Madera
 
-### Fuente: `Investigación-A-tu-Madera.txt`
+* **ID de fuente:** COMP-F003
+* **Fuente original:** `Investigación-A-tu-Madera.txt`
+* **Tipo de fuente:** Investigación individual de referente competitivo
+* **Ámbito cubierto:** A tu Madera, coworking de carpintería, formación, escalera comercial, almacenamiento y modelo de acceso
+* **Estado de revisión:** `REVISADA`
+* **Nivel de utilidad para Fase 1:** `ALTO`
+* **Nivel de contaminación:** `BAJO-MEDIO`
 
-- **ID de fuente:** COMP-F003
-- **Tipo de fuente:** Investigación individual de referente competitivo
-- **Referentes cubiertos:** A tu Madera Coworking — Murcia, España
-- **Estado de revisión:** `REVISADA`
-- **Nivel de utilidad para Fase 1:** `ALTO`
-- **Nivel de contaminación:** `BAJO`
+---
 
-#### 6.1 Información útil para Fase 1
+## 1. Información útil para Fase 1
 
 - **Modelo observado:**
   A tu Madera funciona como un referente de coworking de carpintería escalonado, con acceso flexible al taller, zona de bancos, oficina compartida, maquinaria con capacitación previa, almacenamiento y espacios privados. En varias fuentes internas se describe como uno de los modelos más comparables para Zaragoza por operar en una ciudad media y por no depender de una escala tipo Madrid o Barcelona.
@@ -67,7 +69,7 @@
 - **Otros datos útiles:**
   El modelo muestra que en una ciudad media no hace falta empezar con una infraestructura tipo TMDC. Puede funcionar una propuesta más contenida, basada en flexibilidad, almacenamiento, capacitación y escalera comercial.
 
-#### 6.2 Información repetida
+## 2. Información repetida
 
 - **Información duplicada:**
   A tu Madera aparece repetidamente como uno de los referentes más aplicables a Zaragoza.
@@ -92,13 +94,13 @@
 - **Acción recomendada:**
   Consolidar estos datos en la matriz comparativa y verificar precios contra fuente primaria antes de usarlos como cifras finales.
 
-#### 6.3 Información contaminante para Fase 1
+## 3. Información contaminante para Fase 1
 
 - **Elemento contaminante:** Espacios privados profesionales y acceso 24/7.
 - **Motivo:** Aunque son útiles como referencia de crecimiento, pueden ser demasiado complejos para el arranque si todavía no existe demanda validada.
 - **Acción:** `FASE_FUTURA_CONDICIONAL`
 
-- **Elemento contaminante:** Demasiadas capas tarifarias desde el inicio.
+- **Elemento contaminante:** Demasiadas capas tarifas desde el inicio.
 - **Motivo:** Copiar toda la escalera comercial de golpe puede complicar la comunicación, la gestión operativa y el control de uso.
 - **Acción:** `ADAPTAR_FASE_1`
 
@@ -106,7 +108,7 @@
 - **Motivo:** Pueden requerir espacio, logística, seguros y layout superiores al MVP artesanal inicial.
 - **Acción:** `DESCARTAR_FASE_1 / FASE_FUTURA_CONDICIONAL`
 
-#### 6.4 Información útil para fase futura
+## 4. Información útil para fase futura
 
 - **Elemento:** Profesional Plus con taller privado de 12 m² y acceso 24/7.
 - **Posible uso futuro:** Retener usuarios profesionales que crecen dentro del ecosistema y necesitan mayor autonomía.
@@ -120,7 +122,7 @@
 - **Posible uso futuro:** Ampliar la escalera comercial cuando haya más usuarios y datos reales de demanda.
 - **Condición para reconsiderarlo:** Tener controlada la operación básica y saber qué modalidades usan realmente los clientes.
 
-#### 6.5 Vacíos detectados
+## 5. Vacíos detectados
 
 - **Qué falta:**
   - Verificación actualizada de tarifas en fuente primaria.
@@ -143,7 +145,7 @@
 
 - **Prioridad:** `ALTA`
 
-#### 6.6 Síntesis de la fuente
+## 6. Síntesis de la fuente
 
 - **Qué aporta realmente:**
   A tu Madera aporta una referencia muy valiosa para diseñar una escalera comercial de Fase 1: entrada baja, bono flexible, mensualidad básica, mensualidad profesional, almacenamiento y capacitación obligatoria. Su principal utilidad es mostrar cómo un coworking de carpintería puede operar en una ciudad media con un modelo más accesible y menos sobredimensionado que referentes como TMDC.
@@ -166,6 +168,6 @@
   - proyectos de gran escala;
   - complejidad operativa superior al MVP.
 
-  ---
+## 7. Conclusión operativa
 
 Soporte de fuentes: la investigación interna describe A tu Madera como un referente realista para Zaragoza y destaca la tarifa de mediodía de 25 €, el almacén de 3 m² en el plan básico de 200 € y el Profesional Plus de 500 €/mes con acceso 24/7 y taller privado de 12 m². La tabla comparativa del chat consolida tarifas como mediodía 25 €, día 45 €, básico 200 €/mes, profesional 400 €/mes y bono 40h por 200 €, marcándolo como de aplicabilidad muy alta para Zaragoza. El análisis de T11 también recoge el plan básico, profesional, profesional plus y bono 40 horas, con beneficios asociados como almacén, horas de máquinas y taller privado.
