@@ -1,405 +1,718 @@
 # 04 — Reducción de referentes al núcleo del modelo
 
-## Fase 0.0 — Organización documental de marketing
-
-**Proyecto:** Taller Colaborativo Artesanal en Zaragoza
-**Carpeta activa:** `docs_organizacion/00_organizacion_documental_marketing/05_calibracion_competitiva_modelo/`
-**Bloque rector:** Bloque 6 — Competencia y benchmarking
-**Estado:** Documento de trabajo para reducción y selección de referentes
+* **Fase:** Calibración competitiva del modelo mínimo viable
+* **Documento anterior:** `03_matriz_referentes_competitivos.md`
+* **Documento siguiente:** `05_decisiones_modelo_minimo_viable.md`
+* **Estado:** `EN_REVISIÓN`
+* **Función del documento:** reducir los referentes analizados a un conjunto operativo de influencia para el MVP del Taller Colaborativo en Zaragoza.
 
 ---
 
 ## 1. Propósito del documento
 
-Este documento sirve para reducir el conjunto amplio de competidores y referentes a un grupo manejable de modelos realmente útiles para definir el **modelo mínimo viable** del Taller Colaborativo Artesanal en Zaragoza.
+Este documento convierte la matriz competitiva en una selección útil para el diseño del modelo mínimo viable.
 
-No todos los referentes identificados deben tener el mismo peso. Algunos pueden servir como modelo directo, otros solo como inspiración parcial, otros como contexto local y otros deben descartarse para la Fase 1.
+No busca describir todos los referentes otra vez.
 
-El objetivo es responder:
+Su objetivo es decidir:
 
-> ¿Qué referentes deben influir realmente en el diseño inicial del Taller Zaragoza?
+* qué referentes deben influir directamente en la Fase 1;
+* qué referentes aportan piezas parciales;
+* qué referentes sirven solo para narrativa o identidad;
+* qué referentes son útiles como contexto local;
+* qué referentes deben quedar fuera del arranque;
+* qué elementos pasan al documento de decisiones del MVP.
 
----
+La pregunta central es:
 
-## 2. Relación con documentos anteriores
-
-Este documento se construye a partir de:
-
-1. `02_inventario_fuentes_competencia.md`
-   Identifica y depura las fuentes disponibles.
-
-2. `03_matriz_referentes_competitivos.md`
-   Compara los referentes según servicios, precios, acceso, seguridad, comunidad, maquinaria y aplicabilidad.
-
-La reducción no debe hacerse antes de revisar la matriz. Si un referente se clasifica como núcleo, secundario, contextual o descartado, debe existir una razón documentada.
+```text
+¿De qué modelos debe aprender realmente Zaragoza para arrancar de forma prudente, viable y diferenciada?
+```
 
 ---
 
-## 3. Criterio rector de reducción
+## 2. Criterio rector de reducción
 
-El referente más útil no es necesariamente el más grande, conocido o sofisticado.
+La reducción se hace desde el modelo ya definido para Fase 1:
 
-El referente más útil es el que ayuda a definir una Fase 1:
+```text
+coworking artesanal de carpintería,
+escuela práctica,
+restauración,
+tapicería ligera vinculada al mueble,
+bancos de trabajo,
+herramientas manuales,
+maquinaria estacionaria convencional imprescindible,
+seguridad,
+almacenamiento limitado,
+comunidad,
+economía circular práctica
+y crecimiento por fases.
+```
 
-* viable;
-* artesanal;
-* operativamente sencilla;
-* financieramente contenida;
-* centrada en madera y oficios afines;
-* sin contaminación tecnológica;
-* adaptada a Zaragoza;
-* basada en servicios que puedan ponerse en marcha con recursos razonables.
+Quedan fuera del núcleo inicial:
 
-La reducción debe proteger el proyecto de dos errores:
-
-1. **Copiar modelos demasiado grandes o costosos.**
-2. **Reducir demasiado el modelo hasta hacerlo comercialmente débil.**
+```text
+CNC,
+láser,
+impresión 3D,
+fabricación digital avanzada,
+metal,
+soldadura,
+producción industrial,
+sistema de créditos complejo,
+gran nave industrial,
+acceso 24/7,
+productora B2B como eje,
+centro genérico de hobbies
+y makerspace tecnológico.
+```
 
 ---
 
-## 4. Categorías de reducción
+## 3. Categorías de reducción
 
-Cada referente debe clasificarse en una de estas categorías.
+| Categoría                    | Significado                                                                           |
+| ---------------------------- | ------------------------------------------------------------------------------------- |
+| `REFERENTE_NUCLEO_COMERCIAL` | Debe influir directamente en productos, precios, acceso o escalera comercial inicial. |
+| `REFERENTE_NUCLEO_PARCIAL`   | Aporta una pieza importante del modelo, pero no define todo el MVP.                   |
+| `REFERENTE_NARRATIVO`        | Aporta identidad, relato, experiencia o posicionamiento.                              |
+| `REFERENTE_LOCAL_CONTEXTUAL` | Ayuda a entender Zaragoza, demanda local, competencia parcial o posibles aliados.     |
+| `ALIADO_POTENCIAL`           | No es competidor núcleo, pero puede alimentar validación, captación o colaboración.   |
+| `REFERENTE_FUTURO`           | Puede inspirar fases posteriores, pero no debe condicionar el arranque.               |
+| `DESCARTADO_FASE_1`          | No debe influir en el MVP salvo como contraste o advertencia.                         |
 
-### 4.1 Referente núcleo
+---
 
-Un referente núcleo es un modelo que debe influir directamente en el diseño del Taller Zaragoza.
+## 4. Reducción final de referentes
 
-Debe cumplir varias de estas condiciones:
+| ID      | Referente                           | Categoría final                      | Peso en Fase 1 | Motivo                                                                           |
+| ------- | ----------------------------------- | ------------------------------------ | -------------- | -------------------------------------------------------------------------------- |
+| REF-003 | A tu Madera                         | `REFERENTE_NUCLEO_COMERCIAL`         | `ALTO`         | Escalera comercial, almacenamiento y transición de usuario puntual a recurrente. |
+| REF-005 | Cara y Canto                        | `REFERENTE_NUCLEO_COMERCIAL`         | `ALTO`         | Formación, bonos por horas, reserva y acceso controlado.                         |
+| REF-002 | The CoMAKING Space                  | `REFERENTE_NUCLEO_COMERCIAL`         | `ALTO`         | Membresía baja, pago por uso, bonos y almacenamiento opcional.                   |
+| REF-008 | The Workshop Madrid                 | `REFERENTE_NUCLEO_PARCIAL`           | `MEDIO-ALTO`   | Onboarding, familiarización inicial y membresía por horas.                       |
+| REF-006 | Made de Madera                      | `REFERENTE_NUCLEO_PARCIAL`           | `MEDIO-ALTO`   | Comunidad, conversión alumno→usuario y acompañamiento.                           |
+| REF-012 | Talleres TWM                        | `REFERENTE_NUCLEO_PARCIAL`           | `MEDIO-ALTO`   | Taller-proyecto con resultado concreto como embudo comercial.                    |
+| REF-004 | T11 Sevilla / Tejares 11            | `REFERENTE_NUCLEO_PARCIAL`           | `MEDIO`        | Comunidad, aula, zonificación, convivencia y gobernanza.                         |
+| REF-013 | La Termita                          | `REFERENTE_LOCAL_CONTEXTUAL`         | `MEDIO-ALTO`   | Señal local de demanda formativa en Zaragoza.                                    |
+| REF-014 | Garno Estudio                       | `REFERENTE_LOCAL_CONTEXTUAL`         | `MEDIO`        | Restauración decorativa, competencia parcial y posible aliado.                   |
+| REF-015 | La Falsa                            | `REFERENTE_LOCAL_CONTEXTUAL`         | `MEDIO`        | Restauración especializada, almoneda y posible colaboración.                     |
+| REF-016 | Working Restunearte                 | `REFERENTE_LOCAL_CONTEXTUAL`         | `MEDIO`        | Upcycling/restauración decorativa y economía circular local.                     |
+| REF-017 | Restaurarium                        | `REFERENTE_LOCAL_CONTEXTUAL`         | `MEDIO`        | Formación/restauración y posible continuidad de práctica.                        |
+| REF-019 | IES Virgen del Pilar                | `ALIADO_POTENCIAL`                   | `MEDIO-ALTO`   | Cantera técnica de egresados, validación y legitimidad.                          |
+| REF-020 | Zaragoza Dinámica / escuelas taller | `ALIADO_POTENCIAL`                   | `MEDIO`        | Formación y empleo; posible continuidad práctica.                                |
+| REF-021 | ESDA / EINA / Universidad           | `ALIADO_POTENCIAL`                   | `MEDIO`        | Prototipos físicos simples y conexión con diseño.                                |
+| REF-009 | La Fábrica de Hobbies               | `REFERENTE_NARRATIVO`                | `MEDIO`        | Bienestar manual, desconexión digital y cursos experienciales.                   |
+| REF-011 | El Secadero de Reviverdes           | `REFERENTE_NARRATIVO`                | `MEDIO`        | Experiencia artesanal, lugar con identidad y talleres-proyecto.                  |
+| REF-007 | TransfoLAB BCN                      | `REFERENTE_NARRATIVO_FUTURO`         | `MEDIO-BAJO`   | Economía circular e impacto; operación demasiado maker para Fase 1.              |
+| REF-001 | TMDC                                | `REFERENTE_FUTURO`                   | `BAJO`         | Visión de madurez industrial, no modelo de arranque.                             |
+| REF-010 | Artisano.cat                        | `REFERENTE_FUTURO`                   | `BAJO`         | B2B y producción comercial futura, no eje inicial.                               |
+| REF-018 | Zaragoza Maker Space / ETOPIA       | `REFERENTE_COMPLEMENTARIO_NO_NUCLEO` | `BAJO`         | Diferenciación y posible derivación externa; no modelo artesanal.                |
 
-* se parece al modelo de coworking de carpintería artesanal;
-* combina taller, formación, comunidad o acceso compartido;
-* ofrece información útil sobre precios, bonos o membresías;
-* valida la convivencia entre usuarios profesionales y aficionados;
-* ofrece señales sobre seguridad o supervisión;
-* ayuda a definir servicios iniciales;
-* es razonablemente adaptable a Zaragoza;
-* no depende principalmente de fabricación digital o maquinaria avanzada.
+---
 
-### 4.2 Referente secundario
+## 5. Núcleo comercial del MVP
 
-Un referente secundario no define el modelo base, pero aporta elementos útiles.
+### 5.1 Referentes seleccionados
 
-Puede servir para:
+El núcleo comercial inicial queda formado por:
 
-* precios puntuales;
-* cursos;
-* comunicación;
-* eventos;
+```text
+A tu Madera
+Cara y Canto
+The CoMAKING Space
+```
+
+Estos tres referentes son los más útiles para diseñar la oferta inicial porque aportan modelos comerciales claros y relativamente trasladables a Zaragoza.
+
+---
+
+### 5.2 Aporte de A tu Madera
+
+A tu Madera aporta la lógica de escalera comercial:
+
+```text
+usuario puntual
+→ usuario recurrente
+→ usuario profesional
+→ almacenamiento
+→ plan de mayor intensidad
+```
+
+Elementos que pasan al MVP:
+
+* entrada puntual;
+* plan básico o bono recurrente;
+* almacenamiento como valor;
+* progresión hacia usuario más intensivo;
+* separación entre uso ocasional y uso profesional.
+
+Elementos que no pasan al MVP inicial:
+
+* acceso 24/7;
+* taller privado;
+* demasiados planes desde el primer día;
+* estructura profesional avanzada sin demanda validada.
+
+---
+
+### 5.3 Aporte de Cara y Canto
+
+Cara y Canto aporta la lógica de escuela-taller con uso controlado:
+
+```text
+curso
+→ bono de horas
+→ reserva de espacio/maquinaria
+```
+
+Elementos que pasan al MVP:
+
+* formación como puerta de entrada;
+* bono de horas;
+* reserva previa;
+* maquinaria con acceso controlado;
+* separación entre cursos y uso autónomo;
+* materiales/consumibles facturados aparte.
+
+Elementos que no pasan al MVP inicial:
+
+* CNC;
+* exceso de cursos especializados;
+* caducidad demasiado rígida si genera fricción;
+* dependencia exclusiva del bono como único producto.
+
+---
+
+### 5.4 Aporte de The CoMAKING Space
+
+The CoMAKING Space aporta la lógica de baja barrera de entrada:
+
+```text
+membresía baja
++ pago por uso
++ bonos
++ almacenamiento opcional
+```
+
+Elementos que pasan al MVP:
+
+* pago por uso;
+* membresía baja o cuota de acceso simple;
+* bonos escalables;
+* almacenamiento opcional;
+* precios diferenciados según intensidad de uso;
+* prevención y documentación operativa como parte del modelo.
+
+Elementos que no pasan al MVP inicial:
+
+* herrería;
+* soldadura;
+* camperización;
+* amplitud industrial;
+* proyectos de gran tamaño;
+* dotación excesiva de maquinaria.
+
+---
+
+## 6. Núcleo parcial del MVP
+
+### 6.1 Referentes seleccionados
+
+El núcleo parcial queda formado por:
+
+```text
+The Workshop Madrid
+Made de Madera
+Talleres TWM
+T11 Sevilla / Tejares 11
+```
+
+Estos referentes no definen por sí solos el modelo comercial, pero aportan piezas fundamentales.
+
+---
+
+### 6.2 The Workshop Madrid
+
+Aporta:
+
+* onboarding;
+* familiarización inicial;
+* acceso urbano amable;
+* membresía sencilla por horas;
+* acompañamiento básico.
+
+Uso en Zaragoza:
+
+```text
+Convertir la inducción inicial en parte del producto, no en trámite informal.
+```
+
+---
+
+### 6.3 Made de Madera
+
+Aporta:
+
+* comunidad cercana;
+* ruta alumno→usuario;
+* acompañamiento;
+* clases y taller como ecosistema;
+* posible línea de muebles a medida.
+
+Uso en Zaragoza:
+
+```text
+Diseñar la formación como ruta hacia comunidad y recurrencia.
+```
+
+No usar como excusa para convertir el MVP en taller de encargos a medida.
+
+---
+
+### 6.4 Talleres TWM
+
+Aporta:
+
+* talleres-proyecto;
+* precio cerrado;
+* pieza concreta;
+* producto fácil de vender;
+* experiencia de entrada;
+* conversión potencial a cursos o bonos.
+
+Uso en Zaragoza:
+
+```text
+Usar talleres-proyecto como embudo comercial inicial.
+```
+
+Ejemplos posibles:
+
+* tabla;
+* banco pequeño;
+* reparación de silla;
+* estante;
+* pieza con madera recuperada;
+* iniciación a restauración.
+
+---
+
+### 6.5 T11 Sevilla / Tejares 11
+
+Aporta:
+
 * comunidad;
-* economía circular;
+* aula;
+* zona limpia;
+* convivencia;
+* gobernanza;
+* visión de ecosistema;
+* estructura espacial.
+
+Uso en Zaragoza:
+
+```text
+Diseñar el taller como ecosistema: producción, aprendizaje, convivencia y reglas.
+```
+
+No usar T11 para precios, porque no hay tarifa pública suficiente.
+
+---
+
+## 7. Referentes locales y actores contextuales
+
+### 7.1 Función de los actores locales
+
+Los actores locales no definen el MVP, pero ayudan a entender:
+
+* competencia formativa;
+* señales de demanda;
+* posibles alianzas;
+* segmentos iniciales;
+* oferta ya existente;
+* huecos no cubiertos.
+
+La estrategia correcta no es competir frontalmente con todos, sino diferenciarse por:
+
+```text
+taller abierto,
+bancos,
+maquinaria convencional,
+acceso controlado,
+almacenamiento,
+continuidad práctica,
+seguridad
+y comunidad.
+```
+
+---
+
+### 7.2 La Termita
+
+La Termita debe tratarse como:
+
+```text
+REFERENTE_LOCAL_CONTEXTUAL
+```
+
+Aporta señal de demanda local para cursos de carpintería, restauración, transformación y tapicería.
+
+Uso en Zaragoza:
+
+* referencia de formación artesanal local;
+* posible comparación de precios;
+* posible competidor formativo parcial;
+* posible aliado futuro si hay encaje.
+
+No debe copiarse como modelo único porque no resuelve el núcleo del CCA: acceso abierto controlado, bancos, almacenamiento y práctica autónoma.
+
+---
+
+### 7.3 Garno Estudio, La Falsa, Working Restunearte y Restaurarium
+
+Estos actores deben clasificarse como:
+
+```text
+ACTORES_LOCALES_CONTEXTUALES
+```
+
+Aportan lectura sobre:
+
+* restauración decorativa;
+* técnicas artesanales especializadas;
+* upcycling;
+* formación;
+* público interesado en muebles;
+* posibles alianzas.
+
+Uso en Zaragoza:
+
+* no competir frontalmente en sus especialidades;
+* diferenciarse por espacio, maquinaria, banco y continuidad;
+* explorar derivaciones o monográficos futuros;
+* validar demanda en restauración y transformación de muebles.
+
+---
+
+### 7.4 IES Virgen del Pilar, Zaragoza Dinámica, ESDA/EINA
+
+Estos actores deben clasificarse como:
+
+```text
+ALIADOS_POTENCIALES
+```
+
+No son clientes garantizados ni convenios cerrados.
+
+Uso en Zaragoza:
+
+* entrevistas de validación;
+* visitas;
+* contacto institucional;
+* cantera de egresados;
+* posibles programas de continuidad;
+* prototipos simples en madera;
+* legitimidad técnica.
+
+Regla:
+
+```text
+No convertir alianzas posibles en ingresos seguros.
+```
+
+---
+
+## 8. Referentes narrativos e identidad
+
+### 8.1 Referentes seleccionados
+
+Los referentes narrativos principales son:
+
+```text
+La Fábrica de Hobbies
+El Secadero de Reviverdes
+TransfoLAB BCN
+```
+
+Estos referentes no deben definir el modelo operativo, pero sí pueden inspirar la marca, el discurso y la experiencia.
+
+---
+
+### 8.2 Fatiga digital y trabajo manual
+
+La Fábrica de Hobbies y El Secadero ayudan a formular una narrativa:
+
+```text
+trabajo manual,
+desconexión de pantallas,
+bienestar,
+aprendizaje práctico,
+orgullo de fabricar,
+comunidad presencial.
+```
+
+Uso en Zaragoza:
+
+```text
+El taller no vende solo herramientas.
+Vende una experiencia manual, segura, formativa y comunitaria.
+```
+
+Riesgo:
+
+```text
+No convertir el proyecto en ocio superficial ni centro genérico de hobbies.
+```
+
+---
+
+### 8.3 Economía circular
+
+TransfoLAB BCN, El Secadero y Working Restunearte ayudan a reforzar la economía circular.
+
+Uso en Zaragoza:
+
 * restauración;
-* tapicería;
-* experiencia de usuario;
-* alianzas;
-* aprendizajes parciales.
+* reparación;
+* upcycling;
+* madera recuperada;
+* talleres de rescate;
+* transformación de muebles;
+* reducción de desperdicio.
 
-### 4.3 Referente contextual
+Regla:
 
-Un referente contextual ayuda a entender el ecosistema, pero no debe copiarse como modelo.
-
-Puede incluir:
-
-* actores locales;
-* centros de formación;
-* talleres especializados;
-* espacios culturales;
-* makerspaces;
-* iniciativas públicas;
-* asociaciones;
-* competidores indirectos;
-* posibles aliados.
-
-### 4.4 Referente descartado para Fase 1
-
-Un referente se descarta para Fase 1 si:
-
-* está demasiado centrado en CNC, láser, impresión 3D o fabricación digital;
-* opera como fablab tecnológico;
-* depende de maquinaria costosa no esencial;
-* se enfoca en producción industrial;
-* trabaja principalmente metal pesado o soldadura industrial;
-* no ofrece información útil para el modelo artesanal;
-* su escala, localización o coste lo hacen poco aplicable al arranque en Zaragoza.
-
-Descartar para Fase 1 no significa eliminarlo para siempre. Puede conservarse como referencia futura si contiene algún aprendizaje útil.
+```text
+La circularidad debe tener reglas operativas.
+No debe convertirse en acumulación desordenada de materiales.
+```
 
 ---
 
-## 5. Filtros de decisión
+## 9. Referentes de fase futura
 
-Antes de clasificar un referente, se deben responder estas preguntas.
+### 9.1 TMDC
 
-### 5.1 Similitud operativa
+TMDC queda como:
 
-* ¿Ofrece taller compartido?
-* ¿Permite acceso de usuarios externos?
-* ¿Tiene bancos de trabajo?
-* ¿Incluye maquinaria de carpintería convencional?
-* ¿Ofrece formación práctica?
-* ¿Tiene comunidad o membresía?
-* ¿Permite continuidad después del curso?
+```text
+REFERENTE_FUTURO
+```
 
-### 5.2 Similitud comercial
+Aporta:
 
-* ¿Publica precios?
-* ¿Tiene bonos o membresías?
-* ¿Cobra por horas, días o meses?
-* ¿Tiene cursos como canal de ingreso?
-* ¿Tiene servicios complementarios?
-* ¿Tiene almacenamiento de proyectos?
+* visión de madurez;
+* comunidad profesional;
+* sistema avanzado de monetización;
+* control por maquinaria;
+* infraestructura productiva;
+* profesionalización.
 
-### 5.3 Similitud de cliente
+No pasa a Fase 1:
 
-* ¿Atiende profesionales?
-* ¿Atiende aficionados?
-* ¿Atiende estudiantes o egresados?
-* ¿Atiende restauradores o tapiceros?
-* ¿Mezcla perfiles bajo reglas de seguridad?
+* CNC;
+* láser;
+* impresión 3D;
+* metal;
+* soldadura;
+* créditos complejos;
+* escala industrial;
+* acceso 24/7;
+* gran nave.
 
-### 5.4 Similitud técnica
+Lectura correcta:
 
-* ¿Usa herramientas manuales?
-* ¿Usa maquinaria estacionaria convencional?
-* ¿Exige inducción o supervisión?
-* ¿Tiene reglas de uso?
-* ¿Controla polvo, viruta o seguridad?
-* ¿Evita producción industrial en serie?
-
-### 5.5 Riesgo de contaminación
-
-* ¿Depende de CNC?
-* ¿Depende de corte láser?
-* ¿Depende de impresión 3D?
-* ¿Depende de metal pesado?
-* ¿Funciona como fablab tecnológico?
-* ¿Exige una inversión inicial superior al MVP?
-* ¿Desvía la identidad artesanal del proyecto?
+```text
+TMDC inspira la madurez, no el arranque.
+```
 
 ---
 
-## 6. Tabla de reducción de referentes
+### 9.2 Artisano.cat
 
-| ID          | Referente                 | Similitud preliminar | Aporte principal                                                 | Riesgo principal                                                  | Clasificación propuesta | Estado               |
-| :---------- | :------------------------ | :------------------- | :--------------------------------------------------------------- | :---------------------------------------------------------------- | :---------------------- | :------------------- |
-| **REF-001** | TMDC                      | `PENDIENTE`          | Seguridad, comunidad, membresías, escala operativa               | Posible contaminación maker/fabricación digital y escala superior | `PENDIENTE_CLASIFICAR`  | `PENDIENTE_ANALISIS` |
-| **REF-002** | A tu Madera               | `PENDIENTE`          | Modelo cercano de carpintería compartida, bonos, acceso flexible | Pendiente verificar estructura real y precios                     | `PENDIENTE_CLASIFICAR`  | `PENDIENTE_ANALISIS` |
-| **REF-003** | Cara y Canto              | `PENDIENTE`          | Cursos, bonos, ebanistería, restauración, embudo formativo       | Puede ser más escuela/taller que coworking pleno                  | `PENDIENTE_CLASIFICAR`  | `PENDIENTE_ANALISIS` |
-| **REF-004** | The CoMAKING Space        | `PENDIENTE`          | Comunidad, acceso compartido, posible modelo flexible            | Posible mezcla con fabricación digital o maker                    | `PENDIENTE_CLASIFICAR`  | `PENDIENTE_ANALISIS` |
-| **REF-005** | T11 Sevilla / Tejares 11  | `PENDIENTE`          | Comunidad artesanal, ecosistema urbano, posicionamiento          | Puede aportar menos datos tarifarios u operativos                 | `PENDIENTE_CLASIFICAR`  | `PENDIENTE_ANALISIS` |
-| **REF-006** | The Workshop Madrid       | `PENDIENTE`          | Formación, experiencia, taller urbano                            | Pendiente verificar similitud real con CCA                        | `PENDIENTE_CLASIFICAR`  | `PENDIENTE_ANALISIS` |
-| **REF-007** | Made de Madera            | `PENDIENTE`          | Formación o trabajo en madera                                    | Pendiente verificar información suficiente                        | `PENDIENTE_CLASIFICAR`  | `PENDIENTE_ANALISIS` |
-| **REF-008** | TransfoLAB Barcelona      | `PENDIENTE`          | Economía circular, reutilización, cultura material               | Posible orientación maker/fabricación/prototipado                 | `PENDIENTE_CLASIFICAR`  | `PENDIENTE_ANALISIS` |
-| **REF-009** | Artisano                  | `PENDIENTE`          | Formación artesanal o comunidad                                  | Pendiente verificar similitud real                                | `PENDIENTE_CLASIFICAR`  | `PENDIENTE_ANALISIS` |
-| **REF-010** | El Secadero de Reviverdes | `PENDIENTE`          | Experiencias, cursos, grupo, comunicación                        | Puede ser más experiencia/evento que coworking                    | `PENDIENTE_CLASIFICAR`  | `PENDIENTE_ANALISIS` |
-| **REF-011** | La Termita                | `PENDIENTE`          | Referente local, restauración, formación, demanda cercana        | No parece coworking pleno de carpintería                          | `PENDIENTE_CLASIFICAR`  | `PENDIENTE_ANALISIS` |
-| **REF-012** | Garno Estudio             | `PENDIENTE`          | Contexto local, posible formación o restauración                 | Puede ser competencia indirecta o actor parcial                   | `PENDIENTE_CLASIFICAR`  | `PENDIENTE_ANALISIS` |
-| **REF-013** | La Falsa                  | `PENDIENTE`          | Ecosistema creativo local                                        | Baja similitud operativa probable                                 | `PENDIENTE_CLASIFICAR`  | `PENDIENTE_ANALISIS` |
-| **REF-014** | Working Restunearte       | `PENDIENTE`          | Restauración, cursos, posible público local                      | Modelo parcial, no necesariamente coworking                       | `PENDIENTE_CLASIFICAR`  | `PENDIENTE_ANALISIS` |
-| **REF-015** | Restaurarium              | `PENDIENTE`          | Restauración, formación, referencia local                        | Modelo parcial, no necesariamente coworking                       | `PENDIENTE_CLASIFICAR`  | `PENDIENTE_ANALISIS` |
-| **REF-016** | La Corporación Taller     | `PENDIENTE`          | Escuela-taller, maquinaria, continuidad del oficio               | Referente fuera de España; requiere adaptación legal/local        | `PENDIENTE_CLASIFICAR`  | `PENDIENTE_ANALISIS` |
-| **REF-017** | Casa de Herramientas      | `PENDIENTE`          | Antecedente histórico y lecciones de modelo                      | Puede ser más aprendizaje de límites que modelo a copiar          | `PENDIENTE_CLASIFICAR`  | `PENDIENTE_ANALISIS` |
+Artisano.cat queda como:
 
----
+```text
+REFERENTE_FUTURO
+```
 
-## 7. Ficha de reducción por referente
+Aporta:
 
-Cada referente debe completarse con la siguiente ficha antes de clasificarlo definitivamente.
+* B2B;
+* señalética;
+* producción comercial;
+* encargos;
+* diversificación de ingresos.
+
+No pasa a Fase 1 como eje porque desplazaría el centro del proyecto hacia productora comercial.
+
+Lectura correcta:
+
+```text
+El B2B puede ser línea futura, no base del MVP.
+```
 
 ---
 
-### Referente: `[NOMBRE DEL REFERENTE]`
+### 9.3 TransfoLAB completo
 
-* **ID:**
-* **Fuente(s):**
-* **Similitud con Taller Zaragoza:** `ALTA / MEDIA / BAJA / DESCARTABLE`
-* **Clasificación propuesta:** `NUCLEO / SECUNDARIO / CONTEXTUAL / DESCARTADO_FASE_1`
-* **Estado de evidencia:** `ALTO / MEDIO / BAJO / PENDIENTE`
+TransfoLAB completo queda como:
 
-#### 7.1 Razón para considerar este referente
+```text
+REFERENTE_NARRATIVO_FUTURO
+```
 
-* Qué aporta:
-* Por qué se incluyó:
-* Qué duda ayuda a resolver:
+Aporta circularidad e impacto, pero no debe copiarse como maker space.
 
-#### 7.2 Elementos que sí pueden influir en Fase 1
+No pasa a Fase 1:
 
-* Servicios:
-* Precios:
-* Modelo de acceso:
-* Cursos:
-* Comunidad:
-* Seguridad:
-* Maquinaria:
-* Almacenamiento:
-* Economía circular:
-* Otros:
-
-#### 7.3 Elementos que deben adaptarse
-
-* Elemento:
-* Adaptación necesaria a Zaragoza:
-* Motivo de la adaptación:
-
-#### 7.4 Elementos que deben descartarse
-
-* Elemento:
-* Motivo:
-* Clasificación: `DESCARTAR_FASE_1 / FASE_FUTURA_CONDICIONAL / NO_APLICABLE`
-
-#### 7.5 Riesgos si se copia sin filtro
-
-* Riesgo financiero:
-* Riesgo operativo:
-* Riesgo legal o de permisos:
-* Riesgo de posicionamiento:
-* Riesgo de seguridad:
-* Otro riesgo:
-
-#### 7.6 Decisión de clasificación
-
-* Clasificación final:
-* Justificación:
-* Rol dentro del modelo Zaragoza:
+* CNC;
+* láser;
+* plasma;
+* lógica maker digital;
+* amplitud tecnológica;
+* operación compleja.
 
 ---
 
-## 8. Hipótesis iniciales de reducción
+## 10. Elementos que sí pasan al MVP
 
-Estas hipótesis son preliminares y deben validarse con la matriz.
+Los elementos que deben pasar a `05_decisiones_modelo_minimo_viable.md` son:
 
-### 8.1 Posibles referentes núcleo
-
-Podrían convertirse en referentes núcleo si la evidencia lo confirma:
-
-* A tu Madera
-* Cara y Canto
-* The CoMAKING Space
-* T11 Sevilla / Tejares 11
-* La Corporación Taller
-
-### 8.2 Posibles referentes secundarios
-
-Podrían funcionar como referentes secundarios:
-
-* TMDC
-* The Workshop Madrid
-* El Secadero de Reviverdes
-* TransfoLAB Barcelona
-* Made de Madera
-* Artisano
-
-### 8.3 Posibles referentes contextuales locales
-
-Podrían servir para entender Zaragoza, alianzas y competencia parcial:
-
-* La Termita
-* Garno Estudio
-* La Falsa
-* Working Restunearte
-* Restaurarium
-* centros de formación de oficios
-* actores creativos o maker locales, siempre filtrados
-
-### 8.4 Posibles referentes descartables para Fase 1
-
-Podrán descartarse como modelo base si están centrados en:
-
-* fabricación digital;
-* maquinaria avanzada;
-* metal pesado;
-* fablab tecnológico;
-* producción industrial;
-* experiencias puntuales sin continuidad;
-* formación sin acceso posterior a taller;
-* modelos demasiado costosos para el arranque.
+```text
+formación como puerta de entrada;
+taller-proyecto como embudo comercial;
+inducción obligatoria de seguridad;
+bonos de horas;
+pago por uso;
+posible membresía básica simple;
+almacenamiento opcional y limitado;
+reserva previa de maquinaria;
+separación entre acceso, materiales y consumibles;
+comunidad de usuarios;
+economía circular práctica;
+maquinaria estacionaria convencional imprescindible;
+crecimiento por fases.
+```
 
 ---
 
-## 9. Criterio para seleccionar referentes núcleo
+## 11. Elementos que no pasan al MVP
 
-Un referente solo debe pasar a núcleo si cumple al menos cuatro de estas condiciones:
+Los elementos que no deben pasar al MVP son:
 
-* tiene relación directa con carpintería, madera, ebanistería o restauración;
-* permite o sugiere acceso compartido a taller;
-* tiene cursos o formación práctica;
-* ofrece continuidad después del curso;
-* publica precios o modelos de acceso;
-* combina perfiles profesionales y aficionados;
-* tiene mecanismos de seguridad o supervisión;
-* es adaptable a una ciudad como Zaragoza;
-* no depende de fabricación digital para funcionar;
-* ayuda a definir el MVP con bajo CAPEX relativo.
-
----
-
-## 10. Criterio para descartar como modelo base
-
-Un referente debe descartarse como modelo base de Fase 1 si:
-
-* no aporta datos operativos;
-* no se parece al CCA;
-* está centrado en tecnología;
-* requiere inversión muy superior;
-* no tiene acceso de usuarios externos;
-* no combina formación y taller;
-* no tiene relación clara con madera/oficios afines;
-* solo sirve como inspiración estética o cultural;
-* su información disponible es demasiado débil.
-
-Puede mantenerse como referencia contextual si aporta algún aprendizaje.
+```text
+CNC propio;
+láser;
+impresión 3D;
+metal;
+soldadura;
+fabricación digital avanzada;
+sistema de créditos tipo TMDC;
+acceso 24/7;
+talleres privados profesionales;
+gran nave industrial;
+productora B2B como eje;
+centro genérico de hobbies;
+modelo cooperativo complejo sin análisis;
+alianzas institucionales como ingresos garantizados;
+demasiados cursos simultáneos;
+demasiadas tarifas desde el primer día.
+```
 
 ---
 
-## 11. Resultado esperado de la reducción
+## 12. Hipótesis comercial reducida
 
-Al cerrar este documento debe quedar una tabla final con:
+La hipótesis comercial derivada de la reducción es:
 
-| Categoría                          | Referentes incluidos | Motivo    |
-| :--------------------------------- | :------------------- | :-------- |
-| Referentes núcleo                  | Pendiente            | Pendiente |
-| Referentes secundarios             | Pendiente            | Pendiente |
-| Referentes contextuales            | Pendiente            | Pendiente |
-| Referentes descartados para Fase 1 | Pendiente            | Pendiente |
+```text
+El Taller Colaborativo Zaragoza debe arrancar como taller artesanal-escuela,
+con acceso gradual y controlado,
+combinando cursos,
+talleres-proyecto,
+bonos,
+pago por uso,
+almacenamiento opcional,
+comunidad
+y economía circular práctica.
+```
 
----
+La secuencia comercial preliminar sería:
 
-## 12. Síntesis final pendiente
-
-Esta sección debe completarse solo después de revisar las fuentes y la matriz.
-
-### 12.1 Referentes núcleo definitivos
-
-Pendiente.
-
-### 12.2 Referentes secundarios definitivos
-
-Pendiente.
-
-### 12.3 Referentes contextuales definitivos
-
-Pendiente.
-
-### 12.4 Referentes descartados para Fase 1
-
-Pendiente.
-
-### 12.5 Implicaciones para el modelo Zaragoza
-
-Pendiente.
+```text
+taller-proyecto o curso de entrada
+→ inducción de seguridad
+→ bono de horas
+→ pago por uso o membresía simple
+→ almacenamiento opcional
+→ plan recurrente
+→ plan profesional futuro solo si hay demanda validada
+```
 
 ---
 
-## 13. Regla de cierre
+## 13. Riesgos que siguen abiertos
 
-Este documento se considera cerrado cuando pueda afirmarse con evidencia:
+Aunque los referentes ayudan a reducir el modelo, siguen abiertos varios riesgos:
 
-* qué referentes definen el núcleo del modelo Zaragoza;
-* qué referentes solo aportan elementos parciales;
-* qué referentes sirven únicamente como contexto;
-* qué referentes deben descartarse para Fase 1;
-* qué elementos concretos se tomarán de cada uno;
-* qué elementos quedan fuera del MVP;
-* qué debe pasar al documento `05_decisiones_modelo_minimo_viable.md`.
+* demanda real en Zaragoza;
+* disposición a pagar;
+* local compatible;
+* coste de adecuación;
+* licencias y prevención;
+* seguros;
+* aforo;
+* supervisión necesaria;
+* margen por curso;
+* margen por bono;
+* conversión de alumnos a usuarios recurrentes;
+* saturación de maquinaria;
+* almacenamiento descontrolado;
+* dependencia del equipo promotor;
+* alianzas no confirmadas.
 
-Hasta entonces, toda clasificación debe mantenerse como preliminar.
+Estos riesgos deben pasar a validación, no resolverse solo con benchmarking.
+
+---
+
+## 14. Conclusión de reducción
+
+La reducción de referentes confirma que el MVP no debe inspirarse en el modelo más grande ni en el más tecnológico.
+
+Debe inspirarse en los modelos más simples, vendibles y controlables:
+
+```text
+A tu Madera
+Cara y Canto
+The CoMAKING Space
+The Workshop Madrid
+Made de Madera
+Talleres TWM
+T11 Sevilla
+La Termita como referencia local parcial
+```
+
+Conclusión operativa:
+
+```text
+El modelo Zaragoza debe arrancar pequeño, claro y validable:
+formación,
+talleres-proyecto,
+uso controlado del taller,
+bonos o pago por uso,
+almacenamiento limitado,
+comunidad,
+seguridad
+y economía circular práctica.
+```
+
+Este documento alimenta directamente:
+
+```text
+05_decisiones_modelo_minimo_viable.md
+```
+
+---
