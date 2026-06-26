@@ -165,3 +165,7 @@
   - espacios privados;
   - proyectos de gran escala;
   - complejidad operativa superior al MVP.
+
+  ---
+
+Soporte de fuentes: la investigación interna describe A tu Madera como un referente realista para Zaragoza y destaca la tarifa de mediodía de 25 €, el almacén de 3 m² en el plan básico de 200 € y el Profesional Plus de 500 €/mes con acceso 24/7 y taller privado de 12 m². La tabla comparativa del chat consolida tarifas como mediodía 25 €, día 45 €, básico 200 €/mes, profesional 400 €/mes y bono 40h por 200 €, marcándolo como de aplicabilidad muy alta para Zaragoza. El análisis de T11 también recoge el plan básico, profesional, profesional plus y bono 40 horas, con beneficios asociados como almacén, horas de máquinas y taller privado.
