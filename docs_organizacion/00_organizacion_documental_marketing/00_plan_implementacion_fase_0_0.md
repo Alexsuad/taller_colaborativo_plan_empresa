@@ -79,6 +79,7 @@ La carpeta debe contener solo estos elementos:
 00_plan_implementacion_fase_0_0.md
 01_inventario_descriptivo_fuentes_notebooklm.md
 02_matriz_depuracion_fuentes_notebooklm.md
+03_mapa_temas_y_subtemas_plan_empresa.md
 04_extracciones_documentales_notebooklm/
   ├── 00_indice_extracciones.md
   └── 01_bloque_01_equipo_promotor_origen.md
@@ -93,6 +94,7 @@ La carpeta debe contener solo estos elementos:
 | `00_plan_implementacion_fase_0_0.md` | Define qué se hace, qué no se hace y qué archivos existen en esta fase. |
 | `01_inventario_descriptivo_fuentes_notebooklm.md` | Resume las fuentes activas de NotebookLM y su posible utilidad. |
 | `02_matriz_depuracion_fuentes_notebooklm.md` | Detecta solapes, contradicciones, contaminación y prioridades de revisión. |
+| `03_mapa_temas_y_subtemas_plan_empresa.md` | Mapa maestro estructurado que desglosa en 26 bloques los temas y subtemas del plan. |
 | `04_extracciones_documentales_notebooklm/` | Sede que guarda las extracciones amplias de NotebookLM por cada bloque del mapa 03. Sirve como material documental de trabajo para el equipo de marketing/redacción, no es redacción final del plan, no contiene análisis de marketing y no sustituye los archivos 01, 02 ni 03. |
 
 ---
@@ -102,13 +104,14 @@ La carpeta debe contener solo estos elementos:
 El orden correcto es:
 
 ```text
-1. Crear este documento de control.
-2. Crear el inventario descriptivo de fuentes.
-3. Crear la matriz de depuración.
-4. Revisar si hace falta crear documentos adicionales.
+1. 00_plan_implementacion_fase_0_0.md (Plan de implementación)
+2. 01_inventario_descriptivo_fuentes_notebooklm.md (Inventario de fuentes)
+3. 02_matriz_depuracion_fuentes_notebooklm.md (Matriz de depuración)
+4. 03_mapa_temas_y_subtemas_plan_empresa.md (Mapa de temas y subtemas)
+5. 04_extracciones_documentales_notebooklm/ (Extracciones por bloque)
 ```
 
-No se crean más archivos hasta completar y revisar `01` y `02`.
+No se crean ni redactan más archivos de extracción hasta que las fases y documentos previos estén completados y aprobados.
 
 ---
 
