@@ -31,7 +31,7 @@ A continuación se detalla la estructura de bloques basada en el mapa de temas y
 | **Bloque 6** | Competencia y benchmarking | [06_bloque_06_competencia_benchmarking.md](./06_bloque_06_competencia_benchmarking.md) | `BORRADOR_APTO_COMO_PUENTE_CON_AJUSTES` | Documento puente de síntesis sobre competencia, sustitutos, benchmarking y calibración competitiva ya desarrollada. |
 | **Bloque 7** | Propuesta de valor | [07_bloque_07_propuesta_valor.md](./07_bloque_07_propuesta_valor.md) | `BORRADOR_DEPURADO_EN_REVISIÓN` | Extracción documental depurada sobre hipótesis de propuesta de valor, beneficios y tensiones. |
 | **Bloque 8** | Servicios y líneas de ingreso | [08_bloque_08_servicios_ingresos.md](./08_bloque_08_servicios_ingresos.md) | `BORRADOR_DEPURADO_EN_REVISIÓN` | Extracción documental depurada sobre servicios preliminares, líneas de ingreso, referencias de precios y riesgos de validación. |
-| **Bloque 9** | Modelo de acceso y uso del taller | `09_bloque_09_modelo_acceso.md` | `NO_INICIADO` | Pendiente de creación y extracción. |
+| **Bloque 9** | Modelo de acceso y uso del taller | [09_bloque_09_modelo_acceso.md](./09_bloque_09_modelo_acceso.md) | `BORRADOR_DEPURADO_EN_REVISIÓN` | Extracción documental depurada sobre modelo de acceso, uso, autorización, seguridad, reservas, almacenamiento y convivencia del taller. |
 | **Bloque 10** | Operaciones | `10_bloque_10_operaciones.md` | `NO_INICIADO` | Pendiente de creación y extracción. |
 | **Bloque 11** | Local e instalaciones | `11_bloque_11_local_instalaciones.md` | `NO_INICIADO` | Pendiente de creación y extracción. |
 | **Bloque 12** | Maquinaria, herramientas y activos fijos | `12_bloque_12_maquinaria_activos.md` | `NO_INICIADO` | Pendiente de creación y extracción. |
