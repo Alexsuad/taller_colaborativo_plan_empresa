@@ -6,7 +6,7 @@
 * **Tipo de documento:** Extracción documental depurada
 * **Función:** Organizar la información fuente sobre problema, necesidad y oportunidad
 * **Bloque:** Bloque 3 — Problema, necesidad y oportunidad
-* **Archivo destino:** `03_bloque_03_problema_necesidad_oportunidad.md`
+* **Archivo destino:** `03_bloque_03_problema_necesidad.md`
 
 ---
 
