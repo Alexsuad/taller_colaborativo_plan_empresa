@@ -27,7 +27,7 @@ A continuación se detalla la estructura de bloques basada en el mapa de temas y
 | **Bloque 2** | Idea de negocio | [02_bloque_02_idea_negocio.md](./02_bloque_02_idea_negocio.md) | `CONTENIDO_VOLCADO_PENDIENTE_REVISION` | Texto volcado y limpiado. Pendiente de revisión. |
 | **Bloque 3** | Problema, necesidad y oportunidad | [03_bloque_03_problema_necesidad.md](./03_bloque_03_problema_necesidad.md) | `BORRADOR_DEPURADO` | Extracción documental depurada de problema, necesidad y oportunidad. |
 | **Bloque 4** | Mercado local Zaragoza | [04_bloque_04_mercado_local.md](./04_bloque_04_mercado_local.md) | `BORRADOR_DEPURADO` | Extracción documental depurada del mercado local en Zaragoza. |
-| **Bloque 5** | Cliente objetivo | `05_bloque_05_cliente_objetivo.md` | `NO_INICIADO` | Pendiente de creación y extracción. |
+| **Bloque 5** | Cliente objetivo | [05_bloque_05_cliente_objetivo.md](./05_bloque_05_cliente_objetivo.md) | `BORRADOR_DEPURADO` | Extracción documental depurada sobre segmentos potenciales y cliente objetivo. |
 | **Bloque 6** | Competencia y benchmarking | `06_bloque_06_competencia_benchmarking.md` | `NO_INICIADO` | Pendiente de creación y extracción. |
 | **Bloque 7** | Propuesta de valor | `07_bloque_07_propuesta_valor.md` | `NO_INICIADO` | Pendiente de creación y extracción. |
 | **Bloque 8** | Servicios y líneas de ingreso | `08_bloque_08_servicios_ingresos.md` | `NO_INICIADO` | Pendiente de creación y extracción. |

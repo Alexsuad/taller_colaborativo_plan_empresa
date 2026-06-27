@@ -85,7 +85,8 @@ La carpeta debe contener solo estos elementos:
   ├── 01_bloque_01_equipo_promotor_origen.md
   ├── 02_bloque_02_idea_negocio.md
   ├── 03_bloque_03_problema_necesidad.md
-  └── 04_bloque_04_mercado_local.md
+  ├── 04_bloque_04_mercado_local.md
+  └── 05_bloque_05_cliente_objetivo.md
 05_calibracion_competitiva_modelo/
   ├── 01_plan_implementacion_calibracion_competitiva.md
   ├── 02_inventario_fuentes_competencia/
