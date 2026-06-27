@@ -29,7 +29,7 @@ A continuación se detalla la estructura de bloques basada en el mapa de temas y
 | **Bloque 4** | Mercado local Zaragoza | [04_bloque_04_mercado_local.md](./04_bloque_04_mercado_local.md) | `BORRADOR_DEPURADO_EN_REVISIÓN` | Extracción documental depurada del mercado local en Zaragoza. |
 | **Bloque 5** | Cliente objetivo | [05_bloque_05_cliente_objetivo.md](./05_bloque_05_cliente_objetivo.md) | `BORRADOR_DEPURADO_EN_REVISIÓN` | Extracción documental depurada sobre segmentos preliminares y perfiles potenciales. |
 | **Bloque 6** | Competencia y benchmarking | [06_bloque_06_competencia_benchmarking.md](./06_bloque_06_competencia_benchmarking.md) | `BORRADOR_APTO_COMO_PUENTE_CON_AJUSTES` | Documento puente de síntesis sobre competencia, sustitutos, benchmarking y calibración competitiva ya desarrollada. |
-| **Bloque 7** | Propuesta de valor | `07_bloque_07_propuesta_valor.md` | `EN_CUARENTENA / NO_INTEGRADO` | Pendiente de integración. Archivo temporal en cuarentena. |
+| **Bloque 7** | Propuesta de valor | [07_bloque_07_propuesta_valor.md](./07_bloque_07_propuesta_valor.md) | `BORRADOR_DEPURADO_EN_REVISIÓN` | Extracción documental depurada sobre hipótesis de propuesta de valor, beneficios y tensiones. |
 | **Bloque 8** | Servicios y líneas de ingreso | `08_bloque_08_servicios_ingresos.md` | `NO_INICIADO` | Pendiente de creación y extracción. |
 | **Bloque 9** | Modelo de acceso y uso del taller | `09_bloque_09_modelo_acceso.md` | `NO_INICIADO` | Pendiente de creación y extracción. |
 | **Bloque 10** | Operaciones | `10_bloque_10_operaciones.md` | `NO_INICIADO` | Pendiente de creación y extracción. |
