@@ -42,6 +42,7 @@ Este documento es el registro oficial de cambios del proyecto. Aquí se asientan
 | DEC-012 | 2026-06-23 | DECISION | Inicio de revisión crítica de matriz y vacíos accionables | Crear `docs_organizacion/03_revision_critica_matriz_vacios.md` para ordenar vacíos reales | N/A | N/A | Elaborar revisión crítica de vacíos | aplicado |
 | DEC-013 | 2026-06-23 | DECISION | Crear un mapa vivo de reutilización del repositorio | Distinguir capa metodológica de la capa específica del Taller | N/A | N/A | Redactar `docs_control/07_mapa_reutilizacion_repo.md` | aplicado |
 | DEC-014 | 2026-06-23 | DECISION | Evaluar matriz de clasificación de preguntas Red ARCE | Evitar redacción prematura o respuestas sin evidencias | N/A | N/A | Analizar e integrar propuesta de clasificación | pendiente |
+| DEC-015 | 2026-06-28 | DECISION | Incorporar el bloque 3.4 de benchmarking de inspiradores clave como ampliación propia del Taller | Ordenar inspiradores reales sin convertirlos en Red ARCE puro ni contaminar el plan | `plan_empresa_guia/00_indice_preguntas_guia.md`, `plan_empresa_guia/03_4_benchmarking_inspiradores.md`, `respuestas_plan_empresa/03_4_benchmarking_inspiradores.md`, `docs_organizacion/08_matriz_clasificacion_preguntas_red_arce.md` | `https://www.instagram.com/lacorporaciontaller/`, `https://atumaderacoworking.es/`, `https://www.instagram.com/cara.y.canto/` | Documentar bloque, espejo de respuestas y clasificación mixta | aplicado |
 
 ## Ejemplos de Uso del Registro para Pivotes y Cambios Vivos
 

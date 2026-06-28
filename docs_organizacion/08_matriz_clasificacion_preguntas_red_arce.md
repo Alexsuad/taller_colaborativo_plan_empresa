@@ -50,6 +50,7 @@ Estados permitidos:
 | 3.1.1 | 3.1 Análisis externo | ¿Qué factores del entorno general y sectorial afectan al taller en Zaragoza? | Pendiente | `[I-DEEP]` | `docs_organizacion/03_revision_critica_matriz_vacios.md` | Estudios sectoriales, contexto local, referencias oficiales | No procede todavía | PREPARAR_INVESTIGACION_PROFUNDA | INVESTIGACION | INVESTIGACION_PROFUNDA | BLOQUEA |
 | 3.2.1 | 3.2 Estudio de mercado | ¿Qué demanda, segmentos y competencia real existen para el taller colaborativo? | Pendiente | `[I-DEEP]+[M]` | `docs_organizacion/02_matriz_red_arce_fuentes_vacios.md`, `docs_organizacion/03_revision_critica_matriz_vacios.md` | Competencia local, benchmarking, referencias de mercado | Sí: acotar segmento objetivo inicial | PREPARAR_INVESTIGACION_PROFUNDA | INVESTIGACION | INVESTIGACION_PROFUNDA | BLOQUEA |
 | 3.3.1 | 3.3 Análisis interno | ¿Qué recursos, capacidades y límites operativos reales tiene el Taller para arrancar? | Parcial | `[F]+[U]` | `docs_control/00_contrato_identidad_negocio.md`, `docs_control/01_opcion_activa_taller.md`, `docs_organizacion/03_revision_critica_matriz_vacios.md` | No procede todavía | Sí: disponibilidad real de recursos y límites | PREGUNTAR_A_ALEXANDER | MIXTO | PREGUNTA_PROMOTOR | BLOQUEA |
+| 3.4.1 | 3.4 Benchmarking de inspiradores clave | ¿Qué puede aprender el Taller de La Corporación Taller, A tu Madera y Cara y Canto sin copiar ni sobredimensionar? | Pendiente | `[F]+[U]+[I-SIMPLE]+[I-DEEP]+[M]` | `docs_organizacion/00_organizacion_documental_marketing/05_calibracion_competitiva_modelo/02_inventario_fuentes_competencia/COMP-F003_investigacion_a_tu_madera.md`, `docs_organizacion/00_organizacion_documental_marketing/05_calibracion_competitiva_modelo/02_inventario_fuentes_competencia/COMP-F005_investigacion_cara_y_canto.md`, `docs_organizacion/00_organizacion_documental_marketing/05_calibracion_competitiva_modelo/03_matriz_referentes_competitivos.md`, `docs_control/04_registro_decisiones.md` | Fuentes internas, promotor, verificación web simple, investigación profunda y mixto | Sí: confirmar qué es inspiración útil y qué queda fuera | PREPARAR_INVESTIGACION_PROFUNDA | MIXTO | INVESTIGACION_PROFUNDA | BLOQUEA |
 | 4.1 | 4. DAFO / CAME | ¿Qué fortalezas, debilidades, oportunidades y amenazas pueden sostenerse con evidencia suficiente? | Pendiente | `[M]` | `docs_organizacion/02_matriz_red_arce_fuentes_vacios.md`, `docs_organizacion/03_revision_critica_matriz_vacios.md` | Depende de análisis externo e interno | Sí, después de completar 3.1, 3.2 y 3.3 | ESPERAR_RESPUESTA_PREVIA | MIXTO | REDACCION_BLOQUEADA | BLOQUEA |
 | 5.1 | 5. Objetivos y líneas estratégicas | ¿Qué objetivos cuantitativos y hitos de arranque quiere fijar el promotor? | Pendiente | `[U]+[M]` | `docs_control/01_opcion_activa_taller.md`, `docs_organizacion/03_revision_critica_matriz_vacios.md` | No procede todavía | Sí, definición directa del promotor | PREGUNTAR_A_ALEXANDER | PROMOTOR | PREGUNTA_PROMOTOR | BLOQUEA |
 | 6.0.1 | 6.0 Marca, comunicación y naming | ¿Cómo se debe expresar la marca y qué tono de comunicación es coherente con el Taller? | Parcial | `[F]+[U]` | `docs_control/01_opcion_activa_taller.md`, `docs_control/04_registro_decisiones.md` | No procede todavía | Sí, para validar tono y enfoque | EXTRAER_DE_FUENTE_INTERNA | MIXTO | CLASIFICACION | NO_BLOQUEA |
@@ -112,7 +113,15 @@ Estados permitidos:
 | Modelo comercial inicial | ¿Qué combinación de tarifas y servicios es viable? | Depende de mercado, operación y validaciones del promotor | Hipótesis comerciales priorizadas | Alta |
 | Viabilidad económica | ¿Qué supuestos financieros resisten mejor la comparación con datos reales? | Requiere integrar operación, mercado y costes | Hipótesis económicas con rango prudente | Alta |
 
-### 4.5 `[M]` — Casos mixtos
+### 4.5 `3.4 Benchmarking de inspiradores clave` — Origen mixto por referente
+
+| Referente | Origen esperado | Qué debe verificarse | Nivel de cautela |
+| --- | --- | --- | --- |
+| La Corporación Taller | `[U]`, `[F]`, `[I-DEEP]`, `[M]` | Testimonio del promotor, evidencia documentada y datos pendientes | Muy alta |
+| A tu Madera | `[F]`, `[I-SIMPLE]`, `[I-DEEP]`, `[M]` | Tarifas, horarios, servicios, acceso y señales operativas actuales | Alta |
+| Cara y Canto | `[F]`, `[I-SIMPLE]`, `[I-DEEP]`, `[M]` | Cursos, bonos, precios, plazas y reglas de uso actuales | Alta |
+
+### 4.6 `[M]` — Casos mixtos
 
 | Asunto | Componentes necesarios | Orden sugerido de resolución | Bloqueo actual |
 | ------ | ---------------------- | ---------------------------- | -------------- |
@@ -122,7 +131,7 @@ Estados permitidos:
 | Operaciones | Fuente interna + validación externa | Revisar local, luego validar requisitos | Bloquea |
 | Económico-financiero | Fuente interna + usuario + mercado | Fijar supuestos, luego validar prudencia | Bloquea |
 
-### 4.6 `[NO-RESPONDER-AÚN]` — Hipótesis no validables todavía
+### 4.7 `[NO-RESPONDER-AÚN]` — Hipótesis no validables todavía
 
 | Asunto | Estado correcto | Bloque Red ARCE |
 | ------ | --------------- | ---------------- |
