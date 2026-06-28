@@ -82,3 +82,24 @@ Producción editorial final, maquetación, inserción de anexos/gráficos y cons
 **Archivos asociados:**  
 - `respuestas_plan_empresa/` (todos los archivos)  
 - `_build/plan_empresa_taller_colaborativo_completo.md`  
+
+---
+
+## Gate de coherencia por cambios vivos (Control Transversal)
+
+Este gate de control transversal actúa como salvaguarda obligatoria antes de dar por cerrada cualquier sección individual de respuestas (`respuestas_plan_empresa/`) o compilar el documento final del plan de empresa. Garantiza la integridad del plan como **documento vivo**.
+
+### Criterios de Verificación Obligatorios
+
+Antes de cerrar una sección o compilar el entregable final, se debe auditar:
+1. **Pivotes y cambios registrados:** Comprobar si existe algún `PIVOTE`, `DECISION`, `REVALIDACION`, `CORRECCION` o `BLOQUEO` pendiente en `docs_control/04_registro_decisiones.md`.
+2. **Respuestas afectadas:** Verificar si las respuestas de la sección en cuestión coinciden con el estado actual de las decisiones y pivotes.
+3. **Reapertura de preguntas:** Evaluar si hay preguntas de la guía que deban reabrirse debido a un cambio estratégico.
+4. **Matriz de clasificación:** Confirmar que la clasificación de preguntas en `docs_organizacion/08_matriz_clasificacion_preguntas_red_arce.md` sigue siendo coherente con el pivote.
+5. **Consistencia del documento final:** Asegurar que la regeneración del documento final completo no introduzca contradicciones lógicas ni estructurales.
+
+### Reglas de Bloqueo Selectivo y General
+
+- **Bloqueo a Nivel de Sección:** Una sección de respuestas individual no podrá darse por cerrada si existen registros en `docs_control/04_registro_decisiones.md` con estado `pendiente`, `en_revisión` o `bloqueado` que afecten directa o transversalmente a esa sección.
+- **Bloqueo del Documento Final Completo:** La compilación y entrega del documento final completo (`_build/plan_empresa_taller_colaborativo_completo.md` u otros consolidados) quedará estrictamente **BLOQUEADA** si existe cualquier pivote, bloqueo, decisión o revalidación pendiente con impacto no resuelto (es decir, en estados `pendiente`, `en_revisión` o `bloqueado`) en el registro.
+
