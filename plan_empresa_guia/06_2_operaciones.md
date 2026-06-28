@@ -6,6 +6,8 @@ La **Guía Red ARCE** indica que el Plan de Operaciones debe explicar el proceso
 
 Este punto es clave porque conecta directamente con el marketing y con el plan financiero.
 
+**Nota de enfoque:** en esta fase del plan de negocio, las preguntas sobre local, infraestructura y condiciones técnicas se responden a nivel de viabilidad. No buscan diseñar el taller definitivo ni elaborar manuales operativos. Los detalles como distribución técnica exacta, protocolos de maquinaria, evacuación, PRL específica, carga y descarga detallada o reglamento interno quedarán para una fase posterior si el proyecto demuestra viabilidad.
+
 No sirve decir:
 
 > “Voy a vender 100 pedidos al mes”
@@ -766,5 +768,4 @@ De este punto deberían salir:
 Este punto queda bien trabajado si podemos decir:
 
 > “El emprendedor ya no solo sabe qué va a vender. Ahora sabe cómo lo va a producir, entregar, controlar, organizar y sostener en el día a día sin improvisar.”
-
 

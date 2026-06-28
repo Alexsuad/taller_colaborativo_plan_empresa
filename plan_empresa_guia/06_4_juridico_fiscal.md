@@ -34,6 +34,8 @@ El problema es que algunas de estas preguntas no se pueden dejar para el final. 
 
 Aquí no buscamos que el emprendedor sea abogado ni gestor. Buscamos que sepa qué debe revisar, qué decisiones debe tomar y qué ayuda profesional necesita.
 
+**Nota de enfoque:** en esta fase se identifican permisos, seguros y riesgos legales que pueden afectar la viabilidad. No se desarrollan todavía contratos definitivos, reglamentos internos, planes de PRL, protocolos legales completos ni documentación de apertura.
+
 ---
 
 # 6.4.1 Forma jurídica
@@ -848,6 +850,5 @@ De este punto deberían salir:
 Este punto queda bien trabajado si podemos decir:
 
 > “El emprendedor ya no ve lo legal y fiscal como algo que se mira al final. Ahora sabe qué forma jurídica puede necesitar, qué permisos debe revisar, cómo proteger la marca, qué datos tratará, qué contratos necesita, qué impuestos debe prever y qué riesgos pueden bloquear el negocio.”
-
 
 
