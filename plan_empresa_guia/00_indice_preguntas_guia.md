@@ -1,5 +1,10 @@
 # 00. Índice de Preguntas Guía
 
+Esta guía funciona como banco de preguntas para construir el plan de negocio.
+No todas las preguntas deben responderse con el mismo nivel de profundidad.
+Cada bloque debe resolverse según su impacto en la viabilidad del Taller Colaborativo.
+Las preguntas técnicas, reglamentarias o de apertura pueden quedar pendientes hasta una fase posterior si el proyecto resulta viable.
+
 ## Apartados principales
 
 0. Resumen ejecutivo

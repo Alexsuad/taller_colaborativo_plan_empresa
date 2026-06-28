@@ -84,7 +84,7 @@ La Guía Red ARCE explica la sostenibilidad como viabilidad económica, equidad 
 
 ## Ejemplo útil
 
-> El proyecto puede tener sostenibilidad económica si mantiene costes fijos bajos y valida ventas recurrentes antes de alquilar local. A nivel social, ayuda a familias con poco tiempo. A nivel medioambiental, deberá controlar el uso de envases para no contradecir su propuesta saludable y cercana.
+> El proyecto puede tener sostenibilidad económica si mantiene costes fijos bajos y valida reservas recurrentes antes de alquilar local propio. A nivel social, puede activar una comunidad de aprendizaje y oficio. A nivel medioambiental, deberá priorizar materiales duraderos, reparación y compra responsable para no contradecir su propuesta.
 
 ## Respuesta floja
 
@@ -132,7 +132,7 @@ No basta con que el emprendedor crea que el producto es bueno. Debe haber señal
 
 ## Ejemplo útil
 
-> La viabilidad comercial es moderadamente positiva porque hay un cliente inicial definido y un problema claro. Sin embargo, todavía falta validar si el precio propuesto será aceptado por suficientes clientes fuera del círculo cercano.
+> La viabilidad comercial es moderadamente positiva porque hay un cliente inicial definido y un problema claro. Sin embargo, todavía falta validar si el precio propuesto será aceptado por suficientes clientes fuera del círculo cercano y si el formato de acceso al taller encaja con su disposición real de compra.
 
 ## Qué parte del plan se rellena con esto
 
@@ -174,7 +174,7 @@ Un negocio puede tener clientes, pero fallar porque no puede producir, entregar 
 
 ## Ejemplo útil
 
-> La viabilidad operativa es posible si se limita el número inicial de pedidos. El mayor riesgo es que producción, atención al cliente y entregas dependen de una sola persona, por lo que se recomienda iniciar con cupos limitados y documentar el proceso.
+> La viabilidad operativa es posible si se limita el número inicial de sesiones y el uso simultáneo del espacio. El mayor riesgo es que coordinación, atención al usuario y control del taller dependan de una sola persona, por lo que se recomienda iniciar con cupos limitados y documentar el proceso.
 
 ## Qué parte del plan se rellena con esto
 
@@ -215,7 +215,7 @@ No hace falta tener todo resuelto al momento de escribir el plan, pero sí debe 
 
 ## Ejemplo útil
 
-> La viabilidad legal está condicionada a confirmar permisos sanitarios y condiciones del espacio de producción. No se recomienda iniciar ventas formales hasta resolver este punto.
+> La viabilidad legal está condicionada a confirmar la forma jurídica, los permisos aplicables al taller y las condiciones del espacio de trabajo. No se recomienda iniciar actividad formal hasta resolver este punto.
 
 ## Qué parte del plan se rellena con esto
 
@@ -418,7 +418,7 @@ La Guía Red ARCE pide identificar riesgos, valorar probabilidad e impacto, y lu
 | No conseguir clientes suficientes | Comercial  | Media        | Alta    | Alto  | Piloto antes de invertir     |
 | Costes mayores a lo previsto      | Financiero | Alta         | Media   | Alto  | Revisar precios mensualmente |
 | Falta de licencia                 | Legal      | Media        | Alta    | Alto  | Consultar antes de vender    |
-| Sobrecarga del emprendedor        | Humano     | Alta         | Alta    | Alto  | Limitar pedidos y delegar    |
+| Sobrecarga del emprendedor        | Humano     | Alta         | Alta    | Alto  | Limitar sesiones y delegar    |
 
 ---
 
@@ -655,8 +655,6 @@ Con este punto ya tenemos desarrollada la estructura principal:
 
 
 Y dentro de ese mapa habría una sección específica:
-
-
 
 
 

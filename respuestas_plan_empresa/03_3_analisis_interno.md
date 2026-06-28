@@ -1,4 +1,4 @@
-# 03 3 Analisis Interno
+# 03 3 Análisis Interno
 
 Estado: pendiente de respuesta.
 
@@ -8,11 +8,31 @@ Uso de este archivo:
 - No usar antecedentes no vigentes como fuente activa.
 - Citar o referenciar la fuente interna usada cuando aplique.
 
-## Respuesta de trabajo
+## Estado del bloque
 
 _Pendiente._
 
-## Fuentes internas previstas
+## Capacidades internas
+
+_Pendiente._
+
+## Recursos disponibles
+
+_Pendiente._
+
+## Limitaciones del promotor/proyecto
+
+_Pendiente._
+
+## Capacidad inicial
+
+_Pendiente._
+
+## Brechas internas
+
+_Pendiente._
+
+## Fuentes usadas / previstas
 
 _Pendiente._
 

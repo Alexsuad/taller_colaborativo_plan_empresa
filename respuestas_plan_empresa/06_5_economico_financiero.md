@@ -1,18 +1,34 @@
 # 06 5 Economico Financiero
 
-Estado: pendiente de respuesta.
+Estado del bloque: `pendiente de respuesta`.
 
 Uso de este archivo:
-- Responder únicamente con información propia del Taller Colaborativo Artesanal en Zaragoza.
+- Responder solo con información propia del Taller Colaborativo Artesanal en Zaragoza.
 - No copiar respuestas de otros proyectos.
 - No usar antecedentes no vigentes como fuente activa.
-- Citar o referenciar la fuente interna usada cuando aplique.
+- Mantener el foco en inversión, costes, equilibrio y escenarios de viabilidad.
 
-## Respuesta de trabajo
+## Supuestos de partida
 
 _Pendiente._
 
-## Fuentes internas previstas
+## Inversión y arranque
+
+_Pendiente._
+
+## Costes fijos y variables
+
+_Pendiente._
+
+## Ingresos, tesoreria y equilibrio
+
+_Pendiente._
+
+## Escenarios y remuneracion
+
+_Pendiente._
+
+## Fuentes usadas / previstas
 
 _Pendiente._
 

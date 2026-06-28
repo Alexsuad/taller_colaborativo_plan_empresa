@@ -1,18 +1,30 @@
 # 06 3 Recursos Humanos
 
-Estado: pendiente de respuesta.
+Estado del bloque: `pendiente de respuesta`.
 
 Uso de este archivo:
-- Responder únicamente con información propia del Taller Colaborativo Artesanal en Zaragoza.
+- Responder solo con información propia del Taller Colaborativo Artesanal en Zaragoza.
 - No copiar respuestas de otros proyectos.
 - No usar antecedentes no vigentes como fuente activa.
-- Citar o referenciar la fuente interna usada cuando aplique.
+- Mantener el foco en dedicación, roles y necesidades reales de apoyo.
 
-## Respuesta de trabajo
+## Roles y organigrama
 
 _Pendiente._
 
-## Fuentes internas previstas
+## Dedicación y jornada
+
+_Pendiente._
+
+## Necesidades de apoyo
+
+_Pendiente._
+
+## Formación y brechas
+
+_Pendiente._
+
+## Fuentes usadas / previstas
 
 _Pendiente._
 

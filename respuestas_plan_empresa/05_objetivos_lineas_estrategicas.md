@@ -1,18 +1,30 @@
-# 05 Objetivos Lineas Estrategicas
+# 05 Objetivos Líneas Estratégicas
 
-Estado: pendiente de respuesta.
+Estado del bloque: `pendiente de respuesta`.
 
 Uso de este archivo:
-- Responder únicamente con información propia del Taller Colaborativo Artesanal en Zaragoza.
+- Responder solo con información propia del Taller Colaborativo Artesanal en Zaragoza.
 - No copiar respuestas de otros proyectos.
 - No usar antecedentes no vigentes como fuente activa.
-- Citar o referenciar la fuente interna usada cuando aplique.
+- Mantener el foco en objetivos y prioridades coherentes con la viabilidad.
 
-## Respuesta de trabajo
+## Objetivos
 
 _Pendiente._
 
-## Fuentes internas previstas
+## Líneas estratégicas
+
+_Pendiente._
+
+## Prioridades e hitos
+
+_Pendiente._
+
+## Indicadores de seguimiento
+
+_Pendiente._
+
+## Fuentes usadas / previstas
 
 _Pendiente._
 

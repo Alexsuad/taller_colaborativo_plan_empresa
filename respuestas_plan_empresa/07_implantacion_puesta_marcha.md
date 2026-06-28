@@ -1,18 +1,30 @@
-# 07 Implantacion Puesta Marcha
+# 07 Implantación Puesta Marcha
 
-Estado: pendiente de respuesta.
+Estado del bloque: `pendiente de respuesta`.
 
 Uso de este archivo:
-- Responder únicamente con información propia del Taller Colaborativo Artesanal en Zaragoza.
+- Responder solo con información propia del Taller Colaborativo Artesanal en Zaragoza.
 - No copiar respuestas de otros proyectos.
 - No usar antecedentes no vigentes como fuente activa.
-- Citar o referenciar la fuente interna usada cuando aplique.
+- Mantener el foco en hitos y condiciones previas a la apertura.
 
-## Respuesta de trabajo
+## Cronograma
 
 _Pendiente._
 
-## Fuentes internas previstas
+## Hitos y dependencias
+
+_Pendiente._
+
+## Recursos y condicionantes
+
+_Pendiente._
+
+## Riesgos de implantación
+
+_Pendiente._
+
+## Fuentes usadas / previstas
 
 _Pendiente._
 

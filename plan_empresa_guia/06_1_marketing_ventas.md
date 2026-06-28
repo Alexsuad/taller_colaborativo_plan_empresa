@@ -36,10 +36,10 @@ Aquí vamos a ordenar lo que vendes.
 
 No basta decir:
 
-> “Vendo comida.”
-> “Hago fotos.”
-> “Ofrezco asesorías.”
-> “Vendo productos personalizados.”
+> “Abro un taller.”
+> “Hago muebles.”
+> “Ofrezco formación.”
+> “Vendo acceso.”
 
 Hay que explicar qué recibe exactamente el cliente.
 
@@ -69,11 +69,11 @@ La Guía Red ARCE pide describir producto o servicio, características, atributo
 
 ## Ejemplo útil
 
-> Venderé tres tipos de menús semanales: menú familiar básico, menú saludable y menú infantil. Cada menú incluirá 5 comidas preparadas, lista de ingredientes, alérgenos y entrega programada. No incluirá bebidas ni postres al inicio.
+> Venderé tres líneas iniciales: curso de iniciación, bono de uso del taller y acceso guiado por horas. Cada línea incluirá condiciones claras, reserva previa y límites de uso. No incluirá acceso libre ni maquinaria avanzada al inicio.
 
 ## Respuesta floja
 
-> Venderé comida casera.
+> Ofreceré un taller colaborativo.
 
 No basta. Falta formato, cantidad, frecuencia, condiciones y alcance.
 
@@ -122,7 +122,7 @@ Debe verse en hechos concretos.
 
 ## Ejemplo útil
 
-> El valor añadido será la planificación semanal. No solo vendo comida preparada; ayudo a familias a resolver las comidas de lunes a viernes con pedidos simples, ingredientes claros y entrega organizada.
+> El valor añadido será aprender y trabajar con apoyo. No solo alquilo un espacio; ayudo a personas a resolver la falta de lugar, herramientas y acompañamiento para empezar o continuar proyectos de madera.
 
 ## Respuesta floja
 
@@ -186,7 +186,7 @@ La Guía Red ARCE incluye los servicios asociados, como mantenimiento, atención
 
 ## Ejemplo útil
 
-> Ofreceré atención por WhatsApp para resolver dudas antes del pedido, entrega programada y posibilidad de ajustar menús con 48 horas de anticipación. No ofreceré cambios el mismo día porque afectaría la producción.
+> Ofreceré atención por WhatsApp para resolver dudas antes de la reserva, confirmación de hueco y posibilidad de ajustar la sesión con 24 o 48 horas de antelación. No ofreceré acceso improvisado ni cambios el mismo día porque afectaría la seguridad y la organización del taller.
 
 ## Qué parte del plan se rellena con esto
 
@@ -240,7 +240,7 @@ No se trata de copiar a la competencia. Se trata de saber cómo te vas a colocar
 
 ## Ejemplo útil
 
-> La competencia tiene más variedad y precios más bajos, pero mi negocio se diferenciará por pedidos personalizados, comunicación directa y menús adaptados a familias con niños.
+> La competencia tiene espacios más grandes o más especializados, pero mi negocio se diferenciará por acceso gradual, formación inicial, comunidad y un modelo más sencillo de entender para quien empieza.
 
 ## Qué parte del plan se rellena con esto
 
@@ -295,7 +295,7 @@ La Guía Red ARCE pide explicar estrategia de precios, cómo se determinaron, li
 
 ## Ejemplo útil
 
-> El menú semanal tendrá un precio base de 55 €. El precio se calculó considerando ingredientes, envases, tiempo de preparación, transporte y margen mínimo. Se pedirá una señal del 30% al reservar para evitar cancelaciones de último momento.
+> El bono de taller tendrá un precio base de 55 €. El precio se calculará considerando uso del espacio, horas de apoyo, desgaste básico y margen mínimo. Se pedirá una señal al reservar para evitar huecos sin cubrir.
 
 ## Respuesta floja
 
@@ -319,7 +319,7 @@ Puede ser peligroso si no cubre costes.
 
 Vender no es lo mismo que cobrar.
 
-Un negocio puede tener pedidos y aun así quedarse sin dinero si cobra tarde, cobra mal o no pide anticipos.
+Un negocio puede tener reservas o inscripciones y aun así quedarse sin dinero si cobra tarde, cobra mal o no pide anticipos.
 
 Aquí hay que definir cómo entra el dinero.
 
@@ -345,7 +345,7 @@ Aquí hay que definir cómo entra el dinero.
    * domiciliación.
 3. ¿Pedirás señal o anticipo?
 4. ¿Cuánto?
-5. ¿Cuándo se considera confirmado un pedido?
+5. ¿Cuándo se considera confirmada una reserva?
 6. ¿Habrá política de cancelación?
 7. ¿Qué pasa si el cliente no paga?
 8. ¿Qué pasa si paga tarde?
@@ -358,7 +358,7 @@ Aquí hay que definir cómo entra el dinero.
 
 ## Ejemplo útil
 
-> Los pedidos personalizados se confirmarán con el pago del 50% por adelantado. El resto se pagará antes de la entrega. Esto evita comprar materiales para pedidos que luego se cancelan.
+> Las reservas de taller se confirmarán con el pago del 50% por adelantado. El resto se pagará antes de la sesión. Esto evita bloquear huecos y comprar materiales para reservas que luego se cancelan.
 
 ## Qué parte del plan se rellena con esto
 
@@ -419,7 +419,7 @@ La Guía Red ARCE pide explicar estrategia de distribución, canales, intermedia
 
 ## Ejemplo útil
 
-> El canal principal será Instagram para mostrar productos y WhatsApp para cerrar pedidos. Las entregas se harán los lunes en dos puntos acordados. No habrá tienda online al inicio porque los pedidos serán personalizados.
+> El canal principal será Instagram para mostrar el taller y WhatsApp para cerrar reservas. Las sesiones se organizarán en dos franjas acordadas. No habrá tienda online al inicio porque el servicio será presencial y personalizado.
 
 ## Qué parte del plan se rellena con esto
 
@@ -481,7 +481,7 @@ La Guía Red ARCE pide detallar imagen corporativa, nombre, logotipo, materiales
 
 ## Ejemplo útil
 
-> La comunicación será cercana y familiar. El mensaje principal será: “Menús caseros para familias que quieren comer bien entre semana sin cocinar cada noche”. Se usarán fotos reales, testimonios de primeras pruebas y comunicación por Instagram y WhatsApp.
+> La comunicación será cercana y práctica. El mensaje principal será: “Un taller para aprender, reparar y trabajar madera con apoyo y acceso gradual”. Se usarán fotos reales, testimonios de primeras pruebas y comunicación por Instagram y WhatsApp.
 
 ## Qué parte del plan se rellena con esto
 
@@ -537,7 +537,7 @@ Hay que decir qué harás, cuándo, dónde, a quién y con qué objetivo.
 
 ## Ejemplo útil
 
-> Dos semanas antes del lanzamiento publicaré fotos del producto y abriré lista de espera por WhatsApp. La primera semana ofreceré 10 menús de prueba con precio especial a familias conocidas a cambio de opinión y reseña.
+> Dos semanas antes del lanzamiento publicaré fotos del taller y abriré lista de espera por WhatsApp. La primera semana ofreceré 10 sesiones de prueba con precio especial a personas cercanas a cambio de opinión y reseña.
 
 ## Qué parte del plan se rellena con esto
 
@@ -586,7 +586,7 @@ La Guía Red ARCE pide explicar estrategia de venta, organización de la fuerza 
 
 ## Ejemplo útil
 
-> Cada semana contactaré con 20 familias o contactos cercanos, publicaré 3 veces en Instagram, enviaré catálogo por WhatsApp a interesados y registraré consultas en una hoja de seguimiento. Haré seguimiento 48 horas después de enviar información.
+> Cada semana contactaré con 20 personas interesadas o contactos cercanos, publicaré 3 veces en Instagram, enviaré información por WhatsApp a interesados y registraré consultas en una hoja de seguimiento. Haré seguimiento 48 horas después de enviar información.
 
 ## Respuesta floja
 
@@ -783,5 +783,3 @@ De este punto deberían salir:
 Este punto queda bien trabajado si podemos decir:
 
 > “El emprendedor ya no solo sabe qué quiere vender. Ahora sabe cómo lo va a presentar, cuánto va a cobrar, cómo va a cobrar, por dónde va a vender, cómo va a conseguir sus primeros clientes y cómo sabrá si sus acciones comerciales funcionan.”
-
-

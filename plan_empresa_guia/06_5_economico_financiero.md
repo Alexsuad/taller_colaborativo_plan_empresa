@@ -60,12 +60,12 @@ Un supuesto es una idea base que usamos para calcular.
 
 Por ejemplo:
 
-* venderé 30 pedidos al mes;
-* cada pedido costará 45 €;
+* ofreceré 20 sesiones al mes;
+* cada sesión costará 45 €;
 * pagaré 300 € de gestoría al trimestre;
-* compraré materiales por 500 € iniciales;
+* compraré herramientas y material inicial por 500 €;
 * cobraré el 50% por adelantado;
-* trabajaré sin local durante los primeros 6 meses.
+* trabajaré sin local propio durante los primeros 6 meses.
 
 Si estos supuestos no se explican, los números parecen inventados.
 
@@ -98,7 +98,7 @@ Si estos supuestos no se explican, los números parecen inventados.
 
 ## Ejemplo útil
 
-> El plan financiero se calculará para 3 años. El negocio empezará sin local, con pedidos bajo reserva y sin empleados. Se estima vender 20 pedidos mensuales al inicio, con crecimiento progresivo hasta 60 pedidos mensuales al final del primer año. El precio medio será de 45 € y se cobrará el 50% por adelantado.
+> El plan financiero se calculará para 3 años. El negocio empezará sin local propio, con sesiones bajo reserva y sin empleados. Se estima ofrecer 20 sesiones mensuales al inicio, con crecimiento progresivo hasta 60 sesiones mensuales al final del primer año. El precio medio será de 45 € y se cobrará el 50% por adelantado.
 
 ## Respuesta floja
 
@@ -177,13 +177,13 @@ La Guía Red ARCE define el plan de inversiones como la estimación de gastos qu
 
 | Inversión            | Necesaria desde el inicio | Puede esperar | Coste estimado | Fuente del precio     | Comentario                      |
 | -------------------- | ------------------------- | ------------- | -------------: | --------------------- | ------------------------------- |
-| Herramientas básicas | Sí                        | No            |          800 € | Presupuesto proveedor | Necesarias para producir        |
-| Web completa         | No                        | Sí            |        1.200 € | Estimación            | Se pospone hasta validar ventas |
-| Envases iniciales    | Sí                        | No            |          150 € | Proveedor             | Para primer mes                 |
+| Herramientas básicas | Sí                        | No            |          800 € | Presupuesto proveedor | Necesarias para trabajar        |
+| Web completa         | No                        | Sí            |        1.200 € | Estimación            | Se pospone hasta validar viabilidad |
+| Material inicial     | Sí                        | No            |          150 € | Proveedor             | Para primer mes                 |
 
 ## Ejemplo útil
 
-> La inversión inicial se limitará a equipamiento básico, envases, permisos y material de comunicación. No se alquilará local ni se comprará maquinaria grande hasta validar ventas durante 6 meses.
+> La inversión inicial se limitará a equipamiento básico, material de trabajo, permisos y material de comunicación. No se alquilará local ni se comprará maquinaria grande hasta validar la actividad durante 6 meses.
 
 ## Qué parte del plan se rellena con esto
 
@@ -412,15 +412,14 @@ Si vendes más, suben. Si no vendes, no aparecen o aparecen menos.
 
 Ejemplos:
 
-* ingredientes;
-* materiales;
-* envases;
+* material consumible;
+* piezas y recambios;
+* consumibles de taller;
 * comisiones de plataforma;
-* envío;
+* transporte;
 * combustible;
-* embalaje;
+* embalaje de protección;
 * impresión;
-* piezas;
 * horas subcontratadas;
 * pasarela de pago;
 * materia prima.
@@ -440,7 +439,7 @@ Este cálculo es clave porque permite saber si cada venta deja ganancia.
 9. ¿Cuánto cuesta mano de obra externa por venta?
 10. ¿Hay desperdicio o merma?
 11. ¿Hay devoluciones?
-12. ¿El coste cambia según tamaño del pedido?
+12. ¿El coste cambia según el tamaño de la sesión o del servicio?
 13. ¿El coste baja si compras más cantidad?
 14. ¿Qué coste variable puede subir?
 15. ¿Qué coste variable estás olvidando?
@@ -452,7 +451,7 @@ Este cálculo es clave porque permite saber si cada venta deja ganancia.
 
 ## Ejemplo útil
 
-> Cada menú cuesta aproximadamente 22 € entre ingredientes, envase y transporte. Si se vende a 45 €, queda un margen bruto de 23 € antes de cubrir gastos fijos, tiempo propio e impuestos.
+> Cada sesión cuesta aproximadamente 22 € entre materiales, uso de herramientas y apoyo externo. Si se vende a 45 €, queda un margen bruto de 23 € antes de cubrir gastos fijos, tiempo propio e impuestos.
 
 ## Qué parte del plan se rellena con esto
 
@@ -527,7 +526,7 @@ Ingresos = ventas producto A + ventas producto B + ventas producto C
 
 ## Ejemplo útil
 
-> La previsión de ingresos parte de 20 pedidos el primer mes, 30 el segundo y 40 el tercero, con un precio medio de 45 €. Esta previsión se mantiene por debajo de la capacidad máxima inicial para evitar sobrecarga.
+> La previsión de ingresos parte de 20 sesiones el primer mes, 30 el segundo y 40 el tercero, con un precio medio de 45 €. Esta previsión se mantiene por debajo de la capacidad máxima inicial para evitar sobrecarga.
 
 ## Respuesta floja
 
@@ -584,7 +583,7 @@ La Guía Red ARCE explica que la tesorería refleja cobros y pagos para ver la s
 
 ## Ejemplo útil
 
-> Se cobrará el 50% de cada pedido por adelantado, lo que ayuda a financiar materiales. Aun así, se mantendrá una reserva mínima de 1.500 € para cubrir costes fijos y compras durante los primeros meses.
+> Se cobrará el 50% de cada sesión o reserva por adelantado, lo que ayuda a financiar materiales. Aun así, se mantendrá una reserva mínima de 1.500 € para cubrir costes fijos y compras durante los primeros meses.
 
 ## Qué parte del plan se rellena con esto
 
@@ -669,8 +668,8 @@ Punto de equilibrio = costes fijos / margen por venta
 Ejemplo:
 
 * costes fijos mensuales: 1.000 €;
-* margen por pedido: 20 €;
-* necesitas 50 pedidos al mes para cubrir gastos.
+* margen por sesión: 20 €;
+* necesitas 50 sesiones al mes para cubrir gastos.
 
 ## Preguntas para responder
 
@@ -692,7 +691,7 @@ Ejemplo:
 
 ## Ejemplo útil
 
-> Si los costes fijos son 800 € mensuales y cada pedido deja 20 € de margen, el negocio necesita 40 pedidos al mes para cubrir gastos fijos. Si además la promotora necesita retirar 900 €, necesitaría aproximadamente 85 pedidos al mes, lo cual supera su capacidad inicial. Por tanto, deberá ajustar expectativas o aumentar margen/capacidad.
+> Si los costes fijos son 800 € mensuales y cada sesión deja 20 € de margen, el negocio necesita 40 sesiones al mes para cubrir gastos fijos. Si además la promotora necesita retirar 900 €, necesitaría aproximadamente 85 sesiones al mes, lo cual supera su capacidad inicial. Por tanto, deberá ajustar expectativas o aumentar margen/capacidad.
 
 ## Qué parte del plan se rellena con esto
 
@@ -894,7 +893,7 @@ La pregunta clave es:
 
 ## Ejemplo útil
 
-> Sin ayudas, el negocio empezará sin local y sin web completa, usando pedidos bajo reserva y canales gratuitos. La subvención se destinaría a mejorar equipamiento, pero no será imprescindible para iniciar el piloto.
+> Sin ayudas, el negocio empezará sin local y sin web completa, usando reservas bajo cita y canales gratuitos. La subvención se destinaría a mejorar equipamiento, pero no será imprescindible para iniciar el piloto.
 
 ## Qué parte del plan se rellena con esto
 
@@ -945,7 +944,7 @@ Debe responder:
 
 ## Ejemplo útil
 
-> El proyecto requiere una inversión inicial moderada de 6.000 €, financiada principalmente con recursos propios. El punto de equilibrio se estima en 45 pedidos mensuales. El principal riesgo financiero es asumir costes fijos antes de validar ventas recurrentes.
+> El proyecto requiere una inversión inicial moderada de 6.000 €, financiada principalmente con recursos propios. El punto de equilibrio se estima en 45 sesiones mensuales. El principal riesgo financiero es asumir costes fijos antes de validar reservas recurrentes.
 
 ## Qué parte del plan se rellena con esto
 
@@ -1089,5 +1088,3 @@ Este punto queda bien trabajado si podemos decir:
 > “El emprendedor ya no está pensando solo en cuánto quiere vender. Ahora entiende cuánto cuesta arrancar, cuánto cuesta operar, cuánto debe vender para no perder, cuándo podrá cobrar, qué pasa si vende menos y si el negocio se sostiene incluso sin ayudas.”
 
 ---
-
-

@@ -1,18 +1,30 @@
 # 06 2 Operaciones
 
-Estado: pendiente de respuesta.
+Estado del bloque: `pendiente de respuesta`.
 
 Uso de este archivo:
-- Responder únicamente con información propia del Taller Colaborativo Artesanal en Zaragoza.
+- Responder solo con información propia del Taller Colaborativo Artesanal en Zaragoza.
 - No copiar respuestas de otros proyectos.
 - No usar antecedentes no vigentes como fuente activa.
-- Citar o referenciar la fuente interna usada cuando aplique.
+- Mantener el foco en viabilidad operativa, no en manual técnico.
 
-## Respuesta de trabajo
+## Modelo de operacion
 
 _Pendiente._
 
-## Fuentes internas previstas
+## Local e infraestructura
+
+_Pendiente._
+
+## Recursos y capacidad
+
+_Pendiente._
+
+## Riesgos operativos
+
+_Pendiente._
+
+## Fuentes usadas / previstas
 
 _Pendiente._
 

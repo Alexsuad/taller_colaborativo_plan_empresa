@@ -1,4 +1,4 @@
-# 03 2 Estudio Mercado
+# 03 2 Estudio de Mercado
 
 Estado: pendiente de respuesta.
 
@@ -8,11 +8,31 @@ Uso de este archivo:
 - No usar antecedentes no vigentes como fuente activa.
 - Citar o referenciar la fuente interna usada cuando aplique.
 
-## Respuesta de trabajo
+## Estado del bloque
 
 _Pendiente._
 
-## Fuentes internas previstas
+## Mercado objetivo
+
+_Pendiente._
+
+## Tamaño / alcance del mercado
+
+_Pendiente._
+
+## Competencia y alternativas
+
+_Pendiente._
+
+## Segmentos de clientes
+
+_Pendiente._
+
+## Conclusiones de mercado
+
+_Pendiente._
+
+## Fuentes usadas / previstas
 
 _Pendiente._
 
