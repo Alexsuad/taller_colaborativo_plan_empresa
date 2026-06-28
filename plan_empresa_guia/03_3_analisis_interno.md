@@ -82,7 +82,7 @@ Aquí vemos si sabes hacer el producto o prestar el servicio que quieres vender.
 
 Por ejemplo:
 
-* cocinar;
+* trabajar madera;
 * diseñar;
 * reparar;
 * programar;
@@ -147,7 +147,7 @@ La gestión es la parte menos visible, pero puede hundir un negocio si se descui
 1. ¿Has gestionado antes un negocio, proyecto, equipo o actividad?
 2. ¿Sabes organizar tareas por prioridad?
 3. ¿Sabes planificar una semana de trabajo?
-4. ¿Sabes controlar pedidos o citas?
+4. ¿Sabes controlar reservas o citas?
 5. ¿Sabes llevar una agenda?
 6. ¿Sabes hacer seguimiento a clientes?
 7. ¿Sabes guardar documentos importantes?
@@ -164,7 +164,7 @@ La gestión es la parte menos visible, pero puede hundir un negocio si se descui
 
 ## Ejemplo útil
 
-> Nunca he llevado un negocio, pero sí he coordinado pedidos y horarios en mi trabajo anterior. Me cuesta la parte de facturas e impuestos, así que desde el inicio trabajaré con una gestoría y usaré una hoja de control mensual.
+> Nunca he llevado un negocio, pero sí he coordinado reservas y horarios en mi trabajo anterior. Me cuesta la parte de facturas e impuestos, así que desde el inicio trabajaré con una gestoría y usaré una hoja de control mensual.
 
 ## Respuesta floja
 
@@ -280,7 +280,7 @@ Aquí queremos saber si el emprendedor tiene una base económica mínima o si el
 
 ## Ejemplo útil
 
-> Tengo 4.000 € de ahorro para arrancar. Necesito 1.100 € al mes para mis gastos personales. Puedo aguantar 5 meses sin sueldo completo. Por eso no alquilaré local al inicio y empezaré con pedidos bajo encargo para reducir inversión.
+> Tengo 4.000 € de ahorro para arrancar. Necesito 1.100 € al mes para mis gastos personales. Puedo aguantar 5 meses sin sueldo completo. Por eso no alquilaré local al inicio y empezaré con reservas para reducir inversión.
 
 ## Alerta importante
 
@@ -319,7 +319,7 @@ A veces el emprendedor tiene recursos útiles sin darse cuenta.
 6. ¿Tienes cámara, equipo de sonido, impresora o material técnico?
 7. ¿Tienes local, taller, habitación, garaje o espacio de trabajo?
 8. ¿Ese espacio se puede usar legalmente para la actividad?
-9. ¿Tienes muebles, estanterías, envases o materiales?
+9. ¿Tienes muebles, estanterías, material de protección o materiales?
 10. ¿Tienes stock inicial?
 11. ¿Tienes proveedores conocidos?
 12. ¿Tienes dominio web?
@@ -415,7 +415,7 @@ Esto es muy importante porque muchas veces el emprendedor calcula ventas sin pre
 
 Por ejemplo:
 
-* ¿cuántas tartas puedes hacer por semana?;
+* ¿cuántas piezas puedes trabajar por semana?;
 * ¿cuántos clientes puedes atender al día?;
 * ¿cuántas prendas puedes confeccionar?;
 * ¿cuántas webs puedes diseñar al mes?;
@@ -444,7 +444,7 @@ Por ejemplo:
 
 ## Ejemplo útil
 
-> Puedo preparar 20 menús semanales sin ayuda. Si supero esa cantidad, necesitaría apoyo en cocina o reparto. Mi cuello de botella será la preparación y envasado, no la captación de pedidos.
+> Puedo atender 20 sesiones semanales sin ayuda. Si supero esa cantidad, necesitaría apoyo en organización o acompañamiento. Mi cuello de botella será la preparación del espacio y el tiempo de atención, no la captación de reservas.
 
 ## Qué parte del plan se rellena con esto
 
@@ -577,7 +577,7 @@ En este punto nos enfocamos en hipótesis internas, es decir, cosas que dependen
 
 ## Ejemplo útil
 
-> Estoy suponiendo que puedo preparar 30 pedidos semanales sola, pero aún no lo he probado. Haré una semana piloto con 10 pedidos simulados para medir tiempos reales antes de aceptar más clientes.
+> Estoy suponiendo que puedo atender 30 reservas semanales sola, pero aún no lo he probado. Haré una semana piloto con 10 reservas simuladas para medir tiempos reales antes de aceptar más usuarios.
 
 ## Qué parte del plan se rellena con esto
 
@@ -697,4 +697,3 @@ El **3.3 Análisis interno** queda bien trabajado si podemos decir:
 
 
 ---
-

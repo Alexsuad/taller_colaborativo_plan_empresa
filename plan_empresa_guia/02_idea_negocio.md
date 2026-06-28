@@ -672,7 +672,7 @@ Preguntas para responder
 ¿Qué prueba pequeña puedes hacer antes de invertir mucho?
 Ejemplo útil
 
-Todavía no sé si puedo producir desde casa cumpliendo normativa sanitaria. Para resolverlo consultaré con el ayuntamiento y con una gestoría antes de invertir en maquinaria.
+Todavía no sé si el proyecto necesitará un local desde el inicio o si conviene validar primero con cursos, talleres-proyecto o servicios puntuales. Para resolverlo, revisaré requisitos básicos de actividad, costes de local y señales reales de demanda antes de invertir en maquinaria o alquiler.
 
 Qué parte del plan se rellena con esto
 Hipótesis pendientes.

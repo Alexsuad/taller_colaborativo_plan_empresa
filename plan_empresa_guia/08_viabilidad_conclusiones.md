@@ -496,7 +496,7 @@ No una decisión emocional, sino argumentada.
 ## Ejemplo útil
 
 > Decisión: GO con ajustes.
-> El proyecto puede avanzar en una versión reducida y sin local, siempre que antes se confirme normativa sanitaria, se realice piloto comercial y se valide el precio. No se recomienda asumir alquiler ni deuda hasta demostrar ventas recurrentes.
+> El proyecto puede avanzar en una versión reducida y sin local propio, siempre que antes se confirme la compatibilidad del espacio, se realice piloto comercial y se valide el precio. No se recomienda asumir alquiler ni deuda hasta demostrar uso recurrente.
 
 ---
 
@@ -655,6 +655,5 @@ Con este punto ya tenemos desarrollada la estructura principal:
 
 
 Y dentro de ese mapa habría una sección específica:
-
 
 

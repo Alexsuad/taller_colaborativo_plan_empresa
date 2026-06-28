@@ -592,7 +592,7 @@ Esto es importante porque no todos los negocios tienen el mismo riesgo.
 
 ## Ejemplo útil
 
-> La entrada requiere poca inversión si empiezo bajo pedido, pero la barrera legal puede ser alta por normativa sanitaria. La salida sería relativamente fácil si no alquilo local ni compro maquinaria grande al inicio.
+> La entrada puede ser más ligera si se valida primero con cursos o talleres-proyecto, pero puede volverse costosa si se alquila local, se compra maquinaria o se asumen adecuaciones antes de comprobar demanda suficiente.
 
 ## Qué parte del plan se rellena con esto
 

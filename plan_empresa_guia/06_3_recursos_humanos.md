@@ -34,7 +34,7 @@ Aunque empieces solo, el negocio tendrá varias funciones:
 * llevar redes;
 * hacer facturas;
 * hablar con proveedores;
-* entregar pedidos;
+* atender reservas;
 * resolver quejas;
 * revisar calidad;
 * hacer trámites;
@@ -155,7 +155,7 @@ Esto ayuda a ver que aunque seas una persona, el negocio tiene varias áreas.
 ## Ejemplo útil
 
 ```text
-Promotora principal: Laura Martínez
+Promotor/a principal: persona responsable del taller
 ├── Producción: Laura
 ├── Atención al cliente: Laura
 ├── Redes sociales: Laura con apoyo puntual de su hermana
@@ -191,7 +191,7 @@ Por ejemplo:
 * responder mensajes;
 * hacer fotos;
 * actualizar catálogo;
-* registrar pedidos;
+* registrar reservas;
 * pedir reseñas.
 
 ## Preguntas para responder
@@ -217,7 +217,7 @@ Por ejemplo:
 | Persona o apoyo | Rol              | Tareas concretas                      | Horas semanales | Necesita formación | Riesgo si falla |
 | --------------- | ---------------- | ------------------------------------- | --------------- | ------------------ | --------------- |
 | Laura           | Producción       | Cocinar, envasar, revisar calidad     | 20 h            | No                 | Alto            |
-| Laura           | Atención cliente | Responder WhatsApp, confirmar pedidos | 5 h             | Parcial            | Alto            |
+| Promotor/a      | Atención cliente | Responder WhatsApp, confirmar reservas | 5 h             | Parcial            | Alto            |
 | Gestoría        | Administración   | Impuestos, facturas, altas            | Mensual         | No                 | Alto            |
 | Hermana         | Apoyo marketing  | Fotos y publicaciones puntuales       | 3 h             | Parcial            | Medio           |
 
@@ -288,7 +288,7 @@ No se trata de contratar por contratar. Se trata de saber qué señal indicará 
 1. ¿Qué tarea será la primera que necesitarás delegar?
 2. ¿En qué momento necesitarás ayuda?
 3. ¿Qué volumen de ventas obligaría a contratar?
-4. ¿Qué volumen de pedidos ya no podrías manejar solo?
+4. ¿Qué volumen de reservas ya no podrías manejar solo?
 5. ¿Qué perfil necesitarías primero?
 6. ¿Sería empleo fijo, por horas, freelance, prácticas o colaboración?
 7. ¿Qué tareas haría esa persona?
@@ -310,7 +310,7 @@ No se trata de contratar por contratar. Se trata de saber qué señal indicará 
 
 ## Ejemplo útil
 
-> Si se superan 35 pedidos semanales durante dos meses consecutivos, se necesitará apoyo en preparación y envasado por horas. No se contratará personal fijo hasta comprobar ventas recurrentes.
+> Si se superan 35 reservas semanales durante dos meses consecutivos, se necesitará apoyo en preparación del espacio y atención por horas. No se contratará personal fijo hasta comprobar uso recurrente.
 
 ## Qué parte del plan se rellena con esto
 
@@ -365,7 +365,7 @@ La Guía Red ARCE pide indicar el perfil del personal a contratar y el método d
 
 ## Ejemplo útil
 
-> Para apoyo en cocina se buscará una persona con experiencia básica en manipulación de alimentos, orden, puntualidad y capacidad para seguir instrucciones. Se buscará primero por recomendaciones y, si no funciona, mediante INAEM.
+> Para apoyo en taller se buscará una persona con experiencia básica en carpintería, orden, puntualidad y capacidad para seguir instrucciones. Se buscará primero por recomendaciones y, si no funciona, mediante INAEM.
 
 ## Qué parte del plan se rellena con esto
 
@@ -408,7 +408,7 @@ No hace falta que el emprendedor lo domine todo, pero sí debe saber que hay que
 
 ## Ejemplo útil
 
-> No se contratará personal al inicio. Si más adelante se incorpora apoyo en cocina, se revisará con gestoría el convenio aplicable, salario, contrato, prevención de riesgos y coste total antes de tomar la decisión.
+> No se contratará personal al inicio. Si más adelante se incorpora apoyo en taller, se revisará con gestoría el convenio aplicable, salario, contrato, prevención de riesgos y coste total antes de tomar la decisión.
 
 ## Qué parte del plan se rellena con esto
 
@@ -440,7 +440,7 @@ Puedes trabajar con colaboradores externos como:
 * mantenimiento;
 * limpieza;
 * formador;
-* asesor sanitario.
+* asesor técnico.
 
 Pero hay que dejar claro qué hará cada uno y cuánto costará.
 
@@ -550,7 +550,7 @@ No es pesimismo. Es prevención.
 
 ## Ejemplo útil
 
-> El principal riesgo humano es que producción y atención al cliente dependen de una sola persona. Para reducirlo, se documentará el proceso de pedidos y se buscará apoyo puntual en momentos de alta demanda.
+> El principal riesgo humano es que actividad y atención al cliente dependen de una sola persona. Para reducirlo, se documentará el proceso de reservas y se buscará apoyo puntual en momentos de alta demanda.
 
 ## Qué parte del plan se rellena con esto
 
@@ -590,7 +590,7 @@ Este apartado identifica qué conocimientos necesita adquirir el emprendedor o e
 
 ## Ejemplo útil
 
-> Antes de lanzar, la promotora necesita formación básica en cálculo de costes, manipulación de alimentos y gestión de pedidos. Durante los primeros meses reforzará ventas por WhatsApp e Instagram.
+> Antes de lanzar, la promotora necesita formación básica en cálculo de costes, prevención de riesgos y gestión de reservas. Durante los primeros meses reforzará difusión por WhatsApp e Instagram.
 
 ## Qué parte del plan se rellena con esto
 
@@ -637,7 +637,7 @@ Por ejemplo:
 
 ## Ejemplo útil
 
-> La cultura de trabajo se basará en claridad, puntualidad, trato humano y no aceptar más pedidos de los que se puedan entregar bien. Se priorizará calidad y sostenibilidad del trabajo sobre crecimiento rápido.
+> La cultura de trabajo se basará en claridad, puntualidad, trato humano y no aceptar más reservas de las que se puedan atender bien. Se priorizará calidad y sostenibilidad del trabajo sobre crecimiento rápido.
 
 ## Qué parte del plan se rellena con esto
 
@@ -727,5 +727,4 @@ Este punto queda bien trabajado si podemos decir:
 > “El emprendedor ya no piensa solo en vender o producir. Ahora sabe quién hará cada cosa, cuánto tiempo requiere, qué apoyo externo necesita, qué tareas no puede asumir solo, cuándo tendría que contratar y qué riesgos humanos debe prevenir.”
 
 ---
-
 

@@ -102,7 +102,7 @@ No es lo mismo vender pan que vender productos de lujo. No es lo mismo vender a 
 
 ### Ejemplo útil
 
-> Mi producto no es de primera necesidad, por eso en épocas de crisis puede bajar la demanda. Para reducir el riesgo, empezaré con pedidos bajo encargo y evitaré tener mucho stock. El cliente objetivo no busca lo más barato, pero sí necesita ver claramente el valor antes de pagar.
+> Mi servicio no es de primera necesidad, por eso en épocas de crisis puede bajar la demanda. Para reducir el riesgo, empezaré con reservas limitadas y evitaré sobredimensionar el taller. El cliente objetivo no busca lo más barato, pero sí necesita ver claramente el valor antes de pagar.
 
 ### Qué anexo o parte del plan alimenta
 
@@ -154,7 +154,7 @@ Aquí entran cambios como:
 
 ### Ejemplo útil
 
-> La tendencia de familias con poco tiempo favorece el negocio de menús caseros por encargo. También hay más interés por comer saludable, pero muchas personas no tienen tiempo para planificar compras y cocinar entre semana.
+> La tendencia de personas que quieren aprender oficios manuales favorece el interés por talleres compartidos, cursos de iniciación y restauración de muebles. También hay más interés por reparar, reutilizar y aprender sin montar un taller propio de inicio.
 
 ### Qué anexo o parte del plan alimenta
 
@@ -190,7 +190,7 @@ No significa que el negocio tenga que ser una app. Incluso una panadería, una p
 
 * responder preguntas frecuentes;
 * preparar textos;
-* organizar pedidos;
+* organizar reservas;
 * analizar datos;
 * crear contenido;
 * mejorar atención al cliente.
@@ -202,7 +202,7 @@ No significa que el negocio tenga que ser una app. Incluso una panadería, una p
 
 ### Ejemplo útil
 
-> El negocio usará WhatsApp Business para pedidos, Instagram para mostrar productos y una hoja de cálculo para controlar encargos. Más adelante podría crear tienda online, pero al inicio no es necesario porque los pedidos serán personalizados.
+> El negocio usará WhatsApp Business para reservas, Instagram para mostrar proyectos y una hoja de cálculo para controlar sesiones. Más adelante podría crear web, pero al inicio no es necesario porque la actividad será local y personalizada.
 
 ### Qué anexo o parte del plan alimenta
 
@@ -233,7 +233,7 @@ En algunos negocios es central: alimentación, moda, artesanía, fabricación, t
    * químicos;
    * madera;
    * telas;
-   * envases;
+   * protección de piezas;
    * electrónicos.
 3. ¿Necesitas gestionar residuos de forma especial?
 4. ¿Puedes reducir desperdicio?
@@ -250,7 +250,7 @@ En algunos negocios es central: alimentación, moda, artesanía, fabricación, t
 
 ### Ejemplo útil
 
-> El negocio generará envases de comida. Se buscarán envases reciclables, pero esto aumentará el coste. La sostenibilidad será importante para la marca, aunque habrá que comprobar si el cliente está dispuesto a pagar un poco más por ello.
+> El negocio generará residuos de materiales y consumibles. Se buscarán opciones reutilizables o reciclables, pero esto puede aumentar el coste. La sostenibilidad será importante para la marca, aunque habrá que comprobar si el cliente está dispuesto a pagar un poco más por ello.
 
 ### Qué anexo o parte del plan alimenta
 
@@ -275,7 +275,7 @@ La presentación legal insiste en pensar desde temprano en marca, protección de
 ### Preguntas para responder
 
 1. ¿Tu actividad necesita licencia antes de empezar?
-2. ¿Necesita permiso sanitario?
+2. ¿Necesita permiso de actividad o licencia específica?
 3. ¿Necesita colegiación profesional?
 4. ¿Necesita seguro obligatorio?
 5. ¿Necesita contrato escrito con clientes?
@@ -296,7 +296,7 @@ La presentación legal insiste en pensar desde temprano en marca, protección de
 
 ### Ejemplo útil
 
-> Para vender comida preparada necesito revisar normativa sanitaria, condiciones del espacio de cocina, etiquetado de alérgenos y permisos municipales. También recogeré datos de clientes para entregas, por lo que necesitaré cumplir protección de datos.
+> Para abrir un taller colaborativo necesito revisar licencia de actividad, condiciones del espacio de trabajo, prevención de riesgos, seguros y permisos municipales. También recogeré datos de clientes para reservas, por lo que necesitaré cumplir protección de datos.
 
 ### Qué anexo o parte del plan alimenta
 
@@ -371,7 +371,7 @@ La Guía Red ARCE pide estudiar características económicas del sector, tamaño
 
 ## Ejemplo útil
 
-> El sector de comida preparada está creciendo por falta de tiempo de las familias, pero tiene mucha competencia indirecta: supermercados, delivery y restaurantes. La barrera principal es legal-sanitaria y de confianza. El atractivo existe, pero hay que diferenciarse mucho para no competir solo por precio.
+> El sector de talleres compartidos está creciendo por el interés en reparar, aprender y compartir herramientas, pero tiene competencia indirecta de cursos sueltos, makerspaces y trabajar en casa. La barrera principal es la confianza en el espacio, la seguridad y la claridad de uso. El atractivo existe, pero hay que diferenciarse mucho para no competir solo por precio.
 
 ## Qué parte del plan se rellena con esto
 

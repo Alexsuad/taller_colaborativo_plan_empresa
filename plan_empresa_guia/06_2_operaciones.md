@@ -10,11 +10,11 @@ Este punto es clave porque conecta directamente con el marketing y con el plan f
 
 No sirve decir:
 
-> “Voy a vender 100 pedidos al mes”
+> “Voy a gestionar 100 reservas al mes”
 
 si luego no sabes:
 
-* cuánto tardas en producir cada pedido;
+* cuánto tardas en preparar cada sesión;
 * quién lo hace;
 * con qué herramientas;
 * con qué proveedor;
@@ -39,11 +39,11 @@ Aquí no hablamos de vender, sino de cumplir.
 
 Por ejemplo:
 
-* si vendes comida, ¿cómo compras, cocinas, envasas y entregas?;
+* si ofreces talleres, ¿cómo reservas, preparas espacio, acompañas y cierras la sesión?;
 * si vendes muebles, ¿cómo consigues materiales, fabricas, acabas y entregas?;
 * si vendes una app, ¿cómo desarrollas, pruebas, corriges y das soporte?;
 * si das asesorías, ¿cómo recibes al cliente, analizas su caso, entregas el resultado y haces seguimiento?;
-* si tienes una tienda online, ¿cómo gestionas stock, pedidos, pagos, envíos y devoluciones?
+* si tienes una web, ¿cómo gestionas reservas, pagos, cambios y confirmaciones?
 
 Este punto evita uno de los errores más comunes:
 
@@ -90,7 +90,7 @@ Según el tipo de negocio, puedes:
 
 ## Ejemplo útil
 
-> El negocio funcionará bajo pedido. El cliente reserva el menú semanal por WhatsApp antes del viernes, se confirma con anticipo, se compran ingredientes el sábado, se cocina el lunes y se entrega el lunes por la tarde. No habrá stock de comida preparada sin pedido previo para evitar desperdicio.
+> El negocio funcionará por reserva. El cliente reserva la sesión por WhatsApp antes del viernes, se confirma con anticipo, se prepara el espacio el sábado y se realiza la actividad en la franja acordada. No habrá uso libre del taller sin reserva previa para evitar desorden y sobrecarga.
 
 ## Respuesta floja
 
@@ -156,7 +156,7 @@ Un buen flujo ayuda a detectar errores antes de que ocurran.
 
 ## Ejemplo útil
 
-> El cliente escribe por WhatsApp. Se responde en menos de 24 horas con opciones y precios. Confirma el pedido con el 50% por Bizum. Se registra en una hoja de pedidos. Se compran materiales los viernes. Se prepara el producto el sábado. Se entrega el domingo en punto acordado. Después se pide opinión y reseña.
+> El cliente escribe por WhatsApp. Se responde en menos de 24 horas con opciones y precios. Confirma la reserva con el 50% por Bizum. Se registra en una hoja de reservas. Se preparan materiales y espacio con antelación. Después se pide opinión y reseña.
 
 ## Qué parte del plan se rellena con esto
 
@@ -180,10 +180,10 @@ Este punto es muy importante porque muchas previsiones de ventas fallan por una 
 
 ## Preguntas para responder
 
-1. ¿Cuántos pedidos puedes atender al día?
-2. ¿Cuántos pedidos puedes atender a la semana?
+1. ¿Cuántas reservas puedes atender al día?
+2. ¿Cuántas reservas puedes atender a la semana?
 3. ¿Cuántos clientes puedes atender al mes?
-4. ¿Cuánto tiempo tarda cada pedido o servicio?
+4. ¿Cuánto tiempo tarda cada sesión o servicio?
 5. ¿Qué tarea consume más tiempo?
 6. ¿Qué tarea te limita más?
 7. ¿Cuál es tu cuello de botella?
@@ -198,21 +198,21 @@ Este punto es muy importante porque muchas previsiones de ventas fallan por una 
    * energía personal;
    * dinero;
    * personal.
-8. ¿Qué pasa si recibes el doble de pedidos?
+8. ¿Qué pasa si recibes el doble de reservas?
 9. ¿Qué pasa si alguien pide algo urgente?
-10. ¿Cuántos pedidos puedes aceptar sin bajar calidad?
-11. ¿Cuántos pedidos serían demasiados?
+10. ¿Cuántas reservas puedes aceptar sin bajar calidad?
+11. ¿Cuántas reservas serían demasiadas?
 12. ¿Qué necesitarías para aumentar capacidad?
 13. ¿Cuándo necesitarías contratar o pedir ayuda?
 14. ¿Tu previsión de ventas del punto anterior cabe dentro de esta capacidad?
 
 ## Ejemplo útil
 
-> Al inicio puedo atender 20 pedidos semanales. Cada pedido requiere 40 minutos entre preparación, envasado y control. Si supero los 25 pedidos, necesitaré ayuda en envasado o reparto. Por eso la previsión de ventas no debe superar ese límite durante los primeros tres meses.
+> Al inicio puedo atender 20 reservas semanales. Cada sesión requiere 40 minutos entre preparación, acompañamiento y cierre. Si supero las 25 reservas, necesitaré ayuda puntual en organización o atención. Por eso la previsión de uso no debe superar ese límite durante los primeros tres meses.
 
 ## Respuesta floja
 
-> Puedo atender todos los pedidos que lleguen.
+> Puedo atender todas las reservas que lleguen.
 
 No es realista. Todo negocio tiene límites.
 
@@ -243,7 +243,7 @@ No solo grandes inversiones. También cosas pequeñas que, si faltan, paran el n
 5. ¿Qué software necesitas?
 6. ¿Qué equipo informático necesitas?
 7. ¿Qué vehículo o transporte necesitas?
-8. ¿Qué envases o embalajes necesitas?
+8. ¿Qué materiales de protección o almacenamiento necesitas?
 9. ¿Qué espacio necesitas?
 10. ¿Qué permisos necesitas antes de usar ese espacio?
 11. ¿Qué proveedores necesitas?
@@ -264,7 +264,7 @@ No solo grandes inversiones. También cosas pequeñas que, si faltan, paran el n
 
 ## Ejemplo útil
 
-> Para iniciar necesito utensilios de cocina, envases, etiquetas, nevera, transporte para entregas, WhatsApp Business, hoja de pedidos y asesoría sanitaria. Ya tengo parte de los utensilios, pero debo comprar envases y revisar el espacio de producción.
+> Para iniciar necesito herramientas básicas, material de protección, espacio de almacenamiento, WhatsApp Business, hoja de reservas y asesoría técnica. Ya tengo parte de las herramientas, pero debo revisar el espacio de trabajo y comprar algunos consumibles.
 
 ## Qué parte del plan se rellena con esto
 
@@ -286,7 +286,7 @@ Un proveedor es quien te da algo necesario para operar:
 * productos;
 * materiales;
 * tecnología;
-* envases;
+* consumibles;
 * transporte;
 * servicios profesionales;
 * mantenimiento;
@@ -304,7 +304,7 @@ Si dependes de malos proveedores, puedes fallar al cliente.
 5. ¿Qué te ofrecen?
 6. ¿Qué precios tienen?
 7. ¿Qué plazos de entrega manejan?
-8. ¿Tienen pedido mínimo?
+8. ¿Tienen reserva mínima?
 9. ¿Tienen condiciones de pago?
 10. ¿Puedes comprarles sin ser empresa todavía?
 11. ¿Tienes más de una opción?
@@ -320,7 +320,7 @@ Si dependes de malos proveedores, puedes fallar al cliente.
 
 ## Ejemplo útil
 
-> Necesito proveedores de ingredientes frescos, envases y etiquetas. Tendré dos proveedores alternativos para ingredientes principales, porque si uno falla no puedo cancelar pedidos. El proveedor de envases es crítico porque afecta coste y presentación.
+> Necesito proveedores de materiales, consumibles y elementos de protección. Tendré dos proveedores alternativos para los materiales principales, porque si uno falla no puedo cancelar reservas. El proveedor de protección o consumibles es crítico porque afecta coste y presentación del taller.
 
 ## Respuesta floja
 
@@ -365,11 +365,11 @@ En algunos negocios no habrá stock. En otros será crítico.
 15. ¿Qué productos tienen más rotación?
 16. ¿Qué productos pueden quedarse parados?
 17. ¿El stock inmoviliza mucho dinero?
-18. ¿Puedes trabajar bajo pedido para reducir stock?
+18. ¿Puedes trabajar por reserva para reducir stock?
 
 ## Ejemplo útil
 
-> Trabajaré con stock mínimo de envases y materiales secos, pero no tendré comida preparada sin pedido previo. Esto reduce desperdicio y evita inmovilizar dinero en productos perecederos.
+> Trabajaré con stock mínimo de consumibles y materiales básicos, pero no tendré sesiones abiertas sin reserva previa. Esto reduce desperdicio y evita inmovilizar dinero en materiales.
 
 ## Qué parte del plan se rellena con esto
 
@@ -394,7 +394,7 @@ Puede ser:
 * oficina;
 * casa;
 * coworking;
-* cocina compartida;
+* taller compartido;
 * almacén;
 * vehículo;
 * tienda online;
@@ -410,7 +410,7 @@ La Guía Red ARCE pide indicar ubicación, ventajas e inconvenientes, instalacio
 4. ¿Necesitas taller?
 5. ¿Necesitas almacén?
 6. ¿Necesitas oficina?
-7. ¿Necesitas cocina, sala, cabina o espacio especializado?
+7. ¿Necesitas taller, sala, cabina o espacio especializado?
 8. ¿Necesitas atención presencial?
 9. ¿La ubicación es importante para vender?
 10. ¿El cliente debe desplazarse?
@@ -429,7 +429,7 @@ La Guía Red ARCE pide indicar ubicación, ventajas e inconvenientes, instalacio
 
 ## Ejemplo útil
 
-> Al inicio no se alquilará local. Se estudiará el uso de cocina compartida autorizada para reducir inversión y validar ventas. La ubicación será menos importante al inicio porque la venta será por encargo y entrega programada.
+> Al inicio no se alquilará local. Se estudiará el uso de un taller compartido compatible para reducir inversión y validar la demanda. La ubicación será importante, pero se priorizará un espacio flexible y seguro al inicio.
 
 ## Respuesta floja
 
@@ -490,7 +490,7 @@ Aquí no se trata de usar tecnología por moda, sino para ahorrar tiempo y evita
 
 ## Ejemplo útil
 
-> Usaré WhatsApp Business para pedidos, Google Sheets para controlar ventas y pagos, Canva para catálogo, y una plantilla de IA solo para redactar respuestas frecuentes. No usaré IA para gestionar datos sensibles de clientes.
+> Usaré WhatsApp Business para reservas, Google Sheets para controlar uso y pagos, Canva para catálogo, y una plantilla de IA solo para redactar respuestas frecuentes. No usaré IA para gestionar datos sensibles de clientes.
 
 ## Qué parte del plan se rellena con esto
 
@@ -535,7 +535,7 @@ No importa si haces comida, fotos, muebles, asesoría, apps o cursos. Siempre de
 
 ## Ejemplo útil
 
-> Antes de entregar cada pedido revisaré cantidad, presentación, etiquetado, alérgenos y temperatura adecuada. Si hay un error atribuible al negocio, se ofrecerá reposición o devolución parcial según el caso.
+> Antes de cerrar cada sesión revisaré materiales, seguridad, orden y estado del espacio. Si hay un error atribuible al negocio, se ofrecerá reposición de tiempo o devolución parcial según el caso.
 
 ## Qué parte del plan se rellena con esto
 
@@ -613,9 +613,9 @@ Por ejemplo:
 2. ¿Qué proveedor puede fallar?
 3. ¿Qué herramienta puede romperse?
 4. ¿Qué pasa si tú enfermas?
-5. ¿Qué pasa si hay demasiados pedidos?
+5. ¿Qué pasa si hay demasiadas reservas?
 6. ¿Qué pasa si no llegan materiales?
-7. ¿Qué pasa si un pedido sale mal?
+7. ¿Qué pasa si una sesión sale mal?
 8. ¿Qué pasa si el cliente cancela?
 9. ¿Qué pasa si hay retrasos?
 10. ¿Qué pasa si suben costes?
@@ -628,7 +628,7 @@ Por ejemplo:
 
 ## Ejemplo útil
 
-> Los principales riesgos son retrasos de proveedores, exceso de pedidos y dependencia de una sola persona. Para reducirlos, se limitarán pedidos semanales, se tendrá proveedor alternativo y se documentará el proceso básico.
+> Los principales riesgos son retrasos de proveedores, exceso de reservas y dependencia de una sola persona. Para reducirlos, se limitarán sesiones semanales, se tendrá proveedor alternativo y se documentará el proceso básico.
 
 ## Qué parte del plan se rellena con esto
 
@@ -679,7 +679,7 @@ Puede ser:
 
 ## Ejemplo útil
 
-> Trabajar bajo pedido reduce desperdicio, evita stock innecesario y permite personalizar el menú. Además, el uso de WhatsApp simplifica la comunicación y reduce barreras de compra para el cliente.
+> Trabajar por reserva reduce desperdicio, evita stock innecesario y permite personalizar la sesión. Además, el uso de WhatsApp simplifica la comunicación y reduce barreras de compra para el cliente.
 
 ## Qué parte del plan se rellena con esto
 
@@ -702,7 +702,7 @@ Al cerrar este punto, el sistema debería poder responder:
 | ¿Sabemos cuánta capacidad inicial existe?            | Sí / No            |
 | ¿Sabemos qué recursos son necesarios?                | Sí / No            |
 | ¿Sabemos qué proveedores se necesitan?               | Sí / No            |
-| ¿Sabemos si habrá stock o trabajo bajo pedido?       | Sí / No            |
+| ¿Sabemos si habrá stock o trabajo por reserva?       | Sí / No            |
 | ¿Sabemos desde dónde operará el negocio?             | Sí / No            |
 | ¿Sabemos qué herramientas digitales se usarán?       | Sí / No            |
 | ¿Hay control de calidad definido?                    | Sí / No            |
@@ -720,7 +720,7 @@ Al cerrar este punto, el sistema debería poder responder:
 | “Compraré materiales cuando necesite” | Puede causar retrasos    | ¿Quién es el proveedor y cuánto tarda?                    |
 | “Entregaré rápido”                    | No define plazo real     | ¿En cuánto tiempo exacto y bajo qué condiciones?          |
 | “La calidad será buena”               | No hay control           | ¿Qué revisarás antes de entregar?                         |
-| “No necesito proceso”                 | Riesgo de improvisación  | ¿Qué pasa desde que entra un pedido hasta que se entrega? |
+| “No necesito proceso”                 | Riesgo de improvisación  | ¿Qué pasa desde que entra una reserva hasta que se completa la sesión? |
 | “No tendré problemas”                 | Poco realista            | ¿Qué puede fallar y cuál es tu plan B?                    |
 | “Abriré un local”                     | Falta análisis           | ¿Necesitas licencia, reforma, inversión y aforo?          |
 | “Usaré tecnología”                    | Muy general              | ¿Qué herramienta concreta y para qué tarea?               |
@@ -731,9 +731,9 @@ Al cerrar este punto, el sistema debería poder responder:
 
 Con las respuestas, el sistema podrá redactar algo así:
 
-> El modelo operativo del proyecto se basará en [producción propia / prestación directa / subcontratación / venta bajo pedido / stock / modelo mixto]. El proceso comenzará con [primer paso] y finalizará con [entrega, soporte o seguimiento], siguiendo un flujo organizado en [etapas].
+> El modelo operativo del proyecto se basará en [prestación directa / subcontratación / venta por reserva / stock / modelo mixto]. El proceso comenzará con [primer paso] y finalizará con [cierre de sesión, soporte o seguimiento], siguiendo un flujo organizado en [etapas].
 >
-> La capacidad inicial se estima en [número de pedidos/clientes/servicios] por [día/semana/mes], condicionada por [tiempo, recursos, proveedores, espacio o personal].
+> La capacidad inicial se estima en [número de reservas/clientes/servicios] por [día/semana/mes], condicionada por [tiempo, recursos, proveedores, espacio o personal].
 >
 > Para operar serán necesarios [recursos], contando inicialmente con [recursos disponibles] y debiendo incorporar [recursos pendientes]. Los principales proveedores serán [proveedores o tipos de proveedor].
 >
@@ -752,7 +752,7 @@ De este punto deberían salir:
 5. Lista de recursos disponibles.
 6. Lista de proveedores.
 7. Sistema de aprovisionamiento.
-8. Sistema de stock o trabajo bajo pedido.
+8. Sistema de stock o trabajo por reserva.
 9. Definición de ubicación o infraestructura.
 10. Herramientas digitales operativas.
 11. Control de calidad.
@@ -768,4 +768,3 @@ De este punto deberían salir:
 Este punto queda bien trabajado si podemos decir:
 
 > “El emprendedor ya no solo sabe qué va a vender. Ahora sabe cómo lo va a producir, entregar, controlar, organizar y sostener en el día a día sin improvisar.”
-

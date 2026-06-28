@@ -63,7 +63,7 @@ Es el camino que eliges para lograrlo.
 
 Ejemplo:
 
-> Empezar con pedidos bajo reserva, vender por WhatsApp e Instagram y apoyarse en recomendaciones del barrio.
+> Empezar con reservas, vender por WhatsApp e Instagram y apoyarse en recomendaciones del barrio.
 
 Dicho fácil:
 
@@ -104,7 +104,7 @@ No son solo ventas. También pueden hablar de clientes, posicionamiento, ubicaci
 
 ## Ejemplo útil
 
-> Durante los primeros 6 meses, el objetivo empresarial será validar el modelo de pedidos semanales con 30 familias recurrentes en Zaragoza, sin alquilar local propio, para reducir riesgo y comprobar demanda real.
+> Durante los primeros 6 meses, el objetivo empresarial será validar el modelo de uso compartido del taller con 30 personas recurrentes en Zaragoza, sin alquilar local propio, para reducir riesgo y comprobar demanda real.
 
 ## Respuesta floja
 
@@ -151,7 +151,7 @@ Si dices que venderás mucho, pero no sabes cuántos clientes necesitas, el plan
 
 ## Ejemplo útil
 
-> El objetivo comercial inicial será conseguir 10 clientes de prueba en el primer mes, 20 clientes recurrentes al tercer mes y 40 pedidos mensuales al sexto mes, con un ticket medio estimado de 45 €.
+> El objetivo comercial inicial será conseguir 10 usuarios de prueba en el primer mes, 20 usuarios recurrentes al tercer mes y 40 reservas mensuales al sexto mes, con un ticket medio estimado de 45 €.
 
 ## Respuesta floja
 
@@ -254,7 +254,7 @@ A veces conviene empezar pequeño, validar y luego invertir.
 
 ## Ejemplo útil
 
-> La inversión inicial se limitará a herramientas básicas, permisos, gestoría, envases y material de comunicación. La inversión en local se pospondrá hasta validar ventas recurrentes durante al menos 6 meses.
+> La inversión inicial se limitará a herramientas básicas, permisos, gestoría, material de protección y material de comunicación. La inversión en local se pospondrá hasta validar uso recurrente durante al menos 6 meses.
 
 ## Qué parte del plan se rellena con esto
 
@@ -450,7 +450,7 @@ Por ejemplo:
 
 ## Ejemplo útil
 
-> La línea estratégica principal será la especialización en menús caseros semanales para familias con niños, evitando competir por precio frente a supermercados y delivery. Se empezará con pedidos bajo reserva para reducir desperdicio e inversión inicial.
+> La línea estratégica principal será la especialización en acceso gradual al taller para personas interesadas en carpintería y restauración, evitando competir por precio frente a espacios ya consolidados. Se empezará con reservas para reducir inversión inicial.
 
 ## Qué parte del plan se rellena con esto
 
@@ -470,7 +470,7 @@ Consiste en enfocarte en algo concreto.
 
 Ejemplo:
 
-> No vendo comida para todos. Vendo menús caseros para familias con niños.
+> No vendo un taller para todos. Vendo acceso gradual al taller para personas que quieren aprender carpintería o restaurar muebles.
 
 Sirve cuando eres pequeño y no puedes abarcar todo.
 
@@ -480,7 +480,7 @@ Consiste en destacar por algo que el cliente valora.
 
 Ejemplo:
 
-> No soy el más barato, pero ofrezco trato personalizado, ingredientes claros y pedidos flexibles.
+> No soy el más barato, pero ofrezco trato personalizado, normas claras y reservas flexibles.
 
 ## 3. Bajo coste
 
@@ -494,7 +494,7 @@ Consiste en empezar pequeño, validar y luego invertir más.
 
 Ejemplo:
 
-> Primero pedidos bajo reserva, luego cocina profesional, después local.
+> Primero reservas bajo cita, luego espacio compatible, después local propio.
 
 ## 5. Alianzas
 
@@ -534,10 +534,10 @@ Un objetivo útil debe responder:
 
 | Tipo        | Objetivo flojo    | Objetivo mejorado                                                                     |
 | ----------- | ----------------- | ------------------------------------------------------------------------------------- |
-| Ventas      | Vender más        | Conseguir 30 pedidos mensuales antes del mes 6                                        |
+| Ventas      | Vender más        | Conseguir 30 reservas mensuales antes del mes 6                                       |
 | Clientes    | Tener clientes    | Lograr 15 clientes recurrentes antes del mes 4                                        |
 | Marca       | Ser conocido      | Alcanzar 500 seguidores locales y 20 consultas mensuales en Instagram antes del mes 6 |
-| Operaciones | Organizarme mejor | Crear un sistema de pedidos y control de entregas antes del lanzamiento               |
+| Operaciones | Organizarme mejor | Crear un sistema de reservas y control de uso antes del lanzamiento                   |
 | Finanzas    | Ganar dinero      | Alcanzar 2.500 € de facturación mensual antes del mes 9                               |
 | Validación  | Probar la idea    | Realizar un piloto con 10 clientes durante 30 días y recoger opiniones                |
 
@@ -695,4 +695,3 @@ Este punto queda bien trabajado si podemos decir:
 > “El emprendedor ya no tiene solo deseos generales. Ahora tiene metas concretas, plazos, números, prioridades y una estrategia coherente con su realidad, su mercado, sus fortalezas y sus limitaciones.”
 
 ---
-

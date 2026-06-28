@@ -41,7 +41,7 @@ Para saber dónde colocar cada idea, usa esta regla:
 
 | Situación                              | Dónde va    | Por qué                   |
 | -------------------------------------- | ----------- | ------------------------- |
-| Tengo 10 años de experiencia cocinando | Fortaleza   | Depende de ti             |
+| Tengo 10 años de experiencia en carpintería | Fortaleza   | Depende de ti             |
 | No sé calcular precios                 | Debilidad   | Es una limitación interna |
 | En mi barrio hay más familias jóvenes  | Oportunidad | Viene de fuera            |
 | Hay muchos competidores baratos        | Amenaza     | Viene de fuera            |
@@ -105,7 +105,7 @@ Eso ayuda, pero no basta. Una fortaleza debe ser algo concreto que mejore tus po
 
 ## Ejemplo útil
 
-> Tengo 8 años de experiencia en cocina, ya he vendido tartas por encargo a conocidos, tengo fotos reales de productos, conozco proveedores locales y puedo empezar con pedidos bajo reserva sin alquilar local desde el primer día.
+> Tengo 8 años de experiencia en carpintería y restauración, ya he colaborado en proyectos con conocidos, tengo fotos reales de trabajos, conozco proveedores locales y puedo empezar con reservas sin alquilar local desde el primer día.
 
 ## Respuesta floja
 
@@ -163,7 +163,7 @@ Pueden ser:
 10. ¿Te falta conocimiento legal?
 11. ¿Te falta permiso, licencia o certificación?
 12. ¿Te falta local, maquinaria o herramientas?
-13. ¿Tienes poca capacidad para producir o atender pedidos?
+13. ¿Tienes poca capacidad para producir o atender reservas?
 14. ¿Dependes demasiado de ti mismo?
 15. ¿Dependes de una persona externa que podría fallar?
 16. ¿Tu marca todavía no es conocida?
@@ -174,7 +174,7 @@ Pueden ser:
 
 ## Ejemplo útil
 
-> La principal debilidad es que no tengo experiencia calculando precios ni márgenes. También tengo poca capacidad de producción si los pedidos aumentan. Para reducir el riesgo empezaré con pedidos limitados y trabajaré con una plantilla de costes antes de vender.
+> La principal debilidad es que no tengo experiencia calculando precios ni márgenes. También tengo poca capacidad de atención si las reservas aumentan. Para reducir el riesgo empezaré con uso limitado y trabajaré con una plantilla de costes antes de vender.
 
 ## Respuesta floja
 
@@ -245,7 +245,7 @@ Pueden venir de:
 
 ## Ejemplo útil
 
-> Hay una oportunidad en familias con poco tiempo que buscan comida casera y más saludable que el delivery tradicional. Además, los pedidos por WhatsApp e Instagram permiten empezar sin invertir de inicio en una tienda online compleja.
+> Hay una oportunidad en personas con interés en carpintería y restauración que buscan un taller compartido y más accesible que montar uno propio. Además, las reservas por WhatsApp e Instagram permiten empezar sin invertir de inicio en una web compleja.
 
 ## Respuesta floja
 
@@ -316,7 +316,7 @@ Pueden ser:
 
 ## Ejemplo útil
 
-> La principal amenaza es competir con supermercados y delivery, que ofrecen comida preparada más barata y con mayor disponibilidad. También existe riesgo de aumento de costes de alimentos y envases.
+> La principal amenaza es competir con cursos sueltos y espacios ya consolidados, que ofrecen formación o acceso más barato y con mayor disponibilidad. También existe riesgo de aumento de costes de materiales y consumibles.
 
 ## Respuesta floja
 
@@ -354,8 +354,8 @@ No hace falta poner 20 puntos en cada casilla. Es mejor poner pocos, pero claros
 | Oportunidades                         | Amenazas                                |
 | ------------------------------------- | --------------------------------------- |
 | Cosas externas que puedes aprovechar  | Cosas externas que pueden perjudicar    |
-| Tendencia a comida casera saludable   | Competencia de supermercados y delivery |
-| Uso de WhatsApp para pedidos directos | Subida de costes de alimentos           |
+| Tendencia a talleres compartidos      | Competencia de cursos y makerspaces     |
+| Uso de WhatsApp para reservas directas | Subida de costes de materiales          |
 | Familias con poco tiempo              | Sensibilidad al precio                  |
 
 ---
@@ -393,7 +393,7 @@ Un buen DAFO debe tener los puntos más importantes, no una lista interminable.
 
 Mejor:
 
-> “La subida de alimentos y envases puede reducir el margen del negocio si no se actualizan precios cada trimestre.”
+> “La subida de materiales y consumibles puede reducir el margen del negocio si no se actualizan precios cada trimestre.”
 
 Eso sí sirve.
 
@@ -412,9 +412,9 @@ No sirve:
 
 Mejor:
 
-> “Experiencia de 8 años elaborando productos de repostería por encargo.”
+> “Experiencia de 8 años en carpintería y restauración de muebles.”
 > “Competidores directos con precios 20% más bajos y mayor capacidad de producción.”
-> “Subida de envases sostenibles que puede aumentar el coste unitario.”
+> “Subida de materiales y protección de piezas que puede aumentar el coste unitario.”
 > “Instagram es el canal donde el cliente objetivo ya busca productos similares.”
 
 ---
@@ -534,11 +534,11 @@ Acción CAME:
 
 Amenaza:
 
-> Supermercados venden comida preparada más barata.
+> Espacios de formación y makerspaces pueden ofrecer alternativas más baratas.
 
 Acción CAME:
 
-> No competir por precio; especializarse en menús personalizados para familias con niños y comunicación directa de ingredientes.
+> No competir por precio; especializarse en acceso gradual al taller, acompañamiento y comunidad artesanal.
 
 ---
 
@@ -561,7 +561,7 @@ Acción CAME:
 
 Fortaleza:
 
-> Experiencia real cocinando y primeras ventas informales.
+> Experiencia real trabajando madera y primeras pruebas informales.
 
 Acción CAME:
 
@@ -592,7 +592,7 @@ Oportunidad:
 
 Acción CAME:
 
-> Lanzar un piloto de menús semanales para 10 familias durante un mes y recoger opiniones.
+> Lanzar un piloto de bonos de uso y cursos de iniciación para 10 personas durante un mes y recoger opiniones.
 
 ---
 
@@ -602,7 +602,7 @@ Acción CAME:
 | --------------------------- | ----------- | ----------------------------------------------- | ----------- | --------------------- |
 | No sé calcular precios      | Debilidad   | Crear plantilla de costes con apoyo de gestoría | Promotor    | Antes de lanzar       |
 | Supermercados venden barato | Amenaza     | Diferenciar por personalización y trato directo | Promotor    | Primer mes            |
-| Experiencia en cocina       | Fortaleza   | Mostrar trabajos reales y testimonios           | Promotor    | Antes del lanzamiento |
+| Experiencia en carpintería  | Fortaleza   | Mostrar trabajos reales y testimonios           | Promotor    | Antes del lanzamiento |
 | Familias con poco tiempo    | Oportunidad | Probar menú piloto con 10 familias              | Promotor    | 30 días               |
 
 ---
@@ -682,4 +682,3 @@ Este punto queda bien trabajado si podemos decir:
 
 
 ---
-

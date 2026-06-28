@@ -107,7 +107,7 @@ No todas aplican a todos los negocios, pero hay que revisarlas.
 
 ## Ejemplo útil
 
-> Antes de vender menús preparados será obligatorio revisar normativa sanitaria, definir precios con costes reales, confirmar proveedores, diseñar un menú piloto, preparar sistema de pedidos por WhatsApp y validar envases.
+> Antes de abrir un taller colaborativo será necesario validar demanda mínima, definir una oferta inicial sencilla, revisar requisitos básicos del local, estimar inversión en maquinaria mínima, comprobar permisos aplicables y evitar comprometer alquiler o reformas antes de confirmar viabilidad.
 
 ## Respuesta floja
 
@@ -660,5 +660,4 @@ Este punto queda bien trabajado si podemos decir:
 > “El emprendedor ya no tiene solo un plan escrito. Ahora tiene una ruta de arranque con fases, tareas, responsables, hitos, riesgos y criterios para decidir cuándo avanzar, cuándo corregir y cuándo no invertir más.”
 
 ---
-
 

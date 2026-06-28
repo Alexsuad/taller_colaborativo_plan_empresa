@@ -85,7 +85,7 @@ Esto sirve para el plan formal, pero también para entender si el negocio depend
 
 ## Ejemplo de respuesta útil
 
-> El proyecto lo promueve Laura Martínez, residente en Zaragoza, actualmente trabajando media jornada en hostelería. Tiene experiencia de 8 años en cocina casera y repostería por encargo. De momento emprende sola, aunque contará con apoyo puntual de su hermana para redes sociales y fotografía de producto.
+> El proyecto lo promueve una persona residente en Zaragoza con experiencia práctica en carpintería, restauración y uso de talleres compartidos. De momento emprende sola, aunque contará con apoyo puntual para comunicación, fotografía y difusión del proyecto.
 
 ## Respuesta débil
 
@@ -146,7 +146,7 @@ Cuenta una carrera, un ciclo, un curso, un taller, experiencia aprendida en fami
 
 ## Ejemplo de respuesta útil
 
-> Tengo Bachillerato y varios cursos de repostería. No tengo formación en contabilidad ni gestión de negocios. Sí tengo carnet de manipulador de alimentos. Antes de abrir necesito aprender sobre escandallos, costes, precios y facturación.
+> Tengo Bachillerato y varios cursos prácticos de carpintería y restauración. No tengo formación en contabilidad ni gestión de negocios. Antes de abrir necesito aprender sobre costes, precios, facturación y organización básica del taller.
 
 ## Qué parte del plan se rellena con esto
 
@@ -171,11 +171,11 @@ No pienses solo en títulos. Piensa en situaciones reales.
 Por ejemplo:
 
 * atender clientes;
-* cocinar;
+* trabajar madera;
 * reparar;
 * negociar;
 * vender;
-* organizar pedidos;
+* organizar reservas;
 * manejar proveedores;
 * diseñar;
 * producir;
@@ -224,7 +224,7 @@ Por ejemplo:
 
 ## Ejemplo de respuesta útil
 
-> He trabajado 6 años como dependienta en una tienda de ropa. Aprendí atención al cliente, organización de stock, cobro en caja y resolución de quejas. Aunque mi negocio será de pegatinas personalizadas, esa experiencia me sirve para vender, atender pedidos y entender lo que la gente busca cuando compra algo personalizado.
+> He trabajado 6 años como dependienta en una tienda de ropa. Aprendí atención al cliente, organización de stock, cobro en caja y resolución de quejas. Aunque mi negocio será de acceso a taller y formación práctica, esa experiencia me sirve para vender, atender reservas y entender lo que la gente busca cuando compra una experiencia de uso.
 
 ## Qué parte del plan se rellena con esto
 
@@ -278,7 +278,7 @@ Hay que entender si la motivación es económica, personal, familiar, profesiona
 
 ## Ejemplo de respuesta útil
 
-> Quiero emprender porque llevo años haciendo tartas por encargo y cada vez me piden más. No quiero abrir un local todavía porque no tengo dinero suficiente. Mi objetivo inicial es conseguir ingresos complementarios y validar si puedo vivir de esto en 12 meses.
+> Quiero emprender porque llevo años colaborando en proyectos de carpintería y restauración y cada vez me piden más espacios de uso y acompañamiento. No quiero abrir un local grande todavía porque no tengo dinero suficiente. Mi objetivo inicial es conseguir ingresos complementarios y validar si puedo sostener el proyecto en 12 meses.
 
 ## Qué parte del plan se rellena con esto
 
@@ -309,19 +309,19 @@ Aquí buscamos saber si el tiempo disponible es suficiente para lo que se quiere
 7. ¿Qué tareas del negocio puedes hacer tú?
 8. ¿Qué tareas no podrás hacer por falta de tiempo?
 9. ¿Hay temporadas del año en las que tendrás menos disponibilidad?
-10. Si llegan más pedidos de los esperados, ¿podrás responder?
+10. Si llegan más reservas de las esperadas, ¿podrás responder?
 11. Si un cliente necesita atención urgente, ¿quién responderá?
 12. ¿Tu horario coincide con el horario en que tus clientes suelen comprar o pedir información?
 
 ## Ejemplo de respuesta útil
 
-> Durante los primeros 6 meses podré dedicar 20 horas semanales porque mantendré mi empleo actual. Trabajaré por las tardes y fines de semana. Esto limita la cantidad de pedidos que puedo aceptar, por lo que empezaré solo con pedidos bajo encargo.
+> Durante los primeros 6 meses podré dedicar 20 horas semanales porque mantendré mi empleo actual. Trabajaré por las tardes y fines de semana. Esto limita la cantidad de reservas que puedo aceptar, por lo que empezaré solo con acceso limitado y cita previa.
 
 ## Alerta importante
 
 Si una persona dice:
 
-> “Voy a montar una tienda online, publicar todos los días, fabricar productos, enviar pedidos, atender clientes, llevar cuentas y además trabajar 40 horas en otro empleo”
+> “Voy a montar un taller, publicar todos los días, atender reservas, acompañar proyectos, llevar cuentas y además trabajar 40 horas en otro empleo”
 
 hay un problema de realismo. El plan debe reconocer esa limitación.
 
@@ -368,7 +368,7 @@ Hay que saber quién se encargará de cada cosa.
 
 | Persona          | Qué hará                                          | Dedicación aproximada |
 | ---------------- | ------------------------------------------------- | --------------------- |
-| Laura            | Producción de tartas, compras, control de calidad | 25 h/semana           |
+| Promotor/a       | Apertura de taller, reservas, control del espacio  | 25 h/semana           |
 | Ana              | Redes sociales, fotografía, atención por WhatsApp | 8 h/semana            |
 | Gestoría externa | Facturas, impuestos y altas                       | Mensual               |
 
@@ -694,7 +694,7 @@ No buscamos frases bonitas. Buscamos una forma clara de explicar cómo será tu 
 
 ## Ejemplo útil
 
-> Mi negocio ayuda a familias con poco tiempo a comer comida casera saludable mediante menús semanales preparados por encargo. En tres años quiero tener una cocina legalizada, una cartera de 80 familias recurrentes y dos personas de apoyo. Mis valores son honestidad, comida real, puntualidad y trato cercano.
+> Mi negocio ayuda a personas interesadas en carpintería y restauración a acceder a un taller compartido con acompañamiento y formación práctica. En tres años quiero tener un espacio compatible, una comunidad recurrente de usuarios y apoyo parcial para gestionar el proyecto. Mis valores son honestidad, aprendizaje real, puntualidad y trato cercano.
 
 ## Qué parte del plan se rellena con esto
 

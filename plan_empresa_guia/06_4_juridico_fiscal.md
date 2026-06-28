@@ -138,7 +138,7 @@ La Guía Red ARCE pide concretar las actividades principales y otras actividades
 
 ## Ejemplo útil
 
-> La actividad principal será la elaboración y venta de menús caseros preparados bajo pedido. Como actividad secundaria futura se contempla la realización de talleres de cocina familiar y venta puntual de productos complementarios.
+> La actividad principal será la prestación de un taller colaborativo artesanal con acceso guiado, formación práctica y uso de maquinaria básica. Como actividad secundaria futura se contempla la realización de cursos de carpintería, restauración y almacenamiento de piezas en proceso.
 
 ## Qué parte del plan se rellena con esto
 
@@ -186,7 +186,7 @@ La Guía Red ARCE recuerda que la sede social es importante porque puede afectar
 
 ## Ejemplo útil
 
-> La gestión administrativa se realizará desde el domicilio fiscal de la promotora, pero la producción no se hará desde casa hasta confirmar si la normativa lo permite. Se valorará una cocina compartida autorizada para iniciar la actividad.
+> La gestión administrativa se realizará desde el domicilio fiscal de la promotora, pero la actividad no se hará desde casa hasta confirmar si el espacio es compatible. Se valorará un local compartido o un espacio autorizado para iniciar la actividad.
 
 ## Respuesta floja
 
@@ -233,13 +233,13 @@ No buscamos que el emprendedor lo haga solo. Buscamos que sepa que esto existe y
 10. ¿Necesitas crear sociedad antes de vender?
 11. ¿Necesitas alta en Hacienda?
 12. ¿Necesitas alta en Seguridad Social?
-13. ¿Necesitas registro sanitario, profesional o sectorial?
+13. ¿Necesitas registro profesional, sectorial o licencia específica?
 14. ¿Quién revisará estos trámites?
 15. ¿Tienes gestoría identificada?
 
 ## Ejemplo útil
 
-> El proyecto aún no tiene definido el epígrafe IAE. Antes de iniciar ventas se consultará con una gestoría para seleccionar correctamente la actividad, especialmente porque combina elaboración de productos y venta bajo pedido.
+> El proyecto aún no tiene definido el epígrafe IAE. Antes de iniciar actividad se consultará con una gestoría para seleccionar correctamente la actividad, especialmente porque combina taller, formación y acceso a espacio compartido.
 
 ## Qué parte del plan se rellena con esto
 
@@ -265,7 +265,7 @@ Aquí hay que detectar qué norma puede impedirte abrir o vender.
 
 1. ¿Tu actividad necesita licencia de apertura?
 2. ¿Necesita licencia de actividad?
-3. ¿Necesita registro sanitario?
+3. ¿Necesita licencia o permiso sectorial?
 4. ¿Necesita permiso del ayuntamiento?
 5. ¿Necesita seguro obligatorio?
 6. ¿Necesita certificado profesional?
@@ -275,7 +275,7 @@ Aquí hay que detectar qué norma puede impedirte abrir o vender.
 10. ¿Necesita normativa de consumo?
 11. ¿Necesita hojas de reclamaciones?
 12. ¿Necesita etiquetado especial?
-13. ¿Necesita indicar alérgenos?
+13. ¿Necesita indicar normas de uso y seguridad?
 14. ¿Necesita cumplir normativa de seguridad?
 15. ¿Necesita prevención de riesgos?
 16. ¿Necesita permisos para música, terraza, rótulos o eventos?
@@ -288,7 +288,7 @@ Aquí hay que detectar qué norma puede impedirte abrir o vender.
 
 ## Ejemplo útil
 
-> Para vender comida preparada se revisará licencia de actividad, normativa sanitaria, manipulación de alimentos, etiquetado, alérgenos y condiciones del espacio de producción antes de iniciar ventas formales.
+> Para abrir un taller colaborativo se revisará licencia de actividad, prevención de riesgos, seguro de responsabilidad civil, condiciones del espacio y normas de uso antes de iniciar actividad formal.
 
 ## Respuesta floja
 
@@ -349,7 +349,7 @@ Dicho fácil:
 
 ## Ejemplo útil
 
-> El nombre comercial será “Dulce Barrio”, distinto de la futura razón social. Antes de usarlo en redes y materiales se revisará disponibilidad en OEPM y dominios. Si se confirma viabilidad, se valorará registro de marca antes del lanzamiento público.
+> El nombre comercial será el que se valide como marca del taller, distinto de la futura razón social. Antes de usarlo en redes y materiales se revisará disponibilidad en OEPM y dominios. Si se confirma viabilidad, se valorará registro de marca antes del lanzamiento público.
 
 ## Qué parte del plan se rellena con esto
 
@@ -471,7 +471,7 @@ Esto protege al cliente y también al emprendedor.
 
 ## Ejemplo útil
 
-> En pedidos personalizados se usará presupuesto por escrito con descripción del producto, precio, plazo, anticipo, condiciones de cancelación y límites de cambios. El pedido se considerará confirmado al recibir el anticipo.
+> En reservas personalizadas se usará presupuesto por escrito con descripción del acceso, precio, plazo, anticipo, condiciones de cancelación y límites de cambios. La reserva se considerará confirmada al recibir el anticipo.
 
 ## Qué parte del plan se rellena con esto
 
@@ -530,7 +530,7 @@ La presentación legal resume las preguntas clave de privacidad: qué datos reco
 
 ## Ejemplo útil
 
-> Se recogerán nombre, teléfono, dirección de entrega y posibles alergias alimentarias. Estos datos se usarán solo para gestionar pedidos y entregas. Se guardarán en una hoja protegida y solo tendrá acceso la promotora. Será necesario revisar protección de datos por tratar información sensible como alergias.
+> Se recogerán nombre, teléfono y posibles preferencias de acceso o horarios. Estos datos se usarán solo para gestionar reservas y comunicaciones. Se guardarán en una hoja protegida y solo tendrá acceso la promotora. Será necesario revisar protección de datos por tratar datos personales de clientes.
 
 ## Qué parte del plan se rellena con esto
 
@@ -695,7 +695,7 @@ Por ejemplo:
 
 ## Ejemplo útil
 
-> Al trabajar con alimentos y entregas, se revisará seguro de responsabilidad civil, condiciones sanitarias, manipulación de alimentos y protocolo ante incidencias relacionadas con alérgenos.
+> Al trabajar con taller y acceso compartido, se revisará seguro de responsabilidad civil, condiciones del espacio, prevención de riesgos y protocolo ante incidencias de uso de maquinaria.
 
 ## Qué parte del plan se rellena con esto
 
@@ -850,5 +850,4 @@ De este punto deberían salir:
 Este punto queda bien trabajado si podemos decir:
 
 > “El emprendedor ya no ve lo legal y fiscal como algo que se mira al final. Ahora sabe qué forma jurídica puede necesitar, qué permisos debe revisar, cómo proteger la marca, qué datos tratará, qué contratos necesita, qué impuestos debe prever y qué riesgos pueden bloquear el negocio.”
-
 
