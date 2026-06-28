@@ -53,7 +53,7 @@ Internacional.
 ¿Tienes local, web, redes sociales o solo la idea?
 Ejemplo de respuesta útil
 
-El proyecto se llama provisionalmente “Dulce Barrio”. Sería una marca de repostería casera por encargo en Zaragoza. Todavía no sé la forma jurídica ni el CNAE. No tengo local, empezaría desde una cocina adaptada si la normativa lo permite. El nombre no está confirmado porque aún no he revisado si existe como marca.
+El proyecto se llama provisionalmente “Barrio Madera”. Sería un taller colaborativo artesanal en Zaragoza con foco en carpintería, restauración de muebles y formación práctica. Todavía no sé la forma jurídica ni el CNAE. No tengo local propio, empezaría en un espacio compatible y pequeño mientras valido la demanda. El nombre no está confirmado porque aún no he revisado si existe como marca.
 
 Respuesta floja
 
@@ -100,7 +100,7 @@ Si mañana descubres que la idea no se vende como pensabas, ¿estarías dispuest
 ¿La idea resuelve un problema real o solo es algo que a ti te gustaría hacer?
 Ejemplo de respuesta útil
 
-La idea nace porque llevo dos años haciendo tartas para cumpleaños familiares y conocidos. Al principio eran favores, pero en los últimos meses varias personas me han preguntado cuánto cobro. He hecho 12 pedidos informales y 8 personas repitieron. Eso me hizo pensar que puede haber una oportunidad.
+La idea nace porque llevo dos años ayudando en proyectos de carpintería y restauración para conocidos. Al principio eran favores, pero en los últimos meses varias personas me han preguntado si podría acompañarlas en un espacio de trabajo compartido. He hecho varias pruebas informales y algunas personas repitieron. Eso me hizo pensar que puede haber una oportunidad.
 
 Qué parte del plan se rellena con esto
 Antecedentes del proyecto.
@@ -116,7 +116,7 @@ Esta es una de las preguntas más importantes.
 Muchas personas dicen:
 
 “Voy a montar una tienda.”
-“Voy a vender comida.”
+“Voy a abrir un taller.”
 “Voy a hacer una app.”
 “Voy a ofrecer servicios.”
 
@@ -167,11 +167,11 @@ Vendo ________ para personas/empresas que necesitan ________.
 
 Ejemplo de respuesta útil
 
-Vendo menús semanales caseros para familias de Zaragoza que no tienen tiempo de cocinar entre semana. El cliente reserva el menú el viernes, yo cocino el lunes y entrego el pedido los lunes por la tarde. No venderé comida diaria al inicio, solo menús semanales bajo pedido.
+Vendo cursos de iniciación, bonos de uso del taller y acceso guiado por horas para personas de Zaragoza que quieren aprender carpintería o restaurar muebles sin montar su propio taller. El cliente reserva con antelación, usa el espacio en franjas concretas y no tendrá acceso libre ni maquinaria avanzada al inicio.
 
 Respuesta floja
 
-Vendo comida rica y saludable.
+Vendo acceso guiado a un taller colaborativo para aprender y trabajar madera.
 
 No sirve porque no dice formato, frecuencia, cliente, entrega, alcance ni forma de compra.
 
@@ -190,10 +190,10 @@ Aquí hay que descubrir qué hay detrás de la compra.
 
 Por ejemplo:
 
-No vendes comida preparada: vendes tiempo y tranquilidad.
+No vendes solo uso de herramientas: vendes aprendizaje, acompañamiento y acceso a un espacio preparado.
 No vendes fotografía: vendes recuerdos y seguridad en un momento importante.
 No vendes una app: vendes una forma más fácil de hacer una tarea.
-No vendes muebles restaurados: vendes piezas únicas, sostenibilidad y estilo.
+No vendes solo restauración de muebles: vendes recuperación de piezas, aprendizaje práctico y un resultado más cuidado.
 No vendes asesoría: vendes claridad y reducción de errores.
 Preguntas para responder
 ¿Qué problema concreto tiene tu cliente?
@@ -281,7 +281,7 @@ Si vendes a empresas
 ¿Por qué cambiaría de proveedor?
 Ejemplo de respuesta útil
 
-Mi primer cliente no será “todo Zaragoza”. Serán madres y padres de 30 a 45 años, con hijos pequeños, que trabajan fuera de casa y viven en barrios residenciales. Tienen poco tiempo para cocinar y ya compran comida preparada, pero quieren algo más casero y saludable.
+Mi primer cliente no será “todo Zaragoza”. Serán personas de 30 a 55 años interesadas en carpintería, bricolaje o restauración, que viven o trabajan cerca y quieren aprender sin montar un taller propio. Buscan un acceso puntual y un entorno seguro para probar antes de invertir más.
 
 Qué parte del plan se rellena con esto
 Clientes potenciales iniciales.
@@ -331,7 +331,7 @@ Preguntas para responder
 ¿Qué NO vas a vender aunque parezca atractivo?
 Ejemplo de respuesta útil
 
-No competiré por ser la opción más barata. Me diferencio porque haré menús semanales personalizados para familias con niños, con entrega programada y comunicación directa por WhatsApp. Mi ventaja no es solo la comida, sino ahorrar planificación, compra y cocina entre semana.
+No competiré por ser la opción más barata. Me diferencio porque ofreceré acceso gradual al taller, formación práctica y bonos de uso para personas que no quieren asumir desde el principio el coste de un local y maquinaria propios. Mi ventaja no es solo el espacio, sino reducir la barrera de entrada y validar antes de invertir más.
 
 Respuesta floja
 
@@ -373,11 +373,11 @@ Competencia directa
 ¿Por qué la gente les compra?
 Competencia indirecta
 ¿Quién resuelve el mismo problema de otra manera?
-Si tú vendes comida preparada, ¿el supermercado compite contigo?
+Si vendes acceso a taller, ¿un espacio de coworking maker o un curso puntual compite contigo?
 Si tú das clases, ¿YouTube o cursos online compiten contigo?
-Si vendes muebles restaurados, ¿IKEA o Wallapop compiten contigo?
+Si vendes muebles restaurados, ¿una tienda de segunda mano o un carpintero local compiten contigo?
 Si haces asesorías, ¿una gestoría tradicional compite contigo?
-Si vendes stickers personalizados, ¿Amazon, Etsy o imprentas online compiten contigo?
+Si ofreces formación práctica, ¿YouTube, cursos online o talleres municipales compiten contigo?
 Alternativas del cliente
 ¿Qué hace hoy el cliente si tú no existes?
 ¿Lo hace él mismo?
@@ -397,7 +397,7 @@ Comparación básica
 ¿Qué podrías hacer tú de forma más clara, humana o cómoda?
 Ejemplo de respuesta útil
 
-Mis competidores directos son dos negocios de comida preparada en Zaragoza. También compito con supermercados que venden platos listos y con familias que cocinan el domingo para toda la semana. Mi hueco está en ofrecer comida casera bajo pedido, más personalizada y con comunicación directa.
+Mis competidores directos son otros talleres o espacios de carpintería y restauración en Zaragoza. También compito con cursos sueltos, makerspaces y la opción de trabajar en casa con herramientas propias. Mi hueco está en ofrecer acceso gradual, acompañamiento y un espacio compatible para empezar sin sobredimensionar la inversión.
 
 Qué parte del plan se rellena con esto
 Competencia inicial.
@@ -445,7 +445,7 @@ Prelanzamiento	Ya hay marca, canal, precios y proceso casi listos
 En marcha	Ya opera, aunque sea pequeño
 Ejemplo de respuesta útil
 
-El proyecto está en fase de prueba informal. Ya he vendido 12 tartas a conocidos, tengo fotos de productos, una cuenta de Instagram recién creada y tres personas interesadas en nuevos pedidos. Todavía no tengo licencia ni estructura legal.
+El proyecto está en fase de prueba informal. Ya he hecho pruebas con piezas y espacios de trabajo compartido, tengo fotos de algunos proyectos, una cuenta de Instagram recién creada y varias personas interesadas en probar sesiones o bonos de uso. Todavía no tengo local ni estructura legal cerrada.
 
 Qué parte del plan se rellena con esto
 Hitos alcanzados.
@@ -639,7 +639,7 @@ Preguntas para responder
 ¿Qué cambiarías después de escucharles?
 Ejemplo de respuesta útil
 
-Hablé con 15 madres y padres del colegio. 9 dijeron que comprarían menús si el precio está entre 45 y 60 € semanales. 4 pidieron probar un menú. 2 dijeron que les preocupa la conservación y los alérgenos.
+Hablé con 15 personas interesadas en carpintería y restauración. 9 dijeron que probarían bonos de uso o cursos si el precio está entre 45 y 60 € por sesión o pack inicial. 4 pidieron probar un turno. 2 dijeron que les preocupa la seguridad, el acceso a maquinaria y la disponibilidad real del espacio.
 
 Qué parte del plan se rellena con esto
 Hitos alcanzados.

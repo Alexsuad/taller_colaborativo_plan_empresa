@@ -41,17 +41,17 @@ No significa que otras personas no puedan comprarte. Significa que al principio 
 
 Por ejemplo:
 
-* no es “vendo comida a todo el mundo”;
+* no es “ofrezco el taller a todo el mundo”;
 
-* es “vendo menús semanales a familias trabajadoras de Zaragoza que no tienen tiempo para cocinar”.
+* es “ofrezco cursos de iniciación y bonos de uso a personas de Zaragoza interesadas en carpintería y restauración”.
 
-* no es “vendo stickers a cualquiera”;
+* no es “vendo acceso puntual sin criterio”;
 
-* es “vendo stickers personalizados a pequeñas marcas, artistas y tiendas online que quieren empaques más bonitos”.
+* es “vendo acceso guiado por horas a personas que quieren aprender sin montar su propio taller”.
 
-* no es “hago páginas web”;
+* no es “hago algo genérico”;
 
-* es “hago páginas web sencillas para autónomos locales que no saben cómo empezar en internet”.
+* es “acompaño proyectos de carpintería y restauración con un espacio práctico y cercano”.
 
 ## Preguntas para responder
 
@@ -68,7 +68,7 @@ Por ejemplo:
 
 ## Ejemplo útil
 
-> Mi mercado inicial serán familias de Zaragoza con hijos pequeños, ingresos medios y poco tiempo para cocinar entre semana. No empezaré vendiendo a empresas ni eventos grandes porque todavía no tengo capacidad de producción.
+> Mi mercado inicial serán personas de Zaragoza interesadas en carpintería, bricolaje y restauración, con ingresos medios y necesidad de practicar sin montar un taller propio. No empezaré vendiendo a empresas ni eventos grandes porque todavía no tengo capacidad de producción.
 
 ## Respuesta floja
 
@@ -123,7 +123,7 @@ La pregunta de fondo es:
 
 ## Ejemplo útil
 
-> Si mi objetivo son familias con hijos pequeños en Zaragoza, puedo buscar datos de población por barrios, hogares con niños y nivel de renta aproximado. No necesito vender a todas. Si consigo 50 familias recurrentes, el negocio podría empezar a sostenerse.
+> Si mi objetivo son personas interesadas en carpintería y restauración en Zaragoza, puedo buscar datos de afición al bricolaje, formación práctica, alquiler de espacios y demanda local por barrios. No necesito vender a todas. Si consigo 50 usuarios recurrentes, el negocio podría empezar a sostenerse.
 
 ## Respuesta floja
 
@@ -177,7 +177,7 @@ No es lo mismo entrar en un mercado que está despertando que entrar en uno dond
 
 ## Ejemplo útil
 
-> El mercado de comida preparada saludable parece en crecimiento porque hay más negocios de meal prep, más contenido sobre alimentación y más personas buscando soluciones para ahorrar tiempo. Sin embargo, también hay mucha competencia de supermercados y delivery.
+> El mercado de talleres compartidos y formación práctica parece en crecimiento porque hay más interés en bricolaje, restauración, aprendizaje manual y acceso flexible a herramientas. Sin embargo, también hay competencia de cursos sueltos, makerspaces y espacios privados de trabajo.
 
 ## Qué parte del plan se rellena con esto
 
@@ -234,7 +234,7 @@ Un negocio referente puede servir para entender:
 
 ## Ejemplo útil
 
-> Me inspira una tienda online de stickers de Barcelona porque vende productos sencillos, pero con una marca muy cuidada. No quiero copiar sus diseños, pero sí me interesa cómo organiza colecciones, cómo muestra los productos y cómo crea comunidad en Instagram.
+> Me inspira un taller de carpintería compartido de Barcelona porque ofrece acceso gradual, bonos de uso y una comunidad cuidada. No quiero copiar su modelo exacto, pero sí me interesa cómo organiza el uso del espacio, cómo presenta las opciones y cómo crea comunidad en Instagram.
 
 ## Qué parte del plan se rellena con esto
 
@@ -287,7 +287,7 @@ Aquí no buscamos pelear con ellos. Buscamos entender el terreno.
 
 ## Ejemplo útil
 
-> Competidor 1: “Menús Caseros Zaragoza”. Vende menús semanales por encargo. Tiene Instagram y WhatsApp. Sus precios son de 55 a 70 € por semana. Sus clientes valoran la comida casera, pero algunas reseñas mencionan poca variedad.
+> Competidor 1: “Taller Madera Zaragoza”. Ofrece horas de uso y cursos básicos de carpintería. Tiene Instagram y WhatsApp. Sus precios van de 45 a 70 € por sesión o bono. Sus usuarios valoran el acompañamiento, pero algunas reseñas mencionan poca disponibilidad.
 
 ## Respuesta floja
 
@@ -313,13 +313,13 @@ La competencia indirecta no vende exactamente lo mismo, pero resuelve el mismo p
 
 Por ejemplo:
 
-Si vendes comida casera preparada, tu competencia indirecta puede ser:
+Si vendes acceso a un taller colaborativo, tu competencia indirecta puede ser:
 
-* supermercados;
-* restaurantes;
-* delivery;
-* cocinar el domingo;
-* pedir comida a familiares.
+* talleres municipales;
+* makerspaces;
+* cursos online;
+* trabajar en casa;
+* comprar herramientas y hacerlo por cuenta propia.
 
 Si haces una app de organización de tareas, tu competencia indirecta puede ser:
 
@@ -348,7 +348,7 @@ Si haces una app de organización de tareas, tu competencia indirecta puede ser:
 
 ## Ejemplo útil
 
-> Mi competencia indirecta son los supermercados que venden platos preparados. Son más baratos y accesibles, pero menos personalizados. También compito con el hábito de cocinar el domingo para toda la semana.
+> Mi competencia indirecta son los talleres municipales y los cursos online de carpintería. Son más baratos y accesibles, pero menos personalizados. También compito con el hábito de comprar herramientas y trabajar en casa sin apoyo.
 
 ## Qué parte del plan se rellena con esto
 
@@ -401,7 +401,7 @@ Cada uno compra distinto, paga distinto y exige cosas distintas.
 
 ## Ejemplo útil
 
-> Tendré dos segmentos iniciales: familias con poco tiempo y personas mayores que viven solas. Las familias valoran rapidez y planificación; las personas mayores valoran confianza, trato humano y comida tradicional.
+> Tendré dos segmentos iniciales: personas que quieren iniciarse en carpintería y personas que ya hacen restauración pero necesitan acceso puntual al taller. Las primeras valoran acompañamiento y aprendizaje; las segundas valoran flexibilidad, herramientas y espacio compatible.
 
 ## Qué parte del plan se rellena con esto
 
@@ -445,7 +445,7 @@ No para inventar un personaje bonito, sino para vender mejor.
 
 ## Ejemplo útil
 
-> Mi cliente principal es una madre o padre de 35 a 45 años, con trabajo estable, hijos pequeños y poco tiempo libre. Busca comer mejor entre semana, pero no quiere depender siempre de delivery. Valora confianza, ingredientes claros y facilidad para pedir.
+> Mi cliente principal es una persona de 35 a 55 años, con trabajo estable, interés por la carpintería o la restauración y poco espacio en casa. Busca practicar con seguridad, aprender paso a paso y acceder a un taller sin asumir una gran inversión inicial. Valora acompañamiento, claridad y facilidad para reservar.
 
 ## Qué parte del plan se rellena con esto
 
@@ -490,7 +490,7 @@ Si no sabes por qué compra tu cliente, puedes gastar dinero comunicando cosas q
 
 ## Ejemplo útil
 
-> Mi cliente no elegirá solo por precio. Necesita confianza porque compra comida para su familia. Por eso serán importantes la higiene, la claridad de ingredientes, las reseñas y una comunicación cercana.
+> Mi cliente no elegirá solo por precio. Necesita confianza porque trabajará con herramientas y espacio compartido. Por eso serán importantes la seguridad, la claridad de normas, las reseñas y una comunicación cercana.
 
 ## Qué parte del plan se rellena con esto
 
@@ -537,7 +537,7 @@ Ahora observamos cómo se mueve el mercado:
 
 ## Ejemplo útil
 
-> Los competidores venden principalmente por Instagram y WhatsApp. Algunos tienen web, pero parece que el cierre de venta ocurre por conversación directa. Para mi cliente, WhatsApp será clave porque facilita pedidos personalizados.
+> Los competidores venden principalmente por Instagram y WhatsApp. Algunos tienen web, pero parece que el cierre de la reserva ocurre por conversación directa. Para mi cliente, WhatsApp será clave porque facilita dudas, reservas y ajustes de acceso.
 
 ## Qué parte del plan se rellena con esto
 
@@ -636,7 +636,7 @@ No usaremos “océano azul” como palabra rara para el emprendedor. Lo explica
 
 ## Ejemplo útil
 
-> El mercado de comida preparada está lleno, pero hay un hueco en menús caseros semanales para familias con niños, con comunicación clara de ingredientes, alérgenos y entregas planificadas.
+> El mercado de talleres compartidos está creciendo, pero hay un hueco en acceso guiado a carpintería y restauración para personas que quieren aprender sin montar un taller propio, con bonos claros, acompañamiento y local compatible.
 
 ## Qué parte del plan se rellena con esto
 
@@ -728,7 +728,7 @@ La respuesta puede ser:
 
 ## Ejemplo útil
 
-> El mercado muestra potencial moderado. Hay demanda de comida preparada y falta de tiempo en familias, pero también competencia fuerte. La oportunidad estaría en un nicho específico: menús caseros semanales para familias con niños, con pedidos bajo reserva y comunicación muy clara. Antes de invertir en local, se recomienda validar con ventas reales durante 3 a 6 meses.
+> El mercado muestra potencial moderado. Hay interés en carpintería y restauración, pero también competencia de cursos sueltos y espacios compartidos. La oportunidad estaría en un nicho específico: bonos de uso, cursos de iniciación y acceso gradual al taller, con validación real antes de invertir en un local grande.
 
 ## Qué parte del plan se rellena con esto
 
