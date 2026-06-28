@@ -216,7 +216,7 @@ Por ejemplo:
 
 | Persona o apoyo | Rol              | Tareas concretas                      | Horas semanales | Necesita formación | Riesgo si falla |
 | --------------- | ---------------- | ------------------------------------- | --------------- | ------------------ | --------------- |
-| Laura           | Producción       | Cocinar, envasar, revisar calidad     | 20 h            | No                 | Alto            |
+| Responsable técnico | Taller y formación | Preparar sesiones, supervisar uso básico del espacio, revisar materiales y apoyar a usuarios | 20 h | No | Alto |
 | Promotor/a      | Atención cliente | Responder WhatsApp, confirmar reservas | 5 h             | Parcial            | Alto            |
 | Gestoría        | Administración   | Impuestos, facturas, altas            | Mensual         | No                 | Alto            |
 | Hermana         | Apoyo marketing  | Fotos y publicaciones puntuales       | 3 h             | Parcial            | Medio           |
@@ -727,4 +727,3 @@ Este punto queda bien trabajado si podemos decir:
 > “El emprendedor ya no piensa solo en vender o producir. Ahora sabe quién hará cada cosa, cuánto tiempo requiere, qué apoyo externo necesita, qué tareas no puede asumir solo, cuándo tendría que contratar y qué riesgos humanos debe prevenir.”
 
 ---
-

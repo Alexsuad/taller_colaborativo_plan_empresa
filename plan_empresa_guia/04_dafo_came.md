@@ -565,7 +565,7 @@ Fortaleza:
 
 Acción CAME:
 
-> Usar fotos reales, testimonios iniciales y menú piloto para demostrar experiencia y generar confianza.
+> Usar fotos reales, testimonios iniciales y un taller-proyecto piloto para demostrar experiencia y generar confianza.
 
 ---
 
@@ -588,7 +588,7 @@ Acción CAME:
 
 Oportunidad:
 
-> Familias con poco tiempo buscan soluciones caseras y saludables.
+> Personas interesadas en carpintería y restauración buscan acceso a espacio, herramientas y acompañamiento.
 
 Acción CAME:
 
@@ -601,9 +601,9 @@ Acción CAME:
 | DAFO detectado              | Tipo        | Acción CAME                                     | Responsable | Plazo                 |
 | --------------------------- | ----------- | ----------------------------------------------- | ----------- | --------------------- |
 | No sé calcular precios      | Debilidad   | Crear plantilla de costes con apoyo de gestoría | Promotor    | Antes de lanzar       |
-| Supermercados venden barato | Amenaza     | Diferenciar por personalización y trato directo | Promotor    | Primer mes            |
+| Alternativas informales, bricolaje en casa o talleres no especializados | Amenaza     | Diferenciar por acceso gradual, acompañamiento y espacio compatible | Promotor    | Primer mes            |
 | Experiencia en carpintería  | Fortaleza   | Mostrar trabajos reales y testimonios           | Promotor    | Antes del lanzamiento |
-| Familias con poco tiempo    | Oportunidad | Probar menú piloto con 10 familias              | Promotor    | 30 días               |
+| Personas interesadas en carpintería | Oportunidad | Probar un curso/taller-proyecto piloto con un grupo reducido | Promotor    | 30 días               |
 
 ---
 
