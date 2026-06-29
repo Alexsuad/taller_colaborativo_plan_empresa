@@ -32,8 +32,8 @@ Clasifica las fuentes reales del Taller (documentos propios, datos de mercado, c
 
 Cruza las preguntas de la guía con las fuentes disponibles para identificar vacíos de información que requerirán datos nuevos del Taller.
 
-**Estado:** EN CURSO (Matriz Red ARCE → fuentes → vacíos en construcción. No se autoriza la redacción del plan.)  
-**Nota:** La matriz inicial existe y DEC-011 está aprobada, y la revisión crítica de matriz y vacíos accionables existe y DEC-012 está aprobada, pero Gate 1C sigue en revisión mientras DEC-014 permanezca pendiente. La matriz `docs_organizacion/08_matriz_clasificacion_preguntas_red_arce.md` se mantiene como candidata activa del Gate 1C, no como cierre definitivo.
+**Estado:** EN CURSO / EN REVISIÓN (Matriz Red ARCE → fuentes → vacíos en construcción. No se autoriza la redacción del plan.)  
+**Nota:** La matriz inicial existe y DEC-011 está aprobada, y la revisión crítica de matriz y vacíos accionables existe y DEC-012 está aprobada. La matriz `docs_organizacion/08_matriz_clasificacion_preguntas_red_arce.md` opera como matriz activa de Gate 1C; `docs_organizacion/02_matriz_red_arce_fuentes_vacios.md` y `docs_organizacion/03_revision_critica_matriz_vacios.md` quedan como apoyo temporal. Gate 1C sigue en revisión y Gate 1D sigue bloqueado.
 **Archivos asociados:**  
 - `docs_organizacion/02_matriz_red_arce_fuentes_vacios.md`  
 - `docs_organizacion/03_revision_critica_matriz_vacios.md`  
@@ -96,7 +96,7 @@ Antes de cerrar una sección o compilar el entregable final, se debe auditar:
 2. **Respuestas afectadas:** Verificar si las respuestas de la sección en cuestión coinciden con el estado actual de las decisiones y pivotes.
 3. **Reapertura de preguntas:** Evaluar si hay preguntas de la guía que deban reabrirse debido a un cambio estratégico.
 4. **Matriz de clasificación:** Confirmar que la clasificación de preguntas en `docs_organizacion/08_matriz_clasificacion_preguntas_red_arce.md` sigue siendo coherente con el pivote.
-   Esta matriz es candidata activa de Gate 1C, no cierre definitivo, mientras DEC-014 siga pendiente.
+   Esta matriz es la activa de Gate 1C; no cierra Gate 1C por sí sola ni autoriza Gate 1D.
 5. **Consistencia del documento final:** Asegurar que la regeneración del documento final completo no introduzca contradicciones lógicas ni estructurales.
 
 ### Reglas de Bloqueo Selectivo y General

@@ -21,17 +21,17 @@ classification_5s:
     - path: docs_organizacion/01_inventario_fuentes.md
       label: INVENTARIO_VIGENTE
     - path: docs_organizacion/02_matriz_red_arce_fuentes_vacios.md
-      label: SOPORTE_ACTIVO_TEMPORAL
+      label: ANTECEDENTE_DOCUMENTAL
     - path: docs_organizacion/03_revision_critica_matriz_vacios.md
-      label: SOPORTE_DE_VALIDACION_TEMPORAL
+      label: APOYO_CRITICO_TEMPORAL
     - path: scripts/auditar_estado_plan_empresa.py
       label: AUDITORIA_PRE_REDACCION_PERMITIDA
     - path: scripts/auditar_contaminacion_conceptual.py
       label: AUDITORIA_PRE_REDACCION_PERMITIDA
   ACTIVE_REVIEW:
     - path: docs_organizacion/08_matriz_clasificacion_preguntas_red_arce.md
-      label: CANDIDATA_ACTIVA_GATE_1C
-      note: "Permanece activa en revisión mientras DEC-014 siga pendiente."
+      label: MATRIZ_ACTIVA_GATE_1C
+      note: "Activa para Gate 1C; 02 y 03 quedan como apoyo temporal."
   PASSIVE_SUPPORT:
     - path: docs_organizacion/00_organizacion_documental_marketing/
       label: CONSULTA_HIBRIDA_PROTEGIDA

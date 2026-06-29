@@ -13,8 +13,9 @@ sedes:
     sede_principal: "plan_empresa_guia/"
     puede_apoyarse_en:
       - "docs_organizacion/02_matriz_red_arce_fuentes_vacios.md"
+      - "docs_organizacion/03_revision_critica_matriz_vacios.md"
       - "docs_organizacion/08_matriz_clasificacion_preguntas_red_arce.md"
-      - "docs_organizacion/00_organizacion_documental_marketing/"
+    nota: "La matriz activa de Gate 1C es 08; 02 y 03 quedan como apoyo temporal."
 
   respuestas_taller:
     sede_principal: "respuestas_plan_empresa/"

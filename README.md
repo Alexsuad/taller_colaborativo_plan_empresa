@@ -8,6 +8,7 @@ El repositorio está en una fase de limpieza y señalización operativa, no de r
 
 - NotebookLM es la biblioteca documental principal del proyecto.
 - `COMP-F001` a `COMP-F010` se conservan como consulta inmediata protegida.
+- La matriz activa para organizar preguntas y vacíos del plan es `docs_organizacion/08_matriz_clasificacion_preguntas_red_arce.md`; `02` y `03` quedan como antecedente y apoyo temporal.
 - `docs_organizacion/00_organizacion_documental_marketing/` conserva material puente de consulta híbrida y calibración competitiva; no debe borrarse por duplicidad aparente ni abrir Gate 1D.
 - No se siguen copiando fuentes desde NotebookLM al repositorio.
 - La limpieza actual busca clasificar, ordenar y reducir ambigüedad, no borrar masivamente.
