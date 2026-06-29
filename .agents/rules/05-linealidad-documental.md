@@ -21,10 +21,10 @@ El Plan de Empresa de Taller Colaborativo es un documento único fragmentado. No
 2. **Respeto a las Sedes de Información**
    - Antes de explicar un concepto, verifica si tiene una sede asignada en `docs_control/05_sedes_informacion_plan_empresa.yml`.
    - Si estás fuera de la sede principal, usa **referencias cruzadas** en lugar de explicaciones detalladas.
-   - Ejemplo: "Como se detalla en el Plan de Operaciones (Cap. 6.3), la arquitectura de microservicios permite..." en lugar de volver a explicar la arquitectura.
+   - Usa solo ejemplos del Taller Colaborativo y evita arrastrar ejemplos ajenos al negocio.
 
 3. **Control de Extensión (Word Count Management)**
-   - Mantén los apartados dentro de los límites definidos en `docs_control/limites_extension_plan_empresa.yml` (nota: este archivo de configuración se encuentra actualmente pendiente de creación en el repositorio, por lo que este control se realizará de forma manual basándose en límites generales de 2.000 palabras por capítulo máximo).
+   - Mantén los apartados dentro de los límites definidos en `docs_control/limites_extension_plan_empresa.yml`.
    - Prioriza la densidad de información sobre el volumen de palabras.
    - Si un capítulo excede las 2.000 palabras sin una justificación técnica (excepción), debe ser sintetizado.
 

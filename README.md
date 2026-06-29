@@ -11,6 +11,9 @@ El repositorio está en una fase de limpieza y señalización operativa, no de r
 - No se siguen copiando fuentes desde NotebookLM al repositorio.
 - La limpieza actual busca clasificar, ordenar y reducir ambigüedad, no borrar masivamente.
 - `respuestas_plan_empresa/` sigue congelada hasta la apertura de Gate 1D.
+- Durante Fase 1 / Gate 1C solo están operativos `scripts/auditar_estado_plan_empresa.py` y `scripts/auditar_contaminacion_conceptual.py`.
+- `scripts/auditar_contaminacion_conceptual.py` se interpreta sobre superficie activa; material pasivo o congelado no debe tratarse como evidencia activa.
+- `scripts/auditar_linealidad_plan_empresa.py`, `scripts/compilar_plan_empresa.py`, `scripts/auditar_formato_markdown_entrega.py` y `scripts/auditar_texto_corrupto_entrega.py` son POST-F1 y no operativos ahora.
 
 ## Estado de trabajo
 
@@ -42,12 +45,9 @@ uv sync
 ```
 
 ### Validaciones y Auditoría
-Para verificar que el plan esté completo, sin marcadores de prueba o textos pendientes:
+En Fase 1 / Gate 1C:
 ```bash
 uv run python scripts/auditar_estado_plan_empresa.py
+uv run python scripts/auditar_contaminacion_conceptual.py
 ```
-
-Para verificar que no existan listas incrustadas ni problemas de formato:
-```bash
-uv run python scripts/auditar_formato_markdown_entrega.py
-```
+Las auditorías de linealidad, formato, compilación y texto corrupto quedan para POST-F1 y no deben usarse como validación actual.
