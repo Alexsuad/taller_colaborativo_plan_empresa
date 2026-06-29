@@ -8,5 +8,4 @@
 | FUENTES | docs_fuentes/ | Documentos originales clasificados |
 | ORGANIZACIÓN | docs_organizacion/ | Inventario, matriz, duplicados, vacíos |
 | CONSOLIDADOS | docs_consolidados/ | Documentos puente antes del plan final |
-| METODOLOGÍA | docs_metodologia/ | Fases, plantillas y proceso |
 | OUTPUT | _build/ | Salidas generadas, no fuente |

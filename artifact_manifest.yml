@@ -35,8 +35,6 @@ classification_5s:
   PASSIVE_SUPPORT:
     - path: docs_organizacion/00_organizacion_documental_marketing/
       label: CONSULTA_PASIVA
-    - path: docs_metodologia/
-      label: CONSULTA_PASIVA
   PROTECTED_REFERENCE:
     - path: docs_organizacion/00_organizacion_documental_marketing/05_calibracion_competitiva_modelo/02_inventario_fuentes_competencia/COMP-F001_investigacion_tmdc.md
       label: CONSULTA_INMEDIATA_PROTEGIDA
