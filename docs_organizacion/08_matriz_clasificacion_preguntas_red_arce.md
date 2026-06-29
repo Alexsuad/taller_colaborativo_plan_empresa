@@ -1,11 +1,11 @@
 # 08 — Matriz de clasificación de preguntas Red ARCE
 
-> **Estado documental:** MATRIZ_ACTIVA_GATE_1C  
-> **Uso permitido:** clasificar preguntas, ordenar vacíos, preparar investigación y definir qué puede responderse y qué no.  
+> **Estado documental:** MATRIZ_ACTIVA_GATE_1C
+> **Uso permitido:** clasificar preguntas, ordenar vacíos, preparar investigación y definir qué puede responderse y qué no.
 > **Uso prohibido:** redactar respuestas finales, cerrar Gate 1C automáticamente o abrir Gate 1D.
 
 
-**Estado:** MATRIZ_ACTIVA_GATE_1C.  
+**Estado:** MATRIZ_ACTIVA_GATE_1C.
 **Propósito:** Clasificar las preguntas guía del plan antes de redactar, para separar qué ya puede extraerse de fuentes internas, qué debe decidir el promotor, qué requiere búsqueda simple, qué exige investigación profunda, qué es mixto y qué no debe responderse todavía.  
 **Nota:** `02_matriz_red_arce_fuentes_vacios.md` y `03_revision_critica_matriz_vacios.md` quedan como antecedentes/apoyo temporal, no como matrices rectoras.
 **Regla principal:** No redactar ningún apartado final hasta clasificar primero sus preguntas.
