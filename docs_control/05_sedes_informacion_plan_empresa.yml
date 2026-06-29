@@ -14,6 +14,7 @@ sedes:
     puede_apoyarse_en:
       - "docs_organizacion/02_matriz_red_arce_fuentes_vacios.md"
       - "docs_organizacion/08_matriz_clasificacion_preguntas_red_arce.md"
+      - "docs_organizacion/00_organizacion_documental_marketing/"
 
   respuestas_taller:
     sede_principal: "respuestas_plan_empresa/"
@@ -25,6 +26,7 @@ sedes:
     sede_principal: "docs_fuentes/"
     puede_apoyarse_en:
       - "docs_organizacion/01_inventario_fuentes.md"
+      - "docs_organizacion/00_organizacion_documental_marketing/"
 
   decisiones:
     sede_principal: "docs_control/04_registro_decisiones.md"

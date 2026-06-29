@@ -8,6 +8,7 @@ El repositorio está en una fase de limpieza y señalización operativa, no de r
 
 - NotebookLM es la biblioteca documental principal del proyecto.
 - `COMP-F001` a `COMP-F010` se conservan como consulta inmediata protegida.
+- `docs_organizacion/00_organizacion_documental_marketing/` conserva material puente de consulta híbrida y calibración competitiva; no debe borrarse por duplicidad aparente ni abrir Gate 1D.
 - No se siguen copiando fuentes desde NotebookLM al repositorio.
 - La limpieza actual busca clasificar, ordenar y reducir ambigüedad, no borrar masivamente.
 - `respuestas_plan_empresa/` sigue congelada hasta la apertura de Gate 1D.
