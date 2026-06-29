@@ -2,6 +2,20 @@
 
 Repositorio para la organización documental y elaboración del plan de empresa del Taller Colaborativo Artesanal en Zaragoza.
 
+## Modo LEAN/5S activo
+
+El repositorio está en una fase de limpieza y señalización operativa, no de redacción del plan.
+
+- NotebookLM es la biblioteca documental principal del proyecto.
+- `COMP-F001` a `COMP-F010` se conservan como consulta inmediata protegida.
+- No se siguen copiando fuentes desde NotebookLM al repositorio.
+- La limpieza actual busca clasificar, ordenar y reducir ambigüedad, no borrar masivamente.
+- `respuestas_plan_empresa/` sigue congelada hasta la apertura de Gate 1D.
+
+## Estado de trabajo
+
+Todavía no se redacta el plan de empresa final.
+
 Este repositorio está gobernado por una estructura de **4 fases oficiales** para asegurar la calidad y evitar improvisaciones técnicas de maquetación final:
 
 1.  **FASE 1 — Negocio y documentación base:** Identidad de negocio, opción activa y control de fuentes.

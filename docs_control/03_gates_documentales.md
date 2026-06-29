@@ -33,7 +33,7 @@ Clasifica las fuentes reales del Taller (documentos propios, datos de mercado, c
 Cruza las preguntas de la guía con las fuentes disponibles para identificar vacíos de información que requerirán datos nuevos del Taller.
 
 **Estado:** EN CURSO (Matriz Red ARCE → fuentes → vacíos en construcción. No se autoriza la redacción del plan.)  
-**Nota:** La matriz inicial existe y DEC-011 está aprobada, y la revisión crítica de matriz y vacíos accionables existe y DEC-012 está aprobada, pero Gate 1C no se considera completado hasta resolver o clasificar formalmente las preguntas, investigaciones y validaciones pendientes.
+**Nota:** La matriz inicial existe y DEC-011 está aprobada, y la revisión crítica de matriz y vacíos accionables existe y DEC-012 está aprobada, pero Gate 1C sigue en revisión mientras DEC-014 permanezca pendiente. La matriz `docs_organizacion/08_matriz_clasificacion_preguntas_red_arce.md` se mantiene como candidata activa del Gate 1C, no como cierre definitivo.
 **Archivos asociados:**  
 - `docs_organizacion/02_matriz_red_arce_fuentes_vacios.md`  
 - `docs_organizacion/03_revision_critica_matriz_vacios.md`  
@@ -45,7 +45,7 @@ Cruza las preguntas de la guía con las fuentes disponibles para identificar vac
 Gate de autorización para comenzar la redacción de respuestas en `respuestas_plan_empresa/`. No se puede abrir hasta que Gate 1B y Gate 1C estén completados.
 
 **Estado:** BLOQUEADO  
-**Depende de:** Gate 1B (`COMPLETADO_PROVISIONAL_OPERATIVO`), Gate 1C (pendiente de completar). Gate 1D no puede abrirse mientras Gate 1C siga EN CURSO.  
+**Depende de:** Gate 1B (`COMPLETADO_PROVISIONAL_OPERATIVO`), Gate 1C (pendiente de completar). Gate 1D no puede abrirse mientras Gate 1C siga EN CURSO o en revisión. En esta etapa no se debe poblar `respuestas_plan_empresa/`.
 **Archivos asociados:**  
 - `respuestas_plan_empresa/` (todos los archivos, sin redactar aún)  
 
@@ -96,10 +96,10 @@ Antes de cerrar una sección o compilar el entregable final, se debe auditar:
 2. **Respuestas afectadas:** Verificar si las respuestas de la sección en cuestión coinciden con el estado actual de las decisiones y pivotes.
 3. **Reapertura de preguntas:** Evaluar si hay preguntas de la guía que deban reabrirse debido a un cambio estratégico.
 4. **Matriz de clasificación:** Confirmar que la clasificación de preguntas en `docs_organizacion/08_matriz_clasificacion_preguntas_red_arce.md` sigue siendo coherente con el pivote.
+   Esta matriz es candidata activa de Gate 1C, no cierre definitivo, mientras DEC-014 siga pendiente.
 5. **Consistencia del documento final:** Asegurar que la regeneración del documento final completo no introduzca contradicciones lógicas ni estructurales.
 
 ### Reglas de Bloqueo Selectivo y General
 
 - **Bloqueo a Nivel de Sección:** Una sección de respuestas individual no podrá darse por cerrada si existen registros en `docs_control/04_registro_decisiones.md` con estado `pendiente`, `en_revisión` o `bloqueado` que afecten directa o transversalmente a esa sección.
 - **Bloqueo del Documento Final Completo:** La compilación y entrega del documento final completo (`_build/plan_empresa_taller_colaborativo_completo.md` u otros consolidados) quedará estrictamente **BLOQUEADA** si existe cualquier pivote, bloqueo, decisión o revalidación pendiente con impacto no resuelto (es decir, en estados `pendiente`, `en_revisión` o `bloqueado`) en el registro.
-

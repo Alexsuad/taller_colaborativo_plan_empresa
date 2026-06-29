@@ -1,6 +1,15 @@
 repo_name: taller_colaborativo_plan_empresa
 purpose: "Organización documental y elaboración del plan de empresa del Taller Colaborativo Artesanal en Zaragoza."
-status: gate_1A_1B_completados_gate_1C_en_curso_gate_1D_bloqueado
+status: gate_1A_1B_completados_gate_1C_en_revision_gate_1D_bloqueado
+repo_role: live_project
+current_stage: lean_5s_cleanup
+current_gate: gate_1C_en_revision
+gate_1D_status: bloqueado
+allows_response_writing: false
+allows_final_compilation: false
+notebooklm_is_primary_source_library: true
+do_not_duplicate_notebooklm_sources: true
+contains_project_working_data: true
 phase_reference: "docs_control/03_gates_documentales.md"
 owner: Alex (Promotor)
 language_primary: python
@@ -20,4 +29,4 @@ requires_human_approval_for:
   - "Decisiones de negocio y precios"
   - "Validación de gates de calidad"
   - "Promoción de fases de redacción"
-notes: "Fase 1 abierta, Fase 2 parcialmente avanzada, Fase 3 bloqueada, Fase 4 bloqueada. Gate 1A completado. Gate 1B completado solo como inventario provisional operativo (no significa fuentes reales importadas; docs_fuentes/ sigue vacío y sin fuentes importadas). Gate 1C en curso. Gate 1D bloqueado (redacción no autorizada). La sede agéntica vive en .agents/ con reglas, skills y workflows. El control de contaminación conceptual es configurable vía config/contaminacion_conceptual.yml. Prohibida la copia directa de respuestas de otros planes de negocio."
+notes: "Fase 1 abierta, Fase 2 parcialmente avanzada, Fase 3 bloqueada, Fase 4 bloqueada. Gate 1A completado. Gate 1B completado solo como inventario provisional operativo (no significa fuentes reales importadas; docs_fuentes/ sigue vacío y sin fuentes importadas). Gate 1C en revisión. Gate 1D bloqueado (redacción no autorizada). El repositorio es un proyecto vivo con trabajo documental propio, pero NotebookLM sigue siendo la biblioteca documental principal y no debe duplicarse en masa dentro del repo. La sede agéntica vive en .agents/ con reglas, skills y workflows. El control de contaminación conceptual es configurable vía config/contaminacion_conceptual.yml. Prohibida la copia directa de respuestas de otros planes de negocio."

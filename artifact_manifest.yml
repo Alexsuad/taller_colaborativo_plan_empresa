@@ -1,3 +1,85 @@
+classification_5s:
+  ACTIVE_CONTROL:
+    - path: docs_control/00_contrato_identidad_negocio.md
+      label: IDENTIDAD_ACTIVA
+    - path: docs_control/01_opcion_activa_taller.md
+      label: OPCION_ACTIVA
+    - path: docs_control/02_reglas_anticontaminacion.md
+      label: REGLAS_ACTIVAS
+    - path: docs_control/03_gates_documentales.md
+      label: GOBIERNO_DE_GATES
+    - path: docs_control/04_registro_decisiones.md
+      label: REGISTRO_DECISIONES
+    - path: docs_control/05_sedes_informacion_plan_empresa.yml
+      label: SEDES_ACTIVAS
+    - path: docs_control/06_fases_oficiales_proyecto.md
+      label: FASES_ACTIVAS
+    - path: docs_control/07_mapa_reutilizacion_repo.md
+      label: MAPA_REUTILIZACION
+    - path: docs_control/09_plan_maestro_saneamiento_pre_gate_1c.md
+      label: SANEAMIENTO_EN_CURSO
+    - path: docs_organizacion/01_inventario_fuentes.md
+      label: INVENTARIO_VIGENTE
+    - path: docs_organizacion/02_matriz_red_arce_fuentes_vacios.md
+      label: SOPORTE_ACTIVO_TEMPORAL
+    - path: docs_organizacion/03_revision_critica_matriz_vacios.md
+      label: SOPORTE_DE_VALIDACION_TEMPORAL
+    - path: scripts/auditar_estado_plan_empresa.py
+      label: AUDITORIA_PRE_REDACCION_PERMITIDA
+    - path: scripts/auditar_contaminacion_conceptual.py
+      label: AUDITORIA_PRE_REDACCION_PERMITIDA
+  ACTIVE_REVIEW:
+    - path: docs_organizacion/08_matriz_clasificacion_preguntas_red_arce.md
+      label: CANDIDATA_ACTIVA_GATE_1C
+      note: "Permanece activa en revisión mientras DEC-014 siga pendiente."
+  PASSIVE_SUPPORT:
+    - path: docs_organizacion/00_organizacion_documental_marketing/
+      label: CONSULTA_PASIVA
+    - path: docs_metodologia/
+      label: CONSULTA_PASIVA
+  PROTECTED_REFERENCE:
+    - path: docs_organizacion/00_organizacion_documental_marketing/05_calibracion_competitiva_modelo/02_inventario_fuentes_competencia/COMP-F001_investigacion_tmdc.md
+      label: CONSULTA_INMEDIATA_PROTEGIDA
+    - path: docs_organizacion/00_organizacion_documental_marketing/05_calibracion_competitiva_modelo/02_inventario_fuentes_competencia/COMP-F002_investigacion_the_comaking_space.md
+      label: CONSULTA_INMEDIATA_PROTEGIDA
+    - path: docs_organizacion/00_organizacion_documental_marketing/05_calibracion_competitiva_modelo/02_inventario_fuentes_competencia/COMP-F003_investigacion_a_tu_madera.md
+      label: CONSULTA_INMEDIATA_PROTEGIDA
+    - path: docs_organizacion/00_organizacion_documental_marketing/05_calibracion_competitiva_modelo/02_inventario_fuentes_competencia/COMP-F004_investigacion_t11_sevilla.md
+      label: CONSULTA_INMEDIATA_PROTEGIDA
+    - path: docs_organizacion/00_organizacion_documental_marketing/05_calibracion_competitiva_modelo/02_inventario_fuentes_competencia/COMP-F005_investigacion_cara_y_canto.md
+      label: CONSULTA_INMEDIATA_PROTEGIDA
+    - path: docs_organizacion/00_organizacion_documental_marketing/05_calibracion_competitiva_modelo/02_inventario_fuentes_competencia/COMP-F006_analisis_competitivo_madera_aragon.md
+      label: CONSULTA_INMEDIATA_PROTEGIDA
+    - path: docs_organizacion/00_organizacion_documental_marketing/05_calibracion_competitiva_modelo/02_inventario_fuentes_competencia/COMP-F007_informe_inteligencia_competitiva_alianzas.md
+      label: CONSULTA_INMEDIATA_PROTEGIDA
+    - path: docs_organizacion/00_organizacion_documental_marketing/05_calibracion_competitiva_modelo/02_inventario_fuentes_competencia/COMP-F008_chat01_taller_colaborativo.md
+      label: CONSULTA_INMEDIATA_PROTEGIDA
+    - path: docs_organizacion/00_organizacion_documental_marketing/05_calibracion_competitiva_modelo/02_inventario_fuentes_competencia/COMP-F009_analisis_coworking_carpinteria.md
+      label: CONSULTA_INMEDIATA_PROTEGIDA
+    - path: docs_organizacion/00_organizacion_documental_marketing/05_calibracion_competitiva_modelo/02_inventario_fuentes_competencia/COMP-F010_analisis_competencia_xlsx.md
+      label: CONSULTA_INMEDIATA_PROTEGIDA
+  FROZEN_POST_F1:
+    - path: docs_consolidados/
+      label: FASE_FUTURA
+    - path: anexos/
+      label: FASE_FUTURA
+    - path: _build/
+      label: FASE_FUTURA
+    - path: templates/
+      label: FASE_FUTURA
+    - path: scripts/compilar_plan_empresa.py
+      label: ENTREGA_POST_F1
+    - path: scripts/auditar_linealidad_plan_empresa.py
+      label: ENTREGA_POST_F1
+    - path: scripts/auditar_formato_markdown_entrega.py
+      label: ENTREGA_POST_F1
+    - path: scripts/auditar_texto_corrupto_entrega.py
+      label: ENTREGA_POST_F1
+  GENERATED_REGENERABLE:
+    - path: _build/reportes/
+      label: REGENERABLE
+  DELETE_CANDIDATE_REQUIRES_APPROVAL: []
+
 artifacts:
   - path: docs_control/00_contrato_identidad_negocio.md
     required: true

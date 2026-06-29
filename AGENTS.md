@@ -15,6 +15,7 @@ Antigravity, Codex u otros asistentes de IA deben tratar este repositorio con ex
 5. **No Autoaprobación:** El agente propone soluciones y reportes, pero la decisión de promocionar fases o validar gates es exclusiva de Alex.
 6. **Límite de Entrega Técnica en Fase 3:** Ningún agente o script puede declarar terminado el plan de empresa en Fase 3. El cierre del entregable final, la maquetación y la exportación limpia pertenecen exclusivamente a la Fase 4.
 7. **Sede Agéntica Única:** Reglas, skills y workflows de los agentes viven en `.agents/`. Fuera de esa sede solo se referencia, no se replica. El estado de fases y gates es fuente única en `docs_control/03_gates_documentales.md` y el de sedes de información en `docs_control/05_sedes_informacion_plan_empresa.yml`.
+8. **Limpieza LEAN/5S sin expansión:** Mientras dure la limpieza no se crean documentos nuevos, no se pobla `respuestas_plan_empresa/`, no se toca `plan_empresa_guia/`, no se modifican `COMP-F001` a `COMP-F010`, no se ejecuta compilación, no se crean skills nuevas y no se corrigen scripts fuera de alcance.
 
 ## Inicio de Tarea
 

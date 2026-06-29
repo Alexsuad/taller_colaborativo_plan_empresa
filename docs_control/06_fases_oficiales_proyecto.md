@@ -2,11 +2,13 @@
 
 Este documento define la estructura de gobierno y avance del proyecto en 4 fases oficiales de trabajo.
 
+La fase operativa actual del repositorio es la limpieza LEAN/5S previa al desarrollo técnico. Tras esa limpieza vendrá el diseño del harnés técnico y de las skills necesarias; la redacción de respuestas del plan queda para una etapa posterior y sigue bloqueada.
+
 ---
 
 ## FASE 1 — Negocio y documentación base
 
-*   **Estado actual:** Abierta (Gates 1A y 1B completados; Gate 1C en curso; Gate 1D bloqueado)
+*   **Estado actual:** Abierta (Gates 1A y 1B completados; Gate 1C en curso y en revisión; Gate 1D bloqueado)
 *   **Objetivo:** Consolidar la identidad del taller, la opción activa de negocio y el inventario de fuentes documentales reales.
 *   **Entregables:**
     *   Contrato de identidad (`docs_control/00_contrato_identidad_negocio.md`).
