@@ -160,13 +160,8 @@ Posible avance prematuro a redacción o consolidación.
 Hallazgos:
 
 ```text
-docs_organizacion/ mezcla documentos activos, históricos, propuestas absorbidas y matrices en revisión.
-02_matriz_preguntas_fuentes_vacios.md compite con 02_matriz_red_arce_fuentes_vacios.md.
-03_mapa_duplicados.md compite funcionalmente con 03_revision_critica_matriz_vacios.md.
-04_decisiones_pendientes.md puede contener decisiones obsoletas o absorbidas.
-05_propuesta_clasificacion_instalaciones_seguridad.md usa rutas antiguas.
-06_propuesta_inventario_general_fuentes.md parece absorbido por 01_inventario_fuentes.md.
-07_propuesta_inventario_puente_fuentes_externas.md parece absorbido por 01_inventario_fuentes.md.
+docs_organizacion/ mezcla documentos activos, históricos y matrices en revisión.
+Algunos diagnósticos previos ya fueron absorbidos por sedes vigentes.
 08_matriz_clasificacion_preguntas_red_arce.md existe, pero DEC-014 sigue pendiente.
 ```
 
@@ -478,12 +473,7 @@ Numeración con ruido.
 Archivos probablemente afectados en una tarea futura:
 
 ```text
-docs_organizacion/02_matriz_preguntas_fuentes_vacios.md
-docs_organizacion/03_mapa_duplicados.md
 docs_organizacion/04_decisiones_pendientes.md
-docs_organizacion/05_propuesta_clasificacion_instalaciones_seguridad.md
-docs_organizacion/06_propuesta_inventario_general_fuentes.md
-docs_organizacion/07_propuesta_inventario_puente_fuentes_externas.md
 ```
 
 Archivos que no deben modificarse sin autorización específica:

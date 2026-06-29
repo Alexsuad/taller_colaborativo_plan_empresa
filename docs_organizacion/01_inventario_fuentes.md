@@ -6,7 +6,7 @@
 **Nota de alcance:** Este inventario no importa fuentes reales, no valida definitivamente el contenido de las fuentes, no autoriza redacción del plan, no autoriza poblar `respuestas_plan_empresa/`, no autoriza crear `docs_consolidados/`, no cierra Gate 1C ni abre Gate 1D.
 
 > [!IMPORTANT]
-> Este documento consolida los diagnósticos previos (`06_propuesta_inventario_general_fuentes.md` y `07_propuesta_inventario_puente_fuentes_externas.md`) y el manifest original (`docs_manifest/01_manifest_fuentes_y_uso_permitido.md`). Ningún archivo fuente real se ha movido, copiado ni modificado. Este inventario es provisional operativo, no importa fuentes reales, no valida definitivamente el contenido y no autoriza redacción del plan, poblar `respuestas_plan_empresa/` ni crear `docs_consolidados/`.
+> Este documento consolida diagnósticos previos y el manifest original (`docs_manifest/01_manifest_fuentes_y_uso_permitido.md`). Ningún archivo fuente real se ha movido, copiado ni modificado. Este inventario es provisional operativo, no importa fuentes reales, no valida definitivamente el contenido y no autoriza redacción del plan, poblar `respuestas_plan_empresa/` ni crear `docs_consolidados/`.
 
 ---
 
@@ -174,7 +174,6 @@
 
 | Documento | Rol | Relación con este inventario |
 |---|---|---|
-| `docs_organizacion/06_propuesta_inventario_general_fuentes.md` | Diagnóstico técnico del repo madre y placeholders vacíos | Se mantiene como diagnóstico; este documento lo consolida |
-| `docs_organizacion/07_propuesta_inventario_puente_fuentes_externas.md` | Puente hacia fuentes externas reales en `/mnt/data/` | Se mantiene como puente; este documento lo incorpora |
+| Diagnósticos previos absorbidos | Diagnóstico técnico y puente de fuentes | Consolidados aquí |
 | `docs_manifest/01_manifest_fuentes_y_uso_permitido.md` | Manifest resumido de políticas de uso | Se mantiene como manifiesto de políticas; este documento lo expande |
 | `docs_control/03_gates_documentales.md` | Gates del proyecto | Gate 1B usa este inventario como criterio de cierre |
