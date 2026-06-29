@@ -473,7 +473,7 @@ Numeración con ruido.
 Archivos probablemente afectados en una tarea futura:
 
 ```text
-docs_organizacion/04_decisiones_pendientes.md
+Documento eliminado por limpieza LEAN-5S; recuperable desde Git si hiciera falta.
 ```
 
 Archivos que no deben modificarse sin autorización específica:

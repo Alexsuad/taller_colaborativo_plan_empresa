@@ -32,4 +32,4 @@ Un espacio colaborativo de oficios orientado inicialmente a carpintería, ebanis
 
 ## Regla de cierre
 
-Si una pieza documental contradice este contrato, debe ir a `docs_organizacion/04_decisiones_pendientes.md` antes de entrar al plan.
+Si una pieza documental contradice este contrato, debe ir al registro de decisiones antes de entrar al plan.

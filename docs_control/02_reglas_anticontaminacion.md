@@ -22,4 +22,4 @@ Toda fuente debe pasar por inventario, uso permitido, riesgo y destino antes de 
 
 ## Regla 6 — Decisiones explícitas
 
-Si una fuente abre una posibilidad estratégica, no se asume como decisión. Se registra en `docs_organizacion/04_decisiones_pendientes.md`.
+Si una fuente abre una posibilidad estratégica, no se asume como decisión. Se registra en el registro de decisiones.

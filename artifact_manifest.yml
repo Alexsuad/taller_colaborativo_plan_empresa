@@ -113,10 +113,6 @@ artifacts:
     required: true
     type: reuse_map
     policy: controlled_update
-  - path: docs_control/08_auditoria_5s_estructura_documental.md
-    required: false
-    type: audit_report
-    policy: historical_reference
   - path: docs_control/09_plan_maestro_saneamiento_pre_gate_1c.md
     required: true
     type: sanitation_plan
@@ -135,10 +131,6 @@ artifacts:
     required: true
     type: gaps_review
     policy: controlled_update
-  - path: docs_organizacion/04_decisiones_pendientes.md
-    required: false
-    type: historical_decisions
-    policy: historical_reference
   - path: docs_organizacion/08_matriz_clasificacion_preguntas_red_arce.md
     required: false
     type: pending_red_arce_question_classification
