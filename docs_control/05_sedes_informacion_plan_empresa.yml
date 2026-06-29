@@ -28,5 +28,4 @@ sedes:
 
   decisiones:
     sede_principal: "docs_control/04_registro_decisiones.md"
-    puede_apoyarse_en:
-      - "Documento eliminado por limpieza LEAN-5S; recuperable desde Git si hiciera falta."
+    puede_apoyarse_en: []

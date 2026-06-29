@@ -213,11 +213,3 @@ artifacts:
     required: false
     type: final_audit_report
     policy: adapt_required
-  - path: _build/reportes/auditoria_contaminacion_conceptual.md
-    required: false
-    type: audit_report
-    policy: adapt_required
-  - path: _build/reportes/auditoria_formato_markdown_entrega.md
-    required: false
-    type: audit_report
-    policy: adapt_required

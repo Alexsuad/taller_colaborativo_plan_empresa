@@ -473,7 +473,7 @@ Numeración con ruido.
 Archivos probablemente afectados en una tarea futura:
 
 ```text
-Documento eliminado por limpieza LEAN-5S; recuperable desde Git si hiciera falta.
+Bloque PT-10B parcialmente ejecutado mediante limpieza LEAN-5S. No quedan rutas pendientes en esta lista.
 ```
 
 Archivos que no deben modificarse sin autorización específica:
