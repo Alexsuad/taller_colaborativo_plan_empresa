@@ -2,13 +2,13 @@
 
 Este documento define la estructura de gobierno y avance del proyecto en 4 fases oficiales de trabajo.
 
-La fase operativa actual del repositorio es la limpieza LEAN/5S previa al desarrollo técnico. Tras esa limpieza vendrá el diseño del harnés técnico y de las skills necesarias; la redacción de respuestas del plan queda para una etapa posterior y sigue bloqueada.
+La fase operativa de organización y limpieza documental queda `CERRADA_OPERATIVAMENTE`. Eso significa que ya es suficiente para avanzar, pero no que el repositorio esté perfecto ni que se autorice la redacción final del plan. La revisión de skills, harnés, SDD, subagentes y sistema técnico queda para una fase posterior separada.
 
 ---
 
 ## FASE 1 — Negocio y documentación base
 
-*   **Estado actual:** Abierta (Gates 1A y 1B completados; Gate 1C en curso y en revisión; Gate 1D bloqueado)
+*   **Estado actual:** CERRADA_OPERATIVAMENTE (Gates 1A y 1B completados; Gate 1C operativo para continuar; Gate 1D bloqueado)
 *   **Objetivo:** Consolidar la identidad del taller, la opción activa de negocio y el inventario de fuentes documentales reales.
 *   **Entregables:**
     *   Contrato de identidad (`docs_control/00_contrato_identidad_negocio.md`).
@@ -17,7 +17,7 @@ La fase operativa actual del repositorio es la limpieza LEAN/5S previa al desarr
 *   **Criterios de cierre:**
     *   Sub-gates 1A, 1B, 1C y 1D marcados como Completados en la gobernanza (Gate 1D abre la redacción).
     *   Ningún documento de identidad contiene contradicciones de negocio.
-*   **Qué NO se hace:** No se redacta contenido del plan de empresa ni respuestas finales, ni se define arquitectura de compilación técnica.
+*   **Qué NO se hace:** No se redacta contenido del plan de empresa ni respuestas finales, ni se define arquitectura de compilación técnica. No incluye skills, harnés, SDD, subagentes ni sistema técnico.
 
 ---
 
