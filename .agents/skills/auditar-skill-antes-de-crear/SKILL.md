@@ -1,3 +1,8 @@
+---
+name: auditar-skill-antes-de-crear
+description: "Usar antes de crear una nueva skill para verificar si ya existe una skill equivalente, si hay solape funcional, si conviene ampliar una existente o si se requiere decisión humana."
+---
+
 # auditar-skill-antes-de-crear
 
 ## Propósito
@@ -18,6 +23,10 @@ No usarla para decidir negocio, redactar el plan, crear subagentes o abrir Gate 
 
 ## Salidas
 - `DICTAMEN_SKILL`.
+- `CREAR_NUEVA`
+- `AMPLIAR_EXISTENTE`
+- `NO_CREAR_DUPLICADA`
+- `REQUIERE_DECISION_HUMANA`
 - Skill existente que cubre la necesidad, si aplica.
 - Nivel de solape.
 - Recomendación de acción.

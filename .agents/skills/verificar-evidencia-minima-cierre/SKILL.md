@@ -1,3 +1,8 @@
+---
+name: verificar-evidencia-minima-cierre
+description: "Usar antes de cerrar una tarea para comprobar que existe evidencia mínima: archivos tocados, comandos ejecutados, estado Git, auditor o validación aplicable, rutas prohibidas respetadas y estado final claro."
+---
+
 # verificar-evidencia-minima-cierre
 
 ## Propósito
@@ -19,6 +24,11 @@ No usarla para aprobar negocio, abrir Gates ni validar contenido de fondo.
 
 ## Salidas
 - Veredicto de cierre.
+- `DICTAMEN_CIERRE`.
+- `CIERRE_VALIDO`
+- `CIERRE_INSUFICIENTE`
+- `REQUIERE_EVIDENCIA`
+- `REQUIERE_DECISION_HUMANA`
 - Evidencia mínima presente o faltante.
 - Riesgos de cierre prematuro.
 - Acción humana requerida, si aplica.

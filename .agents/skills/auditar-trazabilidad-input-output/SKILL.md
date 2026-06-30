@@ -1,3 +1,8 @@
+---
+name: auditar-trazabilidad-input-output
+description: "Usar para comparar instrucción original, alcance permitido, archivos tocados, acciones ejecutadas y resultado reportado, detectando cambios de alcance, requisitos perdidos o conclusiones no soportadas."
+---
+
 # auditar-trazabilidad-input-output
 
 ## Propósito
@@ -18,6 +23,11 @@ No usarla para decidir negocio ni para abrir Gates.
 
 ## Salidas
 - Coincidencias entre instrucción y ejecución.
+- `DICTAMEN_TRAZABILIDAD`.
+- `TRAZABILIDAD_OK`
+- `DESVIO_MENOR`
+- `DESVIO_CRITICO`
+- `ALCANCE_CAMBIADO`
 - Cambios de alcance detectados.
 - Requisitos perdidos.
 - Conclusiones no soportadas.

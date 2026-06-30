@@ -1,3 +1,8 @@
+---
+name: verificar-no-mezcla-de-capas
+description: "Usar para detectar si una tarea mezcla capas incompatibles como gobernanza, redacción, negocio, marketing, legal, scripts, gates, compilación o entrega final, y recomendar separación si corresponde."
+---
+
 # verificar-no-mezcla-de-capas
 
 ## Propósito
@@ -18,6 +23,11 @@ No usarla para redactar contenido de negocio ni para ejecutar cambios fuera de r
 
 ## Salidas
 - Lista de capas separadas.
+- `DICTAMEN_CAPAS`.
+- `SIN_MEZCLA`
+- `MEZCLA_CONTROLADA`
+- `MEZCLA_CRITICA`
+- `SEPARAR_TAREA`
 - Lista de mezclas detectadas.
 - Riesgo de contaminación o confusión.
 - Recomendación de corrección o bloqueo.
