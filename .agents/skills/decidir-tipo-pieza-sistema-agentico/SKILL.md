@@ -9,7 +9,7 @@ description: Usar antes de crear una nueva pieza del sistema agéntico para deci
 
 Decidir la pieza mínima y correcta para resolver una necesidad nueva sin sobredimensionar el sistema.
 
-La salida debe indicar si conviene crear una skill, un script, ambos, una gate, una regla transversal, un workflow, un subagente, un MCP, un ajuste documental o nada.
+La salida debe indicar si conviene crear una skill, un script, ambos, un gate, una regla transversal, un workflow, un subagente, un MCP, un ajuste documental o nada.
 
 ## Cuándo usarla
 
