@@ -224,3 +224,50 @@ artifacts:
     required: false
     type: final_audit_report
     policy: adapt_required
+
+
+  # Harnés mínimo operativo de producto, marketing y comunicación
+  - path: .agents/subagents/agente_orquestador_cca.md
+    required: true
+    type: subagent
+    policy: adapt_required
+  - path: .agents/subagents/subagente_diagnostico_y_clasificacion.md
+    required: true
+    type: subagent
+    policy: adapt_required
+  - path: .agents/subagents/subagente_producto_marketing.md
+    required: true
+    type: subagent
+    policy: adapt_required
+  - path: .agents/subagents/subagente_auditor_documental.md
+    required: true
+    type: subagent
+    policy: adapt_required
+  - path: .agents/subagents/subagente_reviewer_qa.md
+    required: true
+    type: subagent
+    policy: adapt_required
+  - path: .agents/skills/auditar-producto-y-propuesta-valor/SKILL.md
+    required: true
+    type: skill
+    policy: adapt_required
+  - path: .agents/skills/auditar-marketing-ventas-comunicacion/SKILL.md
+    required: true
+    type: skill
+    policy: adapt_required
+  - path: .agents/skills/auditar-redes-sociales-calendario/SKILL.md
+    required: true
+    type: skill
+    policy: adapt_required
+  - path: .agents/skills/validar-coherencia-cliente-propuesta-canales/SKILL.md
+    required: true
+    type: skill
+    policy: adapt_required
+  - path: .agents/workflows/produccion-controlada-capitulo-plan/WORKFLOW.md
+    required: true
+    type: workflow
+    policy: adapt_required
+  - path: docs_control/gate_producto_marketing_comunicacion.md
+    required: true
+    type: gate
+    policy: adapt_required
