@@ -83,6 +83,10 @@ Producción editorial final, maquetación, inserción de anexos/gráficos y cons
 - `respuestas_plan_empresa/` (todos los archivos)  
 - `_build/plan_empresa_taller_colaborativo_completo.md`  
 
+### Criterio de bloqueo financiero previo a viabilidad
+
+Antes de cerrar `08_viabilidad_conclusiones.md` y antes de avanzar hacia cierre final, debe existir base económico-financiera suficiente. Si faltan supuestos, inversión inicial, costes, ingresos, tesorería, punto de equilibrio o escenarios mínimos, el cierre de viabilidad queda bloqueado. El sistema puede señalar carencias y riesgos, pero no debe inventar cifras ni concluir que el proyecto es viable sin evidencia suficiente.
+
 ---
 
 ## Gate de coherencia por cambios vivos (Control Transversal)
