@@ -32,8 +32,8 @@ Clasifica las fuentes reales del Taller (documentos propios, datos de mercado, c
 
 Cruza las preguntas de la guía con las fuentes disponibles para identificar vacíos de información que requerirán datos nuevos del Taller.
 
-**Estado:** OPERATIVO_PARA_CONTINUAR (Matriz Red ARCE → fuentes → vacíos en construcción. No se autoriza la redacción del plan.)
-**Nota:** La matriz inicial existe y DEC-011 está aprobada, y la revisión crítica de matriz y vacíos accionables existe y DEC-012 está aprobada. La matriz `docs_organizacion/08_matriz_clasificacion_preguntas_red_arce.md` opera como matriz activa de Gate 1C; `docs_organizacion/02_matriz_red_arce_fuentes_vacios.md` y `docs_organizacion/03_revision_critica_matriz_vacios.md` quedan como apoyo temporal. Gate 1C permite continuar la preparación del plan, pero no la redacción final. Gate 1D sigue bloqueado.
+**Estado:** CERRADO_OPERATIVAMENTE (Cerrado operativamente como matriz de clasificación, fuentes y vacíos. La matriz activa es `docs_organizacion/08_matriz_clasificacion_preguntas_red_arce.md`. Este cierre NO autoriza redacción de respuestas, NO abre el Gate 1D automáticamente, y NO permite poblar `respuestas_plan_empresa/`. El Gate 1D sigue estrictamente bloqueado hasta recibir autorización específica.)  
+**Nota:** La matriz inicial existe y DEC-011 está aprobada, y la revisión crítica de matriz y vacíos accionables existe y DEC-012 está aprobada. La matriz `docs_organizacion/08_matriz_clasificacion_preguntas_red_arce.md` opera como matriz activa de Gate 1C; `docs_organizacion/02_matriz_red_arce_fuentes_vacios.md` y `docs_organizacion/03_revision_critica_matriz_vacios.md` quedan como apoyo temporal.  
 **Archivos asociados:**  
 - `docs_organizacion/02_matriz_red_arce_fuentes_vacios.md`  
 - `docs_organizacion/03_revision_critica_matriz_vacios.md`  
@@ -42,12 +42,21 @@ Cruza las preguntas de la guía con las fuentes disponibles para identificar vac
 
 ## Gate 1D — Autorización para poblar respuestas_plan_empresa/
 
-Gate de autorización para comenzar la redacción de respuestas en `respuestas_plan_empresa/`. No se puede abrir hasta que Gate 1B y Gate 1C estén completados.
+Gate de autorización para comenzar la redacción de respuestas en `respuestas_plan_empresa/`. No debe abrirse como autorización global para poblar todo `respuestas_plan_empresa/` de una vez; en su lugar, debe operar por capítulo o bloque documental, requiriendo autorización explícita para cada capítulo antes de que este sea redactado.
 
-**Estado:** BLOQUEADO  
-**Depende de:** Gate 1B (`COMPLETADO_PROVISIONAL_OPERATIVO`), Gate 1C (pendiente de completar). Gate 1D no puede abrirse mientras Gate 1C siga EN CURSO o en revisión. En esta etapa no se debe poblar `respuestas_plan_empresa/`.
+**Estado:** BLOQUEADO (Salvo autorización parcial explícita por capítulo o bloque)  
+**Requisitos de Apertura Parcial:** Para cada capítulo o bloque que se autorice redactar, la apertura debe indicar:
+- Archivo autorizado.
+- Fuentes permitidas.
+- Vacíos aceptados.
+- Preguntas pendientes al usuario.
+- Si requiere investigación externa.
+- Validador o checklist de cierre.
+- Reviewer/gate aplicable.
+
+**Depende de:** Gate 1B (`COMPLETADO_PROVISIONAL_OPERATIVO`), Gate 1C (`CERRADO_OPERATIVAMENTE`). Gate 1D sigue bloqueado como autorización global. Capítulos transversales y críticos como el resumen ejecutivo, económico-financiero y viabilidad/conclusiones siguen bloqueados estrictamente hasta tener una base de datos y diseño de negocio suficiente.  
 **Archivos asociados:**  
-- `respuestas_plan_empresa/` (todos los archivos, sin redactar aún)  
+- `respuestas_plan_empresa/` (todos los archivos, placeholders esperados mientras no se autorice su capítulo correspondiente)  
 
 ---
 
@@ -55,7 +64,7 @@ Gate de autorización para comenzar la redacción de respuestas en `respuestas_p
 
 Define la estructura física y lógica del repositorio, límites de extensión y diseño de validaciones de calidad.
 
-**Estado:** PENDIENTE (Fase 2 parcialmente avanzada por el desarrollo inicial de matrices y gobernanza)  
+**Estado:** CERRADO_OPERATIVAMENTE (Como sistema mínimo de preparación documental; las respuestas permanecen como placeholders esperados en respuestas_plan_empresa/ mientras Gate 1D no se abra por capítulos)  
 **Archivos asociados:**  
 - `scripts/auditar_estado_plan_empresa.py`  
 - `scripts/auditar_linealidad_plan_empresa.py`  

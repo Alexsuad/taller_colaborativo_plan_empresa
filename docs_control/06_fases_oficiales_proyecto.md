@@ -23,16 +23,21 @@ La fase operativa de organización y limpieza documental queda `CERRADA_OPERATIV
 
 ## FASE 2 — Diseño del sistema/repositorio
 
-*   **Estado actual:** Parcialmente avanzada (Gate Fase 2 en curso/pendiente)
+*   **Estado actual:** CERRADA_OPERATIVAMENTE (Como sistema mínimo de preparación documental. Este cierre no implica respuestas redactadas, y los 17 placeholders en `respuestas_plan_empresa/` son esperados mientras el Gate 1D siga bloqueado o no abierto por capítulo.)
 *   **Objetivo:** Definir la estructura física y lógica del repositorio, mapeo de sedes de información, límites de extensión y diseño de validaciones de calidad.
 *   **Entregables:**
-    *   Matriz de preguntas-fuentes-vacíos.
-    *   Mapa maestro de fases y plantillas metodológicas.
-    *   Definición de límites de extensión (`limites_extension_plan_empresa.yml`).
+    *   Matriz activa Red ARCE (`docs_organizacion/08_matriz_clasificacion_preguntas_red_arce.md`).
+    *   Inventario y manifest de fuentes (`docs_organizacion/01_inventario_fuentes.md` y `docs_manifest/01_manifest_fuentes_y_uso_permitido.md`).
+    *   Vacíos de información clasificados.
+    *   Skills mínimas.
+    *   Subagentes mínimos.
+    *   Workflow de producción controlada.
+    *   Validadores mínimos de calidad y formato.
+    *   Gates de bloqueo y control de cambios transversales.
 *   **Criterios de cierre:**
-    *   Gate Fase 2 marcado como Completado.
-    *   Todos los vacíos de información identificados y asignados a decisiones pendientes.
-*   **Qué NO se hace:** No se implementan scripts de producción final ni compilación definitiva. Sí se pueden crear o ajustar scripts de auditoría, saneamiento y validación estructural cuando estén autorizados y acotados por misión.
+    *   Gate Fase 2 marcado como Completado / Cerrado operativamente.
+    *   Todos los vacíos de información identificados y clasificados.
+*   **Qué NO se hace:** No se autoriza la redacción global ni se puebla `respuestas_plan_empresa/`. La Fase 3 sigue bloqueada hasta la apertura controlada de Gate 1D por capítulos, y la Fase 4 sigue bloqueada hasta tener contenido validado listo para la producción editorial final.
 
 ---
 
