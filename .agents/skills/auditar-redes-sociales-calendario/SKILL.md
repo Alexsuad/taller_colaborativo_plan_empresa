@@ -1,39 +1,45 @@
 ---
 name: auditar-redes-sociales-calendario
-description: Use when social media activity needs a defined function, realistic cadence, and a calendar tied to the business goal.
+description: Use when social media channels, target audiences, content formats, frequency, calendars, and KPIs must be subordinated to strategy and human capacity.
 ---
 
 # Auditar redes sociales y calendario
 
 ## Propósito
-Revisar que las redes sociales cumplen una función concreta y que el calendario es accionable y coherente con el negocio.
+Revisar que el canal de redes sociales tenga una función clara, una audiencia definida, contenidos y formatos factibles, y que el calendario sea accionable según la capacidad humana del taller.
 
 ## Entradas
-- plan de redes;
-- función prevista;
-- frecuencia;
-- calendario base.
+- plan de redes sociales;
+- función y justificación de cada red;
+- formatos de contenido y frecuencia previstos;
+- calendario de publicaciones base;
+- responsable asignado y tiempo estimado;
+- métricas y KPIs asociados.
 
 ## Salida esperada
-- coherencia de calendario;
-- función de redes;
-- bloqueadores.
+- veredicto de viabilidad y coherencia del plan de redes;
+- riesgos de saturación de capacidad o redes vacías/sin objetivo;
+- bloqueos detectados.
 
 ## Criterios de bloqueo
-- calendario vago;
-- redes sin función;
-- frecuencia irreal;
-- contenido desconectado del cliente.
+- proponer redes sociales sin una función específica ligada a marketing/ventas;
+- proponer canales no prioritarios o inadecuados para el cliente objetivo;
+- frecuencia de publicación irreal o excesivamente alta que supere la capacidad real de tiempo y personal del taller;
+- contenidos y formatos genéricos, desconectados de la comunicación de marca;
+- proponer un plan sin responsable explícito o estimación del tiempo de dedicación;
+- falta de métricas y KPIs concretos y realistas para evaluar el impacto de cada red.
 
 ## Checklist mínimo
-- función definida;
-- calendario ejecutable;
-- canal coherente;
-- objetivo medible.
+- canal seleccionado justificado;
+- función concreta asignada (atracción, fidelización, conversión);
+- audiencia específica por canal;
+- tipo y formato de contenido adecuado;
+- frecuencia y calendario realistas y ejecutables;
+- responsable de la gestión y métrica de éxito.
 
 ## Evidencia requerida
-- bloque auditado;
-- fecha o periodicidad;
+- bloque o planificación de redes analizado;
+- estimación de recursos humanos/horas requeridas;
 - dictamen.
 
 ## Formato mínimo de salida
@@ -48,6 +54,6 @@ Revisar que las redes sociales cumplen una función concreta y que el calendario
 * Siguiente acción recomendada.
 
 ## Límites
-- no diseña estrategia completa;
-- no sustituye revisión humana;
-- no abre gates.
+- no redacta las publicaciones de las redes;
+- no gestiona herramientas de publicación ni perfiles sociales;
+- no sustituye la estrategia de comunicación general.

@@ -263,6 +263,26 @@ artifacts:
     required: true
     type: skill
     policy: adapt_required
+  - path: .agents/skills/auditar-cliente-segmentos/SKILL.md
+    required: true
+    type: skill
+    policy: adapt_required
+  - path: .agents/skills/auditar-marketing/SKILL.md
+    required: true
+    type: skill
+    policy: adapt_required
+  - path: .agents/skills/auditar-ventas/SKILL.md
+    required: true
+    type: skill
+    policy: adapt_required
+  - path: .agents/skills/auditar-comunicacion/SKILL.md
+    required: true
+    type: skill
+    policy: adapt_required
+  - path: .agents/skills/validar-coherencia-comercial-global/SKILL.md
+    required: true
+    type: skill
+    policy: adapt_required
   - path: .agents/workflows/produccion-controlada-capitulo-plan/WORKFLOW.md
     required: true
     type: workflow
