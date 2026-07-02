@@ -3,6 +3,13 @@
 ## Propósito
 Bloquear el avance de marketing, ventas, comunicación y redes si no existe coherencia lógica, recursos suficientes, KPIs y viabilidad operativa en toda la cadena comercial con el cliente y la propuesta de valor.
 
+## Alcance del Gate
+- Este gate valida la coherencia comercial del bloque auditado.
+- No valida la viabilidad global del negocio.
+- No sustituye la revisión económico-financiera.
+- No autoriza apertura de la Fase 4.
+- No autoriza la redacción global ni la apertura global del Gate 1D.
+
 ## Criterios de Validación Mínima Obligatoria
 
 | Criterio | Evidencia requerida | Estado |

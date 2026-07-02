@@ -35,6 +35,7 @@ Queda prohibido iniciar la preparación de un bloque si no se han satisfecho pre
 
 ## Reglas de Control del Workflow
 - **Bloqueo de Redacción sin Puertas (Gate 1D):** El workflow no autoriza ni ejecuta la redacción de respuestas definitivas si el Gate 1D de control no está abierto de forma parcial y explícita para el capítulo correspondiente.
+- **Verificación de Correspondencia Guía-Respuesta (Regla Lean):** Antes de cerrar un bloque, verificar que las preguntas guía asociadas en `plan_empresa_guia/` tienen correspondencia en `respuestas_plan_empresa/` y estado: `respondida`, `parcial`, `pendiente`, `no aplica`. Esta verificación no autoriza redactar si el Gate 1D no está abierto parcialmente para ese capítulo. No se requiere crear skill nueva para esta regla (se audita manualmente, y si se vuelve repetitiva se evaluará una skill futura).
 - **No cierre sin Reviewer QA:** Ningún capítulo del plan puede considerarse finalizado o completado si no cuenta con el veredicto del Reviewer QA.
 - **No compilación prematura:** Queda prohibido compilar el plan de empresa completo o avanzar a Fase 4 de producción editorial si existe algún bloque con dependencias pendientes o bloqueos de consistencia.
 - **Detección de dependencias:** Antes de iniciar cualquier preparación, el workflow comprobará si los capítulos precedentes listados en la tabla de dependencias han superado su correspondiente gate transversal.

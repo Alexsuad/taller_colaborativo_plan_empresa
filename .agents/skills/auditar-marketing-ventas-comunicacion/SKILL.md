@@ -5,6 +5,18 @@ description: Use when marketing, sales, messaging, or communication must stay co
 
 # Auditar marketing, ventas y comunicación
 
+> [!NOTE]
+> **Estado:** LEGACY / SECUNDARIA.  
+> **Uso permitido:** revisión rápida o transversal de coherencia básica entre marketing, ventas y comunicación.  
+> **No sustituye a las skills especialistas:**  
+> - `auditar-cliente-segmentos`  
+> - `auditar-producto-y-propuesta-valor`  
+> - `auditar-marketing`  
+> - `auditar-ventas`  
+> - `auditar-comunicacion`  
+> - `auditar-redes-sociales-calendario`  
+> - `validar-coherencia-comercial-global`
+
 ## Propósito
 Verificar que marketing, ventas y comunicación encajan entre sí y con el modelo de negocio sin promesas genéricas.
 

@@ -5,6 +5,12 @@ description: Use when client, value proposition, channels, and communication mus
 
 # Validar coherencia cliente, propuesta y canales
 
+> [!NOTE]
+> **Estado:** LEGACY / SECUNDARIA.  
+> **Uso permitido:** revisión rápida de coherencia cliente → propuesta → canales.  
+> **No sustituye a `validar-coherencia-comercial-global`**, que es la skill principal para validar la cadena completa:  
+> cliente → propuesta → posicionamiento → canales → acciones → presupuesto/recursos → ventas → KPIs.
+
 ## Propósito
 Comprobar que cliente, propuesta de valor y canales forman un conjunto coherente antes de pasar a redacción.
 
