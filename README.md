@@ -2,9 +2,9 @@
 
 Repositorio para la organización documental y elaboración del plan de empresa del Taller Colaborativo Artesanal en Zaragoza.
 
-## Modo LEAN/5S activo
+## Estado documental operativo
 
-El repositorio está en una fase de limpieza y señalización operativa, no de redacción del plan.
+La Fase 1 documental quedó cerrada operativamente. Gate 1C está operativo para continuar y Gate 1D sigue bloqueado. El siguiente trabajo debe apoyar la producción controlada del plan, no reabrir la limpieza documental.
 
 - NotebookLM es la biblioteca documental principal del proyecto.
 - `COMP-F001` a `COMP-F010` se conservan como consulta inmediata protegida.
