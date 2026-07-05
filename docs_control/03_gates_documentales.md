@@ -33,7 +33,7 @@ Clasifica las fuentes reales del Taller (documentos propios, datos de mercado, c
 Cruza las preguntas de la guía con las fuentes disponibles para identificar vacíos de información que requerirán datos nuevos del Taller.
 
 **Estado:** OPERATIVO_PARA_CONTINUAR (Matriz activa de Gate 1C. Este estado no autoriza redacción de respuestas, no abre el Gate 1D automáticamente y no permite poblar `respuestas_plan_empresa/`. El Gate 1D sigue estrictamente bloqueado hasta recibir autorización específica.)
-**Nota:** La matriz inicial existe y DEC-011 está aprobada, y la revisión crítica de matriz y vacíos accionables existe y DEC-012 está aprobada. La matriz `docs_organizacion/08_matriz_clasificacion_preguntas_red_arce.md` opera como matriz activa de Gate 1C; `docs_organizacion/02_matriz_red_arce_fuentes_vacios.md` y `docs_organizacion/03_revision_critica_matriz_vacios.md` quedan como antecedente y apoyo temporal.  
+**Nota:** La matriz inicial existe y DEC-011 está aprobada, y la revisión crítica de matriz y vacíos accionables existe y DEC-012 está aprobada. La matriz `docs_organizacion/08_matriz_clasificacion_preguntas_red_arce.md` opera como matriz activa de Gate 1C; `docs_organizacion/02_matriz_red_arce_fuentes_vacios.md` y `docs_organizacion/03_revision_critica_matriz_vacios.md` quedan como antecedente y apoyo temporal.
 **Archivos asociados:**  
 - `docs_organizacion/02_matriz_red_arce_fuentes_vacios.md`  
 - `docs_organizacion/03_revision_critica_matriz_vacios.md`  
