@@ -54,7 +54,7 @@ Gate de autorización para comenzar la redacción de respuestas en `respuestas_p
 - Validador o checklist de cierre.
 - Reviewer/gate aplicable.
 
-**Depende de:** Gate 1B (`COMPLETADO_PROVISIONAL_OPERATIVO`), Gate 1C (`CERRADO_OPERATIVAMENTE`). Gate 1D sigue bloqueado como autorización global. Capítulos transversales y críticos como el resumen ejecutivo, económico-financiero y viabilidad/conclusiones siguen bloqueados estrictamente hasta tener una base de datos y diseño de negocio suficiente.  
+**Depende de:** Gate 1B (`COMPLETADO_PROVISIONAL_OPERATIVO`), Gate 1C (`OPERATIVO_PARA_CONTINUAR`). Gate 1D sigue bloqueado como autorización global. Capítulos transversales y críticos como el resumen ejecutivo, económico-financiero y viabilidad/conclusiones siguen bloqueados estrictamente hasta tener una base de datos y diseño de negocio suficiente.  
 **Archivos asociados:**  
 - `respuestas_plan_empresa/` (todos los archivos, placeholders esperados mientras no se autorice su capítulo correspondiente)  
 
