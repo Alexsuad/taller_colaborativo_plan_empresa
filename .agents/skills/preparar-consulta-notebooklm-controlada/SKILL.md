@@ -14,6 +14,11 @@ Usar esta skill cuando haga falta formular una consulta de apoyo para:
 - contrastar un hueco documental ya identificado;
 - ordenar preguntas antes de una revisión humana;
 - preparar una consulta reproducible para NotebookLM sin tocar el repositorio.
+- devolver la respuesta al repositorio como evidencia trazable o como hipótesis pendiente de validación.
+
+Si el repo no responde pero existe una fuente indexada identificada, se puede preparar consulta NotebookLM.
+Si el repo contradice o hay un bloqueo de gobernanza, no se consulta NotebookLM hasta aclarar el bloqueo.
+Si una pregunta queda como `[F-NOTEBOOKLM]` o como `[M]` con un hueco documental ya indexado, preparar primero la consulta NotebookLM antes de escalar al usuario.
 
 ## Cuándo NO usarla
 No usarla cuando:
@@ -123,7 +128,9 @@ Una skill no se crea por ocurrencia. Se planifica, se conecta con el negocio, se
 - NotebookLM solo se consulta después de clasificar el estado del repo.
 - Si el repo responde suficiente, la consulta se prepara solo para acotar o localizar.
 - Si el repo responde parcial, se consulta solo el hueco residual.
-- Si el repo no responde o contradice, no se consulta todavía.
+- Si el repo no responde, pero hay una fuente indexada identificada, NotebookLM puede prepararse antes de preguntar al usuario.
+- Si el repo contradice o existe un bloqueo de gobernanza, NotebookLM queda detenido hasta aclarar el bloqueo.
+- Si la fuente ya está indexada y el hueco quedó clasificado como `[F-NOTEBOOKLM]` o `[M]`, NotebookLM se usa antes de pedir al usuario una respuesta en blanco.
 
 ## Criterio de cierre
 La skill queda lista cuando la consulta:

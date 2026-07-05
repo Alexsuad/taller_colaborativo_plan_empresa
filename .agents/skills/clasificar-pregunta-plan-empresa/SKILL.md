@@ -43,15 +43,48 @@ Una ficha de clasificación con, como mínimo:
 * siguiente acción;
 * observaciones.
 
+## Formato de salida obligatorio
+
+La respuesta debe usar exactamente estas claves, en este orden:
+
+```text
+ID:
+PREGUNTA:
+SECCION:
+CLASIFICACION:
+FUENTE_SIGUIENTE:
+ROL_ALEX:
+PREPARABLE_ANTES_DE_PREGUNTAR:
+SIGUIENTE_ACCION:
+NO_RESPONDER_AUN:
+OBSERVACIONES:
+```
+
+## Tabla obligatoria de etiquetas
+
+| Código | Significado | Uso obligatorio |
+| --- | --- | --- |
+| `[F-REPO]` | Fuente interna local del repositorio | Extraer primero del repo antes de preguntar |
+| `[F-NOTEBOOKLM]` | Fuente indexada del proyecto en NotebookLM | Consultar solo si el repo no basta y la fuente ya está indexada |
+| `[U-DATO]` | Dato que solo puede aportar Alex/promotor | Usar solo si el sistema no puede prepararlo de forma trazable |
+| `[U-VALIDA]` | Alex valida una propuesta preparada | Pedir validación de una propuesta, no una pregunta en blanco |
+| `[U-ELIGE]` | Alex elige entre opciones preparadas | Ofrecer alternativas cerradas antes de preguntar |
+| `[U-AUTORIZA]` | Alex autoriza una investigación web o profunda | Pedir permiso solo después de preparar el contexto |
+| `[I-SIMPLE]` | Investigación web puntual o fuente oficial simple | Búsqueda acotada y verificable |
+| `[I-DEEP]` | Investigación profunda | Requiere varias fuentes y contraste |
+| `[M]` | Mixto | Combina repo, NotebookLM, usuario e investigación |
+| `[NO-RESPONDER-AÚN]` | No responder todavía | Depende de validación futura real o de hitos no disponibles |
+
 # Procedimiento
 
 1. Leer la pregunta y ubicar la sección.
 2. Identificar si existe fuente interna suficiente.
-3. Determinar si la respuesta depende del usuario/promotor.
-4. Determinar si la pregunta debe quedar en `NO_RESPONDER_AÚN`.
-5. Marcar la fuente probable o el tipo de búsqueda requerido.
-6. Registrar la siguiente acción documental.
-7. Emitir la clasificación sin redactar contenido final.
+3. Comprobar si antes de preguntar al usuario se puede preparar una opción trazable con fuentes internas, NotebookLM o investigación controlada.
+4. Determinar si la respuesta depende del usuario/promotor y, si es así, si el rol es aportar dato, validar propuesta, elegir entre opciones o autorizar investigación.
+5. Determinar si la pregunta debe quedar en `NO_RESPONDER_AÚN`.
+6. Marcar la fuente probable o el tipo de búsqueda requerido.
+7. Registrar la siguiente acción documental.
+8. Emitir la clasificación sin redactar contenido final.
 
 # Reglas obligatorias
 
@@ -60,6 +93,7 @@ Una ficha de clasificación con, como mínimo:
 * Esta skill no toca `respuestas_plan_empresa/`.
 * Esta skill no decide negocio, marketing, legal, RRSS ni viabilidad.
 * Esta skill no convierte hipótesis en hechos.
+* Esta skill no pregunta al usuario en blanco si todavía puede preparar opciones con repositorio, NotebookLM o investigación controlada.
 
 # Límites / No hacer
 

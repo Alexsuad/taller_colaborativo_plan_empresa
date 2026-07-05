@@ -34,11 +34,38 @@ Estados permitidos:
 | Código | Significado | Quién/qué responde | Uso correcto |
 | ------ | ----------- | ------------------ | ------------ |
 | `[F]` | Fuente interna del proyecto | Documentos ya existentes en el repo | No preguntar ni buscar de nuevo; extraer, adaptar y citar fuente |
-| `[U]` | Usuario | Promotor / Alexander | Preguntar directamente porque sería peligroso inventarlo |
+| `[U]` | Usuario | Promotor / Alexander | Intervención del promotor; revisar primero si puede prepararse una propuesta, opción o contexto con fuentes autorizadas |
 | `[I-SIMPLE]` | Investigación simple | Búsqueda puntual en internet o fuente oficial | Confirmar datos concretos, trámites, ayudas, CNAE, licencia, normativa básica |
 | `[I-DEEP]` | Investigación profunda | Investigación amplia con varias fuentes | Competencia, mercado, benchmarking, demanda, barreras, precios, alianzas |
 | `[M]` | Mixto | Fuente interna + usuario + investigación | Temas que no se pueden resolver desde una sola fuente |
 | `[NO-RESPONDER-AÚN]` | No responder todavía | Validación futura real | No inventar datos que dependen de clientes reales, ventas, pruebas de mercado o validación futura |
+
+## 2.1.1 Códigos específicos preferentes para Fase 3
+
+Usar esta codificación cuando haya suficiente granularidad documental:
+
+| Código | Significado | Prioridad | Compatibilidad |
+| --- | --- | --- | --- |
+| `[F-REPO]` | Fuente interna local del repositorio | Preferente | Compatible con `[F]` |
+| `[F-NOTEBOOKLM]` | Fuente indexada del proyecto en NotebookLM | Preferente | Compatible con `[F]` en capa de apoyo |
+| `[U-DATO]` | Dato que solo puede aportar Alex/promotor | Preferente | Especialización de `[U]` |
+| `[U-VALIDA]` | Alex valida una propuesta preparada | Preferente | Especialización de `[U]` |
+| `[U-ELIGE]` | Alex elige entre opciones preparadas | Preferente | Especialización de `[U]` |
+| `[U-AUTORIZA]` | Alex autoriza una investigación web o profunda | Preferente | Especialización de `[U]` |
+
+Compatibilidad con códigos viejos:
+- `[F]`, `[U]` y `[M]` siguen vigentes para lectura histórica y compatibilidad general.
+- En Fase 3 y preparación controlada debe preferirse la codificación específica cuando exista suficiente detalle.
+
+## 2.2 Uso correcto de `[U]` y fuentes intermedias
+
+- `[U]` no significa preguntar inmediatamente.
+- Antes de preguntar al usuario se revisa el repositorio.
+- Si el repo no basta, se revisa NotebookLM si la fuente está indexada.
+- Si tampoco basta, se clasifica como web simple, investigación profunda, usuario o mixto según corresponda.
+- El usuario valida, decide, aporta datos no documentados o autoriza investigación.
+- No se debe convertir una decisión pendiente en una pregunta en blanco si el sistema puede preparar opciones trazables.
+- Las preguntas `[U]` no deben formularse en blanco si antes puede prepararse una propuesta, opción o contexto desde fuentes autorizadas.
 
 ## 3. Matriz Red ARCE → preguntas → clasificación
 
@@ -74,7 +101,7 @@ Estados permitidos:
 | Restricciones de redacción y gateado | `docs_control/03_gates_documentales.md` | EXTRAER_DE_FUENTE_INTERNA | Todos los bloques |
 | Vacíos y bloqueos ya identificados | `docs_organizacion/03_revision_critica_matriz_vacios.md` | EXTRAER_DE_FUENTE_INTERNA | 3.1 a 8 |
 
-### 4.2 `[U]` — Preguntar al promotor
+### 4.2 `[U]` — Intervención del promotor
 
 #### Prioridad alta
 

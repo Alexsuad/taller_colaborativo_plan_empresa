@@ -47,9 +47,11 @@ Un bloque preparado con, como mínimo:
 1. Confirmar que la pregunta ya está clasificada.
 2. Reunir fuentes y dependencias relevantes.
 3. Separar dato, hipótesis y pendiente.
-4. Construir la estructura del bloque sin redactar contenido final.
-5. Marcar el siguiente paso documental.
-6. Emitir el bloque preparado para uso futuro.
+4. Identificar la fuente siguiente recomendada, el rol de Alex y qué puede prepararse antes de preguntar.
+5. Determinar qué requiere NotebookLM, qué requiere web simple, qué requiere investigación profunda y qué queda en `NO_RESPONDER_AÚN`.
+6. Construir la estructura del bloque sin redactar contenido final.
+7. Marcar el siguiente paso documental.
+8. Emitir el bloque preparado para uso futuro.
 
 # Reglas obligatorias
 
@@ -58,6 +60,7 @@ Un bloque preparado con, como mínimo:
 * Esta skill no toca `respuestas_plan_empresa/`.
 * Esta skill no decide negocio, marketing, legal, RRSS ni viabilidad.
 * Esta skill no convierte hipótesis en hechos.
+* Esta skill no formula preguntas en blanco al usuario si antes puede preparar opciones o hipótesis trazables desde fuentes autorizadas.
 
 # Límites / No hacer
 
@@ -91,3 +94,25 @@ La skill se considera completada cuando el bloque queda listo para futura redacc
 * Hipótesis separadas.
 * Pendientes listados.
 * Estado de preparación claro.
+
+## Formato de salida obligatorio
+
+La respuesta debe usar exactamente estas claves, en este orden:
+
+```text
+BLOQUE:
+PREGUNTA_ASOCIADA:
+CLASIFICACION_ORIGEN:
+FUENTE_BASE:
+FUENTE_SIGUIENTE:
+ROL_ALEX:
+DATO:
+HIPOTESIS:
+PENDIENTE:
+REQUIERE_NOTEBOOKLM:
+REQUIERE_WEB_SIMPLE:
+REQUIERE_INVESTIGACION_PROFUNDA:
+NO_RESPONDER_AUN:
+NO_REDACTAR_TODAVIA:
+SIGUIENTE_ACCION:
+```
