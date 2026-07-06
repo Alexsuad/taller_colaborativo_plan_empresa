@@ -51,6 +51,39 @@ def cargar_config():
         
     return sedes, limites
 
+def extraer_conceptos_sedes(sedes_cfg):
+    """Compatibilidad entre la estructura heredada de conceptos y la actual de sedes."""
+    if not isinstance(sedes_cfg, dict):
+        return [], "PENDIENTE_CONFIGURACION", "Estructura de sedes no válida o vacía."
+
+    conceptos = sedes_cfg.get('conceptos')
+    if isinstance(conceptos, list) and conceptos:
+        return conceptos, "CONCEPTOS", None
+
+    sedes = sedes_cfg.get('sedes')
+    if isinstance(sedes, dict) and sedes:
+        conceptos_derivados = []
+        for clave, config in sedes.items():
+            if not isinstance(config, dict):
+                continue
+            principal = config.get('sede_principal')
+            apoyos = config.get('puede_apoyarse_en', [])
+            sedes_secundarias = []
+            if isinstance(apoyos, list):
+                sedes_secundarias = [ruta for ruta in apoyos if isinstance(ruta, str)]
+            elif isinstance(apoyos, str):
+                sedes_secundarias = [apoyos]
+            conceptos_derivados.append({
+                'id': clave,
+                'sede_principal': principal,
+                'sedes_secundarias': sedes_secundarias,
+                'terminos': [],
+                'severidad_si_excede': None,
+            })
+        return conceptos_derivados, "SEDES", "La validación léxica de conceptos no aplica todavía a la estructura 'sedes'."
+
+    return [], "PENDIENTE_CONFIGURACION", "No se encontraron secciones 'conceptos' ni 'sedes' en la configuración."
+
 def limpiar_contenido(contenido):
     """Elimina las secciones marcadas para ignorar."""
     lineas = contenido.split('\n')
@@ -157,6 +190,7 @@ def auditar():
         sys.exit(0)
 
     sedes_cfg, limites_cfg = cargar_config()
+    conceptos_cfg, modo_sedes, advertencia_sedes = extraer_conceptos_sedes(sedes_cfg)
     archivos = sorted([f for f in os.listdir(RESPUESTAS_DIR) if f.endswith('.md')])
     
     reporte_archivos = []
@@ -165,6 +199,10 @@ def auditar():
     similitudes = []
     violaciones_sedes = []
     intros_detectadas = 0
+    advertencias_estructura = []
+
+    if advertencia_sedes:
+        advertencias_estructura.append(advertencia_sedes)
     
     # Ratios
     ratio_p = limites_cfg['ratio_paginas']['principal_palabras_por_pagina']
@@ -209,20 +247,23 @@ def auditar():
         if re.search(r"Taller Colaborativo es", contenido, re.IGNORECASE):
             intros_detectadas += 1
             
-        # Análisis de sedes
-        for concepto in sedes_cfg['conceptos']:
-            for termino in concepto['terminos']:
-                if re.search(r'\b' + re.escape(termino) + r'\b', contenido, re.IGNORECASE):
-                    # Si no es sede principal ni secundaria
-                    sedes_validas = [concepto['sede_principal']] + concepto.get('sedes_secundarias', [])
-                    if archivo not in sedes_validas:
-                        violaciones_sedes.append({
-                            'archivo': archivo,
-                            'concepto': concepto['id'],
-                            'termino': termino,
-                            'sede_esperada': concepto['sede_principal']
-                        })
-                        break
+        # Análisis de sedes / conceptos
+        if modo_sedes == 'CONCEPTOS':
+            for concepto in conceptos_cfg:
+                for termino in concepto['terminos']:
+                    if re.search(r'\b' + re.escape(termino) + r'\b', contenido, re.IGNORECASE):
+                        # Si no es sede principal ni secundaria
+                        sedes_validas = [concepto['sede_principal']] + concepto.get('sedes_secundarias', [])
+                        if archivo not in sedes_validas:
+                            violaciones_sedes.append({
+                                'archivo': archivo,
+                                'concepto': concepto['id'],
+                                'termino': termino,
+                                'sede_esperada': concepto['sede_principal']
+                            })
+                            break
+        elif modo_sedes == 'SEDES' and advertencia_sedes and not advertencias_estructura:
+            advertencias_estructura.append(advertencia_sedes)
         
         # Detección de duplicados
         parrafos = obtener_parrafos(contenido)
@@ -266,7 +307,7 @@ def auditar():
     violaciones_fail = []
     for v in violaciones_sedes:
         concepto_id = v['concepto']
-        config_concepto = next((c for c in sedes_cfg['conceptos'] if c['id'] == concepto_id), None)
+        config_concepto = next((c for c in conceptos_cfg if c['id'] == concepto_id), None)
         if config_concepto and config_concepto.get('severidad_si_excede') == "LINEALIDAD_FAIL":
             violaciones_fail.append(v)
     
@@ -282,6 +323,10 @@ def auditar():
     elif total_pag_p > lim['warning_leve_hasta_paginas'] and estado_global == "LINEALIDAD_PASS":
         estado_global = "LINEALIDAD_WARNING"
         log.append(f"Aviso: Extensión total ({total_pag_p} pág) en zona de riesgo.")
+
+    if modo_sedes == 'SEDES' and estado_global == "LINEALIDAD_PASS":
+        estado_global = "LINEALIDAD_WARNING"
+        log.append("Aviso: la validación léxica de conceptos no aplica todavía a la estructura 'sedes'.")
         
     # 5. Regla de intros repetidas
     if intros_detectadas > limites_cfg['intros_definitorias']['max_permitidas']:
@@ -327,13 +372,22 @@ def auditar():
             for s in similitudes[:10]:
                 r.write(f"| {s['ratio']} | {s['arc1']} | {s['arc2']} | {s['snippet']} |\n")
 
+        if advertencias_estructura:
+            r.write(f"\n## 5. Advertencias de Estructura\n")
+            for adv in advertencias_estructura:
+                r.write(f"- {adv}\n")
+
         if log:
-            r.write(f"\n## 5. Hallazgos Críticos\n")
+            r.write(f"\n## 6. Hallazgos Críticos\n")
             for l in log:
                 r.write(f"- {l}\n")
                 
     print(f"Reporte generado en: {reporte_path}")
     print(f"Estado Global: {estado_global}")
+    if advertencias_estructura:
+        print("Advertencias de estructura:")
+        for adv in advertencias_estructura:
+            print(f"  - {adv}")
     
     # Política de Exit Codes: FAIL=1, WARNING/PASS=0
     if estado_global == "LINEALIDAD_FAIL":

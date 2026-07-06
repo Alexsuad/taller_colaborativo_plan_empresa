@@ -53,6 +53,29 @@ def read_gate_1d_status() -> str:
     return "DESCONOCIDO"
 
 
+def read_phase_4_status() -> str:
+    phase_file = ROOT / "docs_control" / "06_fases_oficiales_proyecto.md"
+    try:
+        text = phase_file.read_text(encoding="utf-8")
+    except OSError:
+        return "DESCONOCIDO"
+
+    phase_section = re.search(
+        r"FASE 4.*?(?:\n---|\Z)",
+        text,
+        re.IGNORECASE | re.DOTALL,
+    )
+    if not phase_section:
+        return "DESCONOCIDO"
+
+    section = phase_section.group(0)
+    if re.search(r"BLOQUEAD[AO]", section, re.IGNORECASE):
+        return "BLOQUEADA"
+    if re.search(r"ABIERTO", section, re.IGNORECASE):
+        return "ABIERTA"
+    return "DESCONOCIDO"
+
+
 def extract_placeholder_total(output: str) -> str:
     match = re.search(r"^TOTAL:\s*(\d+)\s*$", output, re.MULTILINE)
     if match:
@@ -60,28 +83,19 @@ def extract_placeholder_total(output: str) -> str:
     return "desconocido"
 
 
-
-def main() -> int:
-    results: dict[str, dict[str, str | int]] = {}
+def derive_control_state(results: dict[str, dict[str, str | int]], gate_1d_status: str, phase_4_status: str, placeholder_total: str) -> tuple[str, list[str]]:
     blockers: list[str] = []
 
-    for name, command in VALIDATOR_COMMANDS:
-        code, stdout, stderr = run_command(command)
-        verdict = parse_verdict(stdout)
-        results[name] = {
-            "exit_code": code,
-            "verdict": verdict,
-            "stdout": stdout.strip(),
-            "stderr": stderr.strip(),
-        }
+    technical_validators_ok = (
+        results["skills_frontmatter"]["exit_code"] == 0
+        and results["skills_frontmatter"]["verdict"] == "OK"
+        and results["rutas_prohibidas"]["exit_code"] == 0
+        and results["rutas_prohibidas"]["verdict"] == "OK"
+    )
 
-    gate_1d_status = read_gate_1d_status()
-    placeholder_total = extract_placeholder_total(results["placeholders_respuestas"]["stdout"])
+    if not technical_validators_ok:
+        blockers.append("validadores técnicos no están estables")
 
-    if results["skills_frontmatter"]["exit_code"] != 0 or results["skills_frontmatter"]["verdict"] != "OK":
-        blockers.append("validar_skills_frontmatter.py falla o no devuelve VERDICT: OK")
-    if results["rutas_prohibidas"]["exit_code"] != 0 or results["rutas_prohibidas"]["verdict"] != "OK":
-        blockers.append("validar_no_rutas_prohibidas.py falla o no devuelve VERDICT: OK")
     if results["placeholders_respuestas"]["exit_code"] != 0:
         blockers.append("validar_placeholders_respuestas.py falló técnicamente")
     elif results["placeholders_respuestas"]["verdict"] == "PENDIENTE":
@@ -104,17 +118,45 @@ def main() -> int:
     elif gate_1d_status != "ABIERTO":
         blockers.append("no se pudo confirmar el estado de Gate 1D")
 
-    blockers.append("Fase 2 no tiene todavía todos los componentes mínimos cerrados")
+    if phase_4_status == "BLOQUEADA":
+        blockers.append("Fase 4 sigue bloqueada")
+    elif phase_4_status != "ABIERTA":
+        blockers.append("no se pudo confirmar el estado de Fase 4")
 
-    gate_verdict = "GATE_ABIERTO" if not blockers else "GATE_BLOQUEADO"
+    if technical_validators_ok and blockers:
+        return "PENDIENTE_CONTROLADO", blockers
+    if not blockers and technical_validators_ok:
+        return "PENDIENTE_CONTROLADO", blockers
+    return "GATE_BLOQUEADO", blockers
+
+
+def main() -> int:
+    results: dict[str, dict[str, str | int]] = {}
+    for name, command in VALIDATOR_COMMANDS:
+        code, stdout, stderr = run_command(command)
+        verdict = parse_verdict(stdout)
+        results[name] = {
+            "exit_code": code,
+            "verdict": verdict,
+            "stdout": stdout.strip(),
+            "stderr": stderr.strip(),
+        }
+
+    gate_1d_status = read_gate_1d_status()
+    phase_4_status = read_phase_4_status()
+    placeholder_total = extract_placeholder_total(results["placeholders_respuestas"]["stdout"])
+    gate_verdict, blockers = derive_control_state(results, gate_1d_status, phase_4_status, placeholder_total)
 
     print("VALIDADORES:")
-    print(f"- skills_frontmatter: exit={results['skills_frontmatter']['exit_code']} verdict={results['skills_frontmatter']['verdict']}\n"
-          f"- rutas_prohibidas: exit={results['rutas_prohibidas']['exit_code']} verdict={results['rutas_prohibidas']['verdict']}\n"
-          f"- placeholders_respuestas: exit={results['placeholders_respuestas']['exit_code']} verdict={results['placeholders_respuestas']['verdict']}\n"
-          f"- auditor_estado_plan_empresa: exit={results['auditor_estado_plan_empresa']['exit_code']} verdict={results['auditor_estado_plan_empresa']['verdict']}\n"
-          f"- gate_1d: {gate_1d_status}\n"
-          f"- fase_2: INCOMPLETA_POR_CONDICION_MANUAL")
+    print(
+        f"- skills_frontmatter: exit={results['skills_frontmatter']['exit_code']} verdict={results['skills_frontmatter']['verdict']}\n"
+        f"- rutas_prohibidas: exit={results['rutas_prohibidas']['exit_code']} verdict={results['rutas_prohibidas']['verdict']}\n"
+        f"- placeholders_respuestas: exit={results['placeholders_respuestas']['exit_code']} verdict={results['placeholders_respuestas']['verdict']}\n"
+        f"- auditor_estado_plan_empresa: exit={results['auditor_estado_plan_empresa']['exit_code']} verdict={results['auditor_estado_plan_empresa']['verdict']}\n"
+        f"- gate_1d: {gate_1d_status}\n"
+        f"- fase_4: {phase_4_status}\n"
+        f"- fase_3_tecnica: {gate_verdict}"
+    )
     print("\nBLOQUEADORES:")
     if blockers:
         for blocker in blockers:
