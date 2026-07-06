@@ -33,6 +33,20 @@ Esta skill se usa después de:
 * `preparar-bloque-para-redaccion`;
 * `preparar-consulta-notebooklm-controlada`, si aplica.
 
+Si el capítulo afecta cliente, propuesta de valor, marketing, ventas, comunicación, canales, redes sociales o posicionamiento, la salida debe declarar en `VALIDACIONES_REQUERIDAS` las skills comerciales pertinentes entre:
+
+* `auditar-cliente-segmentos`;
+* `auditar-producto-y-propuesta-valor`;
+* `auditar-marketing`;
+* `auditar-ventas`;
+* `auditar-comunicacion`;
+* `auditar-redes-sociales-calendario`;
+* `auditar-marketing-ventas-comunicacion`;
+* `validar-coherencia-cliente-propuesta-canales`;
+* `validar-coherencia-comercial-global`.
+
+No todas las validaciones comerciales son obligatorias siempre. Deben activarse según el contenido del capítulo.
+
 Esta skill no reclasifica preguntas, no rehace la preparación del bloque y no sustituye la consulta controlada a NotebookLM. Consume las salidas de esas skills previas. Si detecta clasificación ausente, preparación insuficiente o consulta documental pendiente, debe declararlo en `PENDIENTES`, `OBSERVACIONES` o devolver `BLOQUEADO`, según corresponda.
 
 Esta skill se usa antes de:
@@ -115,6 +129,147 @@ Alex interviene para:
 * No dar `PASS` global.
 * No tocar capítulos no autorizados.
 
+# Calidad del texto propuesto
+
+El campo `TEXTO_PROPUESTO` debe estar redactado como borrador de capítulo del Plan de Empresa, con tono:
+
+* profesional;
+* claro;
+* sobrio;
+* comprensible;
+* útil para entidades de apoyo al emprendimiento, administraciones públicas, bancos, posibles inversores o aliados institucionales;
+* específico del Taller Colaborativo Artesanal en Zaragoza;
+* coherente con los capítulos previos y con el estado real de la información disponible.
+
+El texto no debe sonar a:
+
+* salida interna de agente;
+* checklist técnico;
+* nota de trabajo;
+* explicación de workflow;
+* justificación de gate;
+* informe de trazabilidad;
+* texto genérico de marketing;
+* discurso artificial o inflado.
+
+# Separación entre control interno y texto final
+
+Los campos:
+
+* `HECHOS`;
+* `HIPOTESIS`;
+* `PENDIENTES`;
+* `NO_RESPONDER_AUN`;
+* `FUENTES_USADAS`;
+* `OBSERVACIONES`;
+* `VALIDACIONES_REQUERIDAS`;
+
+son campos de control interno.
+
+No deben mezclarse dentro de `TEXTO_PROPUESTO`.
+
+`TEXTO_PROPUESTO` debe contener solo texto limpio del capítulo, sin:
+
+* etiquetas de clasificación;
+* códigos internos;
+* notas al agente;
+* trazabilidad operativa;
+* comentarios al usuario;
+* frases como "según la matriz";
+* frases como "este punto está clasificado como";
+* menciones a gates, workflows, skills o repositorio;
+* pendientes incrustados como si fueran parte del texto final.
+
+Si hay vacíos relevantes, deben declararse en `PENDIENTES`, `NO_RESPONDER_AUN` u `OBSERVACIONES`, no esconderse dentro de una redacción ambigua.
+
+# Regla anti-genericidad comercial
+
+No producir `TEXTO_PROPUESTO` con formulaciones genéricas, intercambiables o no sustentadas por evidencia del Taller, como:
+
+* "empresa innovadora";
+* "servicio de calidad";
+* "experiencia única";
+* "solución integral";
+* "propuesta diferencial";
+* "atención personalizada";
+* "referente del sector";
+* "modelo disruptivo";
+* "alto potencial de crecimiento";
+
+si no existe base concreta que las sostenga.
+
+Cuando se hable de valor, diferenciación, cliente, canales, ventas, comunicación o redes, el texto debe apoyarse en elementos concretos del Taller, sus fuentes, decisiones aprobadas o hipótesis declaradas.
+
+# Coherencia comercial y narrativa
+
+Antes de proponer texto, verificar que no contradice dependencias narrativas y comerciales relevantes:
+
+* cliente objetivo;
+* problema o necesidad;
+* propuesta de valor;
+* oferta;
+* posicionamiento;
+* canales;
+* marketing;
+* ventas;
+* comunicación;
+* redes sociales;
+* recursos disponibles;
+* limitaciones reales del proyecto.
+
+Especialmente, mantener coherencia entre:
+
+```text
+cliente -> problema/necesidad -> propuesta de valor -> oferta -> canales -> ventas -> comunicación -> redes sociales
+```
+
+Si el capítulo depende de otra sección todavía no validada, la salida debe declararlo en `PENDIENTES` o `OBSERVACIONES`, y el estado debe tender a:
+
+* `BORRADOR_PARCIAL_CON_VACIOS`;
+* `REQUIERE_DECISION_ALEX`;
+* `REQUIERE_INVESTIGACION`;
+* `BLOQUEADO`.
+
+No debe marcarse como `LISTO_PARA_REVISION` si hay contradicciones comerciales relevantes o falta una base mínima de cliente, propuesta, canales o viabilidad.
+
+# Tono y voz
+
+El tono del `TEXTO_PROPUESTO` debe ser profesional, directo y realista.
+
+Debe evitar:
+
+* tono demasiado técnico;
+* tono de sistema agéntico;
+* lenguaje interno del repositorio;
+* frases infladas;
+* promesas comerciales no sustentadas;
+* exceso de entusiasmo;
+* lenguaje publicitario vacío;
+* afirmaciones absolutas sin evidencia;
+* conclusiones de viabilidad no demostradas.
+
+La redacción debe actuar como la de un asesor profesional de creación de empresas: clara, honesta, exigente y útil.
+
+# Hipótesis dentro del texto
+
+Las hipótesis pueden mencionarse en `TEXTO_PROPUESTO` solo si se formulan claramente como hipótesis, supuestos de trabajo, decisiones pendientes o elementos por validar.
+
+Nunca deben redactarse como hechos cerrados.
+
+Ejemplo permitido:
+
+```text
+Una hipótesis inicial del proyecto es que existe un grupo de personas interesadas en acceder a un espacio compartido de trabajo artesanal, aunque esta demanda deberá validarse con evidencia específica antes de cerrar el análisis comercial.
+```
+
+Ejemplo prohibido:
+
+```text
+Existe una alta demanda de espacios artesanales colaborativos en Zaragoza.
+```
+
+si no hay fuente suficiente.
+
 # Procedimiento
 
 1. Confirmar que existe Gate 1D parcial abierto para el capítulo concreto.
@@ -135,6 +290,10 @@ Alex interviene para:
 * Esta skill no mezcla preparación con validación final.
 * Esta skill no transforma hipótesis en hechos.
 * Esta skill no utiliza contenido sectorial de otros proyectos.
+* Esta skill no introduce lenguaje interno dentro del texto limpio del capítulo.
+* Esta skill no produce texto genérico sin evidencia concreta.
+* Esta skill no declara listo un capítulo comercialmente débil.
+* Esta skill no sustituye auditorías comerciales posteriores cuando apliquen.
 
 # Estados de salida permitidos
 
@@ -176,12 +335,29 @@ Si no existe Gate 1D parcial abierto:
 * `TEXTO_PROPUESTO` debe quedar vacío;
 * `ESTADO_SALIDA` debe ser `NO_REDACTAR_AUN` o `BLOQUEADO`.
 
+Si el capítulo afecta cliente, propuesta, marketing, ventas, comunicación, redes, canales o posicionamiento y no hay base suficiente:
+
+* no usar tono genérico para rellenar;
+* no cerrar como listo;
+* declarar el vacío;
+* activar validaciones comerciales necesarias;
+* devolver `BORRADOR_PARCIAL_CON_VACIOS`, `REQUIERE_DECISION_ALEX`, `REQUIERE_INVESTIGACION` o `BLOQUEADO`, según corresponda.
+
 # Criterio de cierre
 
 La skill se considera completada cuando:
 
 * el capítulo propuesto queda trazado con sus fuentes y pendientes; o
 * se emite formalmente un `NO_REDACTAR_AUN` o `BLOQUEADO` fundamentado.
+
+No se considera completada si:
+
+* mezcla control interno con texto final;
+* presenta hipótesis como hechos;
+* oculta vacíos relevantes;
+* produce texto genérico;
+* omite validaciones comerciales necesarias;
+* invade Fase 4.
 
 # Evidencia esperada
 
