@@ -158,7 +158,65 @@ El texto no debe sonar a:
 * justificación de gate;
 * informe de trazabilidad;
 * texto genérico de marketing;
-* discurso artificial o inflado.
+# Profundidad mínima del capítulo
+
+El `TEXTO_PROPUESTO` no se considera suficiente solo por estar limpio, ordenado, bien escrito y sin errores formales.
+
+Un capítulo del Plan de Empresa debe aportar utilidad empresarial real. Debe ayudar a tomar decisiones, justificar criterios, detectar riesgos, explicar límites o conectar aprendizajes con el proyecto.
+
+Cuando exista un archivo de insumos saneados para el capítulo, ese archivo debe usarse como base sustantiva principal. No basta con mencionarlo como fuente. La redacción debe transformar sus datos en:
+
+* análisis;
+* aprendizajes;
+* cautelas;
+* implicaciones para el proyecto;
+* decisiones o criterios que alimentan otros capítulos del Plan de Empresa.
+
+Si el capítulo solo resume información sin extraer consecuencias útiles, debe considerarse insuficiente.
+
+# Regla para benchmarking, mercado y marketing
+
+En capítulos de benchmarking, mercado, competencia, marketing, ventas, comunicación, redes sociales, propuesta de valor o posicionamiento, la redacción debe seguir una lógica de utilidad empresarial.
+
+No basta con describir referentes, competidores, canales, tendencias o ideas. La redacción debe convertirlos en aprendizaje aplicable.
+
+Usar esta cadena de razonamiento siempre que corresponda:
+
+```text
+hecho observado → aprendizaje → aplicación al proyecto → decisión o cautela
+```
+
+Ejemplo de aplicación esperada:
+
+* hecho observado: un referente cobra por horas, bonos o membresías;
+* aprendizaje: el modelo combina acceso flexible con previsibilidad de ingresos;
+* aplicación al proyecto: conviene analizar si el proyecto puede ofrecer bonos o membresías sin comprometer seguridad, capacidad ni disponibilidad de maquinaria;
+* decisión o cautela: no copiar el modelo sin validar demanda, costes, control de acceso y supervisión.
+
+Si no hay evidencia suficiente para convertir un dato en decisión, debe quedar como hipótesis o cautela, no como conclusión cerrada.
+
+# Regla anti-capítulo genérico
+
+Un capítulo es genérico si podría aplicarse a cualquier negocio cambiando solo el nombre.
+
+La redacción debe evitar frases amplias que no aportan decisión, como:
+
+* “esto aporta valor al proyecto”;
+* “permite diferenciarse”;
+* “mejora la experiencia del cliente”;
+* “refuerza la propuesta de valor”;
+* “ayuda al posicionamiento”;
+
+si no explica de forma concreta:
+
+* qué valor aporta;
+* frente a qué alternativa;
+* para qué cliente;
+* con qué límite;
+* con qué evidencia;
+* qué decisión permite tomar.
+
+Si el texto no puede responder esas preguntas, debe marcarse como `BORRADOR_PARCIAL_CON_VACIOS`, `REQUIERE_DECISION_ALEX`, `REQUIERE_INVESTIGACION` o `BLOQUEADO`, según corresponda.
 
 # Separación entre control interno y texto final
 
@@ -330,11 +388,19 @@ HIPOTESIS:
 PENDIENTES:
 NO_RESPONDER_AUN:
 ROL_ALEX:
+INSUMOS_CLAVE_USADOS:
+APRENDIZAJES_APLICADOS:
+DECISIONES_O_CRITERIOS_DERIVADOS:
+CAUTELAS_RELEVANTES:
 TEXTO_PROPUESTO:
 VALIDACIONES_REQUERIDAS:
 ESTADO_SALIDA:
 OBSERVACIONES:
 ```
+
+Los campos `INSUMOS_CLAVE_USADOS`, `APRENDIZAJES_APLICADOS`, `DECISIONES_O_CRITERIOS_DERIVADOS` y `CAUTELAS_RELEVANTES` son campos de control interno. Sirven para demostrar que el texto no se limitó a resumir fuentes, sino que transformó los insumos en utilidad empresarial.
+
+Estos campos no deben mezclarse dentro de `TEXTO_PROPUESTO`.
 
 # Reglas de bloqueo
 
@@ -378,3 +444,20 @@ No se considera completada si:
 * Pendientes listados.
 * Rol de Alex tipificado.
 * Texto propuesto, solo si el gate parcial lo permite.
+
+# Criterio de bloqueo cualitativo
+
+Si el bloque o capítulo queda formalmente correcto pero no aporta utilidad empresarial, debe marcarse como insuficiente.
+
+Se considera insuficiente cuando:
+
+* resume sin analizar;
+* enumera datos sin extraer aprendizajes;
+* menciona referentes sin explicar qué se aprende;
+* habla de mercado sin traducirlo a decisiones;
+* habla de marketing sin conectar cliente, propuesta, canales o ventas;
+* habla de benchmarking sin indicar qué aplicar, qué adaptar y qué no copiar;
+* oculta vacíos bajo redacción fluida;
+* usa frases profesionales pero intercambiables.
+
+En ese caso, no debe cerrarse como listo. Debe devolver un estado de salida conservador y explicar qué falta.

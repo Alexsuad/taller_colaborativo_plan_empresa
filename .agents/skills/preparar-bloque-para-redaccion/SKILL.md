@@ -87,6 +87,30 @@ La skill debe ayudar a Marketing a:
 
 La skill se considera completada cuando el bloque queda listo para futura redacción, con evidencia y pendientes visibles, sin producir texto final.
 
+# Preparación sustantiva para redacción
+
+Esta skill no debe limitarse a separar hechos, hipótesis y pendientes.
+
+Cuando prepare un bloque para redacción, debe dejar listo el material sustantivo que permita redactar un capítulo útil del Plan de Empresa.
+
+La preparación debe identificar:
+
+* insumos clave;
+* aprendizajes aplicables;
+* decisiones que el bloque alimenta;
+* cautelas o límites;
+* elementos que no deben copiarse de referentes o fuentes externas;
+* vacíos que impedirían una conclusión fuerte.
+
+Especialmente en capítulos de benchmarking, mercado, competencia, marketing, ventas, comunicación, redes sociales, propuesta de valor o posicionamiento, el bloque preparado debe ayudar a responder:
+
+* ¿qué se observó?;
+* ¿qué aprendizaje deja?;
+* ¿cómo aplica al proyecto?;
+* ¿qué decisión permite tomar?;
+* ¿qué riesgo o cautela debe quedar visible?;
+* ¿qué no debe copiarse sin validación?
+
 # Evidencia esperada
 
 * Bloque preparado.
@@ -106,6 +130,12 @@ CLASIFICACION_ORIGEN:
 FUENTE_BASE:
 FUENTE_SIGUIENTE:
 ROL_ALEX:
+INSUMOS_CLAVE:
+APRENDIZAJES_APLICABLES:
+DECISIONES_QUE_ALIMENTA:
+CAUTELAS:
+QUE_NO_COPIAR:
+VACIOS_QUE_DEBILITAN_EL_CAPITULO:
 DATO:
 HIPOTESIS:
 PENDIENTE:
@@ -116,3 +146,24 @@ NO_RESPONDER_AUN:
 NO_REDACTAR_TODAVIA:
 SIGUIENTE_ACCION:
 ```
+
+Estos campos son obligatorios cuando existan insumos saneados o fuentes suficientes para extraer aprendizajes. Si alguno no aplica, debe indicarse `No aplica` y explicar brevemente por qué.
+
+No deben usarse para inventar conclusiones. Deben salir de fuentes, insumos saneados, decisiones aprobadas o hipótesis claramente marcadas.
+
+# Criterio de bloqueo cualitativo
+
+Si el bloque o capítulo queda formalmente correcto pero no aporta utilidad empresarial, debe marcarse como insuficiente.
+
+Se considera insuficiente cuando:
+
+* resume sin analizar;
+* enumera datos sin extraer aprendizajes;
+* menciona referentes sin explicar qué se aprende;
+* habla de mercado sin traducirlo a decisiones;
+* habla de marketing sin conectar cliente, propuesta, canales o ventas;
+* habla de benchmarking sin indicar qué aplicar, qué adaptar y qué no copiar;
+* oculta vacíos bajo redacción fluida;
+* usa frases profesionales pero intercambiables.
+
+En ese caso, no debe cerrarse como listo. Debe devolver un estado de salida conservador y explicar qué falta.
