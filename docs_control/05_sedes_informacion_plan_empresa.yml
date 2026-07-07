@@ -22,6 +22,19 @@ sedes:
     puede_apoyarse_en:
       - "docs_consolidados/"
       - "docs_fuentes/"
+      - "docs_preparacion/preguntas_resueltas/"
+    nota: "respuestas_plan_empresa/ solo debe contener respuestas finales o casi finales del Plan de Empresa. Las preguntas, investigaciones pendientes, clasificaciones, decisiones internas e insumos previos viven en docs_preparacion/preguntas_resueltas/."
+
+  resolucion_preguntas:
+    sede_principal: "docs_preparacion/preguntas_resueltas/"
+    puede_apoyarse_en:
+      - "plan_empresa_guia/"
+      - "docs_organizacion/08_matriz_clasificacion_preguntas_red_arce.md"
+      - "docs_preparacion/02_base_competencia_e_inspiradores.md"
+      - "docs_preparacion/03_mapa_aportes_competencia_al_plan.md"
+      - "docs_fuentes/"
+      - "docs_organizacion/"
+    nota: "Capa intermedia obligatoria entre preguntas guía y respuestas finales. Aquí viven preguntas extraídas, matrices de resolución e insumos saneados por capítulo."
 
   fuentes_originales:
     sede_principal: "docs_fuentes/"
