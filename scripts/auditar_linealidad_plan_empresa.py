@@ -208,7 +208,22 @@ def auditar():
     ratio_p = limites_cfg['ratio_paginas']['principal_palabras_por_pagina']
     ratio_c = limites_cfg['ratio_paginas']['conservador_palabras_por_pagina']
 
+    # Presupuesto sumas
+    suma_min = 0
+    suma_obj = 0
+    suma_warn = 0
+    suma_fail = 0
+    if 'presupuesto_por_archivo' in limites_cfg:
+        pres_dict = limites_cfg['presupuesto_por_archivo']
+        suma_min = sum(v.get('minimo', 0) for v in pres_dict.values())
+        suma_obj = sum(v.get('objetivo', 0) for v in pres_dict.values())
+        suma_warn = sum(v.get('warning', 0) for v in pres_dict.values())
+        suma_fail = sum(v.get('fail', 0) for v in pres_dict.values())
+
     for archivo in archivos:
+        if archivo == "00_indice_preguntas_guia.md" or archivo == "index.md":
+            continue
+
         ruta = os.path.join(RESPUESTAS_DIR, archivo)
         with open(ruta, 'r', encoding='utf-8') as f:
             raw_content = f.read()
@@ -222,15 +237,28 @@ def auditar():
         
         # Evaluar estado por archivo
         estado_file = "LINEALIDAD_PASS"
+        minimo_val = 0
         warning_val = limites_cfg['palabras_por_archivo']['apartado_normal_warning']
         fail_val = limites_cfg['palabras_por_archivo']['apartado_normal_fail']
         
-        # Aplicar excepciones
-        if archivo in limites_cfg.get('excepciones_extension', {}):
+        tiene_presupuesto = False
+        if 'presupuesto_por_archivo' in limites_cfg and archivo in limites_cfg['presupuesto_por_archivo']:
+            pres = limites_cfg['presupuesto_por_archivo'][archivo]
+            minimo_val = pres.get('minimo', 0)
+            warning_val = pres.get('warning', warning_val)
+            fail_val = pres.get('fail', fail_val)
+            tiene_presupuesto = True
+        elif archivo in limites_cfg.get('excepciones_extension', {}):
             warning_val = limites_cfg['excepciones_extension'][archivo]
-            fail_val = warning_val + 500 # Margen proporcional
+            fail_val = warning_val + 500
+            tiene_presupuesto = True
             
-        if palabras > fail_val:
+        if not tiene_presupuesto:
+            advertencias_estructura.append(f"El archivo {archivo} no está definido en presupuesto_por_archivo.")
+            
+        if palabras < minimo_val:
+            estado_file = "LINEALIDAD_WARNING"
+        elif palabras > fail_val:
             estado_file = "LINEALIDAD_FAIL"
         elif palabras > warning_val:
             estado_file = "LINEALIDAD_WARNING"
@@ -240,7 +268,10 @@ def auditar():
             'palabras': palabras,
             'pag_p': pag_p,
             'pag_c': pag_c,
-            'estado': estado_file
+            'estado': estado_file,
+            'minimo': minimo_val,
+            'warning': warning_val,
+            'fail': fail_val
         })
         
         # Buscar intros repetidas
@@ -324,15 +355,30 @@ def auditar():
         estado_global = "LINEALIDAD_WARNING"
         log.append(f"Aviso: Extensión total ({total_pag_p} pág) en zona de riesgo.")
 
+    # 5. Warnings de archivo individual (contenido insuficiente o límites de advertencia)
+    for item in reporte_archivos:
+        if item['estado'] == "LINEALIDAD_WARNING":
+            pal = item['palabras']
+            name = item['archivo']
+            min_v = item['minimo']
+            warn_v = item['warning']
+            if pal < min_v:
+                if estado_global == "LINEALIDAD_PASS":
+                    estado_global = "LINEALIDAD_WARNING"
+                log.append(f"Aviso: El archivo {name} tiene contenido insuficiente ({pal} < {min_v} palabras).")
+            elif pal > warn_v:
+                if estado_global == "LINEALIDAD_PASS":
+                    estado_global = "LINEALIDAD_WARNING"
+                log.append(f"Aviso: El archivo {name} supera el límite de advertencia ({pal} > {warn_v} palabras).")
+
     if modo_sedes == 'SEDES' and estado_global == "LINEALIDAD_PASS":
         estado_global = "LINEALIDAD_WARNING"
         log.append("Aviso: la validación léxica de conceptos no aplica todavía a la estructura 'sedes'.")
         
-    # 5. Regla de intros repetidas
+    # 6. Regla de intros repetidas
     if intros_detectadas > limites_cfg['intros_definitorias']['max_permitidas']:
         estado_global = "LINEALIDAD_FAIL"
         log.append(f"Falla: Demasiadas introducciones definitorias ({intros_detectadas}/{limites_cfg['intros_definitorias']['max_permitidas']}).")
-
 
     # Generar Reporte Markdown
     if not os.path.exists(BUILD_REPORTES_DIR):
@@ -348,13 +394,17 @@ def auditar():
         r.write(f"## 1. Resumen de Extensión\n")
         r.write(f"- **Palabras Totales:** {total_palabras}\n")
         r.write(f"- **Páginas Estimadas (Ratio Principal 300):** **{total_pag_p}**\n")
-        r.write(f"- **Páginas Estimadas (Ratio Conservador 250):** {total_pag_c}\n\n")
+        r.write(f"- **Páginas Estimadas (Ratio Conservador 250):** {total_pag_c}\n")
+        r.write(f"- **Suma Presupuesto Mínimo:** {suma_min} palabras\n")
+        r.write(f"- **Suma Presupuesto Objetivo:** {suma_obj} palabras (Global: {lim.get('objetivo_palabras_aproximado')})\n")
+        r.write(f"- **Suma Presupuesto Warning:** {suma_warn} palabras (Global: {lim.get('warning_palabras_aproximado')})\n")
+        r.write(f"- **Suma Presupuesto Fail:** {suma_fail} palabras (Global: {lim.get('fail_palabras_aproximado')})\n\n")
         
         r.write(f"## 2. Detalle por Archivo\n")
-        r.write(f"| Archivo | Palabras | Pág (300) | Pág (250) | Estado |\n")
-        r.write(f"|---|---|---|---|---|\n")
+        r.write(f"| Archivo | Palabras | Mínimo | Warning | Fail | Pág (300) | Pág (250) | Estado |\n")
+        r.write(f"|---|---|---|---|---|---|---|---|\n")
         for item in reporte_archivos:
-            r.write(f"| {item['archivo']} | {item['palabras']} | {item['pag_p']} | {item['pag_c']} | `{item['estado']}` |\n")
+            r.write(f"| {item['archivo']} | {item['palabras']} | {item['minimo']} | {item['warning']} | {item['fail']} | {item['pag_p']} | {item['pag_c']} | `{item['estado']}` |\n")
         
         if violaciones_sedes:
             r.write(f"\n## 3. Conceptos Fuera de Sede\n")

@@ -29,6 +29,7 @@ limites_globales:
   fail_palabras_aproximado: 33000
 
 palabras_por_archivo:
+  # Fallback para archivos sin presupuesto específico. La regla principal es `presupuesto_por_archivo`.
   apartado_normal_warning: 1600
   apartado_normal_fail: 2200
   apartado_breve_warning: 900
@@ -36,20 +37,123 @@ palabras_por_archivo:
   apartado_extenso_warning: 2600
   apartado_extenso_fail: 3600
 
-excepciones_extension:
-  "00_resumen_ejecutivo.md": 1500
-  "01_presentacion_proyecto.md": 2600
-  "02_promotores.md": 1800
-  "03_producto_servicio.md": 3600
-  "04_mercado.md": 5200
-  "05_plan_marketing.md": 4200
-  "06_plan_operaciones.md": 5200
-  "07_plan_rrhh.md": 2600
-  "08_plan_juridico_fiscal.md": 3600
-  "09_plan_economico_financiero.md": 5200
-  "10_analisis_riesgos.md": 3000
-  "11_calendario_implantacion.md": 1800
-  "12_conclusiones_viabilidad.md": 2200
+presupuesto_por_archivo:
+  "00_resumen_ejecutivo.md":
+    minimo: 600
+    objetivo: 900
+    warning: 1050
+    fail: 1100
+
+  "01_equipo_promotor.md":
+    minimo: 800
+    objetivo: 1200
+    warning: 1350
+    fail: 1400
+
+  "02_idea_negocio.md":
+    minimo: 1400
+    objetivo: 2000
+    warning: 2150
+    fail: 2200
+
+  "03_1_analisis_externo.md":
+    minimo: 1000
+    objetivo: 1600
+    warning: 1750
+    fail: 1800
+
+  "03_2_estudio_mercado.md":
+    minimo: 1800
+    objetivo: 2600
+    warning: 2800
+    fail: 2900
+
+  "03_3_analisis_interno.md":
+    minimo: 800
+    objetivo: 1200
+    warning: 1350
+    fail: 1400
+
+  "03_4_benchmarking_inspiradores.md":
+    minimo: 1500
+    objetivo: 2300
+    warning: 2450
+    fail: 2500
+
+  "04_dafo_came.md":
+    minimo: 800
+    objetivo: 1200
+    warning: 1350
+    fail: 1400
+
+  "05_objetivos_lineas_estrategicas.md":
+    minimo: 500
+    objetivo: 800
+    warning: 950
+    fail: 1000
+
+  "06_0_marca_comunicacion_naming.md":
+    minimo: 700
+    objetivo: 1000
+    warning: 1150
+    fail: 1200
+
+  "06_1_marketing_ventas.md":
+    minimo: 1800
+    objetivo: 2600
+    warning: 2900
+    fail: 3000
+
+  "06_2_operaciones.md":
+    minimo: 1800
+    objetivo: 2600
+    warning: 2900
+    fail: 3000
+
+  "06_3_recursos_humanos.md":
+    minimo: 800
+    objetivo: 1200
+    warning: 1400
+    fail: 1500
+
+  "06_4_juridico_fiscal.md":
+    minimo: 1000
+    objetivo: 1600
+    warning: 1850
+    fail: 1900
+
+  "06_5_economico_financiero.md":
+    minimo: 2000
+    objetivo: 3200
+    warning: 3500
+    fail: 3600
+
+  "07_implantacion_puesta_marcha.md":
+    minimo: 700
+    objetivo: 1100
+    warning: 1250
+    fail: 1300
+
+  "08_viabilidad_conclusiones.md":
+    minimo: 900
+    objetivo: 1400
+    warning: 1600
+    fail: 1700
+
+criterios_anexos:
+  enviar_a_anexos:
+    - "tablas largas"
+    - "listados completos de fuentes"
+    - "cálculos extensos"
+    - "comparativas detalladas de competidores"
+    - "evidencias documentales"
+    - "transcripciones o extractos largos"
+  mantener_en_cuerpo:
+    - "síntesis interpretativa"
+    - "datos clave para decisión"
+    - "conclusiones accionables"
+    - "riesgos principales"
+    - "decisiones estratégicas"
 
 similitud_parrafos:
   warning_min: 0.82
@@ -92,4 +196,3 @@ notas_editoriales:
   - "Mercado, operaciones, legal y económico pueden ser más largos si aportan evidencia real."
   - "Ningún límite permite inventar contenido ni rellenar vacíos de información."
   - "Si falta evidencia, se debe marcar como vacío, hipótesis o decisión pendiente."
-    

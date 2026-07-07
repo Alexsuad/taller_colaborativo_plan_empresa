@@ -117,6 +117,14 @@ Alex interviene para:
 * Web simple o investigación profunda solo si está clasificado y autorizado.
 * No convertir hipótesis en hechos.
 
+# Regla de Presupuesto Documental y Extensión
+
+*   **Consulta Obligatoria:** Es obligatorio consultar el archivo `docs_control/limites_extension_plan_empresa.yml` antes de proponer la redacción de cualquier capítulo.
+*   **Cumplimiento de Mínimos:** No se deben entregar capítulos por debajo del mínimo de palabras indicado en el presupuesto, excepto en casos donde la información esté explícitamente bloqueada o clasificada como pendiente de decisión del promotor.
+*   **Límites Superiores:** No se debe superar el límite de `warning` o `fail` por archivo sin una justificación técnica o de mercado debidamente validada.
+*   **Separación de Anexos:** Toda información de soporte extensa (tablas largas, listados completos de fuentes, cálculos detallados, comparativas extensas o transcripciones) debe ser enviada a anexos, manteniendo en el cuerpo principal solo las conclusiones, síntesis interpretativas y datos clave para la toma de decisiones.
+*   **Densidad y Calidad:** El cumplimiento de las palabras mínimas del presupuesto no debe justificar en ningún caso el uso de relleno artificial o contenido repetitivo.
+
 # Restricciones de contenido
 
 * Diferenciar estrictamente entre hechos, hipótesis y pendientes.
