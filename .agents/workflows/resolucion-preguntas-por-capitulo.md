@@ -1,3 +1,7 @@
+---
+description: Workflow para resolver preguntas de un capítulo del Plan de Empresa antes de redactar respuestas finales. Clasifica preguntas, valida fuentes y genera insumos saneados en docs_preparacion/preguntas_resueltas/<capitulo>/.
+---
+
 # Workflow: Procedimiento de Resolución de Preguntas por Capítulo
 
 ## 1. Propósito
