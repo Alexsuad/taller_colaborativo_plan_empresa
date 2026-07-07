@@ -111,6 +111,8 @@ Especialmente en capítulos de benchmarking, mercado, competencia, marketing, ve
 * ¿qué riesgo o cautela debe quedar visible?;
 * ¿qué no debe copiarse sin validación?
 
+También debe distinguir si cada aprendizaje o decisión sugerida es un hecho verificado, una decisión aprobada, un criterio preliminar, una hipótesis o una cautela pendiente de validación.
+
 # Evidencia esperada
 
 * Bloque preparado.

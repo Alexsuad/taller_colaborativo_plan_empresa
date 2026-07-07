@@ -316,6 +316,109 @@ Debe evitar:
 
 La redacción debe actuar como la de un asesor profesional de creación de empresas: clara, honesta, exigente y útil.
 
+# Grado de certeza de las afirmaciones
+
+Antes de redactar una afirmación fuerte en `TEXTO_PROPUESTO`, la skill debe clasificar internamente su grado de certeza.
+
+Categorías:
+
+1. **Hecho verificado**
+   Puede redactarse como hecho si procede de una fuente válida y trazable.
+
+2. **Decisión aprobada**
+   Puede redactarse como decisión del proyecto si existe decisión explícita del promotor o del repositorio.
+
+3. **Criterio preliminar**
+   Debe redactarse como orientación prudente, no como decisión cerrada.
+
+4. **Hipótesis razonable**
+   Debe redactarse como hipótesis pendiente de validación.
+
+5. **Pendiente de validación externa**
+   Debe marcarse como pendiente cuando dependa de costes, local, seguros, licencias, demanda, precios, inversión, financiación, normativa, proveedores o viabilidad.
+
+6. **No sustentado**
+   No debe redactarse como conclusión. Debe quedar en `PENDIENTES`, `CAUTELAS_RELEVANTES` u `OBSERVACIONES`.
+
+Regla:
+Toda afirmación fuerte debe estar respaldada por una fuente, una decisión aprobada, una restricción legal/técnica real o evidencia suficiente. Si no lo está, debe formularse como criterio preliminar, hipótesis o cautela.
+
+# Lenguaje prudente para Plan de Empresa
+
+La redacción debe evitar lenguaje rígido, absoluto o interno cuando la decisión no esté cerrada.
+
+No usar expresiones como:
+
+* “se prohíbe”;
+* “se determina”;
+* “queda definido”;
+* “es obligatorio”;
+* “se descarta definitivamente”;
+* “debe ser”;
+
+si la afirmación no está respaldada por una decisión aprobada, una restricción legal/técnica real o evidencia suficiente.
+
+Cuando se trate de criterios preliminares, hipótesis o decisiones condicionadas, usar fórmulas como:
+
+* “se recomienda evitar”;
+* “se establece como criterio preliminar”;
+* “queda fuera del alcance de la Fase 1”;
+* “deberá validarse antes de su implantación”;
+* “se considera prudente”;
+* “la opción más razonable inicialmente es”;
+* “la decisión queda condicionada a”;
+* “no se recomienda en esta fase”.
+
+Estas expresiones no son sustituciones mecánicas. La elección depende del grado de certeza de la afirmación.
+
+# Decisiones condicionadas
+
+Cuando una conclusión dependa de información todavía no cerrada, no debe redactarse como decisión definitiva.
+
+Aplica especialmente cuando dependa de:
+
+* local;
+* metros cuadrados;
+* costes;
+* seguros;
+* licencias;
+* normativa;
+* demanda;
+* precios;
+* inversión;
+* maquinaria;
+* capacidad operativa;
+* financiación;
+* viabilidad económica.
+
+Ejemplo incorrecto:
+
+```text
+Se prohíbe dimensionar el local por encima de 300 m².
+```
+
+Ejemplo correcto:
+
+```text
+Como criterio preliminar de prudencia, se recomienda evitar locales superiores a 300 m² en la Fase 1, salvo que el análisis financiero, el coste del alquiler y la capacidad operativa justifiquen lo contrario.
+```
+
+Si una decisión queda condicionada, la dependencia debe aparecer también en `CAUTELAS_RELEVANTES`, `PENDIENTES` u `OBSERVACIONES`.
+
+# Revisión final de tono y certeza
+
+Antes de entregar `TEXTO_PROPUESTO`, revisar si contiene afirmaciones absolutas.
+
+Si aparecen decisiones fuertes, comprobar que tienen base en:
+
+* fuente verificable;
+* decisión explícita del promotor;
+* límite aprobado de fase;
+* restricción legal o técnica real;
+* evidencia económica suficiente.
+
+Si no tienen esa base, suavizar la redacción y marcar la dependencia en `CAUTELAS_RELEVANTES`, `PENDIENTES` u `OBSERVACIONES`.
+
 # Hipótesis dentro del texto
 
 Las hipótesis pueden mencionarse en `TEXTO_PROPUESTO` solo si se formulan claramente como hipótesis, supuestos de trabajo, decisiones pendientes o elementos por validar.
