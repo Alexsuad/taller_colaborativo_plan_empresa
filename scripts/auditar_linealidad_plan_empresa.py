@@ -104,7 +104,7 @@ def limpiar_contenido(contenido):
             
     return '\n'.join(lineas_limpias)
 
-def obtener_parrafos(contenido):
+def obtener_parrafos(contenido, longitud_minima=40):
     """Extrae párrafos significativos (sin tablas, encabezados, etc.)."""
     # Eliminar bloques de código
     contenido = re.sub(r'```.*?```', '', contenido, flags=re.DOTALL)
@@ -119,7 +119,7 @@ def obtener_parrafos(contenido):
         if not linea_strip or linea_strip.startswith('#') or '|' in linea_strip or linea_strip.startswith('- ') or linea_strip.startswith('* '):
             if bloque_actual:
                 p = ' '.join(bloque_actual)
-                if len(p.split()) >= 40: # Solo párrafos de >= 40 palabras
+                if len(p.split()) >= longitud_minima: # Solo párrafos de >= longitud_minima palabras
                     parrafos.append(p)
                 bloque_actual = []
             continue
@@ -128,7 +128,7 @@ def obtener_parrafos(contenido):
         
     if bloque_actual:
         p = ' '.join(bloque_actual)
-        if len(p.split()) >= 40:
+        if len(p.split()) >= longitud_minima:
             parrafos.append(p)
             
     return parrafos
@@ -275,8 +275,15 @@ def auditar():
         })
         
         # Buscar intros repetidas
-        if re.search(r"Taller Colaborativo es", contenido, re.IGNORECASE):
-            intros_detectadas += 1
+        intros_cfg = limites_cfg.get('intros_definitorias', {})
+        patrones_intro = intros_cfg.get('patrones', []) if isinstance(intros_cfg, dict) else []
+        if not isinstance(patrones_intro, list):
+            patrones_intro = []
+            
+        for patron in patrones_intro:
+            if patron and re.search(re.escape(patron), contenido, re.IGNORECASE):
+                intros_detectadas += 1
+                break  # Contar a lo sumo una intro por archivo
             
         # Análisis de sedes / conceptos
         if modo_sedes == 'CONCEPTOS':
@@ -297,7 +304,9 @@ def auditar():
             advertencias_estructura.append(advertencia_sedes)
         
         # Detección de duplicados
-        parrafos = obtener_parrafos(contenido)
+        sim_parrafos_cfg = limites_cfg.get('similitud_parrafos', {})
+        longitud_minima = sim_parrafos_cfg.get('longitud_minima_palabras', 40) if isinstance(sim_parrafos_cfg, dict) else 40
+        parrafos = obtener_parrafos(contenido, longitud_minima)
         for p in parrafos:
             # Comparar con párrafos ya vistos
             for p_visto, arc_visto in parrafos_globales.items():
