@@ -11,9 +11,10 @@ Las preguntas técnicas, reglamentarias o de apertura pueden quedar pendientes h
 1. Equipo promotor
 2. Idea de negocio
 3.1 Análisis externo
-3.2 Estudio de mercado
-3.3 Análisis interno
+3.2 Competencia y alternativas
+3.3 Estudio de mercado
 3.4 Benchmarking de inspiradores
+3.5 Análisis interno
 4. DAFO / CAME
 5. Objetivos y líneas estratégicas
 6.0 Marca, comunicación y naming
@@ -33,9 +34,10 @@ Las preguntas técnicas, reglamentarias o de apertura pueden quedar pendientes h
 | 1. Equipo promotor | `01_equipo_promotor.md` | Guía de redacción |
 | 2. Idea de negocio | `02_idea_negocio.md` | Guía de redacción |
 | 3.1 Análisis externo | `03_1_analisis_externo.md` | Guía de redacción |
-| 3.2 Estudio de mercado | `03_2_estudio_mercado.md` | Guía de redacción |
-| 3.3 Análisis interno | `03_3_analisis_interno.md` | Guía de redacción |
+| 3.2 Competencia y alternativas | `03_2_competencia_y_alternativas.md` | Guía de redacción |
+| 3.3 Estudio de mercado | `03_3_estudio_mercado.md` | Guía de redacción |
 | 3.4 Benchmarking de inspiradores | `03_4_benchmarking_inspiradores.md` | Guía de redacción |
+| 3.5 Análisis interno | `03_5_analisis_interno.md` | Guía de redacción |
 | 4. DAFO / CAME | `04_dafo_came.md` | Guía de redacción |
 | 5. Objetivos y líneas estratégicas | `05_objetivos_lineas_estrategicas.md` | Guía de redacción |
 | 6.0 Marca, comunicación y naming | `06_0_marca_comunicacion_naming.md` | Guía de redacción |

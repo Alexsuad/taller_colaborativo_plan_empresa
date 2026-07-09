@@ -17,8 +17,10 @@ Rol: Índice de acceso rápido y control de estados.
 | **1** | Equipo promotor | [01_equipo_promotor.md](01_equipo_promotor.md) | Extraído |
 | **2** | Idea de negocio | [02_idea_negocio.md](02_idea_negocio.md) | Extraído |
 | **3.1** | Análisis externo | [03_1_analisis_externo.md](03_1_analisis_externo.md) | Extraído |
-| **3.2** | Estudio del mercado | [03_2_estudio_mercado.md](03_2_estudio_mercado.md) | Extraído |
-| **3.3** | Análisis interno | [03_3_analisis_interno.md](03_3_analisis_interno.md) | Extraído |
+| **3.2** | Competencia y alternativas | [03_2_competencia_y_alternativas.md](03_2_competencia_y_alternativas.md) | Extraído |
+| **3.3** | Estudio del mercado | [03_3_estudio_mercado.md](03_3_estudio_mercado.md) | Extraído |
+| **3.4** | Benchmarking de inspiradores | [03_4_benchmarking_inspiradores.md](03_4_benchmarking_inspiradores.md) | Extraído |
+| **3.5** | Análisis interno | [03_5_analisis_interno.md](03_5_analisis_interno.md) | Extraído |
 | **4** | Análisis DAFO y CAME | [04_dafo_came.md](04_dafo_came.md) | Extraído |
 | **5** | Objetivos y líneas estratégicas | [05_objetivos_lineas_estrategicas.md](05_objetivos_lineas_estrategicas.md) | Extraído |
 | **6.1** | Marketing y ventas | [06_1_marketing_ventas.md](06_1_marketing_ventas.md) | Extraído |

@@ -1,41 +1,17 @@
-# 03 3 Análisis Interno
+# 03_5 Análisis Interno
 
-Estado: pendiente de respuesta.
+> Estado: pendiente de respuesta. (Pendiente de resolución documental).
 
-Uso de este archivo:
-- Responder únicamente con información propia del Taller Colaborativo Artesanal en Zaragoza.
-- No copiar respuestas de otros proyectos.
-- No usar antecedentes no vigentes como fuente activa.
-- Citar o referenciar la fuente interna usada cuando aplique.
+> Nota documental: este capítulo se enfoca en las capacidades internas, recursos y limitaciones del equipo promotor del proyecto para ejecutar el taller, diferenciándose del análisis externo PESTEL (`03_1`) y el entorno competitivo (`03_2`).
 
-## Estado del bloque
+Este capítulo recogerá las capacidades iniciales, activos, equipo, competencias de carpintería y gestión de taller, debilidades organizativas y riesgos internos del proyecto.
 
-_Pendiente._
+Este archivo no debe redactarse hasta que exista su bloque de preguntas resueltas e insumos saneados en `docs_preparacion/preguntas_resueltas/03_5_analisis_interno/`.
 
-## Capacidades internas
+## Alcance
 
-_Pendiente._
-
-## Recursos disponibles
-
-_Pendiente._
-
-## Limitaciones del promotor/proyecto
-
-_Pendiente._
-
-## Capacidad inicial
-
-_Pendiente._
-
-## Brechas internas
-
-_Pendiente._
-
-## Fuentes usadas / previstas
-
-_Pendiente._
-
-## Vacíos / decisiones pendientes
-
-_Pendiente._
+- Equipo promotor: perfiles, experiencia técnica en oficios de madera y capacidades de tutoría.
+- Activos iniciales: inventario de herramientas, maquinaria aportada y equipamiento inicial del promotor.
+- Capacidad de tutoría y supervisión: horas disponibles y distribución de roles en el taller.
+- Limitaciones y debilidades internas del equipo (vacíos formativos o de gestión).
+- Riesgos internos del proyecto y medidas iniciales de contingencia.

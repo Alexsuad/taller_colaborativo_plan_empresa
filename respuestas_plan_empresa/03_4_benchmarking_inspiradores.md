@@ -1,5 +1,7 @@
 # 3.4. Benchmarking de inspiradores clave
 
+> Nota documental: este bloque se limita al análisis de inspiradores clave y no sustituye el análisis general de competencia y alternativas recogido en `03_2_competencia_y_alternativas.md`.
+
 ESTADO: `RESPUESTA_FASE_3_AVANZADA_CON_VALIDACIONES_PENDIENTES`
 
 ## 3.4.1. Introducción del benchmarking

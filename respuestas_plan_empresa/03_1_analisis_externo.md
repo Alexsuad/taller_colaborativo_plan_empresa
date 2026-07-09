@@ -1,5 +1,7 @@
 # 03 1 Análisis Externo
 
+> Nota documental: este bloque se enfoca en factores de entorno macro (PESTEL) y regulación a nivel de Zaragoza. El análisis específico de competidores directos, indirectos y precios locales se desarrolla en `03_2_competencia_y_alternativas.md`.
+
 Estado del bloque: `pendiente de respuesta`.
 
 Uso de este archivo:

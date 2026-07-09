@@ -1,41 +1,17 @@
-# 03 2 Estudio de Mercado
+# 03_3 Estudio de Mercado
 
-Estado: pendiente de respuesta.
+> Estado: pendiente de respuesta. (Pendiente de resolución documental).
 
-Uso de este archivo:
-- Responder únicamente con información propia del Taller Colaborativo Artesanal en Zaragoza.
-- No copiar respuestas de otros proyectos.
-- No usar antecedentes no vigentes como fuente activa.
-- Citar o referenciar la fuente interna usada cuando aplique.
+> Nota documental: el análisis competitivo detallado se desarrollará en [03_2_competencia_y_alternativas.md](03_2_competencia_y_alternativas.md). Este bloque de estudio de mercado debe evitar duplicar ese análisis y limitarse a conectar mercado, cliente y oportunidad.
 
-## Estado del bloque
+Este capítulo recogerá el análisis cuantitativo y cualitativo de la demanda, tamaño de mercado, segmentos de clientes objetivo y comportamiento de compra para el Taller Colaborativo Artesanal en Zaragoza.
 
-_Pendiente._
+Este archivo no debe redactarse hasta que exista su bloque de preguntas resueltas e insumos saneados en `docs_preparacion/preguntas_resueltas/03_3_estudio_mercado/`.
 
-## Mercado objetivo
+## Alcance
 
-_Pendiente._
-
-## Tamaño / alcance del mercado
-
-_Pendiente._
-
-## Competencia y alternativas
-
-_Pendiente._
-
-## Segmentos de clientes
-
-_Pendiente._
-
-## Conclusiones de mercado
-
-_Pendiente._
-
-## Fuentes usadas / previstas
-
-_Pendiente._
-
-## Vacíos / decisiones pendientes
-
-_Pendiente._
+- Mercado objetivo: segmentación y delimitación del perfil de cliente.
+- Tamaño del mercado: estimaciones de la demanda inicial y volumen de usuarios potenciales en Zaragoza.
+- Criterios y comportamiento de compra del usuario de carpintería y restauración de ocio.
+- Potencialidad y crecimiento esperado del sector.
+- Conclusiones y validaciones pendientes sobre demanda.

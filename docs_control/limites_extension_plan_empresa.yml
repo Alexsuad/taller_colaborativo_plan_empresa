@@ -62,23 +62,29 @@ presupuesto_por_archivo:
     warning: 1750
     fail: 1800
 
-  "03_2_estudio_mercado.md":
+  "03_2_competencia_y_alternativas.md":
+    minimo: 1000
+    objetivo: 1500
+    warning: 1700
+    fail: 1800
+
+  "03_3_estudio_mercado.md":
     minimo: 1800
     objetivo: 2600
     warning: 2800
     fail: 2900
-
-  "03_3_analisis_interno.md":
-    minimo: 800
-    objetivo: 1200
-    warning: 1350
-    fail: 1400
 
   "03_4_benchmarking_inspiradores.md":
     minimo: 1500
     objetivo: 2300
     warning: 2450
     fail: 2500
+
+  "03_5_analisis_interno.md":
+    minimo: 800
+    objetivo: 1200
+    warning: 1350
+    fail: 1400
 
   "04_dafo_came.md":
     minimo: 800
