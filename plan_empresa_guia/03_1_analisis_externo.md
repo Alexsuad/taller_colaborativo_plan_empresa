@@ -1,5 +1,7 @@
 # 3.1 Análisis externo
 
+> Nota documental: este bloque se enfoca en factores de entorno macro (PESTEL) y regulación a nivel de Zaragoza. El análisis específico de competidores directos, indirectos y precios locales se desarrolla en `03_2_competencia_y_alternativas.md`.
+
 ## Qué cosas de fuera pueden ayudarte o complicarte
 
 ## Explicación sencilla
@@ -309,6 +311,8 @@ La presentación legal insiste en pensar desde temprano en marca, protección de
 ---
 
 # 3.1.7 Análisis del sector
+
+> Nota de frontera: este apartado analiza el sector como contexto general —tendencias, barreras, madurez, regulación y atractivo—. No debe sustituir el análisis detallado de competidores, alternativas y precios de `03_2_competencia_y_alternativas.md`, ni el análisis de clientes, segmentos y potencialidad de `03_3_estudio_mercado.md`.
 
 ## Explicación sencilla
 

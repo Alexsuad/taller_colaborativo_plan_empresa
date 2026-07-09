@@ -1,4 +1,6 @@
-# 3.2 Estudio del mercado
+# 3.3 Estudio del mercado
+
+> Nota documental: el análisis competitivo detallado se desarrollará en `03_2_competencia_y_alternativas.md`. Este bloque de estudio de mercado debe evitar duplicar ese análisis y limitarse a conectar mercado, cliente y oportunidad.
 
 ## Entender si hay suficientes clientes para que el negocio viva
 
@@ -31,7 +33,7 @@ Aquí no buscamos adivinar. Buscamos observar, preguntar, comparar e investigar.
 
 ---
 
-# 3.2.1 Definir el mercado objetivo
+# 3.3.1 Definir el mercado objetivo
 
 ## Explicación sencilla
 
@@ -85,7 +87,7 @@ No sirve porque no permite saber dónde vender, cómo comunicar ni cuántos clie
 
 ---
 
-# 3.2.2 Tamaño del mercado
+# 3.3.2 Tamaño del mercado
 
 ## Explicación sencilla
 
@@ -141,7 +143,7 @@ No sirve porque no convierte “mucha gente” en clientes posibles.
 
 ---
 
-# 3.2.3 Evolución y madurez del mercado
+# 3.3.3 Evolución y madurez del mercado
 
 ## Explicación sencilla
 
@@ -189,178 +191,15 @@ No es lo mismo entrar en un mercado que está despertando que entrar en uno dond
 
 ---
 
-# 3.2.4 Inspiraciones, referentes y negocios parecidos
+### 3.3.4 Relación con competencia y benchmarking
 
-## Explicación sencilla
+Este capítulo no desarrolla competencia ni benchmarking. El análisis competitivo se resuelve en `03_2_competencia_y_alternativas.md` y el benchmarking de inspiradores en `03_4_benchmarking_inspiradores.md`.
 
-Esta sección ayuda mucho porque a veces es más fácil explicar tu idea comparándola con negocios que ya existen.
-
-No se trata de copiar. Se trata de aprender.
-
-Un negocio referente puede servir para entender:
-
-* qué modelo te inspira;
-* qué estilo te gusta;
-* cómo venden;
-* qué precios manejan;
-* cómo atienden;
-* qué canales usan;
-* qué dicen sus clientes;
-* qué errores podrías evitar;
-* qué parte de su modelo podrías adaptar.
-
-## Preguntas para responder
-
-1. ¿Qué negocios te inspiran?
-2. ¿Cómo se llaman?
-3. ¿Dónde están?
-4. ¿Tienen local, web, redes sociales o tienda online?
-5. ¿Qué te gusta de ellos?
-6. ¿Qué hacen parecido a lo que tú quieres hacer?
-7. ¿Qué hacen mejor que otros?
-8. ¿Qué parte de su modelo te gustaría adaptar?
-9. ¿Qué parte NO quieres copiar?
-10. ¿Qué crees que podrías hacer diferente?
-11. ¿Atienden al mismo cliente que tú?
-12. ¿Cobran precios parecidos a los que tú imaginas?
-13. ¿Tienen una imagen de marca parecida a la que quieres?
-14. ¿Qué comentarios reciben en reseñas?
-15. ¿Qué quejas se repiten?
-16. ¿Han crecido con el tiempo?
-17. ¿Han abierto más locales?
-18. ¿Han salido en prensa?
-19. ¿Han recibido premios, ayudas o subvenciones?
-20. ¿Hay entrevistas donde cuenten cómo empezaron?
-
-## Ejemplo útil
-
-> Me inspira un taller de carpintería compartido de Barcelona porque ofrece acceso gradual, bonos de uso y una comunidad cuidada. No quiero copiar su modelo exacto, pero sí me interesa cómo organiza el uso del espacio, cómo presenta las opciones y cómo crea comunidad en Instagram.
-
-## Qué parte del plan se rellena con esto
-
-* Referentes del mercado.
-* Inspiraciones estratégicas.
-* Benchmark inicial.
-* Diferenciación.
-* Futuro análisis de competencia.
-* Fuentes para investigación posterior.
+`03_3_estudio_mercado.md` solo usará esos resultados como insumo para entender demanda, cliente, segmentos y potencialidad.
 
 ---
 
-# 3.2.5 Competencia directa
-
-## Explicación sencilla
-
-La competencia directa son los negocios que venden casi lo mismo que tú al mismo tipo de cliente.
-
-Si tú no existieras, el cliente podría comprarles a ellos.
-
-Aquí no buscamos pelear con ellos. Buscamos entender el terreno.
-
-## Preguntas para responder
-
-1. ¿Quién vende algo igual o muy parecido?
-2. ¿Cómo se llaman?
-3. ¿Dónde están?
-4. ¿Qué venden exactamente?
-5. ¿A qué cliente se dirigen?
-6. ¿Qué precios tienen?
-7. ¿Cómo comunican?
-8. ¿Dónde venden?
-9. ¿Tienen local?
-10. ¿Tienen web?
-11. ¿Tienen redes sociales?
-12. ¿Tienen reseñas?
-13. ¿Qué puntuación tienen?
-14. ¿Qué comentarios positivos reciben?
-15. ¿Qué quejas reciben?
-16. ¿Qué hacen mejor que tú?
-17. ¿Qué hacen peor?
-18. ¿Qué tan conocidos son?
-19. ¿Qué ventaja tienen por llevar más tiempo?
-20. ¿Qué podrías aprender de ellos?
-
-## Tabla sugerida
-
-| Competidor | Qué vende | Cliente | Precio | Canal | Puntos fuertes | Quejas o huecos |
-| ---------- | --------- | ------- | ------ | ----- | -------------- | --------------- |
-
-## Ejemplo útil
-
-> Competidor 1: “Taller Madera Zaragoza”. Ofrece horas de uso y cursos básicos de carpintería. Tiene Instagram y WhatsApp. Sus precios van de 45 a 70 € por sesión o bono. Sus usuarios valoran el acompañamiento, pero algunas reseñas mencionan poca disponibilidad.
-
-## Respuesta floja
-
-> Hay varios, pero no sé cómo se llaman.
-
-No sirve. Para un plan serio necesitamos nombres concretos.
-
-## Qué parte del plan se rellena con esto
-
-* Competencia directa.
-* Benchmark.
-* Comparativa de precios.
-* Diferenciación.
-* Riesgos de mercado.
-
----
-
-# 3.2.6 Competencia indirecta y sustitutos
-
-## Explicación sencilla
-
-La competencia indirecta no vende exactamente lo mismo, pero resuelve el mismo problema.
-
-Por ejemplo:
-
-Si vendes acceso a un taller colaborativo, tu competencia indirecta puede ser:
-
-* talleres municipales;
-* makerspaces;
-* cursos online;
-* trabajar en casa;
-* comprar herramientas y hacerlo por cuenta propia.
-
-Si haces una app de organización de tareas, tu competencia indirecta puede ser:
-
-* Excel;
-* Notion;
-* agendas en papel;
-* WhatsApp;
-* no organizarse.
-
-## Preguntas para responder
-
-1. ¿Cómo resuelve hoy el cliente el problema si no te compra a ti?
-2. ¿Qué alternativas usa?
-3. ¿Compra algo más barato?
-4. ¿Lo hace por su cuenta?
-5. ¿Pide ayuda a otra persona?
-6. ¿Usa una app?
-7. ¿Contrata otro servicio diferente?
-8. ¿Compra en una gran empresa?
-9. ¿Compra en marketplace?
-10. ¿No hace nada y vive con el problema?
-11. ¿Qué ventajas tienen esas alternativas?
-12. ¿Qué desventajas tienen?
-13. ¿Por qué alguien dejaría esa alternativa para probar lo tuyo?
-14. ¿Qué barrera tendría para cambiar?
-
-## Ejemplo útil
-
-> Mi competencia indirecta son los talleres municipales y los cursos online de carpintería. Son más baratos y accesibles, pero menos personalizados. También compito con el hábito de comprar herramientas y trabajar en casa sin apoyo.
-
-## Qué parte del plan se rellena con esto
-
-* Competencia indirecta.
-* Sustitutos.
-* Riesgos de sustitución.
-* Propuesta de valor.
-* Estrategia de entrada.
-
----
-
-# 3.2.7 Clientes por segmentos
+# 3.3.7 Clientes por segmentos
 
 ## Explicación sencilla
 
@@ -413,7 +252,7 @@ Cada uno compra distinto, paga distinto y exige cosas distintas.
 
 ---
 
-# 3.2.8 Perfil del cliente principal
+# 3.3.8 Perfil del cliente principal
 
 ## Explicación sencilla
 
@@ -457,7 +296,7 @@ No para inventar un personaje bonito, sino para vender mejor.
 
 ---
 
-# 3.2.9 Criterios de compra
+# 3.3.9 Criterios de compra
 
 ## Explicación sencilla
 
@@ -502,7 +341,7 @@ Si no sabes por qué compra tu cliente, puedes gastar dinero comunicando cosas q
 
 ---
 
-# 3.2.10 Canales actuales del mercado
+# 3.3.10 Canales actuales del mercado
 
 ## Explicación sencilla
 
@@ -549,7 +388,7 @@ Ahora observamos cómo se mueve el mercado:
 
 ---
 
-# 3.2.11 Barreras de entrada y salida
+# 3.3.11 Barreras de entrada y salida
 
 ## Explicación sencilla
 
@@ -604,7 +443,7 @@ Esto es importante porque no todos los negocios tienen el mismo riesgo.
 
 ---
 
-# 3.2.12 Señales de saturación u océano azul
+# 3.3.12 Señales de saturación u océano azul
 
 ## Explicación sencilla
 
@@ -648,7 +487,7 @@ No usaremos “océano azul” como palabra rara para el emprendedor. Lo explica
 
 ---
 
-# 3.2.13 Fuentes de información del mercado
+# 3.3.13 Fuentes de información del mercado
 
 ## Explicación sencilla
 
@@ -693,7 +532,7 @@ Las fuentes pueden ser sencillas, pero deben existir.
 
 ---
 
-# 3.2.14 Conclusión de potencialidad del mercado
+# 3.3.14 Conclusión de potencialidad del mercado
 
 ## Explicación sencilla
 
@@ -740,7 +579,7 @@ La respuesta puede ser:
 
 ---
 
-# 3.2.15 Mini diagnóstico del estudio de mercado
+# 3.3.15 Mini diagnóstico del estudio de mercado
 
 Al cerrar este punto, el sistema debería poder responder:
 
@@ -763,7 +602,7 @@ Al cerrar este punto, el sistema debería poder responder:
 
 ---
 
-# 3.2.16 Alertas de respuestas flojas
+# 3.3.16 Alertas de respuestas flojas
 
 | Respuesta floja                        | Por qué no sirve       | Qué preguntar después                          |
 | -------------------------------------- | ---------------------- | ---------------------------------------------- |
@@ -778,7 +617,7 @@ Al cerrar este punto, el sistema debería poder responder:
 
 ---
 
-# 3.2.17 Cómo se traducirá esto al Plan de Empresa
+# 3.3.17 Cómo se traducirá esto al Plan de Empresa
 
 Con las respuestas, el sistema podrá redactar algo así:
 
@@ -790,7 +629,7 @@ Con las respuestas, el sistema podrá redactar algo así:
 
 ---
 
-# 3.2.18 Entregables que salen de este subpunto
+# 3.3.18 Entregables que salen de este subpunto
 
 De este subpunto deberían salir:
 
@@ -800,10 +639,10 @@ De este subpunto deberían salir:
 4. Segmentos de cliente.
 5. Perfil del cliente principal.
 6. Criterios de compra.
-7. Lista de competidores directos.
-8. Lista de competidores indirectos.
-9. Lista de referentes o inspiraciones.
-10. Benchmark básico.
+7. Síntesis breve de competidores directos, tomando como fuente el desarrollo completo de `03_2_competencia_y_alternativas.md`.
+8. Síntesis breve de competidores indirectos y sustitutos, tomando como fuente el desarrollo completo de `03_2_competencia_y_alternativas.md`.
+9. Referencia breve a inspiradores clave, tomando como fuente el desarrollo completo de `03_4_benchmarking_inspiradores.md`.
+10. Conclusión de mercado que integre, sin duplicar, los aprendizajes de competencia y benchmarking.
 11. Canales actuales del mercado.
 12. Barreras de entrada y salida.
 13. Señales de saturación o hueco de mercado.
@@ -812,11 +651,11 @@ De este subpunto deberían salir:
 
 ---
 
-# 3.2.19 Veredicto de este subpunto
+# 3.3.19 Veredicto de este subpunto
 
-El **3.2 Estudio del mercado** queda bien trabajado si podemos decir:
+El **3.3 Estudio del mercado** queda bien trabajado si podemos decir:
 
-> “El emprendedor ya no cree simplemente que su idea gustará. Ahora tiene una primera imagen clara de quién podría comprar, cuántos podrían existir, cómo compran, contra qué alternativas compite, qué huecos hay en el mercado y qué datos necesita investigar para confirmar la oportunidad.”
+> “El emprendedor ya no cree simplemente que su idea gustará. Ahora tiene una primera imagen clara de quién podría comprar, cuántos podrían existir, cómo compran, contra qué alternativas compite (analizadas en detalle en 03_2), qué huecos hay en el mercado y qué datos necesita investigar para confirmar la oportunidad.”
 
 
 ---

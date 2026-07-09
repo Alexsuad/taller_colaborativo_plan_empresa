@@ -1,4 +1,6 @@
-# 3.3 Análisis interno
+# 3.5 Análisis interno
+
+> Nota de frontera: este capítulo diagnostica capacidades, recursos y limitaciones actuales del emprendedor o equipo promotor. No sustituye la presentación formal del equipo en `01_equipo_promotor.md`, ni el plan operativo de `06_2_operaciones.md`, ni el plan de recursos humanos de `06_3_recursos_humanos.md`, ni el análisis económico-financiero de `06_5_economico_financiero.md`. Su función es servir de base honesta para fortalezas, debilidades, riesgos internos y necesidades de apoyo.
 
 ## Saber si el emprendedor puede ejecutar la idea con lo que tiene hoy
 
@@ -28,7 +30,7 @@ Este punto debe ser honesto. Un banco, un ayuntamiento o un inversor confía má
 
 ---
 
-# 3.3.1 Capacidades personales
+# 3.5.1 Capacidades personales
 
 ## Explicación sencilla
 
@@ -74,7 +76,7 @@ No es suficiente. Hay que concretar en qué se nota eso y qué limitaciones pers
 
 ---
 
-# 3.3.2 Capacidades técnicas u oficio
+# 3.5.2 Capacidades técnicas u oficio
 
 ## Explicación sencilla
 
@@ -132,7 +134,7 @@ Por ejemplo:
 
 ---
 
-# 3.3.3 Capacidades de gestión
+# 3.5.3 Capacidades de gestión
 
 ## Explicación sencilla
 
@@ -182,7 +184,7 @@ No sirve porque el desorden inicial puede generar pérdidas, retrasos y problema
 
 ---
 
-# 3.3.4 Capacidades comerciales y de venta
+# 3.5.4 Capacidades comerciales y de venta
 
 ## Explicación sencilla
 
@@ -245,7 +247,7 @@ Aquí queremos saber si el emprendedor puede conseguir clientes o si necesita ap
 
 ---
 
-# 3.3.5 Capacidades económicas y financieras
+# 3.5.5 Capacidades económicas y financieras
 
 ## Explicación sencilla
 
@@ -301,7 +303,7 @@ hay un desajuste fuerte entre idea, recursos y realidad.
 
 ---
 
-# 3.3.6 Recursos materiales disponibles
+# 3.5.6 Recursos materiales disponibles
 
 ## Explicación sencilla
 
@@ -346,7 +348,7 @@ A veces el emprendedor tiene recursos útiles sin darse cuenta.
 
 ---
 
-# 3.3.7 Recursos humanos y apoyo externo
+# 3.5.7 Recursos humanos y apoyo externo
 
 ## Explicación sencilla
 
@@ -405,7 +407,7 @@ Aquí queremos saber quién puede ayudarte y en qué.
 
 ---
 
-# 3.3.8 Capacidad de producción o prestación del servicio
+# 3.5.8 Capacidad de producción o prestación del servicio
 
 ## Explicación sencilla
 
@@ -456,7 +458,7 @@ Por ejemplo:
 
 ---
 
-# 3.3.9 Capacidad de calidad y cumplimiento
+# 3.5.9 Capacidad de calidad y cumplimiento
 
 ## Explicación sencilla
 
@@ -496,7 +498,7 @@ Aquí analizamos si puedes mantener calidad de forma constante.
 
 ---
 
-# 3.3.10 Limitaciones actuales
+# 3.5.10 Limitaciones actuales
 
 ## Explicación sencilla
 
@@ -552,7 +554,7 @@ Una limitación puede ser:
 
 ---
 
-# 3.3.11 Hipótesis internas críticas
+# 3.5.11 Hipótesis internas críticas
 
 ## Explicación sencilla
 
@@ -589,7 +591,7 @@ En este punto nos enfocamos en hipótesis internas, es decir, cosas que dependen
 
 ---
 
-# 3.3.12 Primer cuadro de capacidades internas
+# 3.5.12 Primer cuadro de capacidades internas
 
 ## Explicación sencilla
 
@@ -617,7 +619,7 @@ Todavía no es el DAFO final, pero será su base.
 
 ---
 
-# 3.3.13 Mini diagnóstico del análisis interno
+# 3.5.13 Mini diagnóstico del análisis interno
 
 Al cerrar este punto, el sistema debería poder responder:
 
@@ -640,7 +642,7 @@ Si varias respuestas quedan en “No”, el análisis interno todavía no está 
 
 ---
 
-# 3.3.14 Alertas de respuestas flojas
+# 3.5.14 Alertas de respuestas flojas
 
 | Respuesta floja              | Por qué no sirve              | Qué preguntar después                                           |
 | ---------------------------- | ----------------------------- | --------------------------------------------------------------- |
@@ -655,7 +657,7 @@ Si varias respuestas quedan en “No”, el análisis interno todavía no está 
 
 ---
 
-# 3.3.15 Cómo se traducirá esto al Plan de Empresa
+# 3.5.15 Cómo se traducirá esto al Plan de Empresa
 
 Con las respuestas, el sistema podrá redactar algo así:
 
@@ -667,7 +669,7 @@ Con las respuestas, el sistema podrá redactar algo así:
 
 ---
 
-# 3.3.16 Entregables que salen de este subpunto
+# 3.5.16 Entregables que salen de este subpunto
 
 De este subpunto deberían salir:
 
@@ -689,9 +691,9 @@ De este subpunto deberían salir:
 
 ---
 
-# 3.3.17 Veredicto de este subpunto
+# 3.5.17 Veredicto de este subpunto
 
-El **3.3 Análisis interno** queda bien trabajado si podemos decir:
+El **3.5 Análisis interno** queda bien trabajado si podemos decir:
 
 > “El emprendedor ya no solo sabe qué quiere vender y a qué mercado quiere entrar. Ahora también entiende si tiene las capacidades, recursos, tiempo, dinero, apoyo y procesos mínimos para ejecutar la idea sin autoengañarse.”
 

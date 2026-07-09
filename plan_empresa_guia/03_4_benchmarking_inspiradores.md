@@ -1,5 +1,7 @@
 # 3.4 Benchmarking de inspiradores clave
 
+> Nota documental: este bloque se limita al análisis de inspiradores clave y no sustituye el análisis general de competencia y alternativas recogido en `03_2_competencia_y_alternativas.md`.
+
 ## Propósito del bloque
 
 Este bloque sirve para ordenar el trabajo comparativo con inspiradores clave del Taller Colaborativo Artesanal en Zaragoza.
@@ -29,6 +31,14 @@ No pertenece estrictamente a Red ARCE, aunque alimenta los bloques de mercado, m
 4. No usar datos no verificados como decisiones maduras.
 5. Distinguir entre confirmado, parcial, inferido, pendiente y no verificable.
 6. Mantener separadas la evidencia documental, el testimonio del promotor y la investigación externa.
+
+## Qué no debe hacer este bloque
+
+Este bloque no debe cerrar decisiones definitivas de marketing, operaciones, legalidad, inversión o precios. Su función es observar referentes, extraer aprendizajes, identificar cautelas y alimentar capítulos posteriores.
+
+Las decisiones finales deberán validarse en los capítulos correspondientes: marketing y ventas, operaciones, jurídico-fiscal, económico-financiero, implantación y viabilidad.
+
+Este bloque tampoco debe convertirse en un mapa general de competencia. La competencia general, los sustitutos, las alternativas actuales del cliente, los precios observados y los huecos competitivos se trabajan en `03_2_competencia_y_alternativas.md`.
 
 ## Preguntas guía transversales
 
