@@ -31,7 +31,7 @@ Esta skill se usa después de:
 
 * `clasificar-pregunta-plan-empresa`;
 * `preparar-bloque-para-redaccion`;
-* `preparar-consulta-notebooklm-controlada`, si aplica.
+* `preparar-consulta-drive-controlada`, si aplica.
 
 Si el capítulo afecta cliente, propuesta de valor, marketing, ventas, comunicación, canales, redes sociales o posicionamiento, la salida debe declarar en `VALIDACIONES_REQUERIDAS` las skills comerciales pertinentes entre:
 
@@ -47,7 +47,7 @@ Si el capítulo afecta cliente, propuesta de valor, marketing, ventas, comunicac
 
 No todas las validaciones comerciales son obligatorias siempre. Deben activarse según el contenido del capítulo.
 
-Esta skill no reclasifica preguntas, no rehace la preparación del bloque y no sustituye la consulta controlada a NotebookLM. Consume las salidas de esas skills previas. Si detecta clasificación ausente, preparación insuficiente o consulta documental pendiente, debe declararlo en `PENDIENTES`, `OBSERVACIONES` o devolver `BLOQUEADO`, según corresponda.
+Esta skill no reclasifica preguntas, no rehace la preparación del bloque y no sustituye la consulta controlada a Drive Taller. Consume las salidas de esas skills previas. Si detecta clasificación ausente, preparación insuficiente o consulta documental pendiente, debe declararlo en `PENDIENTES`, `OBSERVACIONES` o devolver `BLOQUEADO`, según corresponda.
 
 Esta skill se usa antes de:
 
@@ -75,7 +75,7 @@ No se puede operar sin confirmar:
 Esta skill debe respetar la taxonomía actual del Taller:
 
 * `[F-REPO]`
-* `[F-NOTEBOOKLM]`
+* `[F-DRIVE]`
 * `[U-DATO]`
 * `[U-VALIDA]`
 * `[U-ELIGE]`
@@ -98,7 +98,7 @@ Los códigos `[U-*]` no significan preguntar inmediatamente.
 Antes de preguntar a Alex en blanco, esta skill debe comprobar si puede preparar una propuesta, una opción o un contexto trazable desde:
 
 * el repositorio;
-* NotebookLM;
+* Drive Taller;
 * una fuente web simple;
 * investigación profunda.
 
@@ -112,8 +112,9 @@ Alex interviene para:
 
 # Regla de fuentes
 
-* Repo primero.
-* NotebookLM solo si hay fuente indexada o un hueco clasificado como `[F-NOTEBOOKLM]` o `[M]`.
+* Drive Taller primero (biblioteca primaria).
+* Repo procesado después.
+* NotebookLM solo como apoyo secundario/histórico (legacy).
 * Web simple o investigación profunda solo si está clasificado y autorizado.
 * No convertir hipótesis en hechos.
 
@@ -489,7 +490,7 @@ si no hay fuente suficiente.
 * `NO_REDACTAR_AUN`
 * `BORRADOR_CONTROLADO`
 * `BORRADOR_PARCIAL_CON_VACIOS`
-* `REQUIERE_NOTEBOOKLM`
+* `REQUIERE_DRIVE`
 * `REQUIERE_INVESTIGACION`
 * `REQUIERE_DECISION_ALEX`
 * `LISTO_PARA_REVISION`

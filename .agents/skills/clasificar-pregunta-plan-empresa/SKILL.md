@@ -1,5 +1,4 @@
 ---
-
 name: clasificar-pregunta-plan-empresa
 description: Clasifica una pregunta del plan de empresa por fuente probable, dependencia del usuario/promotor, estado NO_RESPONDER_AÚN y siguiente acción documental. Use when a question must be prepared before redaction.
 ---
@@ -65,21 +64,23 @@ OBSERVACIONES:
 | Código | Significado | Uso obligatorio |
 | --- | --- | --- |
 | `[F-REPO]` | Fuente interna local del repositorio | Extraer primero del repo antes de preguntar |
-| `[F-NOTEBOOKLM]` | Fuente indexada del proyecto en NotebookLM | Consultar solo si el repo no basta y la fuente ya está indexada |
+| `[F-DRIVE]` | Fuente indexada o borrador en Drive Taller | Consultar en Google Drive Taller (biblioteca primaria) |
 | `[U-DATO]` | Dato que solo puede aportar Alex/promotor | Usar solo si el sistema no puede prepararlo de forma trazable |
 | `[U-VALIDA]` | Alex valida una propuesta preparada | Pedir validación de una propuesta, no una pregunta en blanco |
 | `[U-ELIGE]` | Alex elige entre opciones preparadas | Ofrecer alternativas cerradas antes de preguntar |
 | `[U-AUTORIZA]` | Alex autoriza una investigación web o profunda | Pedir permiso solo después de preparar el contexto |
 | `[I-SIMPLE]` | Investigación web puntual o fuente oficial simple | Búsqueda acotada y verificable |
 | `[I-DEEP]` | Investigación profunda | Requiere varias fuentes y contraste |
-| `[M]` | Mixto | Combina repo, NotebookLM, usuario e investigación |
+| `[M]` | Mixto | Combina repo, Drive Taller, usuario e investigación |
 | `[NO-RESPONDER-AÚN]` | No responder todavía | Depende de validación futura real o de hitos no disponibles |
+
+> **Nota de compatibilidad histórica (Legacy)**: La etiqueta `[F-NOTEBOOKLM]` queda retirada como activa para trabajo nuevo, siendo sustituida por `[F-DRIVE]`. Se mantiene únicamente como referencia histórica.
 
 # Procedimiento
 
 1. Leer la pregunta y ubicar la sección.
 2. Identificar si existe fuente interna suficiente.
-3. Comprobar si antes de preguntar al usuario se puede preparar una opción trazable con fuentes internas, NotebookLM o investigación controlada.
+3. Comprobar si antes de preguntar al usuario se puede preparar una opción trazable con fuentes del repositorio, Drive Taller o investigación controlada.
 4. Determinar si la respuesta depende del usuario/promotor y, si es así, si el rol es aportar dato, validar propuesta, elegir entre opciones o autorizar investigación.
 5. Determinar si la pregunta debe quedar en `NO_RESPONDER_AÚN`.
 6. Marcar la fuente probable o el tipo de búsqueda requerido.
@@ -93,7 +94,7 @@ OBSERVACIONES:
 * Esta skill no toca `respuestas_plan_empresa/`.
 * Esta skill no decide negocio, marketing, legal, RRSS ni viabilidad.
 * Esta skill no convierte hipótesis en hechos.
-* Esta skill no pregunta al usuario en blanco si todavía puede preparar opciones con repositorio, NotebookLM o investigación controlada.
+* Esta skill no pregunta al usuario en blanco si todavía puede preparar opciones con repositorio, Drive Taller o investigación controlada.
 
 # Límites / No hacer
 

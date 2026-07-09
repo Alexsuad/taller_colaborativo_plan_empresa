@@ -217,7 +217,7 @@ DICTAMEN: CREAR_SKILL_Y_GATE
 
 ### Ejemplo 6
 
-Necesidad: consultar NotebookLM para hueco concreto.
+Necesidad: consultar Drive Taller para hueco concreto.
 
 Resultado:
 

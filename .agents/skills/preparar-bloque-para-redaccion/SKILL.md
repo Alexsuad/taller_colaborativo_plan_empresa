@@ -1,5 +1,4 @@
 ---
-
 name: preparar-bloque-para-redaccion
 description: Prepara un bloque documental listo para redacción futura a partir de una pregunta clasificada, fuentes y decisiones pendientes, sin generar contenido final. Use when a block must be staged before drafting.
 ---
@@ -48,7 +47,7 @@ Un bloque preparado con, como mínimo:
 2. Reunir fuentes y dependencias relevantes.
 3. Separar dato, hipótesis y pendiente.
 4. Identificar la fuente siguiente recomendada, el rol de Alex y qué puede prepararse antes de preguntar.
-5. Determinar qué requiere NotebookLM, qué requiere web simple, qué requiere investigación profunda y qué queda en `NO_RESPONDER_AÚN`.
+5. Determinar qué requiere Drive Taller, qué requiere web simple, qué requiere investigación profunda y qué queda en `NO_RESPONDER_AÚN`.
 6. Construir la estructura del bloque sin redactar contenido final.
 7. Marcar el siguiente paso documental.
 8. Emitir el bloque preparado para uso futuro.
@@ -142,7 +141,7 @@ VACIOS_QUE_DEBILITAN_EL_CAPITULO:
 DATO:
 HIPOTESIS:
 PENDIENTE:
-REQUIERE_NOTEBOOKLM:
+REQUIERE_DRIVE:
 REQUIERE_WEB_SIMPLE:
 REQUIERE_INVESTIGACION_PROFUNDA:
 NO_RESPONDER_AUN:
