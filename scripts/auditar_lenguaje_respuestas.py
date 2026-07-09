@@ -55,6 +55,22 @@ PATRONES_WARNING_GENERICO = [
     "alto potencial de crecimiento"
 ]
 
+PATRONES_WARNING_TONO_MECANICO = [
+    "alta densidad",
+    "propuesta de valor emocional",
+    "sumamente potente",
+    "ancla",
+    "subordinación operativa",
+    "garantiza la seguridad",
+    "tasa de accidentes",
+    "fuente de ingresos estables y recurrentes muy valiosa",
+    "incapacidad física del usuario"
+]
+
+PATRONES_WARNING_RIESGO_LEGAL = [
+    "exoneración de responsabilidad"
+]
+
 # Configuración de rutas
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 REPO_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, ".."))
@@ -140,6 +156,28 @@ def auditar_archivos(respuestas_dir):
                                 "patron": patron,
                                 "fragmento": obtener_fragmento(line, patron)
                             })
+
+                    # Comprobar WARNING TONO MECÁNICO
+                    for patron in PATRONES_WARNING_TONO_MECANICO:
+                        if patron.lower() in line.lower():
+                            hallazgos.append({
+                                "archivo": filename,
+                                "linea": line_idx,
+                                "severidad": "WARNING_TONO_MECANICO",
+                                "patron": patron,
+                                "fragmento": obtener_fragmento(line, patron)
+                            })
+
+                    # Comprobar WARNING RIESGO LEGAL
+                    for patron in PATRONES_WARNING_RIESGO_LEGAL:
+                        if patron.lower() in line.lower():
+                            hallazgos.append({
+                                "archivo": filename,
+                                "linea": line_idx,
+                                "severidad": "WARNING_RIESGO_LEGAL",
+                                "patron": patron,
+                                "fragmento": obtener_fragmento(line, patron)
+                            })
         except Exception as e:
             print(f"Error al leer el archivo {filename}: {e}")
 
@@ -149,7 +187,11 @@ def generar_reporte(hallazgos, archivos_analizados):
     os.makedirs(REPORTES_DIR, exist_ok=True)
     
     total_fails = sum(1 for h in hallazgos if h["severidad"] == "FAIL")
-    total_warnings = sum(1 for h in hallazgos if h["severidad"] == "WARNING")
+    total_warnings_general = sum(1 for h in hallazgos if h["severidad"] == "WARNING")
+    total_warnings_mec = sum(1 for h in hallazgos if h["severidad"] == "WARNING_TONO_MECANICO")
+    total_warnings_legal = sum(1 for h in hallazgos if h["severidad"] == "WARNING_RIESGO_LEGAL")
+    
+    total_warnings = total_warnings_general + total_warnings_mec + total_warnings_legal
     
     if total_fails > 0:
         estado_global = "FAIL"
@@ -175,7 +217,9 @@ def generar_reporte(hallazgos, archivos_analizados):
     contenido.append("| Severidad | Total |")
     contenido.append("| --- | --- |")
     contenido.append(f"| FAIL | {total_fails} |")
-    contenido.append(f"| WARNING | {total_warnings} |")
+    contenido.append(f"| WARNING (General) | {total_warnings_general} |")
+    contenido.append(f"| WARNING_TONO_MECANICO | {total_warnings_mec} |")
+    contenido.append(f"| WARNING_RIESGO_LEGAL | {total_warnings_legal} |")
     contenido.append("")
     contenido.append("## Tabla de Hallazgos")
     contenido.append("")
@@ -199,7 +243,7 @@ def generar_reporte(hallazgos, archivos_analizados):
     except Exception as e:
         print(f"Error al escribir el reporte: {e}")
         
-    return total_fails, total_warnings, estado_global
+    return total_fails, total_warnings, total_warnings_general, total_warnings_mec, total_warnings_legal, estado_global
 
 def main():
     parser = argparse.ArgumentParser(description="Auditor de lenguaje en respuestas.")
@@ -213,12 +257,12 @@ def main():
 
     print(f"Iniciando auditoría de lenguaje en respuestas desde: {args.dir}")
     hallazgos, archivos_analizados = auditar_archivos(args.dir)
-    total_fails, total_warnings, estado_global = generar_reporte(hallazgos, archivos_analizados)
+    total_fails, total_warnings, total_warnings_general, total_warnings_mec, total_warnings_legal, estado_global = generar_reporte(hallazgos, archivos_analizados)
     
     print(f"\nAuditoría finalizada.")
     print(f"Archivos revisados: {archivos_analizados}")
     print(f"Total FAILs: {total_fails}")
-    print(f"Total WARNINGs: {total_warnings}")
+    print(f"Total WARNINGs: {total_warnings} (General: {total_warnings_general}, Tono Mecánico: {total_warnings_mec}, Riesgo Legal: {total_warnings_legal})")
     print(f"Estado global: {estado_global}")
     
     # Retornar exit code 1 si hay al menos un FAIL

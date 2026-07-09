@@ -316,6 +316,26 @@ Debe evitar:
 
 La redacción debe actuar como la de un asesor profesional de creación de empresas: clara, honesta, exigente y útil.
 
+# Voz narrativa final del Plan de Empresa
+
+* El texto final debe sonar como un Plan de Empresa profesional, humano, prudente y defendible.
+* No debe sonar como informe de IA, framework interno, consultoría genérica o documento técnico frío.
+* Debe ser claro para banco, entidad pública, apoyo al emprendimiento o posible inversor.
+* Debe conectar las decisiones con personas reales, usos reales, limitaciones reales y validaciones pendientes.
+* Debe evitar grandilocuencia, tecnicismos innecesarios y frases artificiales.
+* Debe mantener tono sobrio, directo y empresarial.
+
+# Trazabilidad visible sin lenguaje interno
+
+* Cuando un capítulo use benchmarking, análisis de mercado, competencia o insumos previos, debe dejar una trazabilidad breve y natural.
+* No debe meter etiquetas internas como `F-REPO`, `workflow`, `Gate`, `skill`, `REQUIERE_`.
+* Debe usar fórmulas naturales como:
+  - “A partir de los referentes analizados...”
+  - “El análisis comparativo permite extraer...”
+  - “Los documentos preparatorios del proyecto apuntan a...”
+  - “Esta conclusión deberá contrastarse posteriormente en...”
+* La trazabilidad debe ayudar al lector externo, no mostrar el funcionamiento interno del sistema.
+
 # Grado de certeza de las afirmaciones
 
 Antes de redactar una afirmación fuerte en `TEXTO_PROPUESTO`, la skill debe clasificar internamente su grado de certeza.

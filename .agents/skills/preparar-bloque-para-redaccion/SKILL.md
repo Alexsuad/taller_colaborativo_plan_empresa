@@ -100,7 +100,8 @@ La preparación debe identificar:
 * decisiones que el bloque alimenta;
 * cautelas o límites;
 * elementos que no deben copiarse de referentes o fuentes externas;
-* vacíos que impedirían una conclusión fuerte.
+* vacíos que impedirían una conclusión fuerte;
+* al preparar insumos para redacción, señalar si hay riesgos de tono mecánico, lenguaje demasiado técnico, frases genéricas o necesidad de explicar mejor la trazabilidad para lector externo.
 
 Especialmente en capítulos de benchmarking, mercado, competencia, marketing, ventas, comunicación, redes sociales, propuesta de valor o posicionamiento, el bloque preparado debe ayudar a responder:
 
