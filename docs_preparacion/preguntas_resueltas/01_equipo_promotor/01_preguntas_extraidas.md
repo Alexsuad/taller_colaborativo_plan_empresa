@@ -1,141 +1,67 @@
-# 01_preguntas_extraidas — Preguntas extraídas para el Equipo Promotor
+# Preguntas Extraídas y Auditoría de Alcance — 01. Equipo Promotor
 
-Este documento recopila las preguntas guía extraídas de la guía metodológica [01_equipo_promotor.md](file:///Ubuntu/home/nalex/Proyectos/taller_colaborativo_plan_empresa/plan_empresa_guia/01_equipo_promotor.md), estructuradas por bloques temáticos, incluyendo subpreguntas clave, dependencias entre capítulos y advertencias sobre preguntas tempranas.
-
----
-
-## Bloque A: Identificación y Perfil de los Emprendedores (Guía 1.1, 1.2, 1.3)
-
-### PEG-01-Q001: Identidad del equipo promotor
-* **Pregunta principal:** ¿Quiénes forman el equipo promotor y promueven el proyecto de taller artesanal en Zaragoza?
-* **Subpreguntas útiles:**
-  * ¿Cuál es el nombre completo de los promotores y su relación?
-  * ¿Trabajaron juntos antes?
-* **Dependencias:** Ninguna (datos de identidad básica).
-
-### PEG-01-Q002: Situación laboral y disponibilidad preoperativa
-* **Pregunta principal:** ¿Cuál es la situación laboral y profesional actual de los promotores?
-* **Subpreguntas útiles:**
-  * ¿Están en paro, estudiando, trabajando por cuenta ajena o son autónomos?
-  * ¿Qué jornada y flexibilidad horaria tienen en la fase preoperativa?
-* **Dependencias:** Capítulo 07 (Implantación y puesta en marcha).
-
-### PEG-01-Q003: Formación, aprendizaje y acreditaciones
-* **Pregunta principal:** ¿Qué titulación, formación académica o aprendizaje de oficio poseen los promotores?
-* **Subpreguntas útiles:**
-  * ¿Hay títulos de formación reglada homologados en España?
-  * ¿Qué cursos específicos en carpintería, ebanistería, restauración, tapicería o marroquinería tienen?
-  * ¿Qué formación poseen en administración y gestión empresarial?
-* **Dependencias:** Ninguna.
-
-### PEG-01-Q004: Experiencia real y habilidades operativas
-* **Pregunta principal:** ¿Qué trayectoria y años de experiencia práctica acreditan en el oficio?
-* **Subpreguntas útiles:**
-  * ¿Cuántos años de experiencia tienen trabajando madera u otros oficios?
-  * ¿Han cobrado por estos trabajos o realizado proyectos previos?
-  * ¿Qué habilidades técnicas (maquinaria, acabados, etc.) pueden ejecutar directamente sin supervisión?
-* **Dependencias:** Capítulo 06_2 (Operaciones).
+Este documento recopila la auditoría y clasificación formal de las preguntas originalmente consideradas para el capítulo del equipo promotor del Taller Colaborativo Artesanal en Zaragoza, evaluando su pertinencia frente a la guía Red ARCE corregida, y definiendo la lista simplificada y depurada de preguntas esenciales vigentes.
 
 ---
 
-## Bloque B: Motivación, Objetivos y Viabilidad Personal (Guía 1.4, 1.5, 1.11)
+## 1. Auditoría y Clasificación de Preguntas Históricas
 
-### PEG-01-Q005: Motivación para emprender
-* **Pregunta principal:** ¿Cuál es la motivación real detrás del lanzamiento de este taller artesanal?
-* **Subpreguntas útiles:**
-  * ¿Qué problema personal, profesional o social busca resolver la creación del taller?
-  * ¿Desde cuándo existe esta idea y qué impulsó a tomársela en serio ahora?
-* **Dependencias:** Ninguna.
+Para evitar la sobrecarga documental, la conversión del capítulo en un manual operativo prematuro y la introducción de decisiones jurídicas o financieras no tomadas, se auditan las 30 preguntas del catálogo anterior:
 
-### PEG-01-Q006: Dedicación y capacidad operativa
-* **Pregunta principal:** ¿Cuál será la jornada física y dedicación semanal de cada promotor al taller durante el primer año?
-* **Subpreguntas útiles:**
-  * ¿Se mantendrán empleos paralelos (pluriactividad)?
-  * ¿El horario disponible se alinea con el horario previsto para los clientes?
-* **Dependencias:** Capítulo 06_3 (Recursos Humanos) y Capítulo 06_2 (Operaciones).
-
-### PEG-01-Q007: Umbral mínimo de subsistencia y estabilidad financiera personal
-* **Pregunta principal:** ¿Qué salario mínimo neto de subsistencia mensual necesita cada promotor y a partir de qué mes?
-* **Subpreguntas útiles:**
-  * ¿Cuántos meses de carencia salarial personal pueden asumir con sus ahorros propios?
-  * ¿Tienen dependientes a cargo o cargas financieras importantes?
-* **Dependencias:** Capítulo 06_5 (Plan Económico-Financiero).
-
----
-
-## Bloque C: Organización, Gobernanza y Si Hay Socios (Guía 1.6, 1.7, 1.8)
-
-### PEG-01-Q008: Reparto de funciones y responsabilidades operativas
-* **Pregunta principal:** ¿Cómo se dividirán las funciones diarias de producción, ventas y administración?
-* **Subpreguntas útiles:**
-  * ¿Quién imparte los cursos? ¿Quién supervisa las máquinas?
-  * ¿Quién gestiona redes, cobros, facturación y proveedores?
-* **Dependencias:** Capítulo 06_3 (Recursos Humanos).
-
-### PEG-01-Q009: Gobernanza y Pacto de Socios
-* **Pregunta principal:** ¿Cuáles son las reglas básicas de propiedad, reparto de participaciones y toma de decisiones?
-* **Subpreguntas útiles:**
-  * ¿Qué porcentaje societario tendrá cada socio promotor?
-  * ¿Cómo se resolverán los bloqueos en la toma de decisiones?
-  * ¿Qué ocurre si un socio quiere desvincularse o cae de baja de larga duración?
-* **Dependencias:** Capítulo 06_4 (Plan Jurídico-Fiscal).
-
-### PEG-01-Q010: Colaboradores externos y red de apoyo
-* **Pregunta principal:** ¿Con qué red de apoyo o colaboradores informales/externos se contará para el arranque?
-* **Subpreguntas útiles:**
-  * ¿Qué rol tendrán asesores, gestorías, fotógrafos o familiares en el día a día?
-* **Dependencias:** Capítulo 06_3 (Recursos Humanos).
+| ID | Pregunta actual | Origen | Categoría | Utilidad para el Plan de Empresa | Riesgo de mantenerla | Recomendación |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Q1** | ¿Quiénes son los promotores reales que impulsan la actividad en Zaragoza? (Nombres completos, residencia). | Guía inicial / Identidad | `ESENCIAL_PLAN_EMPRESA` | Identifica a los promotores vigentes y el ámbito geográfico (Zaragoza). | Ninguno. | Mantener en el apartado de Identificación (1.1). |
+| **Q2** | ¿Cuál es la situación profesional actual de cada integrante del equipo promotor? | Guía inicial / Identidad | `ESENCIAL_PLAN_EMPRESA` | Permite valorar el origen, la disponibilidad y dedicación inicial al taller. | Ninguno. | Mantener en el apartado de Identificación (1.1). |
+| **Q3** | ¿Cómo se equilibra la complementariedad entre la veteranía en ebanistería/carpintería convencional y CNC de Alexander con la visión de comunicación y mercadotecnia de Juan Felipe? | Inferencia del agente | `ÚTIL_PERO_NO_ESENCIAL` | Enfatiza el equilibrio técnico-comercial. | Riesgo de redactar en tono publicitario o pomposo. | Mantener de forma neutra y descriptiva en Complementariedad (1.3). |
+| **Q4** | ¿Qué estudios reglados y formación complementaria técnica acreditan los integrantes del equipo? | Guía inicial / Perfiles | `ESENCIAL_PLAN_EMPRESA` | Justifica la solvencia técnica indispensable del taller. | Ninguno. | Mantener en Formación y Experiencia (1.2). |
+| **Q5** | ¿Qué títulos o estudios de carpintería y oficios están oficialmente homologados en España? | Guía inicial / Perfiles | `ESENCIAL_PLAN_EMPRESA` | Clave para demostrar la validez formal del oficio de Alexander. | Ninguno. | Mantener en Formación y Experiencia (1.2). |
+| **Q6** | ¿Qué formación específica en administración, ventas, marketing, finanzas o informática posee el equipo? | Guía inicial / Perfiles | `ESENCIAL_PLAN_EMPRESA` | Muestra la capacitación del equipo para las áreas accesorias de gestión. | Ninguno. | Mantener en Formación y Experiencia (1.2). |
+| **Q7** | ¿Qué formación obligatoria o licencias técnicas (prevención de riesgos laborales, certificados de maquinaria) se requieren antes de la apertura? | Guía inicial / Operaciones | `CORRESPONDE_A_OTRO_CAPÍTULO` (Operaciones) | Valora el cumplimiento normativo. | Sobrecarga el capítulo de promotores con trámites operativos de local. | Derivar al Plan de Operaciones e Implantación. Omitir del capítulo 01. |
+| **Q8** | ¿Qué experiencia en fabricación de mobiliario a medida, despiece y manejo de maquinaria convencional y CNC aporta Alexander Suárez? | Guía inicial / Perfiles | `ESENCIAL_PLAN_EMPRESA` | Es la base técnica del taller compartido y los servicios tradicionales. | Ninguno. | Mantener en Formación y Experiencia (1.2). |
+| **Q9** | ¿Qué experiencia práctica real en oficios (carpintería, restauración, tapicería, marroquinería) tiene el equipo? | Guía inicial / Perfiles | `REDUNDANTE` | Detalla la versatilidad de los promotores. | Riesgo de introducir especialidades excluidas (marroquinería/resinas). | Fusionar con Q8 enfocándolo solo en carpintería, ebanistería y tapicería ligera. |
+| **Q10** | Ante la entrada del primer cliente: ¿Qué tareas del taller puede asumir el equipo de forma autónoma y cuáles deben ser delegadas o cubiertas con apoyo externo? | Guía inicial / Operaciones | `EXCESIVAMENTE_DETALLADA` | Organiza la operación diaria y puestos. | Convierte el capítulo en un manual de funciones operativas prematuro. | Derivar al Plan de Operaciones y Recursos Humanos. Omitir del capítulo 01. |
+| **Q11** | ¿Tienen experiencia en el uso de herramientas de diseño (AutoCAD 2D, SketchUp) o herramientas digitales comerciales? | Guía inicial / Perfiles | `ÚTIL_PERO_NO_ESENCIAL` | Muestra habilidades informáticas del taller. | Ninguno si se presenta como capacidad de soporte general. | Integrar brevemente en Formación y Experiencia (1.2). |
+| **Q12** | ¿Cuál es la motivación real (económica, profesional, social) para arrancar este taller ahora? | Guía inicial / Motivación | `ESENCIAL_PLAN_EMPRESA` | Demuestra la implicación personal y justificación del negocio. | Ninguno. | Mantener en Motivación y Compromiso (1.4). |
+| **Q13** | ¿Cuál es el origen histórico y geográfico de la idea (antecedentes en Bogotá, frustración inicial de taller)? | Guía inicial / Motivación | `ÚTIL_PERO_NO_ESENCIAL` | Explica el porqué del coworking de madera (frustración de espacio). | Puede dar lugar a un storytelling excesivo y sentimental. | Mantener de forma concisa en Motivación y Compromiso (1.4). |
+| **Q14** | ¿Qué referentes o inspiradores (Casa de Herramientas, La Corporación Taller) influyeron en la evolución y maduración de la idea de negocio? | Guía inicial / Motivación | `REDUNDANTE` | Aporta antecedentes del modelo de negocio. | Redundante con la evolución y el benchmarking. | Integrar de manera muy breve en Motivación y Compromiso (1.4). |
+| **Q15** | ¿Qué lecciones de diversificación fallida o cierres anteriores en el sector se han incorporado al modelo de Zaragoza? | Guía inicial / Motivación | `CORRESPONDE_A_OTRO_CAPÍTULO` (Idea o DAFO) | Analiza los riesgos asumidos y aprendizaje. | Enfoque negativo del perfil y solape con análisis estratégico. | Derivar al capítulo 02 (Idea de negocio) o 03_4 (Benchmarking). Omitir aquí. |
+| **Q16** | ¿Cómo se integra la carpintería de servicios abierta al público en el arranque para posibilitar ingresos antes del escalado de la comunidad? | Insumo del Promotor | `CORRESPONDE_A_OTRO_CAPÍTULO` (Idea de negocio) | Esencia del modelo de negocio preoperativo. | Mezcla el perfil de los promotores con el análisis de mercado y monetización. | Describir solo la complementariedad laboral y derivar el análisis al Capítulo 02. |
+| **Q17** | ¿Cuántas horas semanales reales dedicará cada integrante del equipo al proyecto durante la fase inicial y de implantación? | Guía inicial / Dedicación | `CORRESPONDE_A_OTRO_CAPÍTULO` (Recursos Humanos) | Estructura el tiempo disponible. | Establece horarios rígidos (ej. 40 horas) que impiden la flexibilidad del plan. | Expresar en términos generales (tiempo completo y medio tiempo). |
+| **Q18** | ¿Coincide el horario de disponibilidad de los promotores con las horas de compra y uso del cliente final? | Guía inicial / Operaciones | `EXCESIVAMENTE_DETALLADA` | Asegura la viabilidad comercial. | Corresponde al plan de horarios comerciales del taller compartido. | Derivar al Plan de Operaciones. Omitir del capítulo 01. |
+| **Q19** | ¿Qué salario mensual mínimo neto de subsistencia requiere cada promotor para asegurar la sostenibilidad personal? | Guía inicial / Finanzas | `CORRESPONDE_A_OTRO_CAPÍTULO` (Finanzas) | Planifica los fondos necesarios de caja. | Introduce datos privados e inestables que no corresponden a esta fase. | Derivar al Plan Financiero (`06_5`) y omitir del texto final del capítulo 01. |
+| **Q20** | ¿De cuánto colchón financiero de reserva disponen y cuántos meses pueden resistir antes de percibir retribuciones del taller? | Guía inicial / Finanzas | `ÚTIL_PERO_NO_ESENCIAL` | Aporta viabilidad financiera al equipo. | Exceso de detalle personal sobre ahorros familiares privados. | Expresar en prosa general (capacidad de sostenimiento de 6 meses) y derivar. |
+| **Q21** | ¿Cómo se distribuyen formalmente las responsabilidades operativas, de taller, marketing, administración y control de presupuestos? | Guía inicial / Gobernanza | `EXCESIVAMENTE_DETALLADA` | Clarifica la estructura organizativa. | Redactar un organigrama cerrado es prematuro por la relación jurídica en estudio. | Indicar áreas generales de aportación y derivar organigrama definitivo a RRHH. |
+| **Q22** | ¿Cuáles son las aportaciones (monetarias en efectivo, no monetarias en especie, herramientas, maquinaria, marca, documentos) de cada integrante del equipo? | Guía inicial / Finanzas | `ESENCIAL_PLAN_EMPRESA` | Establece el capital propio inicial que disminuye la deuda del taller. | Intenta tasar de forma definitiva e inventariar herramientas. | Indicar las aportaciones cualitativas (Alexander: capital y herramientas; Juan Felipe: trabajo). |
+| **Q23** | ¿Cuáles son las alternativas jurídico-organizativas bajo análisis (autónomos independientes, colaboración horizontal, sociedad futura u otras fórmulas)? | Guía inicial / Gobernanza | `ESENCIAL_PLAN_EMPRESA` | Explica el estatus abierto de la estructura legal del taller. | Asumir una sociedad limitada (S.L.) de forma prematura. | Mantener como hipótesis abierta en Gobernanza (1.3). |
+| **Q24** | Si finalmente existiera una relación societaria, ¿cómo se resolverán en el pacto de socios las contingencias (bajas médicas, enfermedad, desavenencias, exclusión de socios y salida anticipada)? | Guía inicial / Gobernanza | `PREMATURA_POR_DECISIÓN_NO_TOMADA` | Define la prevención de conflictos societarios. | Genera análisis teóricos de pactos no suscritos. | Derivar al Plan Jurídico-Fiscal (`06_4`). Omitir del capítulo 01. |
+| **Q25** | ¿Quién asume la titularidad provisional de la marca, los nombres y la documentación técnica desarrollada? | Guía inicial / Gobernanza | `PREMATURA_POR_DECISIÓN_NO_TOMADA` | Asegura la propiedad de intangibles. | Cuestión prematura que requiere definición jurídica. | Derivar al Plan Jurídico-Fiscal (`06_4`). Omitir del capítulo 01. |
+| **Q26** | ¿Hay colaboradores informales o familiares (ayuda de pareja, familiares, amigos) y qué compensación esperan? | Inferencia del agente | `PREMATURA_POR_DECISIÓN_NO_TOMADA` | Evalúa la red de soporte informal. | Inventa perfiles familiares y compromisos sin base contractual real. | Omitir. No incluir en la preparación ni en el texto. |
+| **Q27** | ¿Qué profesionales externos o gestorías asumirán tareas críticas (gestión contable-fiscal, asesoría legal)? | Guía inicial / Apoyos | `ESENCIAL_PLAN_EMPRESA` | Muestra la cobertura de las debilidades administrativas del equipo. | Ninguno. | Mantener en Capacidad y Apoyo Externo (1.5). |
+| **Q28** | ¿Cómo se formulan preliminarmente la misión y la visión a tres años del taller? | Guía inicial / Cultura | `CORRESPONDE_A_OTRO_CAPÍTULO` (Estrategia) | Define la cultura y metas organizacionales. | Se duplica con el Plan de Marketing y Estrategia. | Derivar a Estrategia y Cultura / Marketing. Omitir del capítulo 01. |
+| **Q29** | ¿Qué valores fundamentales (sostenibilidad, inclusión, recuperación de oficios) rigen la cultura empresarial? | Guía inicial / Cultura | `CORRESPONDE_A_OTRO_CAPÍTULO` (Estrategia) | Establece los principios de marca del taller. | Se duplica con el Plan de Marketing e Identidad. | Derivar a Estrategia y Cultura / Marketing. Omitir del capítulo 01. |
+| **Q30** | ¿Cuál es la personalidad inicial del negocio (cercana, tradicional, experta) y qué tono comunicativo usará? | Guía inicial / Cultura | `CORRESPONDE_A_OTRO_CAPÍTULO` (Marketing) | Establece la base de branding y comunicación. | Corresponde 100% al Plan de Marketing y Ventas. | Derivar a Marketing y Ventas (`06_1`). Omitir del capítulo 01. |
 
 ---
 
-## Bloque D: Aportaciones, Recursos y Capacitación (Guía 1.9, 1.10)
+## 2. Preguntas Esenciales Simplificadas (Vigentes para la Capa de Preparación)
 
-### PEG-01-Q011: Aportaciones iniciales de capital y bienes (CAPEX de partida)
-* **Pregunta principal:** ¿Qué recursos financieros propios y herramientas aportará cada promotor?
-* **Subpreguntas útiles:**
-  * ¿Qué capital líquido (efectivo) aportará cada uno al capital social inicial?
-  * ¿Qué maquinaria, herramientas manuales, ordenadores o vehículos propios se transfieren al proyecto?
-* **Dependencias:** Capítulo 06_5 (Plan Económico-Financiero).
+Las preguntas esenciales resultantes del filtrado y alineadas con la guía corregida se agrupan en las siguientes 5 secciones:
 
-### PEG-01-Q012: Brechas de capacitación y plan de mitigación
-* **Pregunta principal:** ¿Qué áreas del negocio no domina el equipo y cómo prevé cubrirlas?
-* **Subpreguntas útiles:**
-  * ¿Falta formación en gestión económica, contabilidad, marketing digital o prevención de riesgos?
-  * ¿Qué formación técnica obligatoria (prevención de riesgos, ruidos, etc.) se requiere antes de abrir?
-* **Dependencias:** Capítulo 06_4 (Plan Jurídico-Fiscal) y 06_3 (Recursos Humanos).
+### Bloque A: Identificación y Perfiles (Sección 1.1)
+1. **¿Quiénes forman el equipo promotor activo que impulsa el negocio en Zaragoza?**
+2. **¿Cuál es la situación profesional actual de cada integrante del equipo?**
 
----
+### Bloque B: Formación y Experiencia (Sección 1.2)
+3. **¿Qué formación técnica y comercial tiene cada promotor de forma contrastada?**
+4. **¿Qué experiencia profesional o práctica aporta cada miembro al taller?**
 
-## Bloque E: Cultura y Personalidad de Marca (Guía 1.12, 1.13)
+### Bloque C: Complementariedad, Aportación y Horario (Sección 1.3 y 1.2)
+5. **¿Qué aporta cualitativamente cada integrante al proyecto (dinero, herramientas, trabajo, contactos)?**
+6. **¿Cómo se complementan sus perfiles y qué dedicación general tendrá cada uno (tiempo completo / medio tiempo)?**
 
-### PEG-01-Q013: Identidad y Cultura Empresarial
-* **Pregunta principal:** ¿Cuál es la misión, visión y valores éticos del negocio?
-* **Subpreguntas útiles:**
-  * ¿A quién ayuda el taller, bajo qué fórmula y por qué es importante?
-  * ¿Cuáles son las líneas rojas (ética, sostenibilidad, economía circular)?
-* **Dependencias:** Capítulo 06_0 (Marca, comunicación, naming).
+### Bloque D: Motivación y Evolución (Sección 1.4 y 1.3)
+7. **¿Por qué se quiere poner en marcha el proyecto (storytelling de origen)?**
+8. **¿Qué modelo de actividad inicial se implementa para asegurar la viabilidad económica en el arranque?**
 
-### PEG-01-Q014: Personalidad inicial de marca y tono
-* **Pregunta principal:** ¿Cómo debe percibirse la marca y qué tono de comunicación utilizará?
-* **Subpreguntas útiles:**
-  * Si el negocio fuera una persona, ¿cómo sería?
-  * ¿Qué palabras se asocian o se descartan (cercanía vs. lujo frío)?
-* **Dependencias:** Capítulo 06_0 (Marca, comunicación, naming).
-
----
-
-## Dependencias con Otros Capítulos
-
-* **Con 06_0 (Marca y Naming):** PEG-01-Q013 y PEG-01-Q014 guían el naming, tono y estrategia de marca.
-* **Con 06_2 (Operaciones):** PEG-01-Q004 determina qué servicios o inducciones técnicas pueden prestarse directamente.
-* **Con 06_3 (Recursos Humanos):** PEG-01-Q006 y PEG-01-Q008 definen la plantilla, roles internos y necesidades de contratación.
-* **Con 06_4 (Plan Jurídico-Fiscal):** PEG-01-Q009 y PEG-01-Q012 determinan el pacto de socios, la forma jurídica de cooperativa de trabajo y los requisitos obligatorios de PRL/licencias.
-* **Con 06_5 (Plan Económico-Financiero):** PEG-01-Q007 y PEG-01-Q011 alimentan directamente la previsión de salarios de socios, la aportación inicial de capital y el CAPEX aportado en herramientas.
-
----
-
-## Preguntas Tempranas (No responder todavía)
-
-* **¿Cómo se valorará fiscal y contablemente la aportación de herramientas de segunda mano?** (Se resolverá en el Plan Económico-Financiero / Plan Jurídico tras validar el inventario exacto).
-* **¿Qué seguro de responsabilidad civil exacto se contratará y cuál será su coste?** (Se resolverá en el Plan Jurídico-Fiscal tras cotizar con corredurías).
-* **¿Qué organigrama salarial a largo plazo se establecerá si se contrata personal?** (Se resolverá en el Plan de Recursos Humanos en base a proyecciones de volumen de negocio).
+### Bloque E: Capacidad Inicial y Necesidades de Apoyo (Sección 1.5)
+9. **¿Qué competencias están cubiertas y qué profesionales o apoyos externos (gestoría, etc.) serán necesarios?**

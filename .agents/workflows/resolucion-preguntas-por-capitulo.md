@@ -7,13 +7,15 @@ Este flujo sirve para preparar, depurar y resolver las preguntas del Plan de Emp
 ## 1. Secuencia Operativa de Fuentes
 
 El sistema debe resolver las preguntas en este orden estricto de fuentes:
-1. **Revisar Drive Taller**: Consultar borradores, notas e insumos en la carpeta de Google Drive.
-2. **Revisar Repositorio Procesado**: Consultar fichas `COMP-Fxxx`, `docs_control/` y memoria previa.
-3. **Clasificar rol de Alex**: Determinar si requiere un dato único, validación o elección de Alex.
-4. **Clasificar si requiere web simple**: Para datos normativos, CNAE o tarifas públicas sencillas.
-5. **Clasificar si requiere investigación profunda**: Para estudios amplios del sector.
-6. **Crear Insumos Saneados**: Generar el diagnóstico consolidado en `docs_preparacion/`.
-7. **Redactar**: Escribir la propuesta de capítulo en `respuestas_plan_empresa/` solo cuando exista base suficiente y Gate 1D parcial esté habilitado.
+1. **Revisar Aclaraciones y Pivotajes:** Consultar `docs_fuentes/drive_taller/00_notas_aclaratorias_vigentes.md` y `docs_control/05_registro_pivotajes_y_cambios_relevantes.md` para conocer los límites de interpretación y cambios aprobados.
+2. **Revisar Drive Taller**: Consultar borradores, notas e insumos en la carpeta de Google Drive.
+3. **Revisar Repositorio Procesado**: Consultar fichas `COMP-Fxxx`, `docs_control/` y memoria previa.
+4. **Clasificar rol de Alex**: Determinar si requiere un dato único, validación o elección de Alex.
+5. **Clasificar si requiere web simple**: Para datos normativos, CNAE o tarifas públicas sencillas.
+6. **Clasificar si requiere investigación profunda**: Para estudios amplios del sector.
+7. **Crear Insumos Saneados**: Generar el diagnóstico consolidado en `docs_preparacion/`.
+8. **Redactar**: Escribir la propuesta de capítulo en `respuestas_plan_empresa/` solo cuando exista base suficiente y Gate 1D parcial esté habilitado.
+
 
 ---
 

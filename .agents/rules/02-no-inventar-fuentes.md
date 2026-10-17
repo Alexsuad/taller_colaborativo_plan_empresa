@@ -20,21 +20,33 @@ La carpeta de Google Drive del Taller es la primera biblioteca documental que de
 
 ## Prioridad de Fuentes Internas y Protocolo de Contradicción
 
-1. **Prioridad Documental**:
+1. **Consulta Obligatoria de Notas y Aclaraciones:**
+   Antes de utilizar cualquier fuente o borrador de Drive Taller, el agente debe leer obligatoriamente:
+   - `docs_fuentes/drive_taller/00_notas_aclaratorias_vigentes.md`
+   - `docs_fuentes/drive_taller/00_indice_fuentes_drive.md`
+
+2. **Prevalencia de Aclaraciones:**
+   Si una fuente o documento bruto de Drive contradice una aclaración vigente registrada en `00_notas_aclaratorias_vigentes.md`:
+   - Prevalece la aclaración vigente.
+   - La fuente original solo puede utilizarse como antecedente histórico o evidencia de una versión anterior. Los documentos brutos originales de Drive no se editan ni borran para adaptarlos al estado actual.
+   - Las aclaraciones corrigen la interpretación de fuentes pero no modifican por sí solas el modelo de negocio.
+
+3. **Gobernanza de Pivotajes y Cambios Estratégicos:**
+   - Todo cambio que afecte el equipo promotor, servicios, forma jurídica, inversión, precios, ubicación, operaciones o mercado debe registrarse obligatoriamente en `docs_control/05_registro_pivotajes_y_cambios_relevantes.md`.
+   - Ningún agente puede aplicar o tratar un pivotaje propuesto como si estuviera aprobado. Solo se aplicarán aquellos con estado `aprobado` validado por el promotor.
+   - Un pivotaje aprobado debe generar obligatoriamente un **Análisis de Impacto** antes de realizar cualquier modificación documental.
+   - El análisis de impacto debe identificar con precisión: capítulos afectados en respuestas, documentos de preparación, documentos legales, archivo/Excel financiero, anexos, decisiones y supuestos que deben recalcularse o actualizarse.
+
+4. **Prioridad Documental:**
    `Drive Taller → Repositorio procesado → Alex → Web / investigación externa`
    *NotebookLM queda relegado como apoyo secundario/histórico (legacy), no es fuente prioritaria para trabajo nuevo.*
 
-2. Antes de modificar conclusiones sobre competidores, inspiradores, referentes núcleo, precios, servicios, cursos, bonos, modelo de acceso, marketing, comunicación, cliente objetivo o propuesta de valor, se deben consultar primero:
-   - Documentos y borradores brutos de Drive Taller.
-   - Fichas internas `COMP-Fxxx` y repositorio procesado.
-   - Documentos de `docs_organizacion/`.
-   - Historial secundario de NotebookLM si fuera necesario por consistencia.
-
-3. **Si la carpeta Drive no está disponible:**
+5. **Si la carpeta Drive no está disponible:**
    - No marcar `REQUIERE_DRIVE = 0` por defecto.
    - Reportar `DRIVE_NO_DISPONIBLE`.
    - Trabajar solo con fuentes volcadas al repositorio y dejar explícito qué queda pendiente de contraste.
 
-4. Las fuentes externas o documentos nuevos sirven para contrastar, no para reemplazar automáticamente una fuente interna revisada.
-5. Si una fuente nueva contradice una fuente interna consolidada, no modificar directamente. Reportar la discrepancia, indicar ambas fuentes y pedir decisión del usuario.
-6. No modificar fichas `COMP-Fxxx` salvo autorización explícita.
+6. **Normas de Contradicción General:**
+   - Las fuentes externas sirven para contrastar, no para reemplazar de forma automática una fuente interna revisada.
+   - Si una fuente nueva contradice una fuente consolidada o aclaración vigente, reportar la discrepancia y pedir decisión al promotor.
+   - No modificar fichas `COMP-Fxxx` ni documentos históricos del repositorio.

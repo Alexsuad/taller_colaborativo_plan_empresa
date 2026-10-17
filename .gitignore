@@ -49,3 +49,7 @@ dist/
 *.tar.gz
 *.bak
 *.backup
+
+# Metadatos de Windows
+*:Zone.Identifier
+

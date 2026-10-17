@@ -57,6 +57,10 @@ Drive local → extracción → clasificación → depuración → contraste →
 | 32 | **Copia de Plan Económico-Financiero COWORKING.xlsx**                         | `05_finanzas/`               | Hoja económica-financiera preliminar. Es la base financiera, pero falta información crítica confirmada por ti.                                                                            |
 | 33 | **6.5. Monetización, fijación de precios**                                    | `05_finanzas/`               | Documento anterior sobre precios, monetización e ingresos. No debe usarse como plan financiero final; sirve como hipótesis.                                                               |
 | 34 | **Copia de Guía elaboración del Plan de Negocio (Red ARCE) 09.04.2018.docx**  | `99_otros/`                  | Guía general para elaborar planes de negocio. Es metodología externa, no fuente específica del proyecto. Útil como plantilla de control.                                                  |
+| 35 | **cvAlexSuarezCarp.docx.pdf**                                                 | `01_origen_historia_equipo/` | CV oficial de Alexander Suárez Díaz. Detalla su formación técnica homologada en madera, experiencia en carpintería (Industrias Agapito, Veta y Canto, Bauhaus) y herramientas de diseño.   |
+| 36 | **00_notas_aclaratorias_vigentes.md**                                         | `docs_control/`              | Notas aclaratorias vigentes aprobadas para la correcta interpretación de los documentos históricos, borradores e insumos de la carpeta de Drive del Taller. Prevalecen sobre las fuentes.  |
+
+
 
 
 ## Advertencia de contaminación documental

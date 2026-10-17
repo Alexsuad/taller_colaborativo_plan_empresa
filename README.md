@@ -17,6 +17,8 @@ La Fase 1 documental quedó cerrada operativamente. Gate 1C está operativo para
 - Durante Fase 1 / Gate 1C solo están operativos `scripts/auditar_estado_plan_empresa.py` y `scripts/auditar_contaminacion_conceptual.py`.
 - `scripts/auditar_contaminacion_conceptual.py` se interpreta sobre superficie activa; material pasivo o congelado no debe tratarse como evidencia activa.
 - `scripts/auditar_linealidad_plan_empresa.py`, `scripts/compilar_plan_empresa.py`, `scripts/auditar_formato_markdown_entrega.py` y `scripts/auditar_texto_corrupto_entrega.py` son POST-F1 y no operativos ahora.
+- **Documento Vivo y Revisión Externa:** El Plan de Empresa se gestiona de forma viva por versiones y podrá actualizarse tras revisiones periódicas con UPTA Zaragoza u otras entidades asesoras, financieras o públicas.
+
 
 ## Estado de trabajo
 

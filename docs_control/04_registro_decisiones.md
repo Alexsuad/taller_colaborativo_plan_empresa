@@ -46,49 +46,14 @@ Este documento es el registro oficial de cambios del proyecto. Aquí se asientan
 | DEC-016 | 2026-06-28 | DECISION | Alinear respuestas por subapartados y limitar la guía a viabilidad | Reducir ruido genérico y evitar convertir el plan en manual operativo | `plan_empresa_guia/00_indice_preguntas_guia.md`, `respuestas_plan_empresa/`, `docs_organizacion/08_matriz_clasificacion_preguntas_red_arce.md`, `plan_empresa_guia/06_2_operaciones.md`, `plan_empresa_guia/06_4_juridico_fiscal.md` | `respuestas_plan_empresa/00_resumen_ejecutivo.md`, `respuestas_plan_empresa/01_equipo_promotor.md`, `respuestas_plan_empresa/02_idea_negocio.md`, `respuestas_plan_empresa/03_1_analisis_externo.md`, `respuestas_plan_empresa/03_2_estudio_mercado.md`, `respuestas_plan_empresa/03_3_analisis_interno.md`, `respuestas_plan_empresa/04_dafo_came.md`, `respuestas_plan_empresa/05_objetivos_lineas_estrategicas.md`, `respuestas_plan_empresa/06_0_marca_comunicacion_naming.md`, `respuestas_plan_empresa/06_1_marketing_ventas.md`, `respuestas_plan_empresa/06_2_operaciones.md`, `respuestas_plan_empresa/06_3_recursos_humanos.md`, `respuestas_plan_empresa/06_4_juridico_fiscal.md`, `respuestas_plan_empresa/06_5_economico_financiero.md`, `respuestas_plan_empresa/07_implantacion_puesta_marcha.md`, `respuestas_plan_empresa/08_viabilidad_conclusiones.md` | Respuestas alineadas por bloques, guía podada y enfoque de viabilidad | aplicado |
 | DEC-017 | 2026-06-29 | DECISION | Cerrar operativamente la Fase 1 documental | La limpieza documental ya es suficiente para continuar sin seguir perfeccionando el repositorio | `docs_control/03_gates_documentales.md`, `docs_control/06_fases_oficiales_proyecto.md` | N/A | Mantener Fase 1 cerrada operativamente sin autorizar redacción final ni Gate 1D | aplicado |
 | DEC-018 | 2026-06-30 | DECISION | Continuidad post-Gate 1C y autorización de PT-10H | La Fase 1 documental está cerrada operativamente; Gate 1C está operativo para continuar; Gate 1D permanece bloqueado; el control pesado pre-Gate 1C ya no aporta valor operativo | `docs_control/09_plan_maestro_saneamiento_pre_gate_1c.md` | N/A | No poblar `respuestas_plan_empresa/`, no redactar el Plan de Empresa, no compilar entregables, no crear skills expertas, no crear subagentes ni workflows; autorizar solo PT-10H como intervención técnica mínima para skills base documentales utilitarias | aplicado |
+| DEC-019 | 2026-07-14 | DECISION | Aclaración de perfiles del equipo promotor, estado de relación jurídica pendiente e incorporación de UPTA Zaragoza | Evitar suposiciones societarias en el bloque 01 y explicitar que el Plan de Empresa es un documento vivo | `docs_control/00_contrato_identidad_negocio.md`, `docs_preparacion/preguntas_resueltas/01_equipo_promotor/*` | N/A | Corregir perfiles, marcar relación jurídica societaria como pendiente y registrar revisión viva con UPTA | aplicado |
+| DEC-020 | 2026-07-14 | DECISION | Crear sistema de notas aclaratorias vigentes y control de pivotajes | Prevenir asunción de datos históricos corruptos y controlar el impacto de cambios estratégicos | `docs_control/05_registro_pivotajes_y_cambios_relevantes.md`, `docs_fuentes/drive_taller/00_notas_aclaratorias_vigentes.md`, `AGENTS.md`, `README.md` | N/A | Crear archivos de notas y pivotajes y actualizar reglas operativas agénticas | aplicado |
 
-## Ejemplos de Uso del Registro para Pivotes y Cambios Vivos
+---
 
-*Estos ejemplos sirven como guía metodológica sobre cómo registrar pivotes y qué áreas del plan se verían impactadas.*
+## Control de Pivotajes Transversales
+A partir de la decisión **DEC-020**, la gestión, plantillas, registro y ejemplos de pivotajes estratégicos que afecten de forma transversal a múltiples áreas del Plan de Empresa se delegan de manera exclusiva al documento de control:
+- [05_registro_pivotajes_y_cambios_relevantes.md](file:///docs_control/05_registro_pivotajes_y_cambios_relevantes.md)
 
-### Ejemplo 1: Cambio de Ubicación
-- **Tipo:** `PIVOTE`
-- **Descripción:** Decisión de trasladar el local propuesto de la zona industrial a una ubicación céntrica en el casco histórico de Zaragoza.
-- **Motivo:** Atraer a un mayor volumen de artesanos locales y clientes de paso, compensando el mayor coste de alquiler.
-- **Preguntas/Secciones afectadas:** Sección de Operaciones (requisitos del local), Sección Jurídico-fiscal (licencias municipales específicas), Sección Económico-financiero (costes de alquiler y fianza).
-- **Acción requerida:** Modificar las respuestas relativas al local y actualizar las hipótesis de costes recurrentes en el presupuesto.
+Este registro (04_registro_decisiones.md) se mantiene exclusivamente como el diario oficial de decisiones metodológicas del repositorio y el estado general de los gates documentales. Queda prohibida la duplicidad de registros operativos de pivotajes aquí.
 
-### Ejemplo 2: Cambio de Cliente Objetivo
-- **Tipo:** `PIVOTE`
-- **Descripción:** Redefinición del segmento prioritario: pasar de enfocarse en aficionados del bricolaje a artesanos profesionales de media jornada.
-- **Motivo:** Maximizar el valor de la suscripción mensual y reducir la tasa de rotación.
-- **Preguntas/Secciones afectadas:** Sección de Estudio de Mercado (segmentación), Sección de Marketing y ventas (tarifas y estrategia de adquisición).
-- **Acción requerida:** Ajustar la segmentación de la demanda y rediseñar los paquetes de precios.
-
-### Ejemplo 3: Cambio de Inversión Inicial
-- **Tipo:** `PIVOTE`
-- **Descripción:** Reducción del presupuesto de inversión inicial un 30% mediante alquiler de maquinaria en vez de compra.
-- **Motivo:** Restricción de financiación bancaria en el arranque del proyecto.
-- **Preguntas/Secciones afectadas:** Sección Económico-financiero (plan de inversión, balance inicial, plan de tesorería), Sección de Operaciones (equipamiento y activos).
-- **Acción requerida:** Actualizar la hoja de cálculo financiera y los apartados de inversión y financiación.
-
-### Ejemplo 4: Cambio de Servicios de Fase 1
-- **Tipo:** `PIVOTE`
-- **Descripción:** Cancelación del servicio de cafetería integrada en Fase 1, posponiéndolo a la Fase 2.
-- **Motivo:** Reducir la complejidad de licencias sanitarias y el coste de adecuación inicial del local.
-- **Preguntas/Secciones afectadas:** Sección de Idea de Negocio (alcance de Fase 1), Sección de Operaciones (flujos de trabajo y licencias), Sección de Recursos Humanos (personal de barra).
-- **Acción requerida:** Re-acotar el alcance en el modelo de negocio y eliminar el perfil de camarero del organigrama inicial.
-
-### Ejemplo 5: Cambio de Forma Jurídica
-- **Tipo:** `PIVOTE`
-- **Descripción:** Cambiar la estructura propuesta de Cooperativa a Sociedad Limitada Unipersonal (SLU).
-- **Motivo:** Agilizar los trámites de constitución y simplificar la toma de decisiones al inicio.
-- **Preguntas/Secciones afectadas:** Sección Jurídico-fiscal (forma jurídica y trámites de constitución), Sección de Equipo Promotor (responsabilidad legal).
-- **Acción requerida:** Reescribir el apartado de forma jurídica y actualizar los trámites en el cronograma de implantación.
-
-### Ejemplo 6: Cambio de Modelo de Precios
-- **Tipo:** `PIVOTE`
-- **Descripción:** Transición de un modelo de pago por uso por horas a una suscripción mensual con tres tramos de acceso.
-- **Motivo:** Incrementar la previsibilidad de los ingresos y asegurar la recurrencia.
-- **Preguntas/Secciones afectadas:** Sección de Marketing y ventas (tarifas y comercialización), Sección Económico-financiero (hipótesis de ingresos).
-- **Acción requerida:** Modificar la estructura tarifaria y los flujos de caja del modelo financiero.

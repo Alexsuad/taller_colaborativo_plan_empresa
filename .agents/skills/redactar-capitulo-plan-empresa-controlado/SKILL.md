@@ -230,24 +230,26 @@ Los campos:
 * `FUENTES_USADAS`;
 * `OBSERVACIONES`;
 * `VALIDACIONES_REQUERIDAS`;
+* `ESTADO_SALIDA`;
 
-son campos de control interno.
+son campos de control interno de salida de agente y nunca deben escribirse en el archivo definitivo de `respuestas_plan_empresa/`.
 
-No deben mezclarse dentro de `TEXTO_PROPUESTO`.
+El archivo escrito en `respuestas_plan_empresa/` debe contener **únicamente** el texto narrativo pulido y final del campo `TEXTO_PROPUESTO`.
 
 `TEXTO_PROPUESTO` debe contener solo texto limpio del capítulo, sin:
 
 * etiquetas de clasificación;
 * códigos internos;
-* notas al agente;
+* notas al agente o al promotor;
 * trazabilidad operativa;
-* comentarios al usuario;
-* frases como "según la matriz";
-* frases como "este punto está clasificado como";
-* menciones a gates, workflows, skills o repositorio;
-* pendientes incrustados como si fueran parte del texto final.
+* comentarios al usuario o sobre fases;
+* menciones a Drive, skills, workflows, gates o al repositorio;
+* instrucciones de validación;
+* metatexto editorial;
+* listas de pendientes o TODOs al final del capítulo final de respuestas.
 
-Si hay vacíos relevantes, deben declararse en `PENDIENTES`, `NO_RESPONDER_AUN` u `OBSERVACIONES`, no esconderse dentro de una redacción ambigua.
+Cualquier pendiente, observación, validación requerida o estado técnico debe registrarse exclusivamente en los insumos saneados en `docs_preparacion/` y en la salida estructurada de la respuesta del agente, manteniendo el archivo destino de `respuestas_plan_empresa/` completamente limpio y listo para el plan de negocio final.
+
 
 # Regla anti-genericidad comercial
 

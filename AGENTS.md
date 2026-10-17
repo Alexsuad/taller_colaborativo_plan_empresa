@@ -18,13 +18,18 @@ Antigravity, Codex u otros asistentes de IA deben tratar este repositorio con ex
 8. **Limpieza LEAN/5S sin expansión:** Mientras dure la limpieza no se crean documentos nuevos, no se pobla `respuestas_plan_empresa/`, no se toca `plan_empresa_guia/`, no se modifican `COMP-F001` a `COMP-F010`, no se ejecuta compilación y no se crean piezas fuera de alcance. Las piezas explícitamente autorizadas por una misión pueden crearse si son mínimas y operativas.
 9. **Auditoría de producto y marketing obligatoria:** Cuando una intervención afecte cliente, propuesta de valor, marketing, ventas, comunicación o redes, debe pasar por auditoría específica antes de redactar o promover contenido.
 10. **Evitar documentación teórica innecesaria:** No crear megadocumentos, matrices enormes ni capas explicativas que no ayuden a producir, clasificar, auditar, bloquear, preparar redacción o validar coherencia.
+11. **No Asunción de Decisiones Jurídicas:** Ningún agente puede convertir una alternativa jurídica, subvención potencial o borrador societario en una decisión vigente sin validación expresa del promotor y revisión profesional cuando corresponda. El Plan de Empresa se mantiene como un documento vivo y versionable.
+
 
 ## Inicio de Tarea
 
-Antes de modificar archivos o redactar respuestas:
+Antes de modificar archivos, redactar respuestas o procesar información:
 1. Revisar `docs_control/00_contrato_identidad_negocio.md` y `docs_control/01_opcion_activa_taller.md` para conocer los límites de negocio.
-2. Identificar el alcance exacto autorizado en la solicitud.
-3. Asegurarse de que no existan marcadores `[PENDIENTE]` o `Pendiente de completar` antes de proceder a la consolidación de un gate.
+2. Consultar obligatoriamente `docs_fuentes/drive_taller/00_notas_aclaratorias_vigentes.md` y `docs_fuentes/drive_taller/00_indice_fuentes_drive.md` antes de usar cualquier fuente o borrador de Drive. Si existe contradicción, prevalece la aclaración vigente; no editar ni borrar documentos históricos.
+3. Consultar `docs_control/05_registro_pivotajes_y_cambios_relevantes.md` antes de realizar cambios estructurales. Todo pivotaje propuesto/aprobado debe ser registrado allí y requiere un análisis de impacto previo antes de modificar el repositorio.
+4. Identificar el alcance exacto autorizado en la solicitud.
+5. Asegurarse de que no existan marcadores `[PENDIENTE]` o `Pendiente de completar` antes de proceder a la consolidación de un gate.
+
 
 ## Evidencia Mínima al Cerrar Tareas
 

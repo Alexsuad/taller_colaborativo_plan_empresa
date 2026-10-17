@@ -33,3 +33,11 @@ Un espacio colaborativo de oficios orientado inicialmente a carpintería, ebanis
 ## Regla de cierre
 
 Si una pieza documental contradice este contrato, debe ir al registro de decisiones antes de entrar al plan.
+
+---
+
+## Equipo Promotor y Límites de Gobernanza
+- **Miembros activos vigentes:** Alexander Suárez Díaz y Juan Felipe Suárez. Claudia Bautista queda formalmente excluida.
+- **Relación jurídica actual:** Pendiente de definición (se evalúan autónomos independientes, autónomos colaboradores, sociedad futura u otras fórmulas).
+- **Prohibición de asunción:** Queda estrictamente prohibido que cualquier agente o redacción asuma una estructura societaria (S.L.), porcentajes de participación o cargos operativos formales definitivos hasta que exista una decisión validada profesionalmente por gestoría/asesoramiento.
+

@@ -9,14 +9,17 @@ Consolida la identidad del taller, la opción activa de negocio, las reglas de a
 - `docs_control/00_contrato_identidad_negocio.md`  
 - `docs_control/01_opcion_activa_taller.md`  
 - `docs_control/02_reglas_anticontaminacion.md`  
+- `docs_control/05_registro_pivotajes_y_cambios_relevantes.md`  
 - `docs_control/07_mapa_reutilizacion_repo.md`  
 - `docs_control/06_fases_oficiales_proyecto.md`  
+- `docs_fuentes/drive_taller/00_notas_aclaratorias_vigentes.md`  
 - `repo_identity.yml`  
 - `artifact_manifest.yml`  
 - `AGENTS.md`  
 - `.agents/` (reglas, skills, workflows)  
 - `scripts/auditar_contaminacion_conceptual.py`  
 - `config/contaminacion_conceptual.yml`  
+
 
 ## Gate 1B — Inventario real de fuentes
 
@@ -105,14 +108,16 @@ Este gate de control transversal actúa como salvaguarda obligatoria antes de da
 ### Criterios de Verificación Obligatorios
 
 Antes de cerrar una sección o compilar el entregable final, se debe auditar:
-1. **Pivotes y cambios registrados:** Comprobar si existe algún `PIVOTE`, `DECISION`, `REVALIDACION`, `CORRECCION` o `BLOQUEO` pendiente en `docs_control/04_registro_decisiones.md`.
-2. **Respuestas afectadas:** Verificar si las respuestas de la sección en cuestión coinciden con el estado actual de las decisiones y pivotes.
-3. **Reapertura de preguntas:** Evaluar si hay preguntas de la guía que deban reabrirse debido a un cambio estratégico.
-4. **Matriz de clasificación:** Confirmar que la clasificación de preguntas en `docs_organizacion/08_matriz_clasificacion_preguntas_red_arce.md` sigue siendo coherente con el pivote.
-   Esta matriz es la activa de Gate 1C; no cierra Gate 1C por sí sola ni autoriza Gate 1D.
-5. **Consistencia del documento final:** Asegurar que la regeneración del documento final completo no introduzca contradicciones lógicas ni estructurales.
+1. **Notas aclaratorias vigentes:** Consultar `docs_fuentes/drive_taller/00_notas_aclaratorias_vigentes.md` y verificar que las fuentes brutas de Drive no contradigan ninguna aclaración vigente.
+2. **Pivotes y cambios registrados:** Comprobar si existe algún `PIVOTE`, `DECISION`, `REVALIDACION`, `CORRECCION` o `BLOQUEO` pendiente en `docs_control/04_registro_decisiones.md` o en `docs_control/05_registro_pivotajes_y_cambios_relevantes.md`.
+3. **Análisis de Impacto de Pivotajes:** Todo pivotaje aprobado debe generar un análisis de impacto antes de modificar respuestas, detallando capítulos y documentos financieros afectados.
+4. **Respuestas afectadas:** Verificar si las respuestas de la sección en cuestión coinciden con el estado actual de las aclaraciones, decisiones y pivotes.
+5. **Reapertura de preguntas:** Evaluar si hay preguntas de la guía que deban reabrirse debido a un cambio estratégico o pivotaje.
+6. **Matriz de clasificación:** Confirmar que la clasificación de preguntas en `docs_organizacion/08_matriz_clasificacion_preguntas_red_arce.md` sigue siendo coherente con el pivote.
+7. **Consistencia del documento final:** Asegurar que la regeneración del documento final completo no introduzca contradicciones lógicas ni estructurales.
 
 ### Reglas de Bloqueo Selectivo y General
 
-- **Bloqueo a Nivel de Sección:** Una sección de respuestas individual no podrá darse por cerrada si existen registros en `docs_control/04_registro_decisiones.md` con estado `pendiente`, `en_revisión` o `bloqueado` que afecten directa o transversalmente a esa sección.
-- **Bloqueo del Documento Final Completo:** La compilación y entrega del documento final completo (`_build/plan_empresa_taller_colaborativo_completo.md` u otros consolidados) quedará estrictamente **BLOQUEADA** si existe cualquier pivote, bloqueo, decisión o revalidación pendiente con impacto no resuelto (es decir, en estados `pendiente`, `en_revisión` o `bloqueado`) en el registro.
+- **Bloqueo a Nivel de Sección:** Una sección de respuestas individual no podrá darse por cerrada si existen registros en `docs_control/04_registro_decisiones.md` o pivotajes en `docs_control/05_registro_pivotajes_y_cambios_relevantes.md` con estado `pendiente`, `en_revisión` o `bloqueado`/`propuesto` que afecten directa o transversalmente a esa sección.
+- **Bloqueo del Documento Final Completo:** La compilación y entrega del documento final completo (`_build/plan_empresa_taller_colaborativo_completo.md` u otros consolidados) quedará estrictamente **BLOQUEADA** si existe cualquier pivote, bloqueo, decisión, aclaración en contradicción o revalidación pendiente con impacto no resuelto (es decir, en estados `pendiente`, `en_revisión`, `propuesto` o `bloqueado`) en los registros.
+

@@ -1,56 +1,54 @@
-# 03_insumos_saneados — Insumos Saneados para Redacción
+# Insumos Saneados — 01. Equipo Promotor
 
-Este documento recopila la información depurada y contrastada, lista para alimentar la redacción final del capítulo **01_equipo_promotor**, separando los datos vigentes de los obsoletos y las preguntas remanentes para el promotor.
+Este documento recopila de forma estructurada los hechos consolidados, las hipótesis de trabajo, los antecedentes y el listado de pendientes controlados para el capítulo del equipo promotor del Taller Colaborativo Artesanal en Zaragoza.
 
 ---
 
-## 1. Datos Aprovechables desde docs_fuentes/drive_taller/
-* **Biografías Técnicas y Competencias:**
-  * **Alexander Suárez:** Carpintero cualificado graduado de la Escuela de Artes y Oficios Santo Domingo (Bogotá), título en proceso de homologación en España. Suma 20 años de experiencia en administración de empresas y automatización de procesos TIC. Aporta 5 años de experiencia técnica práctica en carpintería, ebanistería, tapicería y marroquinería.
-  * **Juan Felipe Suárez:** Estudiante de Marketing y Publicidad. Cursando talleres prácticos de carpintería en Zaragoza. Aporta conocimientos actualizados en redes sociales, canales de venta digital y dinamización de comunidades juveniles.
-* **Modelo Operativo Híbrido Base (Viable):**
-  * Ecosistema de tres canales: Coworking (alquiler de bancos y maquinaria supervisada), Cursos (escuela de oficios tradicionales) y Servicios (dimensionado de tableros por maestro, venta de maderas recuperadas).
-* **Motivación y Valores:**
-  * Fundamentados en la sostenibilidad, la economía circular (maderas recuperadas), el bienestar artesanal (desconexión digital) y la inclusión de género en oficios técnicos de la madera.
+## 1. Perfiles Saneados de los Promotores
 
-## 2. Datos Aprovechables desde Repo Procesado
-* **Enfoque de Localización Urbana:** Se ratifica el descarte del modelo rural. El taller se implantará en Zaragoza ciudad o municipios de su corona metropolitana muy bien conectados (máximo 20-25 minutos con Tarjeta Interbús).
-* **Fases de Implantación:** Plan de puesta en marcha semestral acotado a un máximo de 180 días (en lugar de los 12 meses anteriores), estructurado sobre una fase de validación inicial.
+### Alexander Suárez Díaz (Dirección Técnica y Operaciones)
+- **Dedicación:** Tiempo completo y en exclusividad durante la fase inicial del taller.
+- **Formación:** Técnico en Carpintería y Mueble por la Escuela de Artes y Oficios Santo Domingo (Bogotá, Colombia), con titulación oficialmente homologada en España.
+- **Experiencia Profesional Relevante:**
+  - **Industrias Agapito (Zaragoza):** Carpintero por cuenta ajena. Funciones de despiece, lectura de planos, corte de tableros, sierra vertical y manejo de maquinaria CNC (control numérico por ventosas).
+  - **Bauhaus Zaragoza:** Vendedor especialista técnico en maquinaria y herramientas de carpintería (asesoramiento técnico a profesionales y particulares).
+  - **Veta y Canto (Colombia):** Fundador de su propio taller artesanal. Funciones de diseño digital 3D (SketchUp), elaboración de presupuestos, despiece y fabricación directa de mobiliario personalizado a medida.
+- **Competencias Secundarias:** Formación complementaria en AutoCAD 2D, desarrollo informático de bases de datos/aplicaciones web, compras y administración general de pymes.
 
-## 3. Personas Realmente Vinculadas al Proyecto Vigente
-1. **Alexander Suárez** (Socio fundador - Operaciones, seguridad y formación técnica).
-2. **Juan Felipe Suárez** (Socio fundador - Marketing, ventas y relaciones con la comunidad).
+### Juan Felipe Suárez (Marketing, Comunicación y Ventas)
+- **Dedicación:** Medio tiempo en la fase de implantación, compaginado de manera externa con un empleo a tiempo parcial por cuenta ajena.
+- **Formación:** Formación en Marketing y Publicidad. Actualmente cursa estudios prácticos de carpintería en Zaragoza para comprender mejor el oficio del taller compartido.
+- **Experiencia Relevante:** Habilidades comerciales, comunicación en canales digitales, relaciones públicas y captación.
+- **Responsabilidad Técnica:** Inicialmente no asume responsabilidades técnicas autónomas de carpintería ni supervisión de maquinaria pesada.
 
-## 4. Información Histórica No Vigente (Descartada)
-* **Localización rural:** La idea original de implantar el taller en una zona rural o en un municipio de menos de 1.000 habitantes queda descartada por razones de viabilidad de mercado y ruidos.
-* **Cronograma de 12 meses:** El plan de 12 meses preoperativo se descarta para dar paso a un modelo lean acelerado de 180 días.
+---
 
-## 5. Contaminación Documental Detectada
-* **Claudia Bautista:** Su perfil figura en los dossiers históricos iniciales como Gerente de Atención al Cliente y Logística. Dado que no participa en el proyecto actual de Zaragoza, se la clasifica formalmente como `CONTAMINACIÓN_HISTÓRICA_NO_VIGENTE` y se la excluye por completo del plan operativo, de los salarios y de la gobernanza.
+## 2. Aportaciones y Colaboraciones
 
-## 6. Contradicciones Reales
-* **Estructura del Equipo Promotor:** Los documentos iniciales (pitch visuales) definían al equipo como un trío (Alexander, Juan Felipe y Claudia Bautista). Las fuentes y normativas avanzadas de viabilidad en Zaragoza ya lo describen de forma cerrada como un tándem (Alexander y Juan Felipe). Para efectos de trabajo actual, se adopta como base operativa el equipo vigente formado por Alexander Suárez y Juan Felipe Suárez, excluyendo a Claudia Bautista por contaminación histórica no vigente.
+- **Alexander Suárez Díaz:** Aporta la mayor parte del capital líquido inicial del proyecto y herramientas manuales de taller de su propiedad.
+- **Juan Felipe Suárez:** Aporta trabajo operativo, dedicación comercial, diseño de marketing y gestión de reservas en el taller. Su aportación se valora de manera complementaria e igualitaria en el proyecto dada la relación familiar y la naturaleza del emprendimiento.
+- **Apoyos Profesionales Externos:** Subcontratación de una gestoría fiscal y contable local en Zaragoza para suplir las carencias del equipo promotor en áreas complejas de contabilidad e impuestos.
 
-## 7. Vacíos Reales (Tras la lectura de fuentes locales)
-* Situación laboral preoperativa actual exacta de Alexander y Juan Felipe (paro, autónomos, cuenta ajena).
-* Distribución del porcentaje societario en la estructura jurídica que finalmente se adopte, sea societaria o cooperativa.
-* Cuantificación del capital líquido en efectivo que aportará cada uno.
-* Inventario detallado y valoración de las herramientas manuales y ordenadores propios que transferirán como CAPEX inicial.
-* Necesidad exacta de sueldo neto mensual de subsistencia y fecha límite para empezar a cobrarlo del taller.
+---
 
-## 8. Hipótesis Operativas (A validar en capítulos financieros)
-* Alexander Suárez se registrará como responsable técnico principal del espacio y supervisor de seguridad (PRL).
-* Juan Felipe Suárez asumirá las funciones comerciales y de marketing como autoempleado del Club.
-* Se prevé subcontratar una gestoría externa para el área fiscal y laboral mensual.
+## 3. Antecedentes Descartados y Exclusiones
+- **Exclusión de Claudia Bautista:** Su participación histórica como especialista en comercio exterior queda formalmente clasificada como inactiva. No forma parte del proyecto del taller en Zaragoza ni figura en su estructura organizativa, legal o salarial.
+- **Ubicación Rural:** Descartada la hipótesis de localización en naves industriales de municipios pequeños de menos de 1000 habitantes. El taller operará en un local urbano en Zaragoza capital.
+- **Diversificación de Materiales:** El taller centrará su actividad técnica en madera, restauración y tapicería ligera, descartando el trabajo con resinas complejas o metalurgia pesada en el arranque para evitar la dispersión de capital en maquinaria.
 
-## 9. Preguntas Finales Agrupadas para Alex
-Para cerrar con precisión el perfil del equipo promotor y los inputs de personal, solicitamos confirmación en los siguientes 4 puntos (excluyendo a Claudia Bautista y apegados a los datos sensibles vigentes):
+---
 
-1. **Situación Laboral y Dedicación:** ¿Cuál es vuestra situación contractual/laboral actual (desempleo, autónomo, cuenta ajena)? ¿Mantendrá alguno un empleo paralelo durante los primeros 180 días del proyecto o vuestra dedicación será a jornada completa desde el inicio?
-2. **Reparto de Capital:** ¿Cuál será el porcentaje exacto de participación de Alexander y Juan Felipe en la estructura jurídica que finalmente se adopte?
-3. **Aportaciones Iniciales:** ¿Qué cantidad exacta de capital líquido (efectivo) aportará cada uno de vosotros? ¿Podéis facilitarnos una lista rápida del inventario de herramientas o maquinaria que ya tenéis en propiedad y que transferiréis al taller?
-4. **Sueldos y Carencia:** ¿Qué sueldo neto mínimo mensual necesita percibir cada uno para subsistir y a partir de qué mes de la apertura preveéis empezar a cobrarlo?
+## 4. Pendientes de Decisión e Investigación (Gobernanza del Repositorio)
 
-## 10. Qué NO Debe Copiarse Literalmente
-* **Organigramas obsoletos:** No utilizar diagramas del equipo que incluyan tres cofundadores.
-* **Biografías con menciones rurales:** Descartar las introducciones que sitúen el origen operativo del proyecto en entornos rurales no metropolitanos.
+Para no alterar el texto definitivo del Plan de Empresa con estados de desarrollo o listas de tareas, todos los asuntos de negocio pendientes se registran de forma centralizada en este archivo:
+
+| ID | Pendiente de Decisión | Motivo | Responsable | Resolución y Derivación del Plan |
+| :--- | :--- | :--- | :--- | :--- |
+| **PEN-01-01** | Alternativa jurídica definitiva | Falta asesoramiento formal de gestoría para elegir la fórmula de arranque óptima. | Alexander / Gestoría | Se resolverá en el Plan Jurídico-Fiscal (`06_4`). En el capítulo 01 se plantea como hipótesis abierta de autónomos o colaboración. |
+| **PEN-01-02** | Pacto de socios e incompatibilidades | Delimitar responsabilidades legales y penalizaciones basadas en el borrador de preacuerdo de socios. | Alexander / Juan Felipe | Se definirá de forma jurídica formal en el Plan Jurídico-Fiscal (`06_4`). Se omite del capítulo 01. |
+| **PEN-01-03** | Importe exacto de capital inicial | Definir los fondos líquidos definitivos aportados por Alexander para la inversión. | Alexander | Se incorporará en el Plan Económico-Financiero (`06_5`). Se describe solo cualitativamente en el capítulo 01. |
+| **PEN-01-04** | Tasación de herramientas propias | Valorar en el balance de activos iniciales el inventario de herramientas aportadas en especie por Alexander. | Alexander | Se incluirá en el Plan Económico-Financiero (`06_5`) y en el Plan de Operaciones (`06_2`). |
+| **PEN-01-05** | Remuneraciones y salarios de socios | Estimar el sueldo de Alexander y Juan Felipe una vez que el taller sea operativo y sostenible. | Gestoría / Alexander | Se calculará y presupuestará en el Plan Económico-Financiero (`06_5`). |
+| **PEN-01-06** | Horarios comerciales y de turnos | Definir las horas y turnos de apertura al público y el solape del horario de Juan Felipe. | Alexander / Juan Felipe | Se definirá en el Plan de Operaciones (`06_2`). Se describe de forma general en el capítulo 01. |
+| **PEN-01-07** | Validación metodológica del bloque | Someter el bloque promotor al análisis técnico de UPTA Zaragoza para evaluar el autoempleo. | Alexander / UPTA Zaragoza | Se realizará al cierre de la Fase 1 del proyecto. |
+| **PEN-01-08** | Planificación de RRHH definitiva | Definir la contratación de personal futuro o colaboradores externos específicos. | Alexander | Se resolverá en el capítulo de Recursos Humanos (`06_3`). |

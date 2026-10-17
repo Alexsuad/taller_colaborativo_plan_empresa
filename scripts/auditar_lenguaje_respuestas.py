@@ -18,17 +18,29 @@ PATRONES_FAIL = [
     "Gate 1D",
     "workflow",
     "skill",
+    "gate",
+    "repositorio",
     "F-REPO",
     "F-NOTEBOOKLM",
     "REQUIERE_",
+    "PENDIENTE_",
+    "DEPENDIENTE_",
     "NO_RESPONDER",
     "BORRADOR_PARCIAL_CON_VACIOS",
     "BLOQUEADO",
     "LISTO_PARA_REVISION",
     "TEXTO_PROPUESTO",
     "VALIDACIONES_REQUERIDAS",
-    "ESTADO_SALIDA"
+    "ESTADO_SALIDA",
+    "OBSERVACIONES",
+    "Registro de Pendientes",
+    "Pendientes del capítulo",
+    "fuentes de Drive",
+    "borrador disponible en Drive",
+    "estado del capítulo",
+    "pendiente_de_aprobación"
 ]
+
 
 PATRONES_WARNING_ABSOLUTO = [
     "se prohíbe",
@@ -245,6 +257,61 @@ def generar_reporte(hallazgos, archivos_analizados):
         
     return total_fails, total_warnings, total_warnings_general, total_warnings_mec, total_warnings_legal, estado_global
 
+def ejecutar_pruebas_unitarias():
+    """Ejecuta pruebas unitarias autocontenidas para validar el comportamiento del linter."""
+    print("=== EJECUTANDO PRUEBAS UNITARIAS DEL VALIDADOR ===")
+    
+    casos_pass = [
+        "La forma jurídica se definirá tras asesoramiento especializado.",
+        "El taller colaborativo abrirá sus puertas en la ciudad de Zaragoza.",
+        "Se contempla una aportación inicial en herramientas y trabajo coordinado.",
+        "El local definitivo dependerá del presupuesto final de implantación.",
+        "Los promotores contarán con apoyo puntual de especialistas externos."
+    ]
+    
+    casos_fail = [
+        "Estado: PENDIENTE_ASESORAMIENTO_JURIDICO_FISCAL.",
+        "Ver el Registro de Pendientes del capítulo al final del documento.",
+        "Este es el borrador disponible en Drive para su revisión.",
+        "Los insumos y fuentes de Drive deben contrastarse.",
+        "El estado del capítulo de respuestas es definitivo.",
+        "Se requiere la aprobación final del promotor en el Gate 1D.",
+        "Este workflow de redacción y su correspondiente skill de control.",
+        "La relación está en el repositorio de datos de la empresa.",
+        "VALIDACIONES_REQUERIDAS: Revisar de forma estricta el bloque."
+    ]
+    
+    fails_en_pass = 0
+    passes_en_fail = 0
+    
+    # Evaluar casos válidos (no deben disparar FAIL)
+    for idx, caso in enumerate(casos_pass, 1):
+        linea_fails = []
+        for patron in PATRONES_FAIL:
+            if patron.lower() in caso.lower():
+                linea_fails.append(patron)
+        if linea_fails:
+            print(f"[ERROR TEST] Frase válida '{caso}' disparó FAIL con patrones: {linea_fails}")
+            fails_en_pass += 1
+            
+    # Evaluar casos inválidos (deben disparar al menos un FAIL)
+    for idx, caso in enumerate(casos_fail, 1):
+        linea_fails = []
+        for patron in PATRONES_FAIL:
+            if patron.lower() in caso.lower():
+                linea_fails.append(patron)
+        if not linea_fails:
+            print(f"[ERROR TEST] Frase inválida '{caso}' no disparó ningún FAIL")
+            passes_en_fail += 1
+            
+    total_errores = fails_en_pass + passes_en_fail
+    if total_errores == 0:
+        print("[PASS] Todas las pruebas unitarias autocontenidas pasaron con éxito.")
+        return 0
+    else:
+        print(f"[FAIL] Se encontraron {total_errores} fallos en las pruebas unitarias.")
+        return 1
+
 def main():
     parser = argparse.ArgumentParser(description="Auditor de lenguaje en respuestas.")
     parser.add_argument(
@@ -253,7 +320,15 @@ def main():
         default=RESPUESTAS_DIR_DEFAULT,
         help="Directorio que contiene las respuestas a auditar."
     )
+    parser.add_argument(
+        "--test",
+        action="store_true",
+        help="Ejecutar pruebas unitarias autocontenidas del validador."
+    )
     args = parser.parse_args()
+
+    if args.test:
+        return ejecutar_pruebas_unitarias()
 
     print(f"Iniciando auditoría de lenguaje en respuestas desde: {args.dir}")
     hallazgos, archivos_analizados = auditar_archivos(args.dir)
@@ -273,3 +348,4 @@ def main():
 if __name__ == "__main__":
     import sys
     sys.exit(main())
+
